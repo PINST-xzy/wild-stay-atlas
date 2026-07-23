@@ -1,107 +1,14 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wild Stay Atlas | 度假酒店筛选图鉴</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="topbar">
-      <div>
-        <p class="kicker">Wild Stay Atlas</p>
-        <h1>度假酒店筛选图鉴</h1>
-      </div>
-      <div class="summary">
-        <span id="matchCount">0</span>
-        <small>家匹配</small>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero" aria-label="度假酒店筛选">
-        <div class="hero-copy">
-          <p>把目的地、预算、体验和配套放在同一张表里，快速筛出适合团建、亲子、情侣或私汤度假的酒店。</p>
-          <div class="search-row">
-            <input id="searchInput" type="search" placeholder="搜索城市、酒店、关键词" />
-            <button id="resetButton" type="button">重置</button>
-          </div>
-        </div>
-      </section>
-
-      <section class="filters" aria-label="筛选条件">
-        <label>
-          地区
-          <select id="regionFilter">
-            <option value="all">全部地区</option>
-            <option value="华东">华东</option>
-            <option value="西南">西南</option>
-            <option value="华南">华南</option>
-            <option value="西北">西北</option>
-          </select>
-        </label>
-        <label>
-          预算
-          <select id="budgetFilter">
-            <option value="all">全部预算</option>
-            <option value="low">1000 元以下</option>
-            <option value="mid">1000-2000 元</option>
-            <option value="high">2000 元以上</option>
-          </select>
-        </label>
-        <label>
-          体验
-          <select id="sceneFilter">
-            <option value="all">全部体验</option>
-            <option value="温泉">温泉</option>
-            <option value="亲子">亲子</option>
-            <option value="山野">山野</option>
-            <option value="海岛">海岛</option>
-            <option value="团建">团建</option>
-          </select>
-        </label>
-      </section>
-
-      <section class="content-grid">
-        <aside class="compare-panel">
-          <h2>筛选重点</h2>
-          <ul>
-            <li>交通不超过高铁站或机场 90 分钟</li>
-            <li>房型、餐饮、会议或活动空间完整</li>
-            <li>有明确的主体验：温泉、山景、海景或亲子</li>
-            <li>旺季价格与淡季价格分开判断</li>
-          </ul>
-          <div class="metric">
-            <span>综合优先级</span>
-            <strong id="topPick">待筛选</strong>
-          </div>
-        </aside>
-
-        <section class="cards" id="hotelGrid" aria-label="酒店列表"></section>
-      </section>
-    </main>
-
-    <template id="hotelCardTemplate">
-      <article class="hotel-card">
-        <img alt="" />
-        <div class="card-body">
-          <div class="card-head">
-            <div>
-              <p class="location"></p>
-              <h2></h2>
-            </div>
-            <span class="score"></span>
-          </div>
-          <p class="desc"></p>
-          <div class="tags"></div>
-          <div class="facts">
-            <span class="price"></span>
-            <span class="drive"></span>
-          </div>
-        </div>
-      </article>
-    </template>
-
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="雨林、泉池、河道与白沙滩度假地私人档案">
+  <title>野栖度假收藏馆</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="app.js"></script>
+</body>
 </html>
