@@ -112,8 +112,8 @@ function saveFavorites(){
 function toggleFavorite(id){
   favorites.has(id) ? favorites.delete(id) : favorites.add(id);
   saveFavorites();
-  const current = new URLSearchParams(location.search).get("stay");
-  current ? detail(current, false) : home(false);
+  const params=new URLSearchParams(location.search),current=params.get("stay"),fast=params.get("quick");
+  current ? detail(current,false) : fast ? quick(fast,false) : home(false);
 }
 function priceLabel(s){
   if(s.priceMax <= 600) return "低价";
@@ -123,6 +123,10 @@ function priceLabel(s){
 }
 function scoreRow(label, value){
   return `<div class="score-row"><span>${label}</span><div><i style="width:${value}%"></i></div><b>${value}</b></div>`;
+}
+function scoreStars(value){
+  const filled=Math.round(value/20);
+  return `<span class="star-scale" aria-label="${value}分">${[1,2,3,4,5].map(i=>`<i class="${i<=filled?"on":""}">◆</i>`).join("")}</span>`;
 }
 function visibleStays(){
   let rows = stays.filter(s => {
@@ -150,7 +154,7 @@ function filterGroup(title, key, options){
     `<button class="${state[key]===value?"active":""}" data-filter="${key}" data-value="${value}">${label}</button>`).join("")}</div></div>`;
 }
 function card(s){
-  return `<article class="lab-card">
+  return `<article class="lab-card" data-quick="${s.id}" tabindex="0">
     <button class="fav-card" data-fav="${s.id}" aria-label="收藏">${icon.heart(s.id)}</button>
     <div class="card-photo" style="background-image:url('${s.image}')">
       <span class="grade grade-${s.grade}">${s.grade} · ${gradeName[s.grade]}</span>
@@ -166,7 +170,7 @@ function card(s){
       <div class="tag-list">${s.tags.slice(0,5).map(t=>`<span>${t}</span>`).join("")}</div>
       <p class="one-line">${s.oneLine}</p>
       <div class="mini-verdict"><div><b>优点</b>${s.pros[0]}</div><div class="minus"><b>取舍</b>${s.cons[0]}</div></div>
-      <div class="card-foot"><div><strong>${s.price}</strong><small>每间 / 晚参考</small></div><button data-stay="${s.id}">查看完整档案 <span>→</span></button></div>
+      <div class="card-foot"><div><strong>${s.price}</strong><small>每间 / 晚参考</small></div><div class="card-links"><button data-quick="${s.id}">快速判断</button><button data-deep="${s.id}">深度档案 <span>→</span></button></div></div>
     </div>
   </article>`;
 }
@@ -211,7 +215,12 @@ function home(push=true){
     state[btn.dataset.filter]=btn.dataset.value; home(false);
     requestAnimationFrame(()=>document.querySelector("#finder")?.scrollIntoView());
   });
-  document.querySelectorAll("[data-stay]").forEach(btn=>btn.onclick=()=>detail(btn.dataset.stay));
+  document.querySelectorAll(".lab-card").forEach(cardEl=>{
+    cardEl.onclick=e=>{if(!e.target.closest("button")) quick(cardEl.dataset.quick)};
+    cardEl.onkeydown=e=>{if(e.key==="Enter") quick(cardEl.dataset.quick)};
+  });
+  document.querySelectorAll("button[data-quick]").forEach(btn=>btn.onclick=e=>{e.stopPropagation();quick(btn.dataset.quick)});
+  document.querySelectorAll("[data-deep]").forEach(btn=>btn.onclick=e=>{e.stopPropagation();detail(btn.dataset.deep)});
   document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=e=>{e.stopPropagation();toggleFavorite(btn.dataset.fav)});
   document.querySelector("#query").oninput=e=>{state.query=e.target.value; clearTimeout(window.searchTimer); window.searchTimer=setTimeout(()=>home(false),180)};
   document.querySelector("#sort").onchange=e=>{state.sort=e.target.value;home(false)};
@@ -221,9 +230,83 @@ function home(push=true){
     document.querySelector(".hotel-grid").innerHTML=[...favorites].length ? stays.filter(s=>favorites.has(s.id)).map(card).join("") : `<div class="empty"><b>还没有收藏</b><span>在酒店卡片右上角点击爱心即可收藏。</span></div>`;
     document.querySelector(".results-head div").innerHTML=`<b>${favorites.size}</b> 家已收藏`;
     document.querySelector("#finder").scrollIntoView();
-    document.querySelectorAll("[data-stay]").forEach(btn=>btn.onclick=()=>detail(btn.dataset.stay));
+    document.querySelectorAll(".lab-card").forEach(cardEl=>cardEl.onclick=e=>{if(!e.target.closest("button")) quick(cardEl.dataset.quick)});
+    document.querySelectorAll("button[data-quick]").forEach(btn=>btn.onclick=e=>{e.stopPropagation();quick(btn.dataset.quick)});
+    document.querySelectorAll("[data-deep]").forEach(btn=>btn.onclick=e=>{e.stopPropagation();detail(btn.dataset.deep)});
     document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(btn.dataset.fav));
   };
+}
+
+function quick(id,push=true){
+  const s=stays.find(x=>x.id===id)||stays[0];
+  if(push) history.pushState({quick:id},"",`?quick=${s.id}`);
+  scrollTo(0,0);
+  const hasSevere=s.priceMin>2000||s.grade==="C";
+  const severe=hasSevere?s.cons.slice(0,1):[], moderate=hasSevere?s.cons.slice(1,2):s.cons.slice(0,2), light=s.cons.slice(2);
+  app.innerHTML=`<main class="quick-page">
+    <header class="quick-hero" style="background-image:url('${s.image}')">
+      <div class="quick-shade"></div>
+      <nav class="quick-nav"><button id="quickBack">← 返回收藏馆</button><div><button data-fav="${s.id}">${icon.heart(s.id)} 收藏</button><button id="quickShare">分享</button></div></nav>
+      <div class="quick-title">
+        <span class="grade grade-${s.grade}">${s.grade} · ${gradeName[s.grade]}</span>
+        <p>${s.place} · ${s.kind}</p>
+        <h1>${s.name}</h1><em>${s.en}</em>
+        <div class="quick-tags">${s.tags.slice(0,5).map(t=>`<span>${t}</span>`).join("")}</div>
+      </div>
+      <section class="overlay-panel">
+        <div class="overlay-scores">
+          <div><span>审美匹配</span>${scoreStars(s.score)}<b>${s.score}</b></div>
+          <div><span>水体参与</span>${scoreStars(s.waterScore)}<b>${s.waterScore}</b></div>
+          <div><span>植被包裹</span>${scoreStars(s.greenScore)}<b>${s.greenScore}</b></div>
+          <div><span>建筑融合</span>${scoreStars(s.designScore)}<b>${s.designScore}</b></div>
+          <div><span>探索感</span>${scoreStars(s.exploreScore)}<b>${s.exploreScore}</b></div>
+          <div><span>性价比</span>${scoreStars(s.value)}<b>${s.value}</b></div>
+        </div>
+        <div class="overlay-facts">
+          <div><span>参考价格</span><strong>${s.price} / 晚</strong></div>
+          <div><span>水体</span><strong>${s.waterTypes.join(" · ")}</strong></div>
+          <div><span>价格定位</span><strong>${priceLabel(s)}</strong></div>
+        </div>
+      </section>
+      <a class="quick-down" href="#judgement">下滑查看判断 ↓</a>
+    </header>
+
+    <section id="judgement" class="judgement-wrap">
+      <header><span>QUICK VERDICT</span><h2>快速判断</h2><p>先看结论与取舍，再决定是否进入完整档案。</p></header>
+      <article class="judgement-card">
+        <div class="judgement-lead"><span>一句话结论</span><p>${s.oneLine}</p></div>
+        <div class="judgement-reason"><h3>推荐理由</h3><p>${s.reason}</p></div>
+        <div class="quick-procon">
+          <section><h3>值得留下</h3>${s.pros.map(x=>`<p>${icon.check}<span>${x}</span></p>`).join("")}</section>
+          <section><h3>需要接受</h3>
+            ${severe.map(x=>`<p><i class="risk high">可能淘汰</i><span>${x}</span></p>`).join("")}
+            ${moderate.map(x=>`<p><i class="risk mid">明显取舍</i><span>${x}</span></p>`).join("")}
+            ${light.map(x=>`<p><i class="risk low">轻微提醒</i><span>${x}</span></p>`).join("")}
+          </section>
+        </div>
+        <div class="quick-who"><div><b>更适合</b><p>${s.fit}</p></div><div><b>不太适合</b><p>${s.notFit}</p></div></div>
+      </article>
+      <aside class="quick-file">
+        <h3>基础资料</h3>
+        <dl><div><dt>匹配类型</dt><dd>${gradeName[s.grade]}</dd></div><div><dt>酒店类型</dt><dd>${s.kind}</dd></div>
+          <div><dt>水体形式</dt><dd>${s.waterTypes.join("、")}</dd></div><div><dt>参考价格</dt><dd>${s.price}</dd></div>
+          <div><dt>核验状态</dt><dd>${s.verify}</dd></div><div><dt>最近更新</dt><dd>${s.updated}</dd></div></dl>
+        <button id="openDeep">进入深度档案 <span>→</span></button>
+        <a href="${s.ctrip}" target="_blank">携程预订 / 查价 <span>↗</span></a>
+      </aside>
+    </section>
+    <section class="quick-preview">
+      <div><span>DEEP FILE PREVIEW</span><h2>还想继续看什么？</h2><p>完整档案包含空间拆解、实景图片、交通、资料来源与核验记录。</p></div>
+      <div class="preview-images">${s.gallery.slice(0,3).map((url,i)=>`<figure><img src="${url}" alt="${s.name}资料预览${i+1}" loading="lazy"></figure>`).join("")}</div>
+      <button id="openDeepBottom">打开完整档案</button>
+    </section>
+    <div class="quick-mobile-bar"><button data-fav="${s.id}">${icon.heart(s.id)} 收藏</button><button id="mobileDeep">深度档案</button><a href="${s.ctrip}" target="_blank">${s.price}<small>携程查价</small></a></div>
+    <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><p>快速判断 · ${s.name}</p></footer>
+  </main>`;
+  document.querySelector("#quickBack").onclick=()=>home();
+  document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(s.id));
+  ["openDeep","openDeepBottom","mobileDeep"].forEach(key=>document.querySelector(`#${key}`).onclick=()=>detail(s.id));
+  document.querySelector("#quickShare").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#quickShare").textContent="链接已复制"}catch{}};
 }
 
 function detail(id, push=true){
@@ -295,8 +378,8 @@ function detail(id, push=true){
 }
 
 window.onpopstate=()=>{
-  const id=new URLSearchParams(location.search).get("stay");
-  id ? detail(id,false) : home(false);
+  const params=new URLSearchParams(location.search),deep=params.get("stay"),fast=params.get("quick");
+  deep ? detail(deep,false) : fast ? quick(fast,false) : home(false);
 };
-const initial=new URLSearchParams(location.search).get("stay");
-initial ? detail(initial,false) : home(false);
+const params=new URLSearchParams(location.search),initial=params.get("stay"),initialQuick=params.get("quick");
+initial ? detail(initial,false) : initialQuick ? quick(initialQuick,false) : home(false);
