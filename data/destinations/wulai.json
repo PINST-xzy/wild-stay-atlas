@@ -1,0 +1,17 @@
+{
+  "schemaVersion":1,"id":"wulai","status":"published",
+  "identity":{"name":"乌来","englishName":"Wulai","country":"中国台湾","region":"新北市 · 乌来区","type":"森林河谷温泉镇","placeLabel":"中国台湾 · 新北市 · 乌来"},
+  "classification":{"tags":["南势溪河谷","温泉街","森林瀑布","吊桥","步行聚落"],"waterTypes":["天然温泉","山间河流","瀑布"],"tradeoffs":["部分温泉人工化","周末游客多","沿河建筑较密","核心区商业化"]},
+  "pricing":{"minimum":420,"maximum":1800,"display":"¥420–1,800","budgetBands":[{"label":"普通民宿 / 客房","range":"¥420–750"},{"label":"基础温泉旅馆","range":"¥750–1,200"},{"label":"河景温泉酒店","range":"¥1,200–1,800"}],"note":"周末与连假波动明显；部分温泉旅馆按房型、泡汤时段另计。","verifiedAt":"2026-07-24"},
+  "scores":{"aesthetic":88,"water":92,"greenery":91,"exploration":82,"publicness":88,"affordability":78,"accessEase":91},
+  "editorial":{"oneLine":"南势溪、吊桥、温泉街、山壁树林与瀑布集中在狭窄河谷内，是交通便利而空间关系完整的温泉聚落。",
+    "reason":"乌来的优势不是纯野生，而是河谷尺度紧凑。温泉街、跨河桥梁、沿溪步道、山壁森林和瀑布被压缩在可步行范围内，水与聚落关系清楚。它比黑川温泉更杂乱，也有明显城市化设施，但近距离河谷包裹感仍然成立。",
+    "advantages":["河流、桥梁、温泉旅馆和陡峭绿山处于同一视野和步行系统","从台北公共交通即可抵达，适合低交通成本短住","普通民宿也可使用公共街道、河谷步道和瀑布交通"],
+    "disadvantages":[{"level":"明显取舍","text":"部分温泉设施以室内池和管线供水为主，自然泉池感有限。"},{"level":"明显取舍","text":"周末老街游客多，核心区域商业化和建筑密度较高。"},{"level":"轻微提醒","text":"暴雨或台风后步道、瀑布交通和河况可能受影响。"}]},
+  "profile":{"spatialLogic":"聚落沿南势溪两岸和山坡道路展开，吊桥连接温泉街与对岸设施，小台车与步道继续通往瀑布区域；河谷地形提供持续包裹感。",
+    "baseAreas":[{"name":"乌来老街与南势溪两岸","fit":"步行、餐饮和交通最方便，河谷关系清楚但白天较热闹。"},{"name":"瀑布与台车沿线","fit":"树林和山壁更强，住宿较少，适合把步行环境放在首位。"},{"name":"温泉街外围","fit":"可能找到价格较低的民宿，前往核心区仍较方便。"}],
+    "waterAccess":"可在温泉旅馆或公共泡汤设施使用温泉；南势溪主要用于沿岸步行观察，瀑布通过台车、步道或缆车区域接近。","access":"从台北搭捷运至新店，再转849路公交可达，整体约一小时至一个半小时；镇内以步行为主。","season":"秋冬适合泡汤，春夏绿量更高；梅雨和台风期间需关注河况与步道开放。","stayStrategy":"避免只看房间浴池，优先选择能步行连接南势溪、桥梁和老街的住宿；平日入住能显著降低拥挤感。"},
+  "media":{"cover":"https://commons.wikimedia.org/wiki/Special:FilePath/Wulai%20Nanshi%20River-01.2023-09-12.jpg?width=1800","gallery":[{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Wulai%20Nanshi%20River-01.2023-09-12.jpg?width=1600","caption":"南势溪河谷与沿岸聚落"},{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Wulai%20Suspension%20Bridge.jpg?width=1600","caption":"吊桥、河流与山壁"},{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Wulai-Waterfall.jpg?width=1200","caption":"乌来瀑布与森林"}]},
+  "links":{"primary":"https://newtaipei.travel/en/attractions/detail/402354","map":"https://www.google.com/maps/search/?api=1&query=Wulai+Taiwan","ctrip":"https://www.ctrip.com/hotels/list?city=617"},
+  "verification":{"status":"verified","updatedAt":"2026-07-24","summary":"已核对南势溪、吊桥、老街、瀑布与公共交通关系；温泉设施性质需逐家确认。"}
+}
