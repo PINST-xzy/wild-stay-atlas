@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "loboc-river-resort",
+  "status": "published",
+  "identity": {
+    "name": "洛博克河度假村",
+    "englishName": "Loboc River Resort",
+    "country": "菲律宾",
+    "region": "薄荷岛",
+    "locality": "洛博克",
+    "placeLabel": "菲律宾 · 薄荷岛",
+    "hotelType": "河流湿地度假村"
+  },
+  "classification": {
+    "grade": "B",
+    "gradeLabel": "河流聚落核心候选",
+    "collection": "resort",
+    "tags": [
+      "洛博克河",
+      "高脚木屋",
+      "木栈桥",
+      "湿地鱼塘",
+      "成熟椰林",
+      "SUP"
+    ],
+    "waterTypes": [
+      "洛博克河",
+      "鱼塘与湿地",
+      "季节性漫水",
+      "公共泳池"
+    ],
+    "tradeoffs": [
+      "公共泳池较规则",
+      "部分客房装修传统",
+      "旺季河上活动较多"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 600,
+    "maximum": 1400,
+    "display": "¥600–1,400",
+    "basis": "两位成人入住一间基础房，每晚参考；税费、套餐与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 92,
+    "value": 93,
+    "water": 96,
+    "greenery": 96,
+    "architecture": 84,
+    "exploration": 94
+  },
+  "editorial": {
+    "oneLine": "高脚屋和木桥并非摆在河边观景，而是沿河流、鱼塘和季节性漫水区域生长成一座低密度湿地聚落。",
+    "reason": "十四公顷土地只开发约三公顷，大树、河岸和动物活动仍占主体。客房由木桥串联，夏季高水位时河水会穿过部分场地，小鱼进入栈桥下方；餐厅、码头、湿地与住宿共同依附洛博克河，空间关系比一般河景酒店深入得多。",
+    "advantages": [
+      "真实河流、鱼塘、湿地和漫水共同进入酒店结构",
+      "高脚屋、木桥与成熟树木形成可探索路线",
+      "价格明显低于同规模热带河流度假村",
+      "可直接参加SUP、萤火虫与河流活动"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "公共泳池形状较规则，视觉上不如河岸环境自然。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "部分房间装修较传统，应优先选择河景或森林景观房。"
+      }
+    ],
+    "fit": "喜欢河流、木桥、湿地动物和低密度热带场地的人。",
+    "notFit": "只接受高度精致设计酒店，或不喜欢河流昆虫与潮湿环境的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于薄荷岛内陆洛博克河谷，周边是河流村镇、稻田、眼镜猴保护地和通往巧克力山的乡村路线。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "度假村位于薄荷岛洛博克河岸，从塔比拉兰约三十分钟车程。洛博克是一座被弯曲河流切开的内陆小镇，周边有稻田、椰林、村庄、眼镜猴保护区和巧克力山路线；这里的热带感来自日常河谷，而不是封闭景区。"
+      },
+      {
+        "title": "场地布局",
+        "text": "场地共约十四公顷，仅约三公顷用于建筑。三十余间高脚客房、餐厅、码头和公共区通过木桥分散在鱼塘、湿地与树木之间；路线会不断跨水、贴近水和进入树冠阴影，建筑没有形成一堵面向河流的连续界面。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑使用木材、茅草感屋顶与架空结构，并尽量绕开原有大树。河流是场地底层，鱼塘和季节性漫水继续把水送入内部；椰树、香蕉、花木和河岸植被贴近桥面与客房，只有公共泳池的规则形态属于明显妥协。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从薄荷岛机场或邦劳前往通常需要一小时左右，具体受交通影响。旱季阳光更通透，雨季及高水位时期场地的水关系更强，但湿度、蚊虫和河流颜色也会变化；预订时建议确认河景房、木桥距离和近期水位。"
+      }
+    ],
+    "spatialRelationship": "高脚屋沿河流和鱼塘疏散，由木桥组成内部街道，水面、树冠和动物活动穿过住宿之间。",
+    "access": "塔比拉兰约30分钟，邦劳机场约1小时；可预约接送。"
+  },
+  "media": {
+    "cover": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-19.jpg",
+    "gallery": [
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-19.jpg",
+        "type": "场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-17.jpg",
+        "type": "建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-16.jpg",
+        "type": "客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-14.jpg",
+        "type": "公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-13.jpg",
+        "type": "水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-12.jpg",
+        "type": "林间道路",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-10.jpg",
+        "type": "餐饮空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-9.jpg",
+        "type": "周边周边环境",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-7.jpg",
+        "type": "周边建筑细节",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-6.jpg",
+        "type": "周边亲水区域",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-5.jpg",
+        "type": "周边场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-4.jpg",
+        "type": "周边建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-3.jpg",
+        "type": "周边客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-2.jpg",
+        "type": "周边公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://b2264055.smushcdn.com/2264055/wp-content/uploads/2020/06/gal-1.jpg",
+        "type": "周边水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=1728",
+    "official": "https://lobocriverresort.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网现行营业、十四公顷场地、开发面积、河流、木桥、季节性漫水与官方图库。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官方图库",
+      "酒店官网或官方旅游资料",
+      "公开预订信息"
+    ]
+  }
+}
