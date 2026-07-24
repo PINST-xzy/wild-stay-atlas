@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wild-stay-atlas.local/schema/hotel.schema.json",
+  "title": "Wild Stay Atlas Hotel",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "status", "identity", "classification", "pricing", "scores", "editorial", "profile", "media", "links", "verification"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "status": {"enum": ["draft", "published", "archived", "excluded"]},
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "englishName", "country", "region", "locality", "placeLabel", "hotelType"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "englishName": {"type": "string", "minLength": 1},
+        "country": {"type": "string", "minLength": 1},
+        "region": {"type": "string", "minLength": 1},
+        "locality": {"type": "string", "minLength": 1},
+        "placeLabel": {"type": "string", "minLength": 1},
+        "hotelType": {"type": "string", "minLength": 1}
+      }
+    },
+    "classification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["grade", "gradeLabel", "tags", "waterTypes", "tradeoffs"],
+      "properties": {
+        "grade": {"enum": ["A", "B", "C"]},
+        "gradeLabel": {"type": "string"},
+        "tags": {"type": "array", "minItems": 3, "uniqueItems": true, "items": {"type": "string"}},
+        "waterTypes": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+        "tradeoffs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["currency", "minimum", "maximum", "display", "basis", "verifiedAt"],
+      "properties": {
+        "currency": {"const": "CNY"},
+        "minimum": {"type": "number", "minimum": 0},
+        "maximum": {"type": "number", "minimum": 0},
+        "display": {"type": "string"},
+        "basis": {"type": "string"},
+        "verifiedAt": {"type": "string", "format": "date"}
+      }
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["aesthetic", "value", "water", "greenery", "architecture", "exploration"],
+      "properties": {
+        "aesthetic": {"type": "integer", "minimum": 0, "maximum": 100},
+        "value": {"type": "integer", "minimum": 0, "maximum": 100},
+        "water": {"type": "integer", "minimum": 0, "maximum": 100},
+        "greenery": {"type": "integer", "minimum": 0, "maximum": 100},
+        "architecture": {"type": "integer", "minimum": 0, "maximum": 100},
+        "exploration": {"type": "integer", "minimum": 0, "maximum": 100}
+      }
+    },
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["oneLine", "reason", "advantages", "disadvantages", "fit", "notFit"],
+      "properties": {
+        "oneLine": {"type": "string", "minLength": 15},
+        "reason": {"type": "string", "minLength": 30},
+        "advantages": {"type": "array", "minItems": 2, "items": {"type": "string", "minLength": 5}},
+        "disadvantages": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["level", "text"],
+            "properties": {
+              "level": {"enum": ["可能淘汰", "明显取舍", "轻微提醒"]},
+              "text": {"type": "string", "minLength": 5}
+            }
+          }
+        },
+        "fit": {"type": "string", "minLength": 5},
+        "notFit": {"type": "string", "minLength": 5}
+      }
+    },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["surroundingsSummary", "sections", "spatialRelationship", "access"],
+      "properties": {
+        "surroundingsSummary": {"type": "string", "minLength": 8},
+        "sections": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "text"],
+            "properties": {
+              "title": {"type": "string", "minLength": 2},
+              "text": {"type": "string", "minLength": 60}
+            }
+          }
+        },
+        "spatialRelationship": {"type": "string", "minLength": 15},
+        "access": {"type": "string", "minLength": 10}
+      }
+    },
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cover", "gallery"],
+      "properties": {
+        "cover": {"type": "string", "format": "uri"},
+        "gallery": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["url", "type", "source", "verified"],
+            "properties": {
+              "url": {"type": "string", "format": "uri"},
+              "type": {"type": "string"},
+              "source": {"type": "string"},
+              "verified": {"type": "boolean"}
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ctrip", "official"],
+      "properties": {
+        "ctrip": {"type": "string", "format": "uri"},
+        "official": {"type": "string", "format": "uri"}
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "summary", "updatedAt", "sources"],
+      "properties": {
+        "status": {"enum": ["unverified", "partial", "verified", "stale"]},
+        "summary": {"type": "string", "minLength": 10},
+        "updatedAt": {"type": "string", "format": "date"},
+        "sources": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}}
+      }
+    }
+  }
+}
