@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.07.24.1",
+  "contentVersion": "2026.07.24.2",
   "updatedAt": "2026-07-24",
   "hotels": [
     "hotels/bambu-indah.json",
@@ -8,5 +8,11 @@
     "hotels/ulaman.json",
     "hotels/rayavadee.json",
     "hotels/naman-retreat.json"
+  ],
+  "destinations": [
+    "destinations/koh-kood.json",
+    "destinations/khao-sok-cheow-lan.json",
+    "destinations/furnas.json",
+    "destinations/kurokawa-onsen.json"
   ]
 }
