@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "tirimbina-rainforest-lodge",
+  "status": "published",
+  "identity": {
+    "name": "蒂林比纳雨林旅馆",
+    "englishName": "Tirimbina Rainforest Lodge",
+    "country": "哥斯达黎加",
+    "region": "埃雷迪亚省",
+    "locality": "萨拉皮基",
+    "placeLabel": "哥斯达黎加 · 萨拉皮基",
+    "hotelType": "保护区研究型旅馆"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "取舍候选",
+    "tags": [
+      "雨林保护区",
+      "吊桥",
+      "Sarapiquí 河",
+      "七公里步道",
+      "预算友好"
+    ],
+    "waterTypes": [
+      "河流",
+      "雨林溪流"
+    ],
+    "tradeoffs": [
+      "建筑设计弱",
+      "设施简单"
+    ],
+    "collection": "lodging"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 680,
+    "maximum": 1100,
+    "display": "¥680–1,100",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 80,
+    "value": 94,
+    "water": 78,
+    "greenery": 99,
+    "architecture": 55,
+    "exploration": 96
+  },
+  "editorial": {
+    "oneLine": "房间很普通，但一座长吊桥直接把住客送进雨林保护区，七公里林径与 Sarapiquí 河构成它真正的公共空间。",
+    "reason": "这是典型的“牺牲建筑换真实自然”：住宿楼本身没有设计感，水也不直接穿过客房，但保护区、吊桥、河流与夜间自然观察足够强。价格低于多数雨林设计酒店，适合作为性价比档案。",
+    "advantages": [
+      "保护区和七公里林径从酒店直接进入，植物密度极高",
+      "长吊桥跨越 Sarapiquí 河，抵达过程非常鲜明",
+      "基础房常见价格低，适合把预算留给活动"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "客房普通且部分评价提到隔音和陈旧感"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "河流主要是观察与跨越，不是舒适天然泳池"
+      }
+    ],
+    "fit": "在意生物多样性、步道和研究型雨林体验，能接受普通房间的人。",
+    "notFit": "把住宿设计、泡水和精致餐饮放在第一位的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "旅馆与 Tirimbina 生物保护区相连，位于萨拉皮基河流域的低地热带雨林；周边是科研站、可可农园、河流活动和生物观察区域。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "旅馆位于哥斯达黎加北部萨拉皮基河流域，紧邻 Tirimbina 生物保护区。周边以低地雨林、科研与生态旅游项目为主，城镇服务有限，但鸟类、两栖动物、昆虫和可可农园构成非常丰富的自然观察环境。"
+      },
+      {
+        "title": "场地布局",
+        "text": "住宿楼集中在入口一侧，跨过横跨河谷的吊桥后才进入大面积保护区。七公里步道、三个桥梁和不同森林层次形成主要体验，因此空间的高潮不在客房区，而在从建筑离开后持续向林中深入的过程。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑为实用型旅馆，材料和外观不突出；真正强势的是成熟雨林树冠、林下植物、河流与溪沟。Sarapiquí 河在吊桥下方形成强烈存在感，但它更适合观看和划船活动，而非随意泡水。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "可由圣何塞或拉福图纳方向驾车抵达，适合安排一至两晚。房间隔音、家具年代和餐饮选择都应降低期待；夜间雨声、动物声和高湿度是保护区住宿的一部分。"
+      }
+    ],
+    "spatialRelationship": "客房区—吊桥—河流—保护区步道形成清晰序列，建筑只是进入雨林的门厅。",
+    "access": "从圣何塞驾车约两小时上下，具体受道路与天气影响；自驾较方便。"
+  },
+  "food": {
+    "summary": "餐厅承担的是保护区旅馆的实用补给，常见哥斯达黎加早餐、米豆饭、肉类和水果饮品，环境价值高于菜单复杂度。",
+    "setting": "白色简洁餐厅靠近入口和林缘，适合在清晨观鸟或夜游前后快速用餐。",
+    "highlights": [
+      {
+        "name": "Gallo Pinto",
+        "description": "米饭与黑豆组成的哥斯达黎加早餐主食，通常搭配鸡蛋和水果。"
+      },
+      {
+        "name": "热带水果饮品",
+        "description": "萨拉皮基盛产热带水果，鲜榨果汁是最稳妥的地方风味。"
+      }
+    ],
+    "caveat": "餐厅评价偏实用，若对餐饮要求高，可把它视作活动补给而非目的地餐厅。"
+  },
+  "media": {
+    "cover": "https://ak-d.tripcdn.com/images/02X0p120008txb8u29087_R_960_660_R5_D.jpg",
+    "gallery": [
+      {
+        "url": "https://ak-d.tripcdn.com/images/02X0p120008txb8u29087_R_960_660_R5_D.jpg",
+        "type": "environment",
+        "caption": "旅馆与雨林",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0220f12000l0ekfgf6AB0_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "雨林吊桥",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0586012000isi0jvsB7EC_R_339_206_R5_D.jpg",
+        "type": "surroundings",
+        "caption": "旅馆公共区域",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0226p12000l0ekj58276B_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "客房空间",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1z63112000si3r83k8304_R_339_206_R5_D.jpg",
+        "type": "surroundings",
+        "caption": "保护区入口",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0227212000l0eks7877D6_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "餐厅与公共空间",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20La%20Selva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边萨拉皮基雨林 1",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jungle%20stream%20(La%20Selva%20Biological%20Station).jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边萨拉皮基雨林 2",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20path%20through%20La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边萨拉皮基雨林 3",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边萨拉皮基雨林 4",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laselva1.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边萨拉皮基雨林 5",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Arboletum.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边萨拉皮基雨林 6",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://us.trip.com/hotels/sarapiqui-hotel-detail-9884083/tirimbina-rainforest-lodge/",
+    "official": "https://www.tirimbina.org/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://www.tirimbina.org/",
+      "https://us.trip.com/hotels/sarapiqui-hotel-detail-9884083/tirimbina-rainforest-lodge/"
+    ]
+  }
+}
