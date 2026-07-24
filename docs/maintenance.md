@@ -9,12 +9,13 @@
 1. 复制 `data/templates/hotel.template.json`。
 2. 使用稳定、简短的英文 ID，例如 `aana-resort`。
 3. 文件名与 ID 保持一致，例如 `aana-resort.json`。
-4. 草拟阶段保持 `"status": "draft"`。
-5. 完成资料核验后改为 `"status": "published"`。
-6. 将 `hotels/aana-resort.json` 加入 `data/index.json`。
-7. 修改 `contentVersion`。建议格式为 `年.月.日.当日序号`。
-8. 修改 `updatedAt`。
-9. 运行 `npm run validate`。
+4. 在 `classification.collection` 中选择 `resort`（度假酒店与度假村）或 `lodging`（民宿与自然旅居），它决定档案出现在哪个页面。
+5. 草拟阶段保持 `"status": "draft"`。
+6. 完成资料核验后改为 `"status": "published"`。
+7. 将 `hotels/aana-resort.json` 加入 `data/index.json`。
+8. 修改 `contentVersion`。建议格式为 `年.月.日.当日序号`。
+9. 修改 `updatedAt`。
+10. 运行 `npm run validate`。
 
 ## 修改酒店
 
