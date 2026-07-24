@@ -31,6 +31,28 @@ function validUrl(value) {
 function validDate(value) {
   return /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(`${value}T00:00:00Z`));
 }
+function canonicalImageUrl(value) {
+  try {
+    const url = new URL(value);
+    url.search = "";
+    return decodeURIComponent(url.href).toLowerCase();
+  } catch {
+    return value;
+  }
+}
+function isSurroundingsImage(image) {
+  return /周边|村落|街|河谷|海湾|岛屿|稻田|农业|道路|步道|抵达|东岸|夜景|渔船|机场|城镇|国家公园/.test(
+    `${image.type || ""} ${image.caption || ""}`
+  );
+}
+function checkGallery(gallery, label, kind) {
+  const images = gallery || [];
+  check(images.length >= 12, label, `${kind}图库至少需要 12 张图片`);
+  warn(images.length >= 15, label, `${kind}图库少于 15 张，资料充足时应继续扩充至 15–20 张以上`);
+  const urls = images.map(image => canonicalImageUrl(image.url || ""));
+  check(new Set(urls).size === urls.length, label, `${kind}图库存在重复图片`);
+  check(images.some(isSurroundingsImage), label, `${kind}图库至少需要 1 张周边环境或抵达过程图片`);
+}
 
 check(JSON.stringify(files) === JSON.stringify(indexed), "data/index.json", "索引与 data/hotels 目录不一致");
 
@@ -77,8 +99,7 @@ for (const file of files) {
   });
 
   check(validUrl(hotel.media?.cover || ""), label, "封面 URL 无效");
-  check(hotel.media?.gallery?.length >= 2, label, "至少需要 2 张图库图片");
-  warn(hotel.media?.gallery?.length >= 3, label, "图库少于 3 张，建议继续补充");
+  checkGallery(hotel.media?.gallery, label, "酒店");
   for (const image of hotel.media?.gallery || []) {
     check(validUrl(image.url || ""), label, "图库 URL 无效");
     check(Boolean(image.type && image.source), label, "图库图片必须填写 type 和 source");
@@ -116,7 +137,11 @@ for (const file of destinationFiles) {
   check(destination.editorial?.advantages?.length >= 2, label, "至少需要 2 项优点");
   check(destination.editorial?.disadvantages?.length >= 1, label, "至少需要 1 项取舍");
   check(validUrl(destination.media?.cover || ""), label, "封面 URL 无效");
-  check(destination.media?.gallery?.length >= 3, label, "至少需要 3 张地区实景");
+  checkGallery(destination.media?.gallery, label, "度假地");
+  for (const image of destination.media?.gallery || []) {
+    check(validUrl(image.url || ""), label, "图库 URL 无效");
+    check((image.caption || "").length >= 4, label, "度假地图片必须填写清晰图注");
+  }
   check(validUrl(destination.links?.ctrip || ""), label, "携程链接无效");
   check(validUrl(destination.links?.primary || ""), label, "主要核验链接无效");
   check(validDate(destination.verification?.updatedAt || ""), label, "verification.updatedAt 日期无效");
