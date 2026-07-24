@@ -184,7 +184,10 @@ function card(s){
       <div class="tag-list">${s.tags.slice(0,5).map(t=>`<span>${t}</span>`).join("")}</div>
       <p class="one-line">${s.oneLine}</p>
       <div class="mini-verdict"><div><b>优点</b>${s.pros[0]}</div><div class="minus"><b>取舍</b>${s.cons[0]}</div></div>
-      <div class="card-foot"><div><strong>${s.price}</strong><small>每间 / 晚参考</small></div><div class="card-links"><button data-quick="${s.id}">快速判断</button><button data-deep="${s.id}">深度档案 <span>→</span></button></div></div>
+      <div class="card-foot"><div class="card-price"><strong>${s.price}</strong><small>每间 / 晚参考</small></div><div class="card-links">
+        <button type="button" class="entry-quick" data-quick="${s.id}" aria-label="打开${s.name}简介页"><b>简介页</b><small>快速判断</small></button>
+        <button type="button" class="entry-deep" data-deep="${s.id}" aria-label="打开${s.name}详情页"><b>详情页</b><small>完整档案 <span>→</span></small></button>
+      </div></div>
     </div>
   </article>`;
 }
