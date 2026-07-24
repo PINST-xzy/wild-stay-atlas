@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.07.24.9",
+  "contentVersion": "2026.07.24.10",
   "updatedAt": "2026-07-24",
   "hotels": [
     "hotels/bambu-indah.json",
@@ -16,7 +16,14 @@
     "hotels/bali-lush.json",
     "hotels/singharaja-garden.json",
     "hotels/bamboo-turtles-ecolodge.json",
-    "hotels/great-roots-forestry-hot-spring.json"
+    "hotels/great-roots-forestry-hot-spring.json",
+    "hotels/loboc-river-resort.json",
+    "hotels/fox-firefly-cottages.json",
+    "hotels/kumbukriver.json",
+    "hotels/rambala-jungle-lodge.json",
+    "hotels/casitas-del-rio.json",
+    "hotels/ecolodge-las-nubes.json",
+    "hotels/royal-waterlily-hotel.json"
   ],
   "destinations": [
     "destinations/koh-kood.json",
