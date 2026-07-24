@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "kumbukriver",
+  "status": "published",
+  "identity": {
+    "name": "昆布克河生态小屋",
+    "englishName": "KumbukRiver Eco-Extraordinaire",
+    "country": "斯里兰卡",
+    "region": "乌沃省",
+    "locality": "布塔勒",
+    "placeLabel": "斯里兰卡 · 乌沃省",
+    "hotelType": "河岸生态小屋"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "河岸设计取舍",
+    "collection": "lodging",
+    "tags": [
+      "活水河流",
+      "树屋",
+      "河岸木屋",
+      "低地热带",
+      "村落",
+      "Yala路线"
+    ],
+    "waterTypes": [
+      "Kumbukkan Oya河",
+      "草本泡池"
+    ],
+    "tradeoffs": [
+      "造型建筑审美有争议",
+      "位置偏远",
+      "服务规模小"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 1000,
+    "maximum": 1500,
+    "display": "¥1,000–1,500",
+    "basis": "两位成人入住一间基础房，每晚参考；税费、套餐与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 88,
+    "value": 88,
+    "water": 94,
+    "greenery": 94,
+    "architecture": 82,
+    "exploration": 91
+  },
+  "editorial": {
+    "oneLine": "树屋和木屋贴着活水河道布置，房间、露台、浴室与河中小岛保持近距离关系。",
+    "reason": "这里的自然关系强于统一审美。Tree Luxuria和Jungle Cabin直接面对河流与绿色小岛，开放平台把吃饭和停留搬到河声旁；大象形主楼颇为猎奇，却没有改变低密度河岸场地的优势。",
+    "advantages": [
+      "真实河流贯穿住宿边界",
+      "树屋、河岸小屋和平台提供多种近水视角",
+      "公开价格仍处于预算内",
+      "可与Yala、Ella和东海岸路线连接"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "大象造型建筑较为猎奇，并非所有建筑都符合自然克制审美。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "房型差异很大，必须按具体建筑分别判断。"
+      }
+    ],
+    "fit": "重视真实河岸与低密度体验，能接受部分设计不统一的人。",
+    "notFit": "要求全场审美高度统一、服务标准化的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于斯里兰卡东南内陆河谷，周边有村庄、稻田、低地林地，并处在Yala、Ella与Arugam Bay路线之间。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "住宿位于布塔勒附近Kumbukkan Oya河岸，处于斯里兰卡东南部较炎热明亮的低地。周边不是城市商业区，而是村庄、稻田、林地和通往Yala野生动物区域的道路；可以作为Ella与东南海岸之间的一段自然停留。"
+      },
+      {
+        "title": "场地布局",
+        "text": "场地以少量大型主题建筑、树屋、河岸木屋和公共平台组成，各房型距离与视角差异明显。最值得选择的是贴近河流的Tree Luxuria或Jungle Cabin，它们通过架空露台和大开口把起居、用餐与河中小岛连接。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "木、石、土色表面与当地植被是主调，成熟乔木和灌木遮挡建筑。河流是真正的场地主轴，水声、湿度与动物活动进入房间；小型草本泡池属于附属设施。大象形建筑的雕塑感较强，是有趣之处也是最大的审美争议。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从科伦坡前往路程较长，更适合与Yala、Ella或Arugam Bay组成路线。旱季阳光充足且河岸较易活动，雨季水量上升但交通和河况需确认；官网价格多为净价或含早餐价格，仍应核对税费、接送与餐食。"
+      }
+    ],
+    "spatialRelationship": "少量建筑沿活水河岸疏散，露台与开口朝向河道和河中绿岛，水体承担场地中心。",
+    "access": "适合包车纳入斯里兰卡东南环线；从科伦坡单独往返较费时。"
+  },
+  "media": {
+    "cover": "https://www.kumbukriver.com/assets/layout/images/Main-Slider-1.jpg",
+    "gallery": [
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/Main-Slider-1.jpg",
+        "type": "场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/2019a (11).jpg",
+        "type": "建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/Kumbukkan Oya.jpg",
+        "type": "客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/Paddy Fields.jpg",
+        "type": "公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/TGMob.png",
+        "type": "水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/EVM.jpg",
+        "type": "林间道路",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/TLMob.png",
+        "type": "餐饮空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/TLM.jpg",
+        "type": "周边周边环境",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/JCMob.png",
+        "type": "周边建筑细节",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/JCM.jpg",
+        "type": "周边亲水区域",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/BHMob.png",
+        "type": "周边场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/BHM.jpg",
+        "type": "周边建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/set1.png",
+        "type": "周边客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l1.png",
+        "type": "周边公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l2.png",
+        "type": "周边水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l3.png",
+        "type": "周边林间道路",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l4.png",
+        "type": "周边餐饮空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l5.png",
+        "type": "周边周边环境",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l6.png",
+        "type": "周边建筑细节",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l7.png",
+        "type": "周边亲水区域",
+        "source": "酒店官方图库",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=6047",
+    "official": "https://www.kumbukriver.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网现行营业、河岸位置、主要房型、公开价格与官方图库。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官方图库",
+      "酒店官网或官方旅游资料",
+      "公开预订信息"
+    ]
+  }
+}
