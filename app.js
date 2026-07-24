@@ -11,6 +11,8 @@ const stays = [
     cons:["常见房价明显超过实住预算","河谷高差大，部分区域台阶很多","热门房型和旺季价格波动明显"],
     fit:"愿意为完整空间体验提高预算，并且不介意坡地步行。",
     notFit:"更在意交通便利、无障碍动线或稳定低价。",
+    intro:"Bambu Indah 位于巴厘岛乌布外围的阿勇河谷。酒店从山脊向河岸分层展开，上部邻近稻田与树冠，下部沿河布置天然泉池、餐厅和河畔客房。场地内有十五处以上泉水池，石砌小径、竹桥、隧道和坡地台阶连接不同高度的公共空间；客房由竹构、回收柚木老屋及独立设计建筑组成。",
+    surroundings:"阿勇河谷、Bongkasa 稻田与热带林地",
     landscape:"石阶、竹桥和林下路径一路下探河谷，泉池与阿勇河贯穿主要公共体验。",
     access:"位于乌布外缘河谷；部分河畔房距离接待区域较远，坡地移动量较大。",
     verify:"官方图库与场地资料已核验；价格需按日期复核", updated:"2026-07-23",
@@ -30,6 +32,8 @@ const stays = [
     cons:["客房和公共设施比较普通，部分区域显旧","泳池形态较规则，建筑设计感不强","抵达象岛需要渡轮，交通时间较长"],
     fit:"把价格和水边体验放在前面，能接受设施普通与交通折腾。",
     notFit:"追求精致竹构、全新硬件或完整雨林包裹感。",
+    intro:"AANA 位于泰国达叻府象岛西岸，坐落在 Klong Prao 河道尽端，靠近 Klong Prao Beach。低层客房与公共空间沿河岸分布，码头、皮划艇和接驳船构成主要移动方式。由曼谷前往通常需先到达叻，再乘渡轮上岛；酒店所处区域以河口、水道、热带植被和海滩为主要环境。",
+    surroundings:"Klong Prao 河口、象岛西岸与 Klong Prao Beach",
     landscape:"河道、码头、皮划艇和接驳船构成主要空间线索，植被密度高于普通海滨度假村。",
     access:"先抵达达叻府并乘渡轮上岛；酒店位于 Klong Prao 河道末端。",
     verify:"场地水路与酒店位置已核验；房态和含税价待日期复核", updated:"2026-07-23",
@@ -49,6 +53,8 @@ const stays = [
     cons:["价格远高于预算，实际入住性价比低","部分宣传重点仍落在私人泳池房型","自然河谷的野生感不如 Bambu Indah"],
     fit:"把建筑设计放在首位，预算较宽松。",
     notFit:"更看重天然水域、低价或不希望依赖私人泳池。",
+    intro:"Ulaman 位于巴厘岛塔巴南县的稻田与椰林之间，官方资料标注距仓古约二十分钟车程。度假村以曲线竹构、夯土、绿屋顶和再生材料为主要建筑语言，公共建筑围绕水面展开，场地同时连接河流、瀑布和河畔水疗区域。周边不是成熟商业街区，整体环境更接近巴厘岛乡野腹地。",
+    surroundings:"塔巴南稻田、椰林、河流与乡村道路",
     landscape:"竹构与水面形成强烈建筑场景，稻田、椰林和河流提供外围自然背景。",
     access:"位于塔巴南稻田与椰林之间，实际车程受巴厘岛交通影响。",
     verify:"官网环境、建筑与水体图片已核验；价格待日期复核", updated:"2026-07-23",
@@ -68,6 +74,8 @@ const stays = [
     cons:["酒店内部天然水系较少","主泳池较规则，不属于核心偏好","旺季房价极高，更多适合收藏"],
     fit:"白沙滩质量和林下空间优先，预算较宽松。",
     notFit:"一定需要泉池、河流或可探索公共水域。",
+    intro:"Rayavadee 位于泰国甲米府帕南半岛，处在甲米海洋国家公园的石灰岩地貌与热带植被之间。酒店共有九十四座双层亭屋和七座别墅，分散在椰林及花园内，步行可到 Railay、Phranang 等海滩。半岛与甲米陆路不直接相通，酒店通常由专用码头乘船抵达；周边同时存在公共海滩、岩洞与攀岩活动区域。",
+    surroundings:"帕南半岛、三面海滩、石灰岩壁与国家公园",
     landscape:"成熟植被、石灰岩与海滩构成连续林下路径，海滩属于国家公园公共海岸。",
     access:"通常经甲米的酒店码头乘船进入帕南半岛。",
     verify:"海滩可达性、林下环境与位置关系已核验", updated:"2026-07-23",
@@ -87,6 +95,8 @@ const stays = [
     cons:["泳池形态规则，草坪面积明显","水体以人工庭院和泳池为主","空间探索感与植物包裹感一般"],
     fit:"想在预算内获得明确设计感和成熟设施。",
     notFit:"坚持天然河流、泉池或浓密雨林环境。",
+    intro:"Naman Retreat 位于越南岘港海岸的 Truong Sa 路，处在岘港市区与会安古城之间，面向连续白沙滩。五行山距酒店约五公里，周边以大型海滨度假区、高尔夫设施和沿海公路为主。酒店采用竹、石材、绿墙和庭院水景组织公共空间，整体规模及设施完整度高于小型生态旅馆。",
+    surroundings:"岘港—会安海岸、白沙滩、五行山与度假区带",
     landscape:"竹构餐厅和绿墙具有辨识度，水景以人工庭院与泳池为主。",
     access:"位于岘港与会安之间，周边商业较少，进城需要打车。",
     verify:"官网建筑与公共空间图片已核验；沙滩状况仍需按季节复核", updated:"2026-07-23",
@@ -184,9 +194,10 @@ function home(push=true){
       <div><button id="showFav">收藏 ${favorites.size}</button><a href="#finder">筛选酒店</a></div></nav>
     <header class="home-hero"><div class="hero-shade"></div><div class="hero-copy">
       <span class="overline">WILD STAY ATLAS · VERIFIED RESORT FILES</span>
-      <h1>水木深处，住几天。</h1>
+      <h1>水流心不竞，<br><i>云在意俱迟。</i></h1>
+      <cite>杜甫《江亭》</cite>
       <p>全球度假酒店的价格、空间、水体与取舍档案。</p>
-      <a href="#finder">开始筛选 <span>↓</span></a>
+      <a href="#finder">酒店目录 <span>↓</span></a>
     </div>
     <div class="hero-board">
       <div><b>${stays.length}</b><span>已建档</span></div><div><b>${stays.filter(s=>s.priceMin<=2000).length}</b><span>预算内</span></div>
@@ -228,7 +239,7 @@ function home(push=true){
   document.querySelector("#reset").onclick=()=>{Object.assign(state,{price:"all",grade:"all",water:"all",compromise:"all",sort:"editor",query:""});home(false)};
   document.querySelector("#showFav").onclick=()=>{
     state.query="";
-    document.querySelector(".hotel-grid").innerHTML=[...favorites].length ? stays.filter(s=>favorites.has(s.id)).map(card).join("") : `<div class="empty"><b>还没有收藏</b><span>在酒店卡片右上角点击爱心即可收藏。</span></div>`;
+    document.querySelector(".hotel-grid").innerHTML=[...favorites].length ? stays.filter(s=>favorites.has(s.id)).map(card).join("") : `<div class="empty"><b>暂无收藏记录</b><span>0 家酒店</span></div>`;
     document.querySelector(".results-head div").innerHTML=`<b>${favorites.size}</b> 家已收藏`;
     document.querySelector("#finder").scrollIntoView();
     document.querySelectorAll(".lab-card").forEach(cardEl=>cardEl.onclick=e=>{if(!e.target.closest("button")) quick(cardEl.dataset.quick)});
@@ -279,16 +290,25 @@ function quick(id,push=true){
       <header><span>QUICK VERDICT</span><h2>快速判断</h2><p>价格、环境指标与取舍摘要</p></header>
       <article class="judgement-card">
         <div class="judgement-lead"><span>一句话结论</span><p>${s.oneLine}</p></div>
+        <section class="basic-intro">
+          <div class="basic-intro-title"><span>BASIC PROFILE</span><h3>基本介绍</h3></div>
+          <p>${s.intro}</p>
+          <div class="location-facts">
+            <div><span>所在地</span><b>${s.place}</b></div>
+            <div><span>周边环境</span><b>${s.surroundings}</b></div>
+            <div><span>抵达方式</span><b>${s.access}</b></div>
+          </div>
+        </section>
         <div class="judgement-reason"><h3>推荐理由</h3><p>${s.reason}</p></div>
         <div class="quick-procon">
-          <section><h3>值得留下</h3>${s.pros.map(x=>`<p>${icon.check}<span>${x}</span></p>`).join("")}</section>
-          <section><h3>需要接受</h3>
+          <section><h3>主要优点</h3>${s.pros.map(x=>`<p>${icon.check}<span>${x}</span></p>`).join("")}</section>
+          <section><h3>主要缺点</h3>
             ${severe.map(x=>`<p><i class="risk high">可能淘汰</i><span>${x}</span></p>`).join("")}
             ${moderate.map(x=>`<p><i class="risk mid">明显取舍</i><span>${x}</span></p>`).join("")}
             ${light.map(x=>`<p><i class="risk low">轻微提醒</i><span>${x}</span></p>`).join("")}
           </section>
         </div>
-        <div class="quick-who"><div><b>更适合</b><p>${s.fit}</p></div><div><b>不太适合</b><p>${s.notFit}</p></div></div>
+        <div class="quick-who"><div><b>匹配人群</b><p>${s.fit}</p></div><div><b>可能不匹配</b><p>${s.notFit}</p></div></div>
       </article>
       <aside class="quick-file">
         <h3>基础资料</h3>
@@ -339,10 +359,11 @@ function detail(id, push=true){
       <div class="section-label"><span>01</span><p>THE SHORT ANSWER</p><h2>30秒判断</h2></div>
       <div class="verdict-card">
         <div class="tag-list">${s.tags.map(t=>`<span>${t}</span>`).join("")}</div>
-        <p class="recommend"><b>为什么留下它</b>${s.reason}</p>
+        <div class="deep-intro"><b>基本介绍</b><p>${s.intro}</p><dl><div><dt>所在地</dt><dd>${s.place}</dd></div><div><dt>周边环境</dt><dd>${s.surroundings}</dd></div></dl></div>
+        <p class="recommend"><b>收录理由</b>${s.reason}</p>
         <div class="pro-con"><div><h3>明确优点</h3>${s.pros.map(x=>`<p>${icon.check}${x}</p>`).join("")}</div>
-          <div class="cons"><h3>需要接受</h3>${s.cons.map(x=>`<p><span class="cross">×</span>${x}</p>`).join("")}</div></div>
-        <div class="who"><div><b>适合</b><p>${s.fit}</p></div><div><b>不太适合</b><p>${s.notFit}</p></div></div>
+          <div class="cons"><h3>主要缺点</h3>${s.cons.map(x=>`<p><span class="cross">×</span>${x}</p>`).join("")}</div></div>
+        <div class="who"><div><b>匹配人群</b><p>${s.fit}</p></div><div><b>可能不匹配</b><p>${s.notFit}</p></div></div>
       </div>
       <aside class="metric-card"><h3>四项核心指标</h3>${scoreRow("水体参与",s.waterScore)}${scoreRow("植被包裹",s.greenScore)}${scoreRow("建筑设计",s.designScore)}${scoreRow("探索感",s.exploreScore)}
         <small>分数用于馆内横向比较，不代表酒店星级。</small></aside>
@@ -352,7 +373,7 @@ function detail(id, push=true){
       <div class="section-label"><span>02</span><p>SPATIAL READING</p><h2>空间拆解</h2></div>
       <div class="analysis-grid">
         <article><span>水</span><h3>${s.waterTypes.join(" · ")}</h3><p>${s.reason}</p></article>
-        <article><span>路</span><h3>人在场地里如何移动</h3><p>${s.landscape}</p></article>
+        <article><span>路</span><h3>场地动线</h3><p>${s.landscape}</p></article>
         <article><span>抵达</span><h3>位置与交通成本</h3><p>${s.access}</p></article>
         <article><span>取舍</span><h3>${s.tradeoffs.join(" · ")}</h3><p>${s.cons.join("；")}。</p></article>
       </div>
@@ -374,7 +395,7 @@ function detail(id, push=true){
     <section id="sources" class="detail-section sources-new">
       <div class="section-label"><span>05</span><p>SOURCES</p><h2>查价与核验</h2></div>
       <div class="source-buttons"><a class="primary" href="${s.ctrip}" target="_blank">携程预订 / 查价 <span>↗</span></a>
-        <a href="${s.official}" target="_blank">酒店官网 / 官方图库 <span>↗</span></a><p>价格不是固定报价，请按旅行日期复核税费、早餐与取消政策。</p></div>
+        <a href="${s.official}" target="_blank">酒店官网 / 官方图库 <span>↗</span></a><p>价格随旅行日期、税费、早餐与取消政策变化。</p></div>
     </section>
     <div class="mobile-action"><button data-fav="${s.id}">${icon.heart(s.id)} 收藏</button><a href="${s.ctrip}" target="_blank"><span>${s.price}</span>携程查价</a></div>
     <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><button id="backBottom">返回全部酒店 ↑</button></footer>
