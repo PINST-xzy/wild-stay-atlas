@@ -1,4 +1,5 @@
 let stays=[];
+let destinations=[];
 let contentUpdatedAt="";
 let dataNotice="";
 
@@ -60,6 +61,12 @@ async function loadHotelData(){
   if(!published.length) throw new Error("no published hotels");
   if(new Set(published.map(item=>item.id)).size!==published.length) throw new Error("duplicate hotel id");
   stays=published;
+  const destinationRows=await Promise.all((manifest.destinations||[]).map(async path=>{
+    const response=await fetch(`data/${path}?v=${encodeURIComponent(manifest.contentVersion)}&ts=${stamp}`,{cache:"no-store"});
+    if(!response.ok) throw new Error(`${path} ${response.status}`);
+    return response.json();
+  }));
+  destinations=destinationRows.filter(item=>item.status==="published");
   contentUpdatedAt=manifest.updatedAt;
   localStorage.setItem("wild-stay-data-cache",JSON.stringify({hotels:published,updatedAt:manifest.updatedAt,contentVersion:manifest.contentVersion}));
 }
@@ -149,13 +156,13 @@ function home(push=true){
   const rows = visibleStays();
   app.innerHTML = `
     <nav class="topbar"><a class="brand" href="#"><span>野</span><b>野栖度假收藏馆</b></a>
-      <div><button id="showFav">收藏 ${favorites.size}</button><a href="#finder">筛选酒店</a></div></nav>
+      <div><button id="openDestinations">度假地 ${destinations.length}</button><button id="showFav">收藏 ${favorites.size}</button><a href="#finder">筛选酒店</a></div></nav>
     <header class="home-hero"><div class="hero-shade"></div><div class="hero-copy">
       <span class="overline">WILD STAY ATLAS · VERIFIED RESORT FILES</span>
       <h1>水流心不竞，<br><i>云在意俱迟。</i></h1>
       <cite>杜甫《江亭》</cite>
-      <p>全球度假酒店的价格、空间、水体与取舍档案。</p>
-      <a href="#finder">酒店目录 <span>↓</span></a>
+      <p>酒店馆藏与可以低预算进入的自然度假地档案。</p>
+      <div class="hero-actions"><a href="#finder">酒店目录 <span>↓</span></a><button id="heroDestinations">度假地档案 <span>→</span></button></div>
     </div>
     <div class="hero-board">
       <div><b>${stays.length}</b><span>已建档</span></div><div><b>${stays.filter(s=>s.priceMin<=2000).length}</b><span>预算内</span></div>
@@ -206,6 +213,111 @@ function home(push=true){
     document.querySelectorAll("[data-deep]").forEach(btn=>btn.onclick=e=>{e.stopPropagation();detail(btn.dataset.deep)});
     document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(btn.dataset.fav));
   };
+  document.querySelector("#openDestinations").onclick=()=>destinationHome();
+  document.querySelector("#heroDestinations").onclick=()=>destinationHome();
+}
+
+const destinationGrade={A:"高度符合",B:"特色符合",C:"取舍型"};
+const destinationState={type:"all",price:"all",sort:"editor",query:""};
+
+function destinationRows(){
+  let rows=destinations.filter(d=>{
+    const text=`${d.identity.name}${d.identity.englishName}${d.identity.country}${d.identity.region}${d.identity.type}${d.classification.tags.join("")}`;
+    const typeOK=destinationState.type==="all"||d.identity.type.includes(destinationState.type);
+    const priceOK=destinationState.price==="all"||(destinationState.price==="600"&&d.pricing.minimum<=600)||(destinationState.price==="1000"&&d.pricing.minimum<=1000);
+    return typeOK&&priceOK&&text.toLowerCase().includes(destinationState.query.toLowerCase());
+  });
+  if(destinationState.sort==="public") rows.sort((a,b)=>b.scores.publicness-a.scores.publicness);
+  else if(destinationState.sort==="budget") rows.sort((a,b)=>b.scores.affordability-a.scores.affordability);
+  else if(destinationState.sort==="water") rows.sort((a,b)=>b.scores.water-a.scores.water);
+  else rows.sort((a,b)=>b.scores.aesthetic-a.scores.aesthetic);
+  return rows;
+}
+
+function destinationCard(d){
+  return `<article class="destination-card" data-destination="${d.id}">
+    <div class="destination-image" style="background-image:url('${d.media.cover}')">
+      <span>${d.classification.grade} · ${destinationGrade[d.classification.grade]}</span>
+      <b>${d.identity.type}</b>
+    </div>
+    <div class="destination-copy">
+      <p>${d.identity.placeLabel}</p><h3>${d.identity.name}</h3><em>${d.identity.englishName}</em>
+      <div class="destination-metrics">
+        <span><b>${d.scores.publicness}</b>环境公共性</span><span><b>${d.scores.water}</b>水体参与</span>
+        <span><b>${d.scores.greenery}</b>植被包裹</span><span><b>${d.scores.affordability}</b>平价可得</span>
+      </div>
+      <p class="destination-summary">${d.editorial.oneLine}</p>
+      <div class="tag-list">${d.classification.tags.map(tag=>`<span>${tag}</span>`).join("")}</div>
+      <div class="destination-card-foot"><strong>${d.pricing.display}<small>两人一间 / 晚参考</small></strong><button>查看地区档案 →</button></div>
+    </div>
+  </article>`;
+}
+
+function destinationHome(push=true){
+  if(push) history.pushState({destinations:true},"",`${location.pathname}?view=destinations`);
+  scrollTo(0,0);
+  const rows=destinationRows();
+  app.innerHTML=`<main class="destination-index">
+    <nav class="topbar"><a class="brand" href="#"><span>野</span><b>野栖度假收藏馆</b></a><div><button id="backHotels">酒店馆藏 ${stays.length}</button><span class="nav-current">度假地档案</span></div></nav>
+    <header class="destination-hero" style="background-image:url('${destinations[0]?.media.cover||""}')"><div></div><section>
+      <span>DESTINATION ARCHIVES · ${String(destinations.length).padStart(2,"0")} FILES</span>
+      <h1>度假地档案</h1>
+      <p>岛屿、河谷、湖区与温泉聚落。重点记录不依赖昂贵酒店也能获得的自然体验。</p>
+    </section><aside><b>环境公共性</b><p>水体、道路与自然空间是否由整个地区共享，而非只属于单一酒店。</p></aside></header>
+    <section class="destination-finder">
+      <header><div><span>DESTINATION FINDER</span><h2>地区筛选</h2></div><p>${rows.length} 个已核验地区</p></header>
+      <div class="destination-controls">
+        <div><b>环境类型</b>${[["all","全部"],["岛屿","岛屿"],["雨林","雨林 / 湖区"],["温泉","温泉聚落"]].map(([v,l])=>`<button data-dtype="${v}" class="${destinationState.type===v?"active":""}">${l}</button>`).join("")}</div>
+        <div><b>最低价</b>${[["all","不限"],["600","¥600以内"],["1000","¥1,000以内"]].map(([v,l])=>`<button data-dprice="${v}" class="${destinationState.price===v?"active":""}">${l}</button>`).join("")}</div>
+        <div class="destination-search"><input id="destinationQuery" value="${destinationState.query}" placeholder="搜索国家、地区、水体或环境类型"><select id="destinationSort">
+          <option value="editor">综合匹配</option><option value="public" ${destinationState.sort==="public"?"selected":""}>环境公共性</option>
+          <option value="budget" ${destinationState.sort==="budget"?"selected":""}>平价可得</option><option value="water" ${destinationState.sort==="water"?"selected":""}>水体参与</option>
+        </select></div>
+      </div>
+      <div class="destination-grid">${rows.map(destinationCard).join("")||`<div class="empty"><b>暂无符合条件的地区</b></div>`}</div>
+    </section>
+    <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><p>度假地档案 · 更新至 ${contentUpdatedAt}</p></footer>
+  </main>`;
+  document.querySelector("#backHotels").onclick=()=>home();
+  document.querySelectorAll("[data-destination]").forEach(el=>el.onclick=()=>destinationDetail(el.dataset.destination));
+  document.querySelectorAll("[data-dtype]").forEach(btn=>btn.onclick=()=>{destinationState.type=btn.dataset.dtype;destinationHome(false)});
+  document.querySelectorAll("[data-dprice]").forEach(btn=>btn.onclick=()=>{destinationState.price=btn.dataset.dprice;destinationHome(false)});
+  document.querySelector("#destinationQuery").oninput=e=>{destinationState.query=e.target.value;clearTimeout(window.destinationTimer);window.destinationTimer=setTimeout(()=>destinationHome(false),180)};
+  document.querySelector("#destinationSort").onchange=e=>{destinationState.sort=e.target.value;destinationHome(false)};
+}
+
+function destinationDetail(id,push=true){
+  const d=destinations.find(item=>item.id===id)||destinations[0];
+  if(push) history.pushState({destination:id},"",`${location.pathname}?destination=${d.id}`);
+  scrollTo(0,0);
+  app.innerHTML=`<main class="destination-detail">
+    <header class="destination-detail-hero" style="background-image:url('${d.media.cover}')"><div class="detail-gradient"></div>
+      <nav class="detail-nav"><button id="backDestinations">← 返回度假地</button><div><button id="shareDestination">分享</button></div></nav>
+      <section><span>${d.identity.placeLabel} · ${d.identity.type}</span><h1>${d.identity.name}</h1><em>${d.identity.englishName}</em><p>${d.editorial.oneLine}</p></section>
+      <aside><div><b>${d.scores.publicness}</b><span>环境公共性</span></div><div><b>${d.scores.affordability}</b><span>平价可得</span></div><div><b>${d.pricing.display}</b><span>每晚参考</span></div></aside>
+    </header>
+    <nav class="section-nav"><a href="#destinationVerdict">地区判断</a><a href="#destinationMap">落脚区域</a><a href="#destinationBudget">住宿预算</a><a href="#destinationGallery">实景</a><a href="#destinationFacts">实际条件</a></nav>
+    <section id="destinationVerdict" class="destination-section destination-verdict">
+      <header><span>01 · DESTINATION VERDICT</span><h2>为什么值得单独建档</h2></header>
+      <article><p class="destination-reason">${d.editorial.reason}</p><div class="pro-con"><div><h3>成立之处</h3>${d.editorial.advantages.map(x=>`<p>${icon.check}${x}</p>`).join("")}</div>
+      <div class="cons"><h3>明确取舍</h3>${d.editorial.disadvantages.map(x=>`<p><i class="risk ${x.level==="明显取舍"?"mid":"low"}">${x.level}</i>${x.text}</p>`).join("")}</div></div></article>
+      <aside class="destination-scoreboard">${scoreRow("环境公共性",d.scores.publicness)}${scoreRow("水体参与",d.scores.water)}${scoreRow("植被包裹",d.scores.greenery)}${scoreRow("可探索性",d.scores.exploration)}${scoreRow("平价可得",d.scores.affordability)}${scoreRow("抵达便利",d.scores.accessEase)}</aside>
+    </section>
+    <section id="destinationMap" class="destination-section destination-areas"><header><span>02 · AREA READING</span><h2>住在哪里</h2><p>${d.profile.spatialLogic}</p></header>
+      <div>${d.profile.baseAreas.map((area,i)=>`<article><b>${String(i+1).padStart(2,"0")}</b><h3>${area.name}</h3><p>${area.fit}</p></article>`).join("")}</div></section>
+    <section id="destinationBudget" class="destination-section destination-budget"><header><span>03 · STAY STRATEGY</span><h2>住宿预算</h2><p>${d.profile.stayStrategy}</p></header>
+      <div>${d.pricing.budgetBands.map(band=>`<article><span>${band.label}</span><b>${band.range}</b></article>`).join("")}<p>${d.pricing.note}</p></div></section>
+    <section id="destinationGallery" class="destination-gallery"><header><span>04 · PLACE IMAGES</span><h2>地区实景</h2></header><div>${d.media.gallery.map(image=>`<figure><img src="${image.url}" alt="${image.caption}" loading="lazy"><figcaption>${image.caption}</figcaption></figure>`).join("")}</div></section>
+    <section id="destinationFacts" class="destination-section destination-facts"><header><span>05 · PRACTICAL FILE</span><h2>实际条件</h2></header><div>
+      <article><span>如何接近水</span><p>${d.profile.waterAccess}</p></article><article><span>抵达方式</span><p>${d.profile.access}</p></article>
+      <article><span>季节变化</span><p>${d.profile.season}</p></article><article><span>资料状态</span><p>${d.verification.summary}</p></article>
+      <nav><a class="primary" href="${d.links.ctrip}" target="_blank">携程住宿查价 ↗</a><a href="${d.links.map}" target="_blank">地图查看 ↗</a><a href="${d.links.primary}" target="_blank">主要核验资料 ↗</a></nav>
+    </div></section>
+    <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><button id="backDestinationsBottom">返回度假地档案 ↑</button></footer>
+  </main>`;
+  document.querySelector("#backDestinations").onclick=()=>destinationHome();
+  document.querySelector("#backDestinationsBottom").onclick=()=>destinationHome();
+  document.querySelector("#shareDestination").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#shareDestination").textContent="链接已复制"}catch{}};
 }
 
 function quick(id,push=true){
@@ -371,8 +483,8 @@ function detail(id, push=true){
 }
 
 window.onpopstate=()=>{
-  const params=new URLSearchParams(location.search),deep=params.get("stay"),fast=params.get("quick");
-  deep ? detail(deep,false) : fast ? quick(fast,false) : home(false);
+  const params=new URLSearchParams(location.search),deep=params.get("stay"),fast=params.get("quick"),destination=params.get("destination"),view=params.get("view");
+  destination?destinationDetail(destination,false):view==="destinations"?destinationHome(false):deep ? detail(deep,false) : fast ? quick(fast,false) : home(false);
 };
 
 async function init(){
@@ -391,7 +503,7 @@ async function init(){
       return;
     }
   }
-  const params=new URLSearchParams(location.search),initial=params.get("stay"),initialQuick=params.get("quick");
-  initial ? detail(initial,false) : initialQuick ? quick(initialQuick,false) : home(false);
+  const params=new URLSearchParams(location.search),initial=params.get("stay"),initialQuick=params.get("quick"),initialDestination=params.get("destination"),view=params.get("view");
+  initialDestination?destinationDetail(initialDestination,false):view==="destinations"?destinationHome(false):initial ? detail(initial,false) : initialQuick ? quick(initialQuick,false) : home(false);
 }
 init();
