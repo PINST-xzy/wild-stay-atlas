@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "cardamom-tented-camp",
+  "status": "published",
+  "identity": {
+    "name": "豆蔻山帐篷营地",
+    "englishName": "Cardamom Tented Camp",
+    "country": "柬埔寨",
+    "region": "国公省",
+    "locality": "豆蔻山脉",
+    "placeLabel": "柬埔寨 · 豆蔻山保护区",
+    "hotelType": "河岸保育帐篷营地"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "取舍候选",
+    "tags": [
+      "乘船抵达",
+      "Preak Tachan 河",
+      "保育营地",
+      "皮划艇",
+      "全包套餐"
+    ],
+    "waterTypes": [
+      "河流",
+      "天然泳水"
+    ],
+    "tradeoffs": [
+      "价格较高",
+      "设施简单",
+      "必须套餐"
+    ],
+    "collection": "lodging"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 1800,
+    "maximum": 2800,
+    "display": "¥1,800–2,800",
+    "basis": "通常按每人多日全包套餐计价；此处仅折算为双人每晚大致成本，必须按套餐复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 88,
+    "value": 69,
+    "water": 94,
+    "greenery": 99,
+    "architecture": 68,
+    "exploration": 98
+  },
+  "editorial": {
+    "oneLine": "乘船穿过豆蔻山河道才能抵达的十二帐营地，皮划艇、游泳和巡护步道构成完整的保护区生活。",
+    "reason": "它满足沉浸感，但预算口径特殊：不是普通一晚房价，而是含船、向导和餐食的多日套餐。帐篷设施简单，换来的是河岸、密林和保护区巡护的连续体验，因此作为高取舍收藏保留。",
+    "advantages": [
+      "必须乘船进入，抵达过程本身即进入保护区",
+      "河流可划艇、游泳，林径与巡护活动直接从营地展开",
+      "小规模十二顶帐篷，建筑存在感低"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "按人计价的多日套餐容易超过普通酒店预算"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "高湿、昆虫、简单设施和固定活动节奏不可避免"
+      }
+    ],
+    "fit": "愿意把住宿预算支付给保护区、向导和完整活动的人。",
+    "notFit": "只想自由订一晚、需要空调泳池或精致客房的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "营地位于柬埔寨西南部豆蔻山脉 Botum Sakor 国家公园范围内，Preak Tachan 河、常绿林和野生动物保护区构成唯一周边。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "营地位于国公省豆蔻山保护地深处，周边没有传统度假区和商业设施。客人通常在 Trapeang Rung 集合后换船沿河进入，河道、密林、巡护站和野生动物栖息地共同构成住宿范围。"
+      },
+      {
+        "title": "场地布局",
+        "text": "十二顶 safari tent 沿 Preak Tachan 河岸分布，以木平台、开放餐亭和小径连接。没有大型前台、泳池或景观轴线，日常动线围绕码头、河岸、餐厅和进入保护区的徒步线路展开。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "帐篷抬离湿地地面，使用帆布与木平台，体量低且容易被植物遮住。河流就在营地旁，可下水游泳或划皮艇；雨季水位、浑浊度和活动安全条件会随天气变化。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "一般需要购买至少三天两夜或四天三夜套餐，船、向导、餐食和保育活动打包计价。抵达时间固定，错过集合会很麻烦；网络、空调和城市服务都不应作为默认条件。"
+      }
+    ],
+    "spatialRelationship": "码头—帐篷—河边餐亭—皮划艇下水点—保护区步道全部围绕河岸展开，水路也是唯一清晰的抵达轴。",
+    "access": "从集合点乘船约三十分钟进入；必须严格按营地提供的接驳时间安排行程。"
+  },
+  "food": {
+    "summary": "套餐含一日三餐，餐饮并非奢华卖点，而是河岸活动与巡护行程的完整补给；简单高棉风味在偏远环境里更显合适。",
+    "setting": "开放餐亭紧邻河岸，住客按行程共同用餐，水声和林声是场景主体。",
+    "highlights": [
+      {
+        "name": "高棉家常菜",
+        "description": "米饭、蔬菜、鸡肉或鱼类以清爽香料烹调，适合炎热潮湿环境。"
+      },
+      {
+        "name": "全包活动餐",
+        "description": "多日套餐通常覆盖八餐左右，徒步和划艇行程会配合安排。"
+      }
+    ],
+    "caveat": "菜单和用餐时间跟随套餐，特殊饮食必须在抵达前沟通。"
+  },
+  "media": {
+    "cover": "https://cardamomtentedcamp.com/wp-content/uploads/2017/08/Cardamom-Tented-Camp-tent.jpg",
+    "gallery": [
+      {
+        "url": "https://cardamomtentedcamp.com/wp-content/uploads/2017/08/Cardamom-Tented-Camp-tent.jpg",
+        "type": "environment",
+        "caption": "河岸帐篷",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20La%20Selva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山保护区参考 1",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jungle%20stream%20(La%20Selva%20Biological%20Station).jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山保护区参考 2",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20path%20through%20La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山保护区参考 3",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山保护区参考 4",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laselva1.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山保护区参考 5",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Arboletum.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山保护区参考 6",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rainforest%20Fatu%20Hiva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山保护区参考 7",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cardamom%20Mountains%20Cambodia.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边豆蔻山脉",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botum%20Sakor%20National%20Park.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边 Botum Sakor 国家公园",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kayaking%20in%20Cambodia.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域河流皮划艇",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cambodian%20jungle.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域常绿森林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/list?searchWord=Cardamom%20Tented%20Camp",
+    "official": "https://cardamomtentedcamp.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://cardamomtentedcamp.com/",
+      "https://www.trip.com/hotels/list?searchWord=Cardamom%20Tented%20Camp"
+    ]
+  }
+}
