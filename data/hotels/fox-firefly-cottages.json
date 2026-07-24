@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "fox-firefly-cottages",
+  "status": "published",
+  "identity": {
+    "name": "狐狸与萤火虫小屋",
+    "englishName": "Fox & The Firefly Cottages",
+    "country": "菲律宾",
+    "region": "薄荷岛",
+    "locality": "洛博克",
+    "placeLabel": "菲律宾 · 薄荷岛",
+    "hotelType": "河岸竹木民宿"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "高性价比河岸民宿",
+    "collection": "lodging",
+    "tags": [
+      "洛博克河",
+      "竹木小屋",
+      "稻田",
+      "萤火虫",
+      "SUP基地",
+      "小型花园"
+    ],
+    "waterTypes": [
+      "洛博克河"
+    ],
+    "tradeoffs": [
+      "内部水景少",
+      "规模较小",
+      "客房设施简单"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 350,
+    "maximum": 900,
+    "display": "¥350–900",
+    "basis": "两位成人入住一间基础房，每晚参考；税费、套餐与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 86,
+    "value": 96,
+    "water": 82,
+    "greenery": 91,
+    "architecture": 82,
+    "exploration": 88
+  },
+  "editorial": {
+    "oneLine": "竹木小屋躲在大树和花园之间，真正的公共空间向洛博克河、稻田和村落活动敞开。",
+    "reason": "它不试图复制完整度假村，而是把住宿做成洛博克河生活的一处基地。花园、小屋、餐厅和吊床尺度亲切，河上SUP、夜间萤火虫、骑行与乡村路线承担主要体验；虽然水没有深入每栋房屋，但低价与真实周边环境形成很好的取舍。",
+    "advantages": [
+      "价格低，仍有竹木建筑、花园和河岸活动",
+      "可直接参加SUP和萤火虫河流体验",
+      "小型场地没有大型泳池和草坪问题",
+      "周边稻田、村落和河流适合慢速探索"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "酒店内部没有丰富水景，魅力主要来自紧邻的洛博克河。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "客房和公共设施更接近舒适民宿，不是豪华酒店。"
+      }
+    ],
+    "fit": "低预算体验明亮热带河谷、竹木小屋和户外活动的人。",
+    "notFit": "希望全天留在大型酒店内部使用丰富设施的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于洛博克河、稻田和镇区边缘，适合作为薄荷岛内陆河流与乡村路线的落脚点。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "小屋位于薄荷岛洛博克镇，紧邻岛上最重要的内陆河流。周围既有河岸活动，也有稻田、教堂、村道和当地餐馆；从这里前往眼镜猴保护区、巧克力山或邦劳海滩都可行，但最适合的节奏仍是住两晚慢慢体验河谷。"
+      },
+      {
+        "title": "场地布局",
+        "text": "场地规模不大，几栋竹木与茅草顶小屋分布在热带花园中，公共餐厅、露台、吊床和活动集合点彼此靠近。它没有复杂的园林路线，空间延伸主要依赖门外的河岸、SUP航线、稻田小路和村落骑行。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑大量使用竹、木和编织材料，屋檐深、露台开敞，植物贴近墙面和休息区。水体几乎全部来自洛博克河，因此不是水景酒店；但河流可以真正进入活动，白天划桨、夜间看萤火虫，亲水方式比普通泳池更有内容。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从塔比拉兰或邦劳需要陆路前往，镇区基础生活设施比偏远生态营地方便。热带环境全年温暖，旱季更容易获得明亮画面，雨季河水与植被更饱满；基础房型可能没有空调或配置有限，预订时需逐项确认。"
+      }
+    ],
+    "spatialRelationship": "小型花园民宿作为河流活动基地，内部朴素，河岸、稻田和村落构成外部公共空间。",
+    "access": "塔比拉兰约35分钟，邦劳机场约1小时；可安排接送。"
+  },
+  "media": {
+    "cover": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/6bebd33f-def8-427a-8441-600a4eaf00a6/foxfirefly-49.jpg",
+    "gallery": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/6bebd33f-def8-427a-8441-600a4eaf00a6/foxfirefly-49.jpg",
+        "type": "场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/b0f5b813-b3fa-4f82-af72-832a524d52f6/Screen+Shot+2022-05-31+at+5.35.51+PM.png",
+        "type": "建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/1653991414866-MDHQCL1JWS2TQV8ODAB1/Screen%2BShot%2B2022-05-31%2Bat%2B5.37.06%2BPM.jpg",
+        "type": "客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/c545af1c-d7f7-4d42-a6c9-8f7898a52b91/Screen+Shot+2022-05-31+at+5.37.17+PM.png",
+        "type": "公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/20bdc909-6f55-409a-ac20-5572e3098172/3F4A0912.jpg",
+        "type": "水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/d30b11c8-ae12-41dd-be6f-898c756e9cdb/Screen+Shot+2022-05-31+at+5.59.50+PM.png",
+        "type": "林间道路",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/1646587403487-AI1C2HM6U72F033X0K4R/Pic-1.jpg",
+        "type": "餐饮空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/1646639061957-R8YM7B4IXE9PETYRC08W/Pic-2.jpg",
+        "type": "周边周边环境",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/1646639095535-V9DLDK0Z2ZP4ZXB3KNBU/Pic-3.jpg",
+        "type": "周边建筑细节",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/1646639137067-MLXHNEJMLQ2NS5448321/Pic-4.jpg",
+        "type": "周边亲水区域",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/1646639175454-PKSGKEBQCO1YEGEF46OK/Pic-5.jpg",
+        "type": "周边场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/98967b8f-121d-458f-b3d2-2fa730645e79/image.png",
+        "type": "周边建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/7a517d97-1321-4764-b5c3-36406bcecfc9/IMG_3624.jpg",
+        "type": "周边客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/6c09f96e-4862-4489-bdb6-a2230232e278/Screen+Shot+2022-06-01+at+2.18.11+PM.png",
+        "type": "周边公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/9a50d56f-1c5e-482d-96f8-24efe1d74104/3F4A0928.jpg",
+        "type": "周边水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/2565ad23-3ad4-4a25-b2d7-cfe9e2236c1f/Screen+Shot+2022-06-01+at+2.17.31+PM.png",
+        "type": "周边林间道路",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/6e4f67cb-6efc-4206-b004-03b34233e29a/3F4A0922.jpg",
+        "type": "周边餐饮空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/929b01f7-244e-4143-b08d-6959993665bd/Screen+Shot+2022-06-01+at+2.17.13+PM.png",
+        "type": "周边周边环境",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/28e46c19-e9d4-4a9b-b1f5-0fbccee72e75/3F4A0912.jpg",
+        "type": "周边建筑细节",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/3d891994-6ef1-4444-909e-ae013de00aea/Screen+Shot+2022-06-01+at+2.17.45+PM.png",
+        "type": "周边亲水区域",
+        "source": "酒店官方图库",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=1728",
+    "official": "https://www.foxandthefireflycottages.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网现行营业、洛博克河位置、SUP活动、房型和官方图库。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官方图库",
+      "酒店官网或官方旅游资料",
+      "公开预订信息"
+    ]
+  }
+}
