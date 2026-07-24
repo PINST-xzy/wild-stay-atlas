@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "ecotravel-cottages",
+  "status": "published",
+  "identity": {
+    "name": "生态旅行小屋",
+    "englishName": "EcoTravel Cottages",
+    "country": "印度尼西亚",
+    "region": "北苏门答腊",
+    "locality": "武吉拉旺",
+    "placeLabel": "印度尼西亚 · 武吉拉旺",
+    "hotelType": "雨林边缘精品民宿"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "性价比取舍",
+    "tags": [
+      "雨林阳台",
+      "河谷村落",
+      "竹木建筑",
+      "小型民宿",
+      "高性价比"
+    ],
+    "waterTypes": [
+      "Bahorok 河",
+      "Landak 河",
+      "雨林溪流"
+    ],
+    "tradeoffs": [
+      "酒店内部水景少",
+      "规模很小",
+      "依赖村落公共环境"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 330,
+    "maximum": 720,
+    "display": "¥330–720",
+    "basis": "两位成人入住一间基础房，每晚参考；日期与税费需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 85,
+    "value": 95,
+    "water": 77,
+    "greenery": 94,
+    "architecture": 78,
+    "exploration": 91
+  },
+  "editorial": {
+    "oneLine": "房间本身朴素，但阳台、河谷村落和勒塞尔山雨林把低价住宿放进了完整的自然生活环境。",
+    "reason": "这家小型住宿不像大型度假村那样塑造人工水景，价值主要来自武吉拉旺本身。竹木和茅草感建筑藏在热带植物中，阳台面对雨林；出门即可进入河岸、吊桥、村落小径和国家公园活动网络。",
+    "advantages": [
+      "价格远低于高端雨林酒店，房间仍保留宽阳台与雨林视野",
+      "住宿位于武吉拉旺河谷生活网络中，徒步和亲水不依赖酒店设施",
+      "规模小、天然材料较多，没有大型泳池和草坪问题"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "酒店内部没有丰富公共水景，主要水体来自周边河流。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "更像条件较好的雨林民宿，公共设施和服务项目有限。"
+      }
+    ],
+    "fit": "希望用较低预算住在雨林河谷，并接受把公共环境当作度假空间的人。",
+    "notFit": "期待酒店内部拥有完整泳池、水疗和精致公共空间的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于武吉拉旺村与 Gunung Leuser 国家公园边缘，河流、吊桥、雨林入口和村落餐饮都在步行活动范围内。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "住宿位于北苏门答腊武吉拉旺，靠近 Gunung Leuser 国家公园入口。村落沿 Bahorok 河狭长展开，周围有河岸餐厅、吊桥、步行小径和雨林徒步服务；Landak 河与周边村庄可通过当地活动到达。"
+      },
+      {
+        "title": "场地布局",
+        "text": "住宿规模较小，以两层小屋、客房阳台、花园植物和半开放休息区域组成，不具备大型度假村的复杂公共设施。真正的空间延伸发生在门外：沿村落小径和吊桥连接河岸、餐饮与雨林入口。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑使用竹、木、石材与茅草感屋檐，房间和阳台由浓密热带植物遮挡。酒店内部水体较弱，但 Bahorok 河、Landak 河和雨林溪流构成周边体验，属于以目的地弥补场地水景的典型取舍。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从棉兰机场或市区乘车通常约四至五小时，抵达村落后根据具体位置步行或短途转运。住宿条件比最基础河岸木屋完整，但仍应预期潮湿、虫鸣、村落道路不平和雨季河况变化。"
+      }
+    ],
+    "spatialRelationship": "小型花园住宿作为武吉拉旺河谷网络中的落脚点，内部空间简单，外部河流、吊桥、村落与雨林承担主要魅力。",
+    "access": "从棉兰乘车约四至五小时；可由住宿安排接送，进入上游区域可能仍需步行。"
+  },
+  "media": {
+    "cover": "https://www.sumatra-ecotravel.com/wp-content/uploads/2018/12/EcoTravel-Cottages-1024x768.jpg",
+    "gallery": [
+      {
+        "url": "https://www.sumatra-ecotravel.com/wp-content/uploads/2018/12/EcoTravel-Cottages-1024x768.jpg",
+        "type": "住宿整体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.sumatra-ecotravel.com/wp-content/uploads/2020/06/EcoTravel-Cottages-Bukit-Lawang-copy.jpg",
+        "type": "建筑与植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EcoLodgeBukitLawang.JPG?width=1600",
+        "type": "周边生态住宿形态",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sungai%20Bahorok%203.jpg?width=1600",
+        "type": "周边河岸植被",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BukitLawang.jpg?width=1600",
+        "type": "周边河谷聚落",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20lawang.jpg?width=1600",
+        "type": "周边村落与雨林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%2C%20Langkat%20Regency%2C%20North%20Sumatra%2C%20Indonesia.jpg?width=1600",
+        "type": "周边河岸村落",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reka%20Bahorok%2C%20Bukit%20Lawang%2C%20Sumatra%2C%20Indonezija.JPG?width=1600",
+        "type": "周边 Bahorok 河",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wisata%20Air%20Bukit%20Lawang.jpg?width=1500",
+        "type": "周边亲水活动",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%20bridge%20over%20Bohorok.jpg?width=1600",
+        "type": "周边跨河吊桥",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawasan%20Hutan%20Bukit%20Lawang.jpg?width=1600",
+        "type": "周边勒塞尔山雨林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sungai%20Bahorok%204.jpg?width=1600",
+        "type": "周边河流水体",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=60221",
+    "official": "https://www.sumatra-ecotravel.com/ecotravel-cottages/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网位置、房型、场地环境、主要水体与抵达条件；价格按官网公开起价或当地常见区间换算，预订前需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官网",
+      "武吉拉旺公开实景",
+      "当地活动资料"
+    ]
+  }
+}
