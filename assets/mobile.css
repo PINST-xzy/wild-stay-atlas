@@ -756,3 +756,11 @@
     transform: none;
   }
 }
+@media (max-width: 840px) {
+  .food-file{display:block;padding:58px 20px}
+  .food-lead{display:block;padding:28px 0}
+  .food-lead>p{font-size:27px;line-height:1.55;margin-bottom:30px}
+  .food-grid{display:block}
+  .food-grid article{min-height:0;border-bottom:1px solid rgba(79,54,36,.14);padding:25px 22px}
+  .food-grid h3{margin:18px 0 9px;font-size:22px}
+}
