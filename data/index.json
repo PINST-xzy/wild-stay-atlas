@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.07.24.8",
+  "contentVersion": "2026.07.24.9",
   "updatedAt": "2026-07-24",
   "hotels": [
     "hotels/bambu-indah.json",
@@ -11,7 +11,12 @@
     "hotels/our-jungle-house.json",
     "hotels/our-jungle-camp.json",
     "hotels/ecotravel-cottages.json",
-    "hotels/sumatra-orangutan-explore-guesthouse.json"
+    "hotels/sumatra-orangutan-explore-guesthouse.json",
+    "hotels/sarinbuana-eco-lodge.json",
+    "hotels/bali-lush.json",
+    "hotels/singharaja-garden.json",
+    "hotels/bamboo-turtles-ecolodge.json",
+    "hotels/great-roots-forestry-hot-spring.json"
   ],
   "destinations": [
     "destinations/koh-kood.json",
