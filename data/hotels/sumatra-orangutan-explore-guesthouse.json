@@ -29,7 +29,8 @@
       "建筑普通",
       "房间数量少",
       "公共空间简单"
-    ]
+    ],
+    "collection": "lodging"
   },
   "pricing": {
     "currency": "CNY",
