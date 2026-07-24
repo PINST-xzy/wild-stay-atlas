@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "id": "bali-lush",
+  "identity": {
+    "name": "巴厘葱郁民宿",
+    "englishName": "Bali Lush",
+    "country": "印度尼西亚",
+    "region": "巴厘岛塔巴南",
+    "locality": "曼加斯村",
+    "placeLabel": "印度尼西亚 · 巴厘岛塔巴南",
+    "hotelType": "稻田花园民宿"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "明亮田园取舍",
+    "collection": "lodging",
+    "tags": [
+      "柚木老屋",
+      "稻田边缘",
+      "热带花园",
+      "阳光泳池",
+      "村落生活",
+      "高性价比"
+    ],
+    "waterTypes": [
+      "花园泳池",
+      "稻田灌溉水系"
+    ],
+    "tradeoffs": [
+      "泳池形状较规则",
+      "内部天然水体少",
+      "设计感弱于核心收藏"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 550,
+    "maximum": 1200,
+    "display": "¥550–1,200",
+    "basis": "两位成人入住基础木屋，每晚常见参考；房型与日期差异明显",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 87,
+    "value": 94,
+    "water": 68,
+    "greenery": 91,
+    "architecture": 86,
+    "exploration": 82
+  },
+  "editorial": {
+    "oneLine": "它不靠奇观取胜，而是把老柚木屋、明亮花园和仍在耕作的稻田接成一种松弛的乡村日常。",
+    "reason": "Bali Lush 的水景不够野生，但它很好地补上了“阳光丰沛、植物繁盛、住起来舒服”的一类选择。古老柚木屋有宽檐和通风的廊道，四周不是精修草坪，而是香蕉、椰子、花木和稻作农业。晴天的光线在木色、叶片和水面之间来回反射，气质比幽暗雨林更轻盈。",
+    "advantages": [
+      "老柚木屋与热带花园之间尺度亲切，室内外转换自然",
+      "周边仍是村落和稻田，走出院门就能看到农业景观",
+      "价格相对克制，适合作为长住或路线中的舒适停留",
+      "官方图库同时覆盖外景、室内、泳池、餐饮与周边田野"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "泳池较规则，且酒店内部没有河流、泉池或瀑布。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "魅力偏田园生活和老屋花园，不是强烈的野生沉浸感。"
+      }
+    ],
+    "fit": "更在意阳光、植物、老木屋与舒适价格，愿意减少水景要求的人。",
+    "notFit": "把天然河流、可探索水域或建筑实验性视为必要条件的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于塔巴南乡村腹地，院落外连接稻田、灌溉沟渠、村道和小型聚落，环境明亮开阔又保留热带植物包裹。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "Bali Lush 位于巴厘岛塔巴南县乡村，离南部密集旅游带有一段距离。附近不是连续商业街，而是稻田、灌溉沟渠、寺庙和村庄住宅组成的农业网络；适合慢走、骑行或以包车探索塔巴南山海之间的村落，也能把住宿本身当作安静停留点。"
+      },
+      {
+        "title": "场地布局",
+        "text": "几栋名称各异的传统柚木屋围绕花园、泳池和餐饮空间展开。院落尺度不大，却通过树木、花丛、廊道和高差形成多个可停留的小区域；房屋之间不会一览无余，既有明亮水面，也有屋檐下的阴影，整体比大型度假村更像一组被植物重新组织的乡居。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "核心建筑是回收或保存下来的爪哇柚木屋，深色木材、雕花门窗与白色织物形成温暖但不浮夸的内景。泳池本身偏规则，是明确妥协；好在香蕉、棕榈、开花灌木和稻田边缘软化了池岸，水面在晴天承担反光和降温作用，而不是视觉中心。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从巴厘南部机场或仓古前往通常需要较长车程，具体时间受道路拥堵影响。乡村位置意味着步行可达餐饮和商店有限，更适合安排司机或在住宿用餐。旱季光线更通透，稻田颜色取决于耕作周期；雨季植被更丰盛，但道路湿滑、蚊虫和短时强降雨也更明显。"
+      }
+    ],
+    "spatialRelationship": "老柚木屋围绕小型花园和泳池散置，院墙之外立即接上稻田与村路，内部精致度和外部农业感保持平衡。",
+    "access": "从仓古约 1.5 小时上下，机场通常更久；建议预约接送或包车。"
+  },
+  "media": {
+    "cover": "https://static.wixstatic.com/media/046d7e_975e0949279f4bf9882b4cd7a71c3645~mv2.jpg",
+    "gallery": [
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_975e0949279f4bf9882b4cd7a71c3645~mv2.jpg",
+        "type": "花园与木屋",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_65022e29642248708120bd2342a28391~mv2.jpg",
+        "type": "泳池与热带植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_a83514bfd6304d0887b05df485b3f7c7~mv2.jpg",
+        "type": "柚木屋外景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_5dc2d45dffec4de39bfb32d3d8a16df4~mv2.jpg",
+        "type": "客房内景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_f2f95521324f4f42b39235dde40bd3a4~mv2.jpg",
+        "type": "廊道与花园",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_105c97c29caa4222b031dd2bccfcad33~mv2.jpg",
+        "type": "浴室细节",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_97785446db154f9282ff3c9fc82f9fe8~mv2.jpg",
+        "type": "公共起居空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_fb131fb8d63a48f480c946fbd2b14b8b~mv2.jpg",
+        "type": "餐饮空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_0227d1a048994a5799b4608ce6f19fd3~mv2.jpg",
+        "type": "阳光泳池",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_0949e6389090452a8907962bd07203e6~mv2.jpg",
+        "type": "木屋室内",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_23faaa7d5e24470e8e7949f73b04a159~mv2.jpg",
+        "type": "花园小径",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_4d2f96066e554eb28f208cb2f0c92a3e~mv2.jpg",
+        "type": "卧室与木构",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_5eeab6b7584345ac9baef16faac13a11~mv2.jpg",
+        "type": "林下休息区",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_6903640b6d854666b58f0388822b0bad~mv2.jpg",
+        "type": "庭院外景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_78810f3f78c14211848a2de36658d602~mv2.jpg",
+        "type": "周边稻田",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_89f84a8d8c8046e0bcd7d7032148ba66~mv2.jpg",
+        "type": "周边村路",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_a1b34b622049453c95d50fe2a2e73424~mv2.jpg",
+        "type": "房间露台",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_abf59cffbea84a0f9d5d840ac0219c05~mv2.jpg",
+        "type": "热带花木",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_c83f9b1ad38a4f42bd6a24fc44c4c7a0~mv2.jpg",
+        "type": "室内陈设",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/046d7e_ee009838299841dfa91ab67a2053e31d~mv2.jpg",
+        "type": "周边农业景观",
+        "source": "酒店官网",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=723",
+    "official": "https://www.balilush.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网的房型、柚木屋、花园泳池、乡村稻田位置与公开图库；图片均来自酒店官网。价格为常见参考，需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官网",
+      "官方图库",
+      "公开预订价格"
+    ]
+  }
+}
