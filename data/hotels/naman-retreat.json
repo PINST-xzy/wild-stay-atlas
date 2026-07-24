@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "naman",
+  "status": "published",
+  "identity": {"name": "纳曼度假村", "englishName": "Naman Retreat", "country": "越南", "region": "东南亚", "locality": "岘港", "placeLabel": "越南 · 岘港", "hotelType": "竹构海滨度假村"},
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "取舍候选",
+    "tags": ["竹构", "绿墙", "庭院水景", "预算内", "设施完整"],
+    "waterTypes": ["海滩", "人工水景"],
+    "tradeoffs": ["泳池略规则", "草坪偏多", "植被普通"]
+  },
+  "pricing": {"currency": "CNY", "minimum": 800, "maximum": 1800, "display": "¥800–1,800", "basis": "两位成人入住一间基础房，每晚参考", "verifiedAt": "2026-07-23"},
+  "scores": {"aesthetic": 73, "value": 86, "water": 63, "greenery": 70, "architecture": 88, "exploration": 58},
+  "editorial": {
+    "oneLine": "预算内的设计型补充，竹构很突出，但整体仍接近常规海滨度假村。",
+    "reason": "竹构公共空间、绿墙、庭院水面与热带植物形成清晰设计线索，价格比收藏级酒店容易落地。",
+    "advantages": ["竹构餐厅和绿墙辨识度高", "多数日期有机会落在预算内", "设施相对完整，实际入住门槛低"],
+    "disadvantages": [
+      {"level": "可能淘汰", "text": "泳池形态规则，草坪面积明显"},
+      {"level": "明显取舍", "text": "水体以人工庭院和泳池为主"},
+      {"level": "轻微提醒", "text": "空间探索感与植物包裹感一般"}
+    ],
+    "fit": "想在预算内获得明确设计感和成熟设施。",
+    "notFit": "坚持天然河流、泉池或浓密雨林环境。"
+  },
+  "profile": {
+    "surroundingsSummary": "岘港—会安海岸、白沙滩、五行山与度假区带",
+    "sections": [
+      {"title": "地理位置与周边", "text": "Naman Retreat 位于越南岘港海岸的 Truong Sa 路，处在岘港市区与会安古城之间，面向连续白沙滩。五行山距酒店约五公里；沿海一带分布大型度假村、高尔夫设施和宽阔道路，环境开阔但并非密集街区。"},
+      {"title": "场地布局", "text": "酒店规模大于小型生态旅馆，客房、别墅、餐饮、水疗、泳池、草坪和海滩沿纵深展开。竹构公共建筑和绿墙构成主要识别点，庭院水景位于建筑之间；整体道路清晰、设施完整，空间秩序也更接近成熟海滨度假村。"},
+      {"title": "建筑、水体与植物", "text": "竹、石材、绿墙和开放式结构被大量用于公共空间，局部植物贴近墙面与屋顶。水体主要由人工庭院、规则泳池和海滩组成，缺少天然河流或泉池；草坪和开阔区域所占比例高于核心审美样本。"},
+      {"title": "抵达与实际条件", "text": "从岘港机场、市区或会安前往均以车辆为主，位置适合作为岘港与会安之间的中点。酒店外部步行商业有限，餐饮和日常活动较依赖度假村内部或打车。它的优势是预算相对可控、设施成熟，妥协点是天然水域与植被包裹感不足。"}
+    ],
+    "spatialRelationship": "竹构餐厅和绿墙具有辨识度，水景以人工庭院与泳池为主。",
+    "access": "位于岘港与会安之间，周边商业较少，进城需要打车。"
+  },
+  "media": {
+    "cover": "https://namanbackend.mediaone.dev/uploads/images/blog/9_GreenTextureWall_%281%29.jpg",
+    "gallery": [
+      {"url": "https://namanbackend.mediaone.dev/uploads/images/blog/9_GreenTextureWall_%281%29.jpg", "type": "整体环境", "source": "酒店官网", "verified": true},
+      {"url": "https://namanbackend.mediaone.dev/uploads/images/experience/biking.jpg", "type": "场地道路", "source": "酒店官网", "verified": true},
+      {"url": "https://namanbackend.mediaone.dev/uploads/images/blog/89837b3c0cf2d6ac8fe3.jpg", "type": "公共空间", "source": "酒店官网", "verified": true}
+    ]
+  },
+  "links": {"ctrip": "https://www.trip.com/hotels/da-nang-hotel-detail-2321451/naman-retreat/", "official": "https://namanretreat.com/en"},
+  "verification": {"status": "verified", "summary": "官网建筑与公共空间图片已核验；沙滩状况仍需按季节复核", "updatedAt": "2026-07-23", "sources": ["酒店官网", "携程酒店详情页"]}
+}
