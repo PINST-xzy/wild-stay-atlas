@@ -71,6 +71,7 @@ for (const file of files) {
     check(Boolean(hotel.identity?.[key]), label, `identity.${key} 缺失`);
   }
   check(["A", "B", "C"].includes(hotel.classification?.grade), label, "classification.grade 无效");
+  check(["resort", "lodging"].includes(hotel.classification?.collection), label, "classification.collection 必须为 resort 或 lodging");
   check(hotel.classification?.tags?.length >= 3, label, "至少需要 3 个标签");
   check(hotel.classification?.waterTypes?.length >= 1, label, "至少需要 1 种水体");
   check(hotel.classification?.tradeoffs?.length >= 1, label, "至少需要 1 项取舍");
