@@ -29,7 +29,8 @@
     "tradeoffs": [
       "价格偏高",
       "私人泳池依赖"
-    ]
+    ],
+    "collection": "resort"
   },
   "pricing": {
     "currency": "CNY",
