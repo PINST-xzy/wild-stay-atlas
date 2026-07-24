@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "id": "great-roots-forestry-hot-spring",
+  "identity": {
+    "name": "大板根森林温泉酒店",
+    "englishName": "Great Roots Forestry Spa Resort",
+    "country": "中国台湾",
+    "region": "新北市",
+    "locality": "三峡区",
+    "placeLabel": "中国台湾 · 新北三峡",
+    "hotelType": "森林温泉度假酒店"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "森林温泉取舍",
+    "collection": "resort",
+    "tags": [
+      "亚热带森林",
+      "温泉",
+      "二十公顷园区",
+      "森林步道",
+      "鱼池花园",
+      "家庭度假"
+    ],
+    "waterTypes": [
+      "温泉池",
+      "园林池塘",
+      "山地溪沟"
+    ],
+    "tradeoffs": [
+      "酒店建筑体量较大",
+      "温泉区人工感明显",
+      "部分设施偏传统家庭度假村"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 900,
+    "maximum": 1900,
+    "display": "¥900–1,900",
+    "basis": "两位成人入住基础房，每晚常见参考；周末、假期与含温泉套餐差异较大",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 84,
+    "value": 84,
+    "water": 82,
+    "greenery": 97,
+    "architecture": 68,
+    "exploration": 94
+  },
+  "editorial": {
+    "oneLine": "真正稀缺的是酒店背后二十公顷的低海拔亚热带森林：温泉之后可以直接走进巨大板根、蕨类和湿润林径。",
+    "reason": "这不是建筑美学型酒店，主体楼和温泉设施都偏传统；它值得收录，是因为森林并非远处背景，而是度假区可以长时间步行进入的核心。老茶园留下的二十公顷场地包含森林、鱼池、花园和步道，巨大板根与蕨类提供强烈包裹感。它以较容易抵达、价格相对可控的方式，把温泉和真实亚热带林地放在一起。",
+    "advantages": [
+      "二十公顷园区保留大面积低海拔亚热带森林，可在住宿期间反复进入",
+      "温泉、池塘、林径与湿润植物共同提供多种接近水的方式",
+      "距离台北都市圈不远，实际抵达门槛低于偏远雨林酒店",
+      "对家庭或同行偏好不同的人更友好，设施完整但仍有自然内容"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "客房楼与温泉馆建筑设计普通，无法提供 Bambu Indah 式的建筑融入感。"
+      },
+      {
+        "level": "明显取舍",
+        "text": "部分温泉池形态规则、人工设施较多，繁忙时会削弱安静氛围。"
+      }
+    ],
+    "fit": "重视可步行森林、温泉和交通可达性，愿意弱化建筑审美的人。",
+    "notFit": "要求每一处公共空间都保持小型、野生和高度设计感的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "度假区位于三峡山区，前身为茶园，约二十公顷场地中保存低海拔亚热带森林、板根植物、鱼池、花园和环形步道。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "酒店位于新北市三峡区山区，从台北都市圈可以公路抵达，却已经进入湿润的低海拔亚热带环境。周边以山林、溪谷、茶业历史和乡村道路为主；若延长停留，可与三峡老街、满月圆一带山林或北部温泉路线组合，但酒店自身的森林面积已足以安排半日慢走。"
+      },
+      {
+        "title": "场地布局",
+        "text": "场地体量明显大于小型民宿，客房楼、餐饮、温泉馆、花园和森林区分区存在。真正值得花时间的是从人工园林逐步进入旧茶园和原生次生林的过程：鱼池与开阔花园之后，步道转入树冠遮蔽、板根裸露和蕨类密集的林下，空间由家庭度假村渐变成森林。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "温泉池和客房建筑并不精巧，部分水池规则且带有设施感；植物却拥有足够的年代和体量，巨大板根、藤本、蕨类与成熟乔木形成强包裹。水以温泉池、园林池塘和山地湿润沟谷出现，虽没有自然河流贯穿建筑，却能把泡汤与长距离森林步行接在一天之内。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从台北市区自驾通常约一小时上下，公共交通可行但换乘与班次需要提前核对。北台湾冬季和雨季常有阴雨，照片中的绿意会更浓却未必阳光丰沛；想获得明亮舒适的亚热带观感，可优先选择春末至秋季的稳定晴天，并避开周末亲子客流高峰。"
+      }
+    ],
+    "spatialRelationship": "人工温泉与客房区位于前段，步道把人引向大面积成熟森林；自然不是建筑内部的一部分，却是整个度假区最有分量的腹地。",
+    "access": "台北市区自驾约 1 小时上下；公共交通需经三峡转乘，建议核对酒店接驳。"
+  },
+  "media": {
+    "cover": "https://www.thegreatroots.com/wp-content/uploads/2021/07/foresto亞熱帶雨林4-2500x1666-1.jpeg",
+    "gallery": [
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2021/07/foresto亞熱帶雨林4-2500x1666-1.jpeg",
+        "type": "亚热带森林整体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2021/07/2021.forest-reath-scaled.jpg",
+        "type": "森林步道",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2021/07/2021.oxysen-antiepidemic-scaled.jpg",
+        "type": "林下板根与蕨类",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2021/08/14525048231135-scaled.jpg",
+        "type": "园区外景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2021/08/home-1024x768-1.jpg",
+        "type": "建筑与花园",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2016/12/5d8f82f78d051137810ffb697caf03f9.jpg",
+        "type": "温泉池",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2016/12/69ad9c3fa373bb91de000c6238b871d5.jpg",
+        "type": "露天温泉",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2016/12/daca87228944f9e73b0c20c529c692b1.jpg",
+        "type": "水景与植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2017/01/ae5f99eff03e7da2aec6324ecb54551e.jpg",
+        "type": "客房内景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2017/01/be00b0d0e4f4fcdc5ae184d9d55c484c.jpg",
+        "type": "公共空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2017/03/bc83eba82019e24cb4178312a407fed6.jpg",
+        "type": "餐饮空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2017/06/977f9bc9f80258440e322ef0a08c31c4-1.jpg",
+        "type": "家庭房与设施",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2020/05/e0d27867cde5fda66035e0ac28b06e07.jpg",
+        "type": "园林池塘",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2020/05/40b5470a620039084a036e7f6901ba61-600x290-1.jpg",
+        "type": "周边三峡山地",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2020/05/fc49dc5772df334dbd79963d1221df4e-600x290-1.jpg",
+        "type": "周边森林环境",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2021/09/0014-1920x1080-1.jpg",
+        "type": "园区道路",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2021/09/50033e9e9410e97c2c1ec848b2c84644-1920x1080-1.jpg",
+        "type": "森林活动区域",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.thegreatroots.com/wp-content/uploads/2020/02/dabangan-2.jpg",
+        "type": "度假区整体",
+        "source": "酒店官网",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=617",
+    "official": "https://www.thegreatroots.com/en/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对酒店官网现行营业、二十公顷旧茶园森林、温泉和园区设施；图片来自酒店官网媒体库。价格需按具体日期、房型与温泉套餐复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官网",
+      "台湾观光资料",
+      "官方媒体库"
+    ]
+  }
+}
