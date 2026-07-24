@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "bali-eco-stay",
+  "status": "published",
+  "identity": {
+    "name": "巴厘生态居",
+    "englishName": "Bali Eco Stay",
+    "country": "印度尼西亚",
+    "region": "巴厘岛",
+    "locality": "塔巴南",
+    "placeLabel": "印度尼西亚 · 巴厘岛塔巴南",
+    "hotelType": "稻田生态旅馆"
+  },
+  "classification": {
+    "grade": "A",
+    "gradeLabel": "核心匹配",
+    "tags": [
+      "泉池瀑布",
+      "稻田",
+      "食物森林",
+      "开敞木屋",
+      "有机农园"
+    ],
+    "waterTypes": [
+      "天然泉池",
+      "瀑布",
+      "溪流"
+    ],
+    "tradeoffs": [
+      "位置偏远",
+      "设施简单"
+    ],
+    "collection": "lodging"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 1250,
+    "maximum": 1800,
+    "display": "¥1,250–1,800",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 93,
+    "value": 78,
+    "water": 94,
+    "greenery": 95,
+    "architecture": 86,
+    "exploration": 93
+  },
+  "editorial": {
+    "oneLine": "稻田、食物森林、山溪与天然岩池共同围住八栋开敞木屋，水不是配景，而是日常动线的一部分。",
+    "reason": "它与 Bambu Indah 最接近的地方，是住处并未站在自然对面：木屋散落在稻田坡地和食物森林之间，沿小路可走到自有瀑布与淡水岩池。规模不大、陈设朴素，却保留了潮湿、可步行探索的场地关系。",
+    "advantages": [
+      "自有瀑布、泉水岩池和山溪可以真实接近、泡水与停留",
+      "成熟热带植物、稻田和木屋之间没有明显硬质边界",
+      "自种食材与巴厘家常菜让住宿体验延伸到餐桌"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "位于塔巴南山地，机场接驳和外出用餐成本较高"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "开放式木屋会面对昆虫、湿气与自然声响"
+      }
+    ],
+    "fit": "在意水、植物和日常生活交织，愿意接受小型生态旅馆朴素服务的人。",
+    "notFit": "需要封闭空调房、完整夜生活或大型度假村服务的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于巴厘岛塔巴南山区，周围是稻田、果园、村落与山地溪谷；这里远离乌布中心的商业密度，更接近农业景观中的小型生态聚落。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "旅馆坐落于巴厘岛西部塔巴南的山地农业区，周围不是城市街区，而是稻田、村庄、热带果园与溪谷。外出选择有限，但清晨雾气、田埂和山林构成完整的周边环境，适合把活动范围留在场地内部。"
+      },
+      {
+        "title": "场地布局",
+        "text": "八栋木屋沿坡地、稻田边缘和水系分散布置，餐厅、农园、步道与瀑布之间以小径相连。建筑体量很小，行走时会不断经过作物、树冠和转折，不会出现一眼看尽的轴线或大草坪。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "木屋大量使用竹木并保持开敞，植物几乎贴到露台和屋檐。山溪落入岩石形成天然淡水池，瀑布和泉水不是标准泳池的替代装饰，而是场地中可下水、停留和继续向上探索的核心。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从机场或南部海滩区前往通常耗时较长，山路与最后一段乡间道路会增加接驳成本。房间强调自然通风而非密闭空调，雨季湿度、昆虫和水声都很真实，预订前需要接受生态旅馆的生活方式。"
+      }
+    ],
+    "spatialRelationship": "从木屋沿田埂与林下小径向下，经过农园、餐厅和溪流，最终抵达瀑布岩池；水、路与生活空间是连续的。",
+    "access": "建议预订接送车辆；从巴厘岛南部机场出发通常需约两至三小时，具体受交通影响。"
+  },
+  "food": {
+    "summary": "这里的餐桌直接连接食物森林与有机农园：蔬菜、香草、水果和部分蛋白进入巴厘家常菜，吃饭本身也是理解这块场地的一部分。",
+    "setting": "开放式餐厅面向稻田和山谷，也可在农园与瀑布活动之后用餐。",
+    "highlights": [
+      {
+        "name": "巴厘 Nasi Campur",
+        "description": "以米饭搭配蔬菜、参巴、鸡肉或鱼的组合，是最能看出农园当天收成的家常盘。"
+      },
+      {
+        "name": "农园蔬果",
+        "description": "香草、热带水果与蔬菜来自场地或附近农户，菜单会随季节调整。"
+      },
+      {
+        "name": "淡水鱼与散养鸡",
+        "description": "官网强调本地淡水鱼和散养鸡，烹调走朴素的巴厘家庭风味。"
+      }
+    ],
+    "caveat": "菜单选择不如城市餐厅宽，偏远位置也意味着临时外出换餐不方便。"
+  },
+  "media": {
+    "cover": "https://www.baliecostay.com/wp-content/uploads/2017/06/waterfall-bungalow-mountain-accommodation-seating-area-bali-eco-stay-1024x681.jpg",
+    "gallery": [
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/06/waterfall-bungalow-mountain-accommodation-seating-area-bali-eco-stay-1024x681.jpg",
+        "type": "environment",
+        "caption": "瀑布木屋与山谷",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/07/waterfall-bungalow-mountain-view-accommodation-bali-eco-stay-1024x683.jpg",
+        "type": "environment",
+        "caption": "木屋眺望山地农田",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/waterfall-bungalow-mountain-accommodation-bathroom-eco-bali-stay-1024x768.jpg",
+        "type": "environment",
+        "caption": "开放式浴室",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/waterfall-bungalow-mountain-accommodation-lounge-bali-eco-stay-1024x768.jpg",
+        "type": "environment",
+        "caption": "木屋起居空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/07/waterfall-bungalow-mountain-accommodation-main-area-at-dusk-bali-eco-stay-1024x678.jpg",
+        "type": "environment",
+        "caption": "暮色中的木屋",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/Rice-Water-Bungalow-Bali-Twin-Bedroom-Bali-Eco-Stay-1024x683.jpg",
+        "type": "surroundings",
+        "caption": "稻田水屋卧室",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/06/Rice-Water-Bungalow-seating-area-Bali-Eco-Stay-1024x683.jpg",
+        "type": "surroundings",
+        "caption": "稻田水屋休息区",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/Rice-Water-Bungalow-Bali-Bathroom-Bali-Eco-Stay-1024x768.jpg",
+        "type": "surroundings",
+        "caption": "稻田水屋浴室",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/07/Rice-Water-Bungalow-Bali-Living-area-Bali-Eco-Stay-1024x536.jpg",
+        "type": "surroundings",
+        "caption": "稻田水屋客厅",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/Rice-Water-Bungalow-Bali-Terrace-Bali-Eco-Stay-1024x768.jpg",
+        "type": "surroundings",
+        "caption": "露台与周边稻田",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/Harvest-Bungalow-1-1024x768.jpg",
+        "type": "environment",
+        "caption": "Harvest 木屋",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/Restaurant-Nasi-Campur-Bali-Eco-Stay.jpg",
+        "type": "environment",
+        "caption": "农园食材与巴厘餐桌",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/07/Nature-Living-Waterfall-Bali-Eco-Stay.jpg",
+        "type": "surroundings",
+        "caption": "周边山溪瀑布",
+        "source": "酒店官网",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/list?searchWord=Bali%20Eco%20Stay",
+    "official": "https://www.baliecostay.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://www.baliecostay.com/",
+      "https://www.trip.com/hotels/list?searchWord=Bali%20Eco%20Stay"
+    ]
+  }
+}
