@@ -118,7 +118,7 @@
         "cover": {"type": "string", "format": "uri"},
         "gallery": {
           "type": "array",
-          "minItems": 2,
+          "minItems": 12,
           "items": {
             "type": "object",
             "additionalProperties": false,
