@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "bambu",
+  "status": "published",
+  "identity": {
+    "name": "巴姆布印达酒店",
+    "englishName": "Bambu Indah",
+    "country": "印度尼西亚",
+    "region": "东南亚",
+    "locality": "乌布",
+    "placeLabel": "印度尼西亚 · 乌布",
+    "hotelType": "河谷生态酒店"
+  },
+  "classification": {
+    "grade": "A",
+    "gradeLabel": "核心匹配",
+    "tags": ["天然泉池", "阿勇河", "竹木建筑", "低密度", "审美标杆"],
+    "waterTypes": ["天然泉池", "河流", "瀑布"],
+    "tradeoffs": ["价格偏高", "坡地台阶"]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 1900,
+    "maximum": 3600,
+    "display": "¥1,900–3,600",
+    "basis": "两位成人入住一间基础房，每晚参考",
+    "verifiedAt": "2026-07-23"
+  },
+  "scores": {
+    "aesthetic": 98,
+    "value": 52,
+    "water": 98,
+    "greenery": 98,
+    "architecture": 97,
+    "exploration": 96
+  },
+  "editorial": {
+    "oneLine": "泉池、河谷、竹桥与建筑共同组成一条可以进入的自然路径。",
+    "reason": "成熟树冠遮住大部分建筑，石阶和竹桥一路下探河谷；天然泉池不是附属设施，而是公共空间的核心。",
+    "advantages": [
+      "水体真正进入场地内部，人与水的接触方式丰富",
+      "建筑体量低，旧木、竹、石材与植物之间边界很弱",
+      "林下路径、台阶和桥梁带来很强的探索感"
+    ],
+    "disadvantages": [
+      {"level": "可能淘汰", "text": "常见房价明显超过实住预算"},
+      {"level": "明显取舍", "text": "河谷高差大，部分区域台阶很多"},
+      {"level": "轻微提醒", "text": "热门房型和旺季价格波动明显"}
+    ],
+    "fit": "愿意为完整空间体验提高预算，并且不介意坡地步行。",
+    "notFit": "更在意交通便利、无障碍动线或稳定低价。"
+  },
+  "profile": {
+    "surroundingsSummary": "阿勇河谷、Bongkasa 稻田与热带林地",
+    "sections": [
+      {"title": "地理位置与周边", "text": "酒店位于巴厘岛乌布外围的阿勇河谷一侧，场地上缘邻近稻田和村落，下缘抵达阿勇河岸。周边不是连续商业街区，主要景观由河谷、Bongkasa 稻田、热带树冠和乡村道路组成；前往乌布中心通常依赖车辆。"},
+      {"title": "场地布局", "text": "酒店并非一栋集中式建筑，而是从山脊到河岸逐层展开的聚落。接待、餐饮、客房、泉池和河畔休息空间位于不同高程，石砌小径、竹桥、隧道、台阶与竹制升降设施将它们串联。河畔房型与上部公共区域之间存在明显高差。"},
+      {"title": "建筑、水体与植物", "text": "场地内有十五处以上天然泉水池，泉池与阿勇河共同构成下部公共空间。竹构新建筑、回收柚木老屋、石材平台和开放式亭子分散在成熟植被中，部分建筑从树冠和坡地之间露出；水体、道路与住宿空间并非彼此独立。"},
+      {"title": "抵达与实际条件", "text": "不同房型的地形条件差异很大。靠近上部村落的客房移动相对平缓，部分河畔房距接待区域需要数百级台阶；官网个别房型标注约五百五十至六百四十级。坡地、开放式空间、昆虫和潮湿环境均属于实际住宿条件。"}
+    ],
+    "spatialRelationship": "石阶、竹桥和林下路径一路下探河谷，泉池与阿勇河贯穿主要公共体验。",
+    "access": "位于乌布外缘河谷；部分河畔房距离接待区域较远，坡地移动量较大。"
+  },
+  "media": {
+    "cover": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a50c8274a5585679da1_bamboo_indah_explore2.avif",
+    "gallery": [
+      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a50c8274a5585679da1_bamboo_indah_explore2.avif", "type": "整体环境", "source": "酒店官网", "verified": true},
+      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a4645b17081ef73a824_bamboo_indah_explore1.avif", "type": "道路与建筑", "source": "酒店官网", "verified": true},
+      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67585166d3efeeedb45bed57_bamboo_indah_explore_pools2.avif", "type": "天然泉池", "source": "酒店官网", "verified": true},
+      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584b0008bb0a232a4605f0_bamboo_indah_explore_pools3.avif", "type": "公共水域", "source": "酒店官网", "verified": true}
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/bali-hotel-detail-685401/bambu-indah-a-hardy-artisanal-hotel/",
+    "official": "https://www.bambuindah.com/explore"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "官方图库与场地资料已核验；价格需按日期复核",
+    "updatedAt": "2026-07-23",
+    "sources": ["酒店官网", "携程酒店详情页"]
+  }
+}
