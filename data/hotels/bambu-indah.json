@@ -29,7 +29,8 @@
     "tradeoffs": [
       "价格偏高",
       "坡地台阶"
-    ]
+    ],
+    "collection": "resort"
   },
   "pricing": {
     "currency": "CNY",
