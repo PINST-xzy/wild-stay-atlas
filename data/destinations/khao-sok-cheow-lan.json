@@ -25,11 +25,11 @@
     "stayStrategy": "先住考索村一至两晚，再选择一晚基础或中档筏屋；避免把全部预算放在高价湖景房型。"
   },
   "media": {
-    "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheow%20Lan%20Lake.jpg?width=1800",
+    "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1800",
     "gallery": [
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Cheow%20Lan%20Lake.jpg?width=1600","caption":"乔兰湖喀斯特水面"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20Thailand.jpg?width=1600","caption":"考索雨林环境"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Rajjaprabha%20Dam%20Reservoir.jpg?width=1600","caption":"水库与支流水面"}
+      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600","caption":"乔兰湖喀斯特水面"},
+      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20Thailand%20-%20panoramio.jpg?width=1600","caption":"湖上筏屋与雨林"},
+      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Rafthouses%20in%20Khao%20Sok%20national%20park.jpg?width=1600","caption":"基础漂浮筏屋"}
     ]
   },
   "links": {"primary":"https://www.thainationalparks.com/cheow-lan-lake","map":"https://www.google.com/maps/search/?api=1&query=Khao+Sok+National+Park","ctrip":"https://www.ctrip.com/hotels/list?city=36055"},
