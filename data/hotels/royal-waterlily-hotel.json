@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "id": "royal-waterlily-hotel",
+  "status": "published",
+  "identity": {
+    "name": "王莲酒店",
+    "englishName": "Royal Waterlily Hotel",
+    "country": "中国",
+    "region": "云南西双版纳",
+    "locality": "勐仑镇",
+    "placeLabel": "中国 · 云南西双版纳",
+    "hotelType": "热带植物园内酒店"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "植物园环境特例",
+    "collection": "lodging",
+    "tags": [
+      "植物园内部",
+      "王莲池",
+      "热带园林",
+      "夜观便利",
+      "国内可达",
+      "家庭房"
+    ],
+    "waterTypes": [
+      "王莲池",
+      "植物园湖泊",
+      "湿地水生植物区"
+    ],
+    "tradeoffs": [
+      "酒店建筑普通",
+      "房间审美传统",
+      "主要魅力来自公共植物园"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 700,
+    "maximum": 1300,
+    "display": "¥700–1,300",
+    "basis": "两位成人入住一间基础房，每晚参考；税费、套餐与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 84,
+    "value": 89,
+    "water": 85,
+    "greenery": 100,
+    "architecture": 62,
+    "exploration": 99
+  },
+  "editorial": {
+    "oneLine": "酒店本身普通，但住在中国科学院热带植物园内部，清晨和傍晚都能把王莲池、棕榈园与雨林区当作住宿周围的巨大花园。",
+    "reason": "它彻底体现了可以接受取舍的逻辑：不为普通客房辩解，只收录其无可替代的位置。植物园拥有水生植物、棕榈、奇花异木、湖泊与雨林片区，环境质量远超多数酒店园林；住在内部还能避开往返，把光线更好的清晨和傍晚留给植物。",
+    "advantages": [
+      "直接位于中科院西双版纳热带植物园内部",
+      "水生植物园、王莲池、湖泊和雨林区内容极丰富",
+      "国内交通和预订难度明显低于海外生态小屋",
+      "适合夜观、清晨散步和多次进入不同园区"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "酒店建筑、客房和公共区审美比较传统，不能代表植物园水平。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "植物园面积巨大，内部交通、门票和开放区域政策需按日期确认。"
+      }
+    ],
+    "fit": "愿意忽略普通客房，把整个热带植物园视为住宿公共花园的人。",
+    "notFit": "要求建筑本体、客房和水景同样高度设计化的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于勐仑镇中国科学院西双版纳热带植物园内部，周围是数十个植物专类园、湖泊、雨林区和澜沧江支流水系。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "王莲酒店位于中国科学院西双版纳热带植物园内部，而非仅仅靠近景区。植物园位于北回归线以南的热带边缘，拥有东区雨林与西区大量专类园；勐仑镇提供基本餐饮交通，住宿的核心意义是把公共开放时间之外的清晨和傍晚也留在园区附近。"
+      },
+      {
+        "title": "场地布局",
+        "text": "酒店本体采用传统楼房与别墅式布局，空间组织并不出色。真正的大结构来自植物园：王莲池、棕榈园、奇花异木园、百竹园、湖泊、林荫道路和东区雨林共同组成可连续探索数日的系统，酒店只是这套大型园林中的落脚点。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "客房建筑普通，部分室内陈设偏旧式，这是明确取舍。周围植物却拥有远超普通度假村的物种与层次，巨型叶片、竹类、棕榈、乔木和水生植物围绕不同水面出现；阳光充足时，叶片和王莲池反光正符合明亮热带感。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从景洪乘车前往勐仑通常需要约一至两个小时，也可结合动车站与车辆转运。西双版纳干季阳光更稳定，雨季植物更丰盛但湿热明显；预订前应确认门票是否包含、车辆进入规则、夜观活动和酒店近期翻新情况。"
+      }
+    ],
+    "spatialRelationship": "普通酒店嵌在大型热带植物园内部，建筑不是主角，专类园、湖泊、水生植物与雨林道路承担全部环境魅力。",
+    "access": "景洪至勐仑约1–2小时；根据车站和道路选择接送或包车。"
+  },
+  "media": {
+    "cover": "https://ak-d.tripcdn.com/images/200h050000000layy834F_Z_1280_853_R50_Q90.jpg",
+    "gallery": [
+      {
+        "url": "https://ak-d.tripcdn.com/images/200h050000000layy834F_Z_1280_853_R50_Q90.jpg",
+        "type": "场地整体",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/2009080000003e2i66F22_Z_1280_853_R50_Q90.jpg",
+        "type": "建筑外景",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0201d1200048vgieiA8D8_Z_1280_853_R50_Q90.jpg",
+        "type": "客房内景",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/2001080000003e2hv1FE7_Z_1280_853_R50_Q90.jpg",
+        "type": "公共空间",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/020081200048uy3pk4574_Z_1280_853_R50_Q90.jpg",
+        "type": "水体与植物",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0206e1200048viqtdC51C_Z_1280_853_R50_Q90.jpg",
+        "type": "林间道路",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0203v1200048ub74pC0DD_Z_1280_853_R50_Q90.jpg",
+        "type": "餐饮空间",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0585c12000sqkeawr420D_Z_1280_853_R50_Q90.jpg",
+        "type": "周边周边环境",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0205p1200048vh5gi55D9_Z_1280_853_R50_Q90.jpg",
+        "type": "周边建筑细节",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0206n1200048uwlrz83E3_Z_1280_853_R50_Q90.jpg",
+        "type": "周边亲水区域",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/200b050000000layy279E_Z_1280_853_R50_Q90.jpg",
+        "type": "周边场地整体",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/020441200048tpw16C8FB_Z_1280_853_R50_Q90.jpg",
+        "type": "周边建筑外景",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/200j050000000laz06C0D_Z_1280_853_R50_Q90.jpg",
+        "type": "周边客房内景",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0200s1200048tdw953713_Z_1280_853_R50_Q90.jpg",
+        "type": "周边公共空间",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0200k1200048tcwvp73CC_Z_1280_853_R50_Q90.jpg",
+        "type": "周边水体与植物",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/020351200048tk4kpC111_Z_1280_853_R50_Q90.jpg",
+        "type": "周边林间道路",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0202t1200048tkvtwBCBD_Z_1280_853_R50_Q90.jpg",
+        "type": "周边餐饮空间",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/fd/hotel/g3/M02/11/D9/CggYG1apxKKAM7AlAAHYmRCQBVY386_Z_1280_853_R50_Q90.jpg",
+        "type": "周边周边环境",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/200g050000000jcvgEA97_Z_1280_853_R50_Q90.jpg",
+        "type": "周边建筑细节",
+        "source": "携程实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/0204n1200048tlov46D37_Z_1280_853_R50_Q90.jpg",
+        "type": "周边亲水区域",
+        "source": "携程实景图库",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://us.trip.com/hotels/mengla-hotel-detail-4030104/royal-waterlily-hotel/",
+    "official": "https://www.xtbg.ac.cn/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对携程现行营业、酒店位于植物园内部、房型、近期价格和实景图库；植物园信息来自官方资料。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "携程实景图库",
+      "酒店官网或官方旅游资料",
+      "公开预订信息"
+    ]
+  }
+}
