@@ -217,7 +217,6 @@ function home(push=true){
   document.querySelector("#heroDestinations").onclick=()=>destinationHome();
 }
 
-const destinationGrade={A:"高度符合",B:"特色符合",C:"取舍型"};
 const destinationState={type:"all",price:"all",sort:"editor",query:""};
 
 function destinationRows(){
@@ -237,7 +236,7 @@ function destinationRows(){
 function destinationCard(d){
   return `<article class="destination-card" data-destination="${d.id}">
     <div class="destination-image" style="background-image:url('${d.media.cover}')">
-      <span>${d.classification.grade} · ${destinationGrade[d.classification.grade]}</span>
+      <span>地区档案</span>
       <b>${d.identity.type}</b>
     </div>
     <div class="destination-copy">
