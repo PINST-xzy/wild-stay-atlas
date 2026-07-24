@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "sumatra-orangutan-explore-guesthouse",
+  "status": "published",
+  "identity": {
+    "name": "苏门答腊红毛猩猩探索民宿",
+    "englishName": "Sumatra Orangutan Explore Guesthouse",
+    "country": "印度尼西亚",
+    "region": "北苏门答腊",
+    "locality": "武吉拉旺",
+    "placeLabel": "印度尼西亚 · 武吉拉旺",
+    "hotelType": "河岸家庭民宿"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "性价比取舍",
+    "tags": [
+      "河岸阳台",
+      "雨林正对面",
+      "小型民宿",
+      "空调房",
+      "低价"
+    ],
+    "waterTypes": [
+      "Bahorok 河",
+      "雨林溪流"
+    ],
+    "tradeoffs": [
+      "建筑普通",
+      "房间数量少",
+      "公共空间简单"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 150,
+    "maximum": 310,
+    "display": "¥150–310",
+    "basis": "两位成人入住一间基础房，每晚参考；日期与税费需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 82,
+    "value": 99,
+    "water": 89,
+    "greenery": 95,
+    "architecture": 62,
+    "exploration": 92
+  },
+  "editorial": {
+    "oneLine": "建筑谈不上设计感，但约一两百元就能从阳台正对 Bahorok 河和勒塞尔山雨林。",
+    "reason": "它最能体现这次扩展的意义：不必把每一家住宿都要求成 Bambu Indah。民宿只有少量客房，建筑普通，但处在河岸最关键的位置；阳台、河声、对岸雨林和步行可达的村落餐饮提供了极高的环境回报。",
+    "advantages": [
+      "官网公开双人房约30万印尼盾，性价比极高",
+      "位于 Bahorok 河岸，对面直接是勒塞尔山雨林",
+      "少量客房提供空调、热水和网络，基础舒适度高于许多河岸木屋"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "建筑和公共空间设计感较弱，魅力主要来自位置而非酒店营造。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "一层部分房型视线会被餐厅遮挡，应优先选择二层河景阳台。"
+      }
+    ],
+    "fit": "预算有限，但非常看重河流、雨林视野和步行探索的人。",
+    "notFit": "追求建筑美学、园林细节或完整度假村公共设施的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "民宿位于 Bahorok 河岸，距原有客栈约120米，步行可达武吉拉旺中心、餐厅和其他河岸住宿。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "民宿建在武吉拉旺 Bahorok 河岸，对面就是 Gunung Leuser 雨林。它仍靠近村落中心和餐厅，步行即可进入河岸生活区；国家公园徒步、漂流和村落活动可由当地向导组织，不需要入住昂贵度假村。"
+      },
+      {
+        "title": "场地布局",
+        "text": "建筑规模很小，由四间家庭房、一间标准双人房、餐厅和阳台组成。二层房间获得最完整的河流与雨林视线，一层阳台会经过餐厅区域；它不是可长时间探索的封闭园林，场地魅力需要与外部河岸共同理解。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑为普通的当地小型旅馆形态，天然材料与设计表达有限。真正强势的是紧邻建筑的 Bahorok 河和对岸连续雨林，阳台将水声、树冠与村落活动直接带入住宿体验，属于位置优于建筑的高性价比候选。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从棉兰乘车约四至五小时抵达武吉拉旺，再沿村落道路或河岸步行进入。官网公开标准双人房约30万盾、家庭房约40万至50万盾；房间数量少，应提前询价，并明确要求二层河景阳台。"
+      }
+    ],
+    "spatialRelationship": "小型客房楼贴近河岸布置，以阳台直接连接河流和对岸雨林；酒店内部简单，外部村落与雨林构成主要公共空间。",
+    "access": "从棉兰机场或市区乘车约四至五小时，最后一段根据车辆停靠位置步行进入。"
+  },
+  "media": {
+    "cover": "https://static.wixstatic.com/media/9db3f0_f573ddcb8baf4b46a17e843232db6b7c~mv2.jpg",
+    "gallery": [
+      {
+        "url": "https://static.wixstatic.com/media/9db3f0_f573ddcb8baf4b46a17e843232db6b7c~mv2.jpg",
+        "type": "民宿整体与雨林",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/9db3f0_a3c9a7131f37488ea0ee9b8a2becf858~mv2.jpg",
+        "type": "河景阳台",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/9db3f0_ac2bf546ef0f4ac2a0a6f41427869255~mv2.jpg",
+        "type": "客房与植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/9db3f0_c2bf37926b644619b97560681368e667~mv2.jpg",
+        "type": "公共区域",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/9db3f0_0561b33d230b452caca2ab2fd93b156e~mv2.jpg",
+        "type": "建筑外部",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/9db3f0_f198772955bb4fbe916fe0c24e0cc058~mv2.jpg",
+        "type": "河流与对岸雨林",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%2C%20Langkat%20Regency%2C%20North%20Sumatra%2C%20Indonesia.jpg?width=1600",
+        "type": "周边河岸村落",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reka%20Bahorok%2C%20Bukit%20Lawang%2C%20Sumatra%2C%20Indonezija.JPG?width=1600",
+        "type": "周边 Bahorok 河",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wisata%20Air%20Bukit%20Lawang.jpg?width=1500",
+        "type": "周边亲水活动",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%20bridge%20over%20Bohorok.jpg?width=1600",
+        "type": "周边跨河吊桥",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawasan%20Hutan%20Bukit%20Lawang.jpg?width=1600",
+        "type": "周边勒塞尔山雨林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sungai%20Bahorok%204.jpg?width=1600",
+        "type": "周边河流水体",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=60221",
+    "official": "https://www.sumatra-orangutan-explore.com/our-new-lodge-sumatra-orangutan-explore"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网位置、房型、场地环境、主要水体与抵达条件；价格按官网公开起价或当地常见区间换算，预订前需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "民宿官网",
+      "官网房价与房型说明",
+      "武吉拉旺公开实景"
+    ]
+  }
+}
