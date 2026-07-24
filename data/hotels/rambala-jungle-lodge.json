@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "rambala-jungle-lodge",
+  "status": "published",
+  "identity": {
+    "name": "兰巴拉雨林小屋",
+    "englishName": "Rambala Jungle Lodge",
+    "country": "巴拿马",
+    "region": "博卡斯德尔托罗",
+    "locality": "兰巴拉",
+    "placeLabel": "巴拿马 · 博卡斯德尔托罗",
+    "hotelType": "瀑布天然池雨林小屋"
+  },
+  "classification": {
+    "grade": "B",
+    "gradeLabel": "天然水域核心候选",
+    "collection": "lodging",
+    "tags": [
+      "三十公顷雨林",
+      "天然岩池",
+      "瀑布",
+      "山溪",
+      "林间小屋",
+      "咖啡村落"
+    ],
+    "waterTypes": [
+      "山地溪流",
+      "多处瀑布",
+      "天然泳潭"
+    ],
+    "tradeoffs": [
+      "交通偏远",
+      "室内偏朴素",
+      "套餐可能按人计价"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 900,
+    "maximum": 1800,
+    "display": "¥900–1,800",
+    "basis": "两位成人入住一间基础房，每晚参考；税费、套餐与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 92,
+    "value": 90,
+    "water": 98,
+    "greenery": 98,
+    "architecture": 76,
+    "exploration": 98
+  },
+  "editorial": {
+    "oneLine": "贯穿三十公顷雨林的溪流形成多处瀑布和天然泳潭，小屋附近就有直接下水的路径。",
+    "reason": "它的建筑并不精巧，但天然水体几乎完全命中愿景。溪流沿场地延伸，岩石、水潭、树根和林径形成连续的可进入环境；人不是站在平台上看瀑布，而是沿标识从小屋走到不同泳潭。",
+    "advantages": [
+      "多处天然泳潭与瀑布可直接进入",
+      "三十公顷雨林提供真正的长距离探索",
+      "小屋附近即有通往溪流的路径",
+      "周边咖啡地、村庄和骑马路线增加环境层次"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "住宿条件更接近生态冒险小屋，室内与服务不以精致见长。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "部分价格按人和套餐计算，必须重新换算两人整间房成本。"
+      }
+    ],
+    "fit": "把天然泳潭、瀑布、雨林徒步放在建筑豪华度之前的人。",
+    "notFit": "对交通、虫类、开放环境或基础设施要求很高的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于巴拿马加勒比一侧内陆雨林，周围有兰巴拉村、咖啡种植地、起伏牧地和通向博卡斯群岛的线路。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "Rambala位于巴拿马博卡斯德尔托罗省大陆一侧，不是海岛酒店。约三十公顷场地嵌在雨林、溪谷和乡村之间，周边还能看到咖啡种植、小村庄、牧地与加勒比山地景观；进入酒店本身就意味着离开城市道路。"
+      },
+      {
+        "title": "场地布局",
+        "text": "少量小屋和公共茅亭散布在高差明显的林地中，路径沿溪流与瀑布展开。官方明确说明，小屋附近有标识通往不同天然泳潭；住宿、公共区和活动点并非围绕一块泳池，而是被长距离山溪系统串联。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑以木材、茅草感屋顶和开放露台为主，表达朴素。真正的设计者是地形和水：溪流在岩石间形成深浅不同的池潭，瀑布、蕨类、树根与树冠贴近水边，晴天光束穿过林隙，形成明亮而又包裹的热带画面。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "抵达通常需要车辆进入乡村道路，部分套餐包含餐饮和活动。雨季水量充沛却可能增加道路难度，较干燥月份水池仍可使用但具体水量需询问；这里应按生态冒险住宿准备鞋具、防虫和防水用品，而不是按标准度假酒店预期。"
+      }
+    ],
+    "spatialRelationship": "山溪贯穿三十公顷雨林，小屋、瀑布与天然池沿林径出现，水体是完整路线而非单一设施。",
+    "access": "需从博卡斯地区或David方向安排车辆，预订前确认接送和道路条件。"
+  },
+  "media": {
+    "cover": "https://www.rambalajunglelodge.com/templates/yootheme/cache/bd/header-bdd62527.jpeg",
+    "gallery": [
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/bd/header-bdd62527.jpeg",
+        "type": "场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/a4/accueil-header-1-large-panama-ecotourisme-hotelcoresponsable-bocasdeltoro-adventure-forest-nature-jungle-lodge-ecolodge-wildlife-selvalodge-a4a88652.jpeg",
+        "type": "建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/7f/accueil-header-2-height-panama-ecotourisme-hotelcoresponsable-bocasdeltoro-adventure-forest-nature-jungle-lodge-ecolodge-wildlife-selvalodge-7f75e8e0.jpeg",
+        "type": "客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/fe/accueil-menu-lodge-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-feefe2e6.jpeg",
+        "type": "公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/ae/accueil-menu-activites-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-aee4a220.jpeg",
+        "type": "水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/95/accueil-menu-infos-generales-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-95ec8a0a.jpeg",
+        "type": "林间道路",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/images/rambala/01home/accueil-section-nos-activites-panama-ecotourisme-hotelcoresponsable-bocasdeltoro-adventure-forest-nature-jungle-lodge-ecolodge-wildlife-selvalodge.jpg",
+        "type": "餐饮空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/77/accueil-carousel-1-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-774b9ac8.jpeg",
+        "type": "周边周边环境",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/d3/accueil-carousel-2-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-d33fbcc3.jpeg",
+        "type": "周边建筑细节",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/06/accueil-carousel-3-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-063ca305.jpeg",
+        "type": "周边亲水区域",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/40/accueil-carousel-4-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-40a6f694.jpeg",
+        "type": "周边场地整体",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/e2/accueil-carousel-5-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-e2a2d9c4.jpeg",
+        "type": "周边建筑外景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/46/accueil-carousel-6-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-46d6ffcf.jpeg",
+        "type": "周边客房内景",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/93/accueil-carousel-7-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-93d5e009.jpeg",
+        "type": "周边公共空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/cb/accueil-carousel-8-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-cbe254ed.jpeg",
+        "type": "周边水体与植物",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/1e/accueil-carousel-9-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-1ee14b2b.jpeg",
+        "type": "周边林间道路",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/bb/accueil-carousel-10-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-bbedb7dd.jpeg",
+        "type": "周边餐饮空间",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/images/rambala/01home/accueil-section-reseaux-sociaux-panama-ecotourisme-hotelcoresponsable-bocasdeltoro-adventure-forest-nature-jungle-lodge-ecolodge-wildlife-selvalodge.jpg",
+        "type": "周边周边环境",
+        "source": "酒店官方图库",
+        "verified": true
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/images/rambala/footer.jpg",
+        "type": "周边建筑细节",
+        "source": "酒店官方图库",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=4788",
+    "official": "https://www.rambalajunglelodge.com/en/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网现行信息、场地面积、天然泳潭、瀑布、活动与官方图库；价格仍需按套餐询价。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官方图库",
+      "酒店官网或官方旅游资料",
+      "公开预订信息"
+    ]
+  }
+}
