@@ -30,7 +30,8 @@
       "酒店内部水景少",
       "规模很小",
       "依赖村落公共环境"
-    ]
+    ],
+    "collection": "lodging"
   },
   "pricing": {
     "currency": "CNY",
