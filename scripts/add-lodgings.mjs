@@ -30,7 +30,7 @@ function record({id, name, englishName, country, region, locality, hotelType, ta
   return {
     schemaVersion: 1, id, status: "published",
     identity: {name, englishName, country, region, locality, placeLabel: `${country} · ${locality}`, hotelType},
-    classification: {grade: "C", gradeLabel: "性价比取舍", tags, waterTypes, tradeoffs},
+    classification: {grade: "C", gradeLabel: "性价比取舍", collection:"lodging", tags, waterTypes, tradeoffs},
     pricing: {currency:"CNY", minimum:price[0], maximum:price[1], display:`¥${price[0]}–${price[1]}`, basis:"两位成人入住一间基础房，每晚参考；日期与税费需复核", verifiedAt:today},
     scores,
     editorial: {oneLine, reason, advantages, disadvantages, fit, notFit},
@@ -173,7 +173,7 @@ for (const lodging of lodgings) {
   const path = `hotels/${lodging.id}.json`;
   if (!index.hotels.includes(path)) index.hotels.push(path);
 }
-index.contentVersion = "2026.07.24.7";
+index.contentVersion = "2026.07.24.8";
 index.updatedAt = today;
 await writeFile(indexPath, `${JSON.stringify(index, null, 2)}\n`);
 
