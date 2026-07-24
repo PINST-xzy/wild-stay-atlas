@@ -2,36 +2,177 @@
   "schemaVersion": 1,
   "id": "kurokawa-onsen",
   "status": "published",
-  "identity": {"name":"黑川温泉","englishName":"Kurokawa Onsen","country":"日本","region":"熊本县 · 南小国町","type":"森林河谷温泉镇","placeLabel":"日本 · 熊本县 · 黑川温泉"},
-  "classification": {"grade":"A","tags":["河谷温泉镇","露天风吕","木构街巷","森林步行","温泉手形"],"waterTypes":["天然温泉","山间河流","露天风吕"],"tradeoffs":["旅馆偏贵","旺季拥挤","空间较规整"]},
-  "pricing": {
-    "minimum": 780, "maximum": 2000, "display":"¥780–2,000",
-    "budgetBands":[{"label":"外围民宿 / 素泊","range":"¥780–1,100"},{"label":"基础温泉旅馆","range":"¥1,100–1,600"},{"label":"含早晚餐传统旅馆","range":"¥1,600–2,000"}],
-    "note":"日本温泉旅馆常按人数计价并包含早晚餐；周末、红叶季和节假日波动明显。","verifiedAt":"2026-07-24"
+  "identity": {
+    "name": "黑川温泉",
+    "englishName": "Kurokawa Onsen",
+    "country": "日本",
+    "region": "熊本县 · 南小国町",
+    "type": "森林河谷温泉镇",
+    "placeLabel": "日本 · 熊本县 · 黑川温泉"
   },
-  "scores":{"aesthetic":84,"water":87,"greenery":86,"exploration":78,"publicness":88,"affordability":64,"accessEase":62},
-  "editorial":{
-    "oneLine":"木构旅馆、河流、桥梁、林间道路与分散露天风吕共同组成完整温泉镇，体验不局限于入住的那一家旅馆。",
-    "reason":"黑川温泉沿田之原川和支路展开，旅馆、桥梁、树木与露天风吕处于步行尺度内。温泉手形使住客可以跨旅馆使用多处露天浴池，因此整个镇本身就是度假设施。它的秩序感和商业成熟度高于 Bambu Indah，但河谷聚落与公共泡汤网络非常完整。",
-    "advantages":["河流、桥梁、木构建筑和树林在步行尺度内连续出现","温泉手形让体验跨越单一住宿，普通旅馆住客也能使用多处露天浴池","秋冬以外的绿季具有较强森林包裹感"],
-    "disadvantages":[{"level":"明显取舍","text":"核心旅馆含餐价格偏高，低价住宿需要提早订或住在外围。"},{"level":"明显取舍","text":"街巷和旅馆维护成熟，野生感弱于热带雨林或河谷生态住宿。"},{"level":"轻微提醒","text":"红叶季、周末和日本长假人流明显增加。"}]
-  },
-  "profile":{
-    "spatialLogic":"温泉镇沿狭窄河谷组织，旅馆与公共浴场分布在河流两侧，桥梁和坡道串联各处露天风吕；移动本身就是环境体验的一部分。",
-    "baseAreas":[{"name":"温泉街中心","fit":"步行最方便，适合使用温泉手形串联多家露天浴池。"},{"name":"田之原川沿岸","fit":"河流、树林与露天风吕关系最清晰，但热门旅馆价格较高。"},{"name":"南小国外围","fit":"有机会降低住宿费，需要巴士、接驳或自驾往返温泉街。"}],
-    "waterAccess":"住宿旅馆通常自带温泉；购买入汤手形后可在指定旅馆中选择露天风吕，河流则作为街道与浴场之间的连续景观。",
-    "access":"可由福冈、熊本、别府或阿苏乘高速巴士或自驾抵达；镇内适合步行，但坡道和石阶较多。",
-    "season":"春夏绿色最浓，秋季红叶热门，冬季泡汤氛围突出；不同季节的植被包裹感差异较大。",
-    "stayStrategy":"选择价格较低的素泊或外围旅馆，再使用温泉手形进入环境较好的露天浴场；含餐旅馆应比较是否按人计价。"
-  },
-  "media":{
-    "cover":"https://commons.wikimedia.org/wiki/Special:FilePath/Street%20in%20Kurokawa%20Onsen.jpg?width=1800",
-    "gallery":[
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Street%20in%20Kurokawa%20Onsen.jpg?width=1600","caption":"河谷街道与丸铃桥"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawa-onsen.jpg?width=1500","caption":"林间露天风吕"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Ikoi%20ryokan%20-Kurokawa%20Onsen.jpg?width=1500","caption":"木构旅馆与温泉环境"}
+  "classification": {
+    "grade": "A",
+    "tags": [
+      "河谷温泉镇",
+      "露天风吕",
+      "木构街巷",
+      "森林步行",
+      "温泉手形"
+    ],
+    "waterTypes": [
+      "天然温泉",
+      "山间河流",
+      "露天风吕"
+    ],
+    "tradeoffs": [
+      "旅馆偏贵",
+      "旺季拥挤",
+      "空间较规整"
     ]
   },
-  "links":{"primary":"https://www.kurokawaonsen.or.jp/en/","map":"https://www.google.com/maps/search/?api=1&query=Kurokawa+Onsen","ctrip":"https://www.ctrip.com/hotels/list?city=50104"},
-  "verification":{"status":"verified","updatedAt":"2026-07-24","summary":"已核对河谷温泉镇结构、温泉手形、主要抵达方式与季节差异；价格按人数及含餐方案需另行复核。"}
+  "pricing": {
+    "minimum": 780,
+    "maximum": 2000,
+    "display": "¥780–2,000",
+    "budgetBands": [
+      {
+        "label": "外围民宿 / 素泊",
+        "range": "¥780–1,100"
+      },
+      {
+        "label": "基础温泉旅馆",
+        "range": "¥1,100–1,600"
+      },
+      {
+        "label": "含早晚餐传统旅馆",
+        "range": "¥1,600–2,000"
+      }
+    ],
+    "note": "日本温泉旅馆常按人数计价并包含早晚餐；周末、红叶季和节假日波动明显。",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 84,
+    "water": 87,
+    "greenery": 86,
+    "exploration": 78,
+    "publicness": 88,
+    "affordability": 64,
+    "accessEase": 62
+  },
+  "editorial": {
+    "oneLine": "木构旅馆、河流、桥梁、林间道路与分散露天风吕共同组成完整温泉镇，体验不局限于入住的那一家旅馆。",
+    "reason": "黑川温泉沿田之原川和支路展开，旅馆、桥梁、树木与露天风吕处于步行尺度内。温泉手形使住客可以跨旅馆使用多处露天浴池，因此整个镇本身就是度假设施。它的秩序感和商业成熟度高于 Bambu Indah，但河谷聚落与公共泡汤网络非常完整。",
+    "advantages": [
+      "河流、桥梁、木构建筑和树林在步行尺度内连续出现",
+      "温泉手形让体验跨越单一住宿，普通旅馆住客也能使用多处露天浴池",
+      "秋冬以外的绿季具有较强森林包裹感"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "核心旅馆含餐价格偏高，低价住宿需要提早订或住在外围。"
+      },
+      {
+        "level": "明显取舍",
+        "text": "街巷和旅馆维护成熟，野生感弱于热带雨林或河谷生态住宿。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "红叶季、周末和日本长假人流明显增加。"
+      }
+    ]
+  },
+  "profile": {
+    "spatialLogic": "温泉镇沿狭窄河谷组织，旅馆与公共浴场分布在河流两侧，桥梁和坡道串联各处露天风吕；移动本身就是环境体验的一部分。",
+    "baseAreas": [
+      {
+        "name": "温泉街中心",
+        "fit": "步行最方便，适合使用温泉手形串联多家露天浴池。"
+      },
+      {
+        "name": "田之原川沿岸",
+        "fit": "河流、树林与露天风吕关系最清晰，但热门旅馆价格较高。"
+      },
+      {
+        "name": "南小国外围",
+        "fit": "有机会降低住宿费，需要巴士、接驳或自驾往返温泉街。"
+      }
+    ],
+    "waterAccess": "住宿旅馆通常自带温泉；购买入汤手形后可在指定旅馆中选择露天风吕，河流则作为街道与浴场之间的连续景观。",
+    "access": "可由福冈、熊本、别府或阿苏乘高速巴士或自驾抵达；镇内适合步行，但坡道和石阶较多。",
+    "season": "春夏绿色最浓，秋季红叶热门，冬季泡汤氛围突出；不同季节的植被包裹感差异较大。",
+    "stayStrategy": "选择价格较低的素泊或外围旅馆，再使用温泉手形进入环境较好的露天浴场；含餐旅馆应比较是否按人计价。"
+  },
+  "media": {
+    "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20in%20Kurokawa%20Onsen.jpg?width=1800",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Street%20in%20Kurokawa%20Onsen.jpg?width=1600",
+        "caption": "河谷街道与丸铃桥"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawa-onsen.jpg?width=1500",
+        "caption": "林间露天风吕"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ikoi%20ryokan%20-Kurokawa%20Onsen.jpg?width=1500",
+        "caption": "木构旅馆与温泉环境"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawa%20Onsen%20-%E6%B8%A9%E6%B3%89%E8%A1%97.jpg?width=1500",
+        "caption": "温泉街与河谷建筑"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawa%20onsen%20001.JPG?width=1500",
+        "caption": "林间露天温泉"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawa-Onsen%20Light-up.jpg?width=1500",
+        "caption": "田之原川与夜间步道"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotspring%20Foot%20Bath%20(31379962991).jpg?width=1600",
+        "caption": "温泉街足汤"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Riverside%20Foot%20Bath%20(31385192561).jpg?width=1600",
+        "caption": "河岸公共足汤"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawa%20Onsen-1.jpg?width=1600",
+        "caption": "温泉聚落街巷"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawa%20Onsen-2.jpg?width=1600",
+        "caption": "木构建筑与树林"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurokawaonsen2.jpg?width=1600",
+        "caption": "温泉街周边"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yumotos%C5%8D%20-Kurokawa%20Onsen.jpg?width=1600",
+        "caption": "河岸旅馆"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20(268551239).jpg?width=1600",
+        "caption": "温泉街步行空间"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%92%E5%B7%9D%E6%B8%A9%E6%B3%89%20(268552393).jpg?width=1600",
+        "caption": "河谷建筑与植物"
+      }
+    ]
+  },
+  "links": {
+    "primary": "https://www.kurokawaonsen.or.jp/en/",
+    "map": "https://www.google.com/maps/search/?api=1&query=Kurokawa+Onsen",
+    "ctrip": "https://www.ctrip.com/hotels/list?city=50104"
+  },
+  "verification": {
+    "status": "verified",
+    "updatedAt": "2026-07-24",
+    "summary": "已核对河谷温泉镇结构、温泉手形、主要抵达方式与季节差异；价格按人数及含餐方案需另行复核。"
+  }
 }
