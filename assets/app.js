@@ -43,6 +43,7 @@ function normalizeHotel(raw){
     image:raw.media.cover,
     gallery:raw.media.gallery.map(item=>item.url),
     galleryRecords:raw.media.gallery,
+    food:raw.food||null,
     ctrip:raw.links.ctrip,
     official:raw.links.official
   };
@@ -142,7 +143,8 @@ function bindPhotoViewer(scope,images){
 }
 function visibleStays(){
   let rows = stays.filter(s => {
-    const text = `${s.name}${s.en}${s.place}${s.kind}${s.tags.join("")}`.toLowerCase();
+    const foodText=s.food?`${s.food.summary||""}${(s.food.highlights||[]).map(item=>`${item.name}${item.description}`).join("")}`:"";
+    const text = `${s.name}${s.en}${s.place}${s.kind}${s.tags.join("")}${foodText}`.toLowerCase();
     const priceOK = state.price==="all" ||
       (state.price==="600" && s.priceMin<=600) ||
       (state.price==="1000" && s.priceMin<=1000) ||
@@ -485,7 +487,7 @@ function detail(id, push=true){
         <div><b>${s.price}</b><span>每间 / 晚参考</span></div>
       </aside>
     </header>
-    <nav class="section-nav"><a href="#overview">30秒判断</a><a href="#analysis">空间拆解</a><a href="#gallery">实景图片</a><a href="#facts">档案信息</a><a href="#sources">核验来源</a></nav>
+    <nav class="section-nav"><a href="#overview">30秒判断</a><a href="#analysis">空间拆解</a>${s.food?'<a href="#food">美食风味</a>':""}<a href="#gallery">实景图片</a><a href="#facts">档案信息</a><a href="#sources">核验来源</a></nav>
 
     <section id="overview" class="detail-section overview">
       <div class="section-label"><span>01</span><p>THE SHORT ANSWER</p><h2>30秒判断</h2></div>
@@ -511,11 +513,17 @@ function detail(id, push=true){
       </div>
     </section>
 
-    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>03 · VERIFIED IMAGES</span><h2>环境与公共空间影像</h2><p>${hotelImages.length} 张 · 点击查看完整画面</p>${galleryFilters()}</div>
+    ${s.food?`<section id="food" class="detail-section food-file">
+      <div class="section-label"><span>03</span><p>TABLE & PLACE</p><h2>美食与地方风味</h2></div>
+      <div class="food-lead"><p>${s.food.summary}</p><dl><div><dt>用餐场景</dt><dd>${s.food.setting}</dd></div>${s.food.caveat?`<div><dt>需要留意</dt><dd>${s.food.caveat}</dd></div>`:""}</dl></div>
+      <div class="food-grid">${(s.food.highlights||[]).map((item,i)=>`<article><span>${String(i+1).padStart(2,"0")}</span><h3>${item.name}</h3><p>${item.description}</p></article>`).join("")}</div>
+    </section>`:""}
+
+    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>${s.food?"04":"03"} · VERIFIED IMAGES</span><h2>环境与公共空间影像</h2><p>${hotelImages.length} 张 · 点击查看完整画面</p>${galleryFilters()}</div>
       <div class="gallery-grid">${hotelImages.map((image,i)=>`<figure data-photo-index="${i}" data-scope="${imageScope(image)}"><img src="${image.url}" alt="${s.name} · ${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b><i>${imageScope(image)==="core"?"核心空间":"周边环境"}</i>${image.caption}</figcaption></figure>`).join("")}</div></section>
 
     <section id="facts" class="detail-section facts">
-      <div class="section-label"><span>04</span><p>FILE CARD</p><h2>档案信息</h2></div>
+      <div class="section-label"><span>${s.food?"05":"04"}</span><p>FILE CARD</p><h2>档案信息</h2></div>
       <div class="facts-card">
         <div><span>国家 / 地区</span><b>${s.place}</b></div><div><span>酒店类型</span><b>${s.kind}</b></div>
         <div><span>匹配等级</span><b>${s.grade} · ${gradeName[s.grade]}</b></div><div><span>参考价</span><b>${s.price} / 晚</b></div>
@@ -525,7 +533,7 @@ function detail(id, push=true){
     </section>
 
     <section id="sources" class="detail-section sources-new">
-      <div class="section-label"><span>05</span><p>SOURCES</p><h2>查价与核验</h2></div>
+      <div class="section-label"><span>${s.food?"06":"05"}</span><p>SOURCES</p><h2>查价与核验</h2></div>
       <div class="source-buttons"><a class="primary" href="${s.ctrip}" target="_blank">携程预订 / 查价 <span>↗</span></a>
         <a href="${s.official}" target="_blank">酒店官网 / 官方图库 <span>↗</span></a><p>价格随旅行日期、税费、早餐与取消政策变化。</p></div>
     </section>
