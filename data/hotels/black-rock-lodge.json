@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "black-rock-lodge",
+  "status": "published",
+  "identity": {
+    "name": "黑岩丛林旅馆",
+    "englishName": "Black Rock Lodge",
+    "country": "伯利兹",
+    "region": "卡约区",
+    "locality": "圣伊格纳西奥",
+    "placeLabel": "伯利兹 · 卡约区 Macal 河",
+    "hotelType": "河谷生态旅馆"
+  },
+  "classification": {
+    "grade": "A",
+    "gradeLabel": "核心匹配",
+    "tags": [
+      "Macal 河",
+      "保护区",
+      "河景小屋",
+      "独木舟",
+      "农场餐桌"
+    ],
+    "waterTypes": [
+      "河流",
+      "天然泳潭"
+    ],
+    "tradeoffs": [
+      "位置偏远",
+      "价格接近上限"
+    ],
+    "collection": "lodging"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 1150,
+    "maximum": 1950,
+    "display": "¥1,150–1,950",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 91,
+    "value": 82,
+    "water": 94,
+    "greenery": 97,
+    "architecture": 76,
+    "exploration": 96
+  },
+  "editorial": {
+    "oneLine": "二十栋小屋压在 Macal 河与保护林之间，独木舟、漂流、林径和隐秘水潭让河谷成为真正的公共空间。",
+    "reason": "这里没有悬崖无边池式的观看关系，客人会沿土路进入保护地，住在河岸上方，再通过步道下到河流和天然水潭。建筑克制、树冠强势，活动不是离店参团的附加项，而是从房门向外连续展开。",
+    "advantages": [
+      "Macal 河、独木舟、漂流与隐秘泳潭形成丰富公共水域",
+      "邻接大面积保护林，七英里道路本身就是进入过程",
+      "自有农场与餐厅让偏远住宿仍有完整餐饮"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "最后七英里土路和偏远位置增加时间成本"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "部分河景来自坡岸高度，价格也高于简朴丛林旅馆"
+      }
+    ],
+    "fit": "希望在舒适度、真实河谷和丛林活动之间取得平衡的人。",
+    "notFit": "只想短住一晚、频繁进城或完全不愿走土路的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "旅馆位于 Mountain Pine Ridge 与 Macal 河谷交界，邻接约一万三千英亩保护地；洞穴、瀑布、玛雅遗址和森林观鸟都可由此延伸。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "Black Rock 位于卡约区偏远的 Macal 河谷，外界道路在进入保护地后迅速变为森林和山谷景观。附近不是步行可达的商业村镇，而是 Mountain Pine Ridge、洞穴系统、瀑布和玛雅遗址构成的自然文化区域。"
+      },
+      {
+        "title": "场地布局",
+        "text": "约二十栋客舱沿河岸坡地分布，餐厅、农场、码头、观鸟点和林径以步道串联。公共活动顺着地形向河流展开，而不是围绕一个中央泳池组织；住宿密度仍明显低于大型雨林度假村。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "客舱使用木材、石材和大面积纱窗，树冠遮住多数建筑。Macal 河可通过步道直接到达，独木舟、轮胎漂流和天然水潭提供多种接水方式；雨季水量会改变河流颜色与活动条件。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从圣伊格纳西奥方向需走最后约七英里未铺装道路，通常安排接送更稳妥。现场餐饮与活动完善，但价格、接驳和向导会抬高总预算；若只住一晚，抵达成本很难摊薄。"
+      }
+    ],
+    "spatialRelationship": "客舱位于坡岸，步道下接码头、河流和泳潭，上接餐厅、农场与保护地林径，形成垂直和横向的连续探索。",
+    "access": "需经约七英里土路进入，建议至少住两至三晚并使用旅馆接送。"
+  },
+  "food": {
+    "summary": "餐厅把自有有机农场、伯利兹食材与国际做法结合，属于真正能支撑偏远住店的 farm-to-table 餐饮，而不是只有简餐的生态营地。",
+    "setting": "高处开放餐厅面向河谷树冠，三餐集中供应，晚餐是住店体验的重要部分。",
+    "highlights": [
+      {
+        "name": "农场到餐桌",
+        "description": "蔬菜、香草和部分水果来自自有农场，菜单随季节与收成变化。"
+      },
+      {
+        "name": "伯利兹风味",
+        "description": "豆饭、热带香料、鸡肉和鱼类以较现代的方式呈现。"
+      },
+      {
+        "name": "活动日补给",
+        "description": "针对徒步、划艇与洞穴活动安排扎实餐食，适合长时间户外活动。"
+      }
+    ],
+    "caveat": "偏远位置几乎意味着在店内用餐，应把餐费和套餐一并纳入预算。"
+  },
+  "media": {
+    "cover": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-36.jpg",
+    "gallery": [
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-36.jpg",
+        "type": "environment",
+        "caption": "河谷旅馆全景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-35.jpg",
+        "type": "environment",
+        "caption": "河景客舱",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-34.jpg",
+        "type": "environment",
+        "caption": "Macal 河岸",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-33.jpg",
+        "type": "environment",
+        "caption": "丛林公共空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-32.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 5",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-31.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 6",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-30.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 7",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-29.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 8",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-28.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 9",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-27.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 10",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-26.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 11",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-25.jpg",
+        "type": "environment",
+        "caption": "旅馆实景 12",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-24.jpg",
+        "type": "surroundings",
+        "caption": "周边保护区与步道 1",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-23.jpg",
+        "type": "surroundings",
+        "caption": "周边保护区与步道 2",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.blackrocklodge.com/wp-content/gallery/black-rock-lodge/belize-jungle-lodge-22.jpg",
+        "type": "surroundings",
+        "caption": "周边保护区与步道 3",
+        "source": "酒店官网",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/list?searchWord=Black%20Rock%20Lodge",
+    "official": "https://www.blackrocklodge.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://www.blackrocklodge.com/",
+      "https://www.trip.com/hotels/list?searchWord=Black%20Rock%20Lodge"
+    ]
+  }
+}
