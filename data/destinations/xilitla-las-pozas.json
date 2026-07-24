@@ -1,0 +1,17 @@
+{
+  "schemaVersion":1,"id":"xilitla-las-pozas","status":"published",
+  "identity":{"name":"希利特拉与拉斯波萨斯","englishName":"Xilitla & Las Pozas","country":"墨西哥","region":"圣路易斯波托西州 · Huasteca","type":"雨林艺术园林","placeLabel":"墨西哥 · Huasteca · Xilitla"},
+  "classification":{"tags":["亚热带雨林","超现实园林","天然瀑布","迷宫路径","山地小镇"],"waterTypes":["天然瀑布","林间水池","溪流"],"tradeoffs":["园林需购票","参观时段限制","住宿与核心园林分离","长途交通"]},
+  "pricing":{"minimum":260,"maximum":1100,"display":"¥260–1,100","budgetBands":[{"label":"镇内基础旅馆","range":"¥260–450"},{"label":"花园民宿 / 精品客房","range":"¥450–750"},{"label":"环境较完整的小型酒店","range":"¥750–1,100"}],"note":"核心园林门票和导览另计；节假日及周末住宿价格上涨。","verifiedAt":"2026-07-24"},
+  "scores":{"aesthetic":97,"water":89,"greenery":98,"exploration":96,"publicness":72,"affordability":92,"accessEase":43},
+  "editorial":{"oneLine":"混凝土拱门、无尽楼梯、瀑布、水池和热带植物在山谷里互相穿透，是园林包裹感最直接的一类目的地。",
+    "reason":"Las Pozas 本身几乎完全符合建筑、植物、水体与道路彼此缠绕的空间愿景。建筑不是完整房屋，而是被雨林吞没的超现实构筑物，路径在瀑布、水池和树冠之间不断转折。它的限制也很明确：核心体验集中在收费园林，住宿主要分布在园外和镇内。",
+    "advantages":["园林、瀑布、水池、台阶与建筑构件真正处于同一空间","植物成熟浓密，混凝土结构被苔藓和树冠包围","镇内住宿价格普遍低于同等视觉强度的设计酒店"],
+    "disadvantages":[{"level":"明显取舍","text":"核心空间是一处需预约或随导览进入的园林，不是整个小镇都保持同样密度。"},{"level":"明显取舍","text":"目前参观和下水规则可能变化，不能把天然池游泳作为稳定体验。"},{"level":"轻微提醒","text":"道路、台阶与无护栏区域较多，雨后湿滑。"}]},
+  "profile":{"spatialLogic":"Xilitla 是住宿与补给基地，Las Pozas 位于镇外湿润山谷；进入园林后，路径、瀑布、池塘和超现实构筑物形成高度连续的包裹空间。",
+    "baseAreas":[{"name":"Las Pozas 周边","fit":"最接近园林和雨林，但餐饮与夜间活动有限。"},{"name":"Xilitla 镇中心","fit":"住宿选择多、价格低，前往园林需要短途出租车或步行。"},{"name":"Huasteca 延伸路线","fit":"可连接更多瀑布与天然水池，适合接受长距离移动。"}],
+    "waterAccess":"园林内天然瀑布和水池与步道交织，但是否允许下水应以当期管理规则为准；周边 Huasteca 另有多处可进入水体。","access":"从墨西哥城或圣路易斯波托西市陆路抵达时间较长，山路弯曲；镇内到园林可乘出租车。","season":"雨季植物和水量最强，但道路湿滑、降雨频繁；旱季行走轻松，瀑布水量可能减弱。","stayStrategy":"住镇内平价旅馆，把 Las Pozas 作为核心空间体验；若要延长沉浸感，再筛选园林附近被植物包围的小型住宿。"},
+  "media":{"cover":"https://commons.wikimedia.org/wiki/Special:FilePath/Xilitla%20Las%20Pozas%200407%20036.jpg?width=1800","gallery":[{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Xilitla%20Las%20Pozas%200407%20036.jpg?width=1600","caption":"构筑物与热带植物交错"},{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/In%20Las%20Pozas%2C%20Xilitla%20%288047914997%29.jpg?width=1400","caption":"雨林中的超现实路径"},{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Las%20Pozas%2C%20Xilitla%20%287344211394%29.jpg?width=1400","caption":"园林楼梯与植被"}]},
+  "links":{"primary":"https://artsandculture.google.com/partner/jardin-escultorico-edward-james-las-pozas","map":"https://www.google.com/maps/search/?api=1&query=Las+Pozas+Xilitla","ctrip":"https://www.ctrip.com/hotels/list?city=61694"},
+  "verification":{"status":"verified","updatedAt":"2026-07-24","summary":"已核对园林、瀑布、路径和建筑关系；开放方式、导览与下水规则需在出行日期前复核。"}
+}
