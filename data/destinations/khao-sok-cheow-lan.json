@@ -2,23 +2,105 @@
   "schemaVersion": 1,
   "id": "khao-sok-cheow-lan",
   "status": "published",
-  "identity": {"name": "考索—乔兰湖", "englishName": "Khao Sok & Cheow Lan Lake", "country": "泰国", "region": "素叻他尼府", "type": "雨林河谷与漂浮住宿", "placeLabel": "泰国 · 素叻他尼府 · 考索国家公园"},
-  "classification": {"grade": "A", "tags": ["原生雨林", "湖上筏屋", "河流漂流", "喀斯特", "船行水路"], "waterTypes": ["湖泊水面", "天然河流", "瀑布", "洞穴水系"], "tradeoffs": ["人工水库", "设施简单", "依赖船只", "套装行程"]},
-  "pricing": {
-    "minimum": 300, "maximum": 1600, "display": "¥300–1,600",
-    "budgetBands": [{"label":"考索村简单木屋","range":"¥300–550"},{"label":"河畔生态住宿","range":"¥550–950"},{"label":"湖上住宿含船程或餐食","range":"¥800–1,600"}],
-    "note": "湖上住宿常与船费、餐食、国家公园费用或团体行程捆绑，不能只比较房价。", "verifiedAt": "2026-07-24"
+  "identity": {
+    "name": "考索—乔兰湖",
+    "englishName": "Khao Sok & Cheow Lan Lake",
+    "country": "泰国",
+    "region": "素叻他尼府",
+    "type": "雨林河谷与漂浮住宿",
+    "placeLabel": "泰国 · 素叻他尼府 · 考索国家公园"
   },
-  "scores": {"aesthetic": 91, "water": 98, "greenery": 94, "exploration": 93, "publicness": 79, "affordability": 88, "accessEase": 48},
+  "classification": {
+    "grade": "A",
+    "tags": [
+      "原生雨林",
+      "湖上筏屋",
+      "河流漂流",
+      "喀斯特",
+      "船行水路"
+    ],
+    "waterTypes": [
+      "湖泊水面",
+      "天然河流",
+      "瀑布",
+      "洞穴水系"
+    ],
+    "tradeoffs": [
+      "人工水库",
+      "设施简单",
+      "依赖船只",
+      "套装行程"
+    ]
+  },
+  "pricing": {
+    "minimum": 300,
+    "maximum": 1600,
+    "display": "¥300–1,600",
+    "budgetBands": [
+      {
+        "label": "考索村简单木屋",
+        "range": "¥300–550"
+      },
+      {
+        "label": "河畔生态住宿",
+        "range": "¥550–950"
+      },
+      {
+        "label": "湖上住宿含船程或餐食",
+        "range": "¥800–1,600"
+      }
+    ],
+    "note": "湖上住宿常与船费、餐食、国家公园费用或团体行程捆绑，不能只比较房价。",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 91,
+    "water": 98,
+    "greenery": 94,
+    "exploration": 93,
+    "publicness": 79,
+    "affordability": 88,
+    "accessEase": 48
+  },
   "editorial": {
     "oneLine": "考索村的河流雨林与乔兰湖的船行水面构成两段式体验，基础木屋和筏屋已经足以进入环境核心。",
     "reason": "这里需要拆成两个落脚系统理解：考索村适合住河边、进入雨林和参加漂流；乔兰湖则依靠长尾船进入支流与漂浮筏屋。水不是酒店附属设施，而是交通、活动和住宿的共同底层结构。高价住宿能改善空调和卫浴，却不是获得湖面体验的唯一入口。",
-    "advantages": ["河流、湖面、支流、洞穴和雨林形成连续的水陆体验","基础筏屋价格较低，打开房门即可接近公共湖面","考索村有多档住宿，可用陆上住宿降低整体预算"],
-    "disadvantages": [{"level":"明显取舍","text":"乔兰湖是人工水库，并非天然湖泊。"},{"level":"明显取舍","text":"多数基础筏屋只有风扇或共用卫浴，木栈道与隔音条件有限。"},{"level":"明显取舍","text":"湖区只能乘船移动，房价外还可能产生船费、门票和餐食费用。"}]
+    "advantages": [
+      "河流、湖面、支流、洞穴和雨林形成连续的水陆体验",
+      "基础筏屋价格较低，打开房门即可接近公共湖面",
+      "考索村有多档住宿，可用陆上住宿降低整体预算"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "乔兰湖是人工水库，并非天然湖泊。"
+      },
+      {
+        "level": "明显取舍",
+        "text": "多数基础筏屋只有风扇或共用卫浴，木栈道与隔音条件有限。"
+      },
+      {
+        "level": "明显取舍",
+        "text": "湖区只能乘船移动，房价外还可能产生船费、门票和餐食费用。"
+      }
+    ]
   },
   "profile": {
     "spatialLogic": "考索村沿河谷展开，陆上住宿连接雨林步道、河流活动和公园入口；乔兰湖内部没有道路，长尾船、筏屋平台和支流水面组成主要动线。",
-    "baseAreas": [{"name":"Khao Sok Village","fit":"交通、餐饮与低价住宿最方便，适合作为雨林河谷基地。"},{"name":"Sok River 河畔","fit":"可直接接近河流与树冠，适合选择简单木屋或树屋。"},{"name":"Khlong Long / Khlong Ka","fit":"湖上筏屋较集中，需综合船程与套餐选择。"}],
+    "baseAreas": [
+      {
+        "name": "Khao Sok Village",
+        "fit": "交通、餐饮与低价住宿最方便，适合作为雨林河谷基地。"
+      },
+      {
+        "name": "Sok River 河畔",
+        "fit": "可直接接近河流与树冠，适合选择简单木屋或树屋。"
+      },
+      {
+        "name": "Khlong Long / Khlong Ka",
+        "fit": "湖上筏屋较集中，需综合船程与套餐选择。"
+      }
+    ],
     "waterAccess": "考索村一带可参加独木舟、漂流或河边活动；湖上住宿通常提供皮划艇，并可直接从平台下水，船程进入不同支流与洞穴。",
     "access": "可由素叻他尼、普吉、甲米或考拉乘车到考索村；乔兰湖需从 Ratchaprapha 码头换乘长尾船。",
     "season": "雨季森林最浓密但船程更受天气影响；2月至5月高温时，无空调筏屋夜间可能闷热。",
@@ -27,11 +109,72 @@
   "media": {
     "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1800",
     "gallery": [
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600","caption":"乔兰湖喀斯特水面"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20Thailand%20-%20panoramio.jpg?width=1600","caption":"湖上筏屋与雨林"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Rafthouses%20in%20Khao%20Sok%20national%20park.jpg?width=1600","caption":"基础漂浮筏屋"}
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600",
+        "caption": "乔兰湖喀斯特水面"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20Thailand%20-%20panoramio.jpg?width=1600",
+        "caption": "湖上筏屋与雨林"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rafthouses%20in%20Khao%20Sok%20national%20park.jpg?width=1600",
+        "caption": "基础漂浮筏屋"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Rock%20formations%2C%20Thailand.jpg?width=1600",
+        "caption": "支流水面与森林岩壁"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20primary%20tropical%20rainforest%2C%20southern%20Thailand.jpg?width=1500",
+        "caption": "考索原生雨林内部"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Limestone%20rocks%20in%20the%20Khao%20Sok%20National%20Park.JPG?width=1500",
+        "caption": "湖面石灰岩与船行动线"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Early%20dawn%20on%20Cheow%20Lan%20Lake%2C%20Khao%20Sok%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600",
+        "caption": "乔兰湖晨雾"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Footbridge%20in%20Khao%20Sok%20National%20Park.jpg?width=1600",
+        "caption": "雨林内部步桥"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo%20forest%20in%20Khao%20Sok%20National%20Park.jpg?width=1600",
+        "caption": "竹林步道"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1022-khao-sok-national-park-01.jpg?width=1600",
+        "caption": "国家公园水陆环境"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1022-khao-sok-national-park-02.jpg?width=1600",
+        "caption": "湖岸植被"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1022-khao-sok-national-park-03.jpg?width=1600",
+        "caption": "雨林与石灰岩"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/1022-khao-sok-national-park-04.jpg?width=1600",
+        "caption": "支流与山体"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20(50739124073).jpg?width=1600",
+        "caption": "周边雨林景观"
+      }
     ]
   },
-  "links": {"primary":"https://www.thainationalparks.com/cheow-lan-lake","map":"https://www.google.com/maps/search/?api=1&query=Khao+Sok+National+Park","ctrip":"https://www.ctrip.com/hotels/list?city=36055"},
-  "verification": {"status":"verified","updatedAt":"2026-07-24","summary":"已核对湖泊性质、筏屋档次、游泳与划艇条件、船只交通及主要季节性问题。"}
+  "links": {
+    "primary": "https://www.thainationalparks.com/cheow-lan-lake",
+    "map": "https://www.google.com/maps/search/?api=1&query=Khao+Sok+National+Park",
+    "ctrip": "https://www.ctrip.com/hotels/list?city=36055"
+  },
+  "verification": {
+    "status": "verified",
+    "updatedAt": "2026-07-24",
+    "summary": "已核对湖泊性质、筏屋档次、游泳与划艇条件、船只交通及主要季节性问题。"
+  }
 }
