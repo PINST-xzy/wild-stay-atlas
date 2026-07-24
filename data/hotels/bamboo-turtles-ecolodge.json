@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "id": "bamboo-turtles-ecolodge",
+  "identity": {
+    "name": "竹龟生态小屋",
+    "englishName": "Bamboo Turtles Ecolodge",
+    "country": "印度尼西亚",
+    "region": "巴厘岛吉安雅",
+    "locality": "乌布洛敦都",
+    "placeLabel": "印度尼西亚 · 乌布南部",
+    "hotelType": "河谷竹屋民宿"
+  },
+  "classification": {
+    "grade": "B",
+    "gradeLabel": "河谷竹屋候选",
+    "collection": "lodging",
+    "tags": [
+      "五栋竹屋",
+      "Wos 河谷",
+      "浓密树冠",
+      "河景阳台",
+      "小型泳池",
+      "半开放浴室"
+    ],
+    "waterTypes": [
+      "Wos 河",
+      "河谷泳池"
+    ],
+    "tradeoffs": [
+      "泳池具有无边设计",
+      "水体接近但并非处处可进入",
+      "位于乌布南部开发区边缘"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 700,
+    "maximum": 1400,
+    "display": "¥700–1,400",
+    "basis": "两位成人入住基础竹屋，每晚常见参考；税费与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 91,
+    "value": 89,
+    "water": 82,
+    "greenery": 96,
+    "architecture": 91,
+    "exploration": 80
+  },
+  "editorial": {
+    "oneLine": "五栋竹屋贴着 Wos 河谷树冠展开，阳台、半开放浴室和泳池把视线与河声持续带进居住空间。",
+    "reason": "它不是完整的大型聚落，更像把几间轻巧竹屋嵌进一段浓密河谷。优势来自近距离的树冠、河声和空气：从房间、露台到泳池都能感到水在下方流动，竹构弧线又减弱了建筑边界。虽然泳池带有无边缘视觉，仍因尺度小、植被贴近和真实河流存在而值得保留。",
+    "advantages": [
+      "仅五栋竹屋，建筑轻、密度低，树冠在画面中始终比建筑更强",
+      "Wos 河位于场地下方，河声与湿润空气进入阳台和公共区",
+      "房间、浴室、外景和泳池均有完整官方图库，实际空间容易判断",
+      "位置比偏远山区更便于与乌布餐饮和活动组合"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "主泳池采用面向河谷的无边设计，仍带有一定观景型空间逻辑。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "场地规模有限，可探索性弱于拥有河滩、瀑布和大花园的生态小屋。"
+      }
+    ],
+    "fit": "想住进浓密明亮的乌布河谷，重视竹构、树冠和室内外连续感的人。",
+    "notFit": "完全排斥无边泳池，或希望在酒店内部长距离徒步和直接下河的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于乌布南部洛敦都的 Wos 河谷边缘，周边是村落、稻田残片、工作室和通往乌布城区的道路，场内树冠明显浓于外部。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "住宿位于乌布中心以南的洛敦都，靠近 Wos 河穿过的低地。周边既有巴厘村落、稻田和林带，也受到乌布南部开发扩张影响；优点是前往乌布餐厅、寺庙和手工艺村相对容易，回到场内后又能迅速进入被河谷树冠隔开的安静环境。"
+      },
+      {
+        "title": "场地布局",
+        "text": "五栋竹制小屋依河谷坡度布置，公共泳池、餐饮和休息空间集中在可看见树冠与河谷的位置。场地不像大型度假村拥有很长路线，而是利用高差、植物遮挡和弯曲竹构制造私密感；从入口走向房间时，外部村路的存在感会逐渐被叶片和流水声替代。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "竹屋以拱形骨架、编织表皮和宽阔开口为核心，室内大量保留竹材本色，半开放浴室让光与植物进入。Wos 河是真实环境底层，泳池则位于河谷上方并采用无边缘处理，这是审美妥协；但由于水面不大、树冠贴近池岸，整体没有普通悬崖酒店的空旷观景台感。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从乌布中心驾车通常比西部山区住宿方便，但高峰期道路拥堵会拉长时间。河谷环境湿度高，雨季的河声、苔藓与蚊虫更明显；旱季上午和午后的斜光更容易穿过树冠，呈现用户偏好的明亮亚热带感。预订时可优先确认朝向河谷且遮挡较少的房型。"
+      }
+    ],
+    "spatialRelationship": "五栋竹屋沿河谷高差排列，树冠包围房间与小型公共区，真实河流在下方提供持续声音和湿度。",
+    "access": "从乌布中心驾车约 20–35 分钟，机场约 1–1.5 小时，均受拥堵影响。"
+  },
+  "media": {
+    "cover": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/41e4fae9-4f4c-474f-b7f7-946d9c4b7893/01.jpg",
+    "gallery": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/41e4fae9-4f4c-474f-b7f7-946d9c4b7893/01.jpg",
+        "type": "河谷整体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/70f17b71-9add-4919-a495-e9d5dc513296/02.jpg",
+        "type": "竹屋与树冠",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/0d0cf6df-f098-4125-9807-9f8a5f5c1ad3/03.jpg",
+        "type": "客房内景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/73a496dd-00ad-475e-bb58-0d2529b596a1/04.jpg",
+        "type": "半开放浴室",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/4d839e06-f726-4c4e-af14-6b3248d564fa/05.jpg",
+        "type": "卧室与竹构",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/4b8c35ff-476a-4847-a77e-425997d7a6cc/06.jpg",
+        "type": "露台与植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/b751da10-98ce-4b2a-b7c6-25987ae79644/07.jpg",
+        "type": "泳池与河谷",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/331a977f-da79-45e9-8a0f-030489d46c3c/08.jpg",
+        "type": "公共休息区",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/f0056dcb-d085-42a3-adb9-c64c5677cbdf/09.jpg",
+        "type": "建筑外景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/84ecc61b-4c97-4063-aa50-7ca773df92ca/10.jpg",
+        "type": "林下道路",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/80c74bce-88c0-44b8-8ac7-94df06af0df3/11.jpg",
+        "type": "室内细节",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/855ef352-3e15-40ff-9275-208dbee89dbb/12.jpg",
+        "type": "餐饮空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/a1cb48a6-98f9-4cf1-aa5e-6d87d0928d5f/13.jpg",
+        "type": "河景阳台",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/e01349de-0504-49ae-958e-04fb2a8b5b47/14.jpg",
+        "type": "热带花园",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/e6590705-c500-4636-9ce8-1b751bbd6879/15.jpg",
+        "type": "水面与树影",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/fde075d5-2700-4e72-b1a1-df20ad972da4/16.jpg",
+        "type": "周边 Wos 河谷",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/e0b96725-6cf6-46a9-a98a-ca8802607791/17.jpg",
+        "type": "周边村落绿地",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/149c0eae-6941-4c89-9d28-7acf84f7efa5/18.jpg",
+        "type": "黄昏公共区",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/10308bb6-0c82-4d60-85a1-423ab53c3b6c/19.jpg",
+        "type": "夜间竹屋",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/69ae520fbc890f0279e04bef/0619f922-f5a1-4cb8-a5bb-30a93288fc9f/20.jpg",
+        "type": "室内外连接",
+        "source": "酒店官网",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=723",
+    "official": "https://bambooturtleecolodge.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网现行营业、五栋竹屋、Wos 河位置、泳池、Spa 和房间配置；20 张图片均来自酒店官方图库。价格需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官网",
+      "官方图库",
+      "公开预订价格"
+    ]
+  }
+}
