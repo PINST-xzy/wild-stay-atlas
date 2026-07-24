@@ -4,11 +4,13 @@ import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const hotelDir = join(root, "data", "hotels");
+const destinationDir = join(root, "data", "destinations");
 const index = JSON.parse(await readFile(join(root, "data", "index.json"), "utf8"));
 const files = (await readdir(hotelDir)).filter(file => file.endsWith(".json")).sort();
 const indexed = [...index.hotels].map(path => basename(path)).sort();
 const errors = [];
 const warnings = [];
+const destinationIds = new Set();
 const ids = new Set();
 const requiredProfileTitles = ["地理位置与周边", "场地布局", "建筑、水体与植物", "抵达与实际条件"];
 
@@ -90,10 +92,40 @@ for (const file of files) {
   warn(ageDays <= 180, label, `价格已超过 ${Math.floor(ageDays)} 天未复核`);
 }
 
+const destinationFiles = (await readdir(destinationDir)).filter(file => file.endsWith(".json")).sort();
+const indexedDestinations = [...(index.destinations || [])].map(path => basename(path)).sort();
+check(JSON.stringify(destinationFiles) === JSON.stringify(indexedDestinations), "data/index.json", "度假地索引与 data/destinations 目录不一致");
+
+for (const file of destinationFiles) {
+  const destination = JSON.parse(await readFile(join(destinationDir, file), "utf8"));
+  const label = `data/destinations/${file}`;
+  check(destination.schemaVersion === 1, label, "schemaVersion 必须为 1");
+  check(/^[a-z0-9-]+$/.test(destination.id || ""), label, "id 只能使用小写字母、数字和连字符");
+  check(!destinationIds.has(destination.id), label, `id 重复：${destination.id}`);
+  destinationIds.add(destination.id);
+  check(["draft", "published", "archived", "excluded"].includes(destination.status), label, "status 无效");
+  for (const key of ["name", "englishName", "country", "region", "type", "placeLabel"]) {
+    check(Boolean(destination.identity?.[key]), label, `identity.${key} 缺失`);
+  }
+  for (const key of ["aesthetic", "water", "greenery", "exploration", "publicness", "affordability", "accessEase"]) {
+    const value = destination.scores?.[key];
+    check(Number.isInteger(value) && value >= 0 && value <= 100, label, `scores.${key} 必须是 0–100 的整数`);
+  }
+  check(destination.profile?.baseAreas?.length >= 2, label, "至少需要 2 个落脚区域");
+  check(destination.pricing?.budgetBands?.length >= 2, label, "至少需要 2 档住宿预算");
+  check(destination.editorial?.advantages?.length >= 2, label, "至少需要 2 项优点");
+  check(destination.editorial?.disadvantages?.length >= 1, label, "至少需要 1 项取舍");
+  check(validUrl(destination.media?.cover || ""), label, "封面 URL 无效");
+  check(destination.media?.gallery?.length >= 3, label, "至少需要 3 张地区实景");
+  check(validUrl(destination.links?.ctrip || ""), label, "携程链接无效");
+  check(validUrl(destination.links?.primary || ""), label, "主要核验链接无效");
+  check(validDate(destination.verification?.updatedAt || ""), label, "verification.updatedAt 日期无效");
+}
+
 for (const message of warnings) console.warn(`WARN  ${message}`);
 if (errors.length) {
   for (const message of errors) console.error(`ERROR ${message}`);
   console.error(`\n${errors.length} 个错误，${warnings.length} 个提醒`);
   process.exit(1);
 }
-console.log(`Validated ${files.length} hotels: 0 errors, ${warnings.length} warnings`);
+console.log(`Validated ${files.length} hotels and ${destinationFiles.length} destinations: 0 errors, ${warnings.length} warnings`);
