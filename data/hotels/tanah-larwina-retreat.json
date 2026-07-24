@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "tanah-larwina-retreat",
+  "status": "published",
+  "identity": {
+    "name": "拉尔维纳河畔农庄",
+    "englishName": "Tanah Larwina Retreat",
+    "country": "马来西亚",
+    "region": "雪兰莪",
+    "locality": "乌鲁冷岳",
+    "placeLabel": "马来西亚 · 雪兰莪乌鲁冷岳",
+    "hotelType": "整栋河畔农庄民宿"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "取舍候选",
+    "tags": [
+      "整栋包场",
+      "清澈溪流",
+      "三英亩农庄",
+      "玻璃木屋",
+      "朋友聚会"
+    ],
+    "waterTypes": [
+      "溪流",
+      "天然泳水"
+    ],
+    "tradeoffs": [
+      "需多人分摊",
+      "不供酒精",
+      "自理型服务"
+    ],
+    "collection": "lodging"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 2500,
+    "maximum": 3500,
+    "display": "¥2,500–3,500",
+    "basis": "整栋包场参考价，适合约八人分摊；并非双人房价",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 89,
+    "value": 88,
+    "water": 93,
+    "greenery": 94,
+    "architecture": 84,
+    "exploration": 80
+  },
+  "editorial": {
+    "oneLine": "一栋玻璃与木构小屋贴着清澈溪流落在三英亩农庄里，适合一群朋友把河岸与厨房一起包下来。",
+    "reason": "它不是双人酒店，而是非常适合朋友共同使用的整栋民宿。溪流贴近露台，巨石、竹林、果树和小农场把现代小屋包住；总价看似超过预算，但八人分摊后性价比突出。",
+    "advantages": [
+      "溪流紧贴建筑，可从露台下到石滩和水边",
+      "整栋与农庄一并使用，朋友聚会的公共空间充足",
+      "现代玻璃木屋仍被竹林和成熟植物遮住"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "整栋价格不适合两人单独入住，需要多人分摊"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "清真友好规则明确，不允许酒精且餐饮主要自理"
+      }
+    ],
+    "fit": "与朋友包栋、愿意自己安排餐食并把溪流当作公共客厅的人。",
+    "notFit": "双人短住、需要酒店服务、酒吧与客房清洁的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于雪兰莪乌鲁冷岳的三英亩 hobby farm，旁边是清澈溪流与森林保留地，离吉隆坡不算遥远但现场已经是低密度山林农庄环境。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "民宿位于吉隆坡东南侧的乌鲁冷岳乡野，三英亩农庄沿清澈溪流展开，旁边可见森林保留地、竹林和果树。它仍可从城市周末抵达，却没有城市酒店的街道与商业噪声，周边活动以河边停留和农庄生活为主。"
+      },
+      {
+        "title": "场地布局",
+        "text": "主体是整栋现代小屋与若干农庄空间，适合约八人共同使用。厨房、客厅、露台、草木庭院和溪流之间距离很短，公共活动集中而亲密；它更像被自然包住的朋友之家，不是分散式度假村。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "玻璃、钢与木构成的小屋抬在地面和岩石旁，大窗把竹林与溪水带进室内。建筑比传统生态旅馆更现代，但体量小，植物仍占主导；溪流可亲近，水况与安全要根据降雨现场判断。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "通常整栋出租，需要提前确认人数、入住规则、押金和是否提供床品餐具。这里强调清真友好，禁止酒精；餐饮更适合自炊、烧烤或提前预约，叫车和临时采购都不如城市方便。"
+      }
+    ],
+    "spatialRelationship": "客厅与露台面向溪流，几步即可下到巨石水岸，农庄和竹林在另一侧围合，动线简单但包裹感强。",
+    "access": "从吉隆坡自驾约一至两小时，最后进入乡村道路；整团共乘车辆最方便。"
+  },
+  "food": {
+    "summary": "这里的美食吸引力来自朋友共同使用厨房、烧烤区与农庄，而不是餐厅菜单；适合把当地食材和聚会餐桌做成住宿核心。",
+    "setting": "整栋厨房、露台和户外区域由住客共同使用，可预约或自备清真食材。",
+    "highlights": [
+      {
+        "name": "朋友烧烤",
+        "description": "溪边与农庄环境适合多人烧烤，食材与设备细节需向房东确认。"
+      },
+      {
+        "name": "自炊早餐",
+        "description": "完整包栋让早餐时间自由，可在露台边看溪流边准备。"
+      }
+    ],
+    "caveat": "禁止酒精；餐食与调味多需自备，预订前要确认厨房设备和清真规则。"
+  },
+  "media": {
+    "cover": "https://minio.havehalalwilltravel.com/hhwt-upload/images/16012023011948_1594369672056_tanah.original.format-webp.webp",
+    "gallery": [
+      {
+        "url": "https://minio.havehalalwilltravel.com/hhwt-upload/images/16012023011948_1594369672056_tanah.original.format-webp.webp",
+        "type": "environment",
+        "caption": "溪流旁的玻璃木屋",
+        "source": "Have Halal Will Travel",
+        "verified": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/0f2523_73a0764094ae44b3aa3ee1a16b70026d~mv2.jpg/v1/fill/w_1600,h_1000,al_c,q_90/0f2523_73a0764094ae44b3aa3ee1a16b70026d~mv2.jpg",
+        "type": "environment",
+        "caption": "农庄小屋",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20La%20Selva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳山林 1",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jungle%20stream%20(La%20Selva%20Biological%20Station).jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳山林 2",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20path%20through%20La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳山林 3",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳山林 4",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laselva1.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳山林 5",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Arboletum.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳山林 6",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rainforest%20Fatu%20Hiva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳山林 7",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hulu%20Langat%20Forest%20Reserve.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边乌鲁冷岳森林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/River%20in%20Selangor%20Malaysia.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域溪流环境",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo%20forest%20Malaysia.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域竹林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.airbnb.com/rooms/13633103",
+    "official": "https://www.tanahlarwina.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://www.tanahlarwina.com/",
+      "https://www.airbnb.com/rooms/13633103"
+    ]
+  }
+}
