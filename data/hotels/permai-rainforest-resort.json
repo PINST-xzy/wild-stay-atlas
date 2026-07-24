@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "permai-rainforest-resort",
+  "status": "published",
+  "identity": {
+    "name": "佩尔迈雨林度假村",
+    "englishName": "Permai Rainforest Resort",
+    "country": "马来西亚",
+    "region": "砂拉越",
+    "locality": "古晋",
+    "placeLabel": "马来西亚 · 砂拉越山都望",
+    "hotelType": "海岸雨林树屋度假村"
+  },
+  "classification": {
+    "grade": "A",
+    "gradeLabel": "核心匹配",
+    "tags": [
+      "树屋",
+      "山都望雨林",
+      "天然岩池",
+      "海岸",
+      "低预算"
+    ],
+    "waterTypes": [
+      "天然泉池",
+      "海湾",
+      "溪流"
+    ],
+    "tradeoffs": [
+      "房间偏旧",
+      "泳水受潮汐天气影响"
+    ],
+    "collection": "resort"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 650,
+    "maximum": 1100,
+    "display": "¥650–1,100",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 87,
+    "value": 93,
+    "water": 88,
+    "greenery": 98,
+    "architecture": 70,
+    "exploration": 92
+  },
+  "editorial": {
+    "oneLine": "树屋藏进山都望海岸雨林，天然岩池、林径与海边共同提供水体层次，价格仍维持在千元上下。",
+    "reason": "它不是精致精品酒店，却拥有非常明确的地形优势：树屋在树冠与海岸之间，客人可穿林去天然池、瀑布与沙滩。植物密度远高于普通海滨度假村，且没有大草坪和规则公共泳池主导空间。",
+    "advantages": [
+      "成熟海岸雨林几乎贴住树屋和步道",
+      "天然岩池、溪流与海边提供多种接水方式",
+      "预算友好，适合作为古晋近郊自然住宿"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "客房和公共设施有年代感，维护评价不完全稳定"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "海滩并非顶级白沙，潮汐和天气会改变观感"
+      }
+    ],
+    "fit": "愿意以硬件换树冠、天然水池和雨林步道的人。",
+    "notFit": "追求全新房间、细腻服务或完美白沙滩的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于山都望山脚、古晋以北约三十五公里的海岸雨林，邻近砂拉越文化村；周围同时拥有山林、溪流、岩池与南中国海海湾。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "度假村位于山都望半岛的海岸雨林中，从古晋市区向北约三十五公里。周边最明确的地标是山都望山、砂拉越文化村和海湾，城市餐饮与商场并不在步行范围，环境在入夜后迅速回归森林。"
+      },
+      {
+        "title": "场地布局",
+        "text": "树屋、单层小屋和公共设施分散在山脚与水边，林间步道连接住宿、天然池、瀑布方向和海岸。场地依赖真实坡度和树木，而不是经过平整的大草坪；不同房型与水边距离差异较大。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "高脚树屋把房间抬入树冠，建筑材料和设施并不奢华，但被大量热带植物遮挡。天然岩池由山林水系形成，海边与溪流补充了多重水景；水色和可游性会受降雨、潮汐影响。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从古晋机场或市区需要车辆接送，适合与山都望、文化村行程组合。房间维护、湿气和昆虫是老牌雨林住宿常见问题，预订时应看近期评价并确认天然池与步道是否开放。"
+      }
+    ],
+    "spatialRelationship": "从树屋沿林径下行至天然池和海岸，山林、溪流与海湾在一个步行场地内连续出现。",
+    "access": "古晋市区车程约四十五至六十分钟，建议预订接送或包车。"
+  },
+  "food": {
+    "summary": "餐饮以砂拉越和马来西亚家常味为基础，最大的吸引力是雨林与海岸之间的用餐位置，而非高端餐厅体系。",
+    "setting": "公共餐厅处于林缘，可在徒步、天然池和海边活动之间用餐。",
+    "highlights": [
+      {
+        "name": "砂拉越家常菜",
+        "description": "米饭、咖喱、鸡肉与海鲜构成稳妥的地方菜单。"
+      },
+      {
+        "name": "热带早餐",
+        "description": "水果、鸡蛋与本地面食适合作为山林徒步前补给。"
+      }
+    ],
+    "caveat": "偏远位置使店外餐饮选择有限，菜单丰富度和营业时间需按当日确认。"
+  },
+  "media": {
+    "cover": "https://ak-d.tripcdn.com/images/220o0g00000088eol9576_R_960_660_R5_D.jpg",
+    "gallery": [
+      {
+        "url": "https://ak-d.tripcdn.com/images/220o0g00000088eol9576_R_960_660_R5_D.jpg",
+        "type": "environment",
+        "caption": "雨林树屋",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20La%20Selva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望雨林 1",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jungle%20stream%20(La%20Selva%20Biological%20Station).jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望雨林 2",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20path%20through%20La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望雨林 3",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望雨林 4",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laselva1.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望雨林 5",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Arboletum.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望雨林 6",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount%20Santubong%20from%20Santubong%20Bridge.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望山",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Damai%20Beach%2C%20Santubong.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边山都望海岸",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarawak%20Cultural%20Village.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边砂拉越文化村",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rafflesia%20keithii%20flower.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域热带植物",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tropical%20rainforest%20in%20Malaysia.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域海岸雨林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/kuching-hotel-detail-699114/permai-rainforest-resort/",
+    "official": "https://permairainforest.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://permairainforest.com/",
+      "https://www.trip.com/hotels/kuching-hotel-detail-699114/permai-rainforest-resort/"
+    ]
+  }
+}
