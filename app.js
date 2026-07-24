@@ -128,6 +128,7 @@ function scoreStars(value){
   const filled=Math.round(value/20);
   return `<span class="star-scale" aria-label="${value}分">${[1,2,3,4,5].map(i=>`<i class="${i<=filled?"on":""}">◆</i>`).join("")}</span>`;
 }
+function scoreWord(value){return value>=95?"极高":value>=85?"很高":value>=75?"较高":value>=60?"中等":"较低"}
 function visibleStays(){
   let rows = stays.filter(s => {
     const text = `${s.name}${s.en}${s.place}${s.kind}${s.tags.join("")}`.toLowerCase();
@@ -184,7 +185,7 @@ function home(push=true){
     <header class="home-hero"><div class="hero-shade"></div><div class="hero-copy">
       <span class="overline">WILD STAY ATLAS · VERIFIED RESORT FILES</span>
       <h1>水木深处，住几天。</h1>
-      <p>按价格、空间与可以接受的取舍，筛出真正值得继续看的酒店。</p>
+      <p>全球度假酒店的价格、空间、水体与取舍档案。</p>
       <a href="#finder">开始筛选 <span>↓</span></a>
     </div>
     <div class="hero-board">
@@ -192,7 +193,7 @@ function home(push=true){
       <div><b>${stays.filter(s=>s.grade==="A").length}</b><span>核心匹配</span></div><div><b>${favorites.size}</b><span>已收藏</span></div>
     </div></header>
     <main id="finder" class="finder">
-      <section class="finder-head"><div><span class="overline dark">HOTEL FINDER</span><h2>先筛掉不合适的</h2></div>
+      <section class="finder-head"><div><span class="overline dark">HOTEL FINDER</span><h2>酒店筛选</h2></div>
         <p>所有价格均为两位成人入住一间基础房的常见参考价。</p></section>
       <section class="filter-panel">
         ${filterGroup("每晚预算","price",[["all","不限"],["600","¥600以内"],["1000","¥1,000以内"],["2000","¥2,000以内"],["over","超预算收藏"]])}
@@ -207,7 +208,7 @@ function home(push=true){
         </select><button id="reset">重置</button></div>
       </section>
       <section class="results-head"><div><b>${rows.length}</b> 家符合当前条件</div><span>资料更新至 2026-07-23</span></section>
-      <section class="hotel-grid">${rows.length ? rows.map(card).join("") : `<div class="empty"><b>没有符合当前组合的酒店</b><span>放宽一个条件后再看。</span></div>`}</section>
+      <section class="hotel-grid">${rows.length ? rows.map(card).join("") : `<div class="empty"><b>没有符合当前组合的酒店</b><span>当前结果为 0</span></div>`}</section>
     </main>
     <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><p>私人使用的全球度假酒店筛选与核验档案。</p></footer>`;
 
@@ -248,31 +249,34 @@ function quick(id,push=true){
       <div class="quick-shade"></div>
       <nav class="quick-nav"><button id="quickBack">← 返回收藏馆</button><div><button data-fav="${s.id}">${icon.heart(s.id)} 收藏</button><button id="quickShare">分享</button></div></nav>
       <div class="quick-title">
+        <div class="archive-index">ARCHIVE NO. ${String(stays.indexOf(s)+1).padStart(3,"0")} <i></i> VERIFIED FILE</div>
         <span class="grade grade-${s.grade}">${s.grade} · ${gradeName[s.grade]}</span>
         <p>${s.place} · ${s.kind}</p>
         <h1>${s.name}</h1><em>${s.en}</em>
         <div class="quick-tags">${s.tags.slice(0,5).map(t=>`<span>${t}</span>`).join("")}</div>
       </div>
       <section class="overlay-panel">
+        <div class="panel-caption"><span>MATCH PROFILE</span><b>六项档案指标</b></div>
         <div class="overlay-scores">
-          <div><span>审美匹配</span>${scoreStars(s.score)}<b>${s.score}</b></div>
-          <div><span>水体参与</span>${scoreStars(s.waterScore)}<b>${s.waterScore}</b></div>
-          <div><span>植被包裹</span>${scoreStars(s.greenScore)}<b>${s.greenScore}</b></div>
-          <div><span>建筑融合</span>${scoreStars(s.designScore)}<b>${s.designScore}</b></div>
-          <div><span>探索感</span>${scoreStars(s.exploreScore)}<b>${s.exploreScore}</b></div>
-          <div><span>性价比</span>${scoreStars(s.value)}<b>${s.value}</b></div>
+          <div><span>审美匹配<small>AESTHETIC</small></span>${scoreStars(s.score)}<em>${scoreWord(s.score)}</em><b>${s.score}</b></div>
+          <div><span>水体参与<small>WATER</small></span>${scoreStars(s.waterScore)}<em>${scoreWord(s.waterScore)}</em><b>${s.waterScore}</b></div>
+          <div><span>植被包裹<small>GREENERY</small></span>${scoreStars(s.greenScore)}<em>${scoreWord(s.greenScore)}</em><b>${s.greenScore}</b></div>
+          <div><span>建筑融合<small>DESIGN</small></span>${scoreStars(s.designScore)}<em>${scoreWord(s.designScore)}</em><b>${s.designScore}</b></div>
+          <div><span>探索感<small>EXPLORATION</small></span>${scoreStars(s.exploreScore)}<em>${scoreWord(s.exploreScore)}</em><b>${s.exploreScore}</b></div>
+          <div><span>性价比<small>VALUE</small></span>${scoreStars(s.value)}<em>${scoreWord(s.value)}</em><b>${s.value}</b></div>
         </div>
         <div class="overlay-facts">
           <div><span>参考价格</span><strong>${s.price} / 晚</strong></div>
           <div><span>水体</span><strong>${s.waterTypes.join(" · ")}</strong></div>
           <div><span>价格定位</span><strong>${priceLabel(s)}</strong></div>
+          <div class="relation-mini"><span>场地关系 · SCHEMATIC</span><div class="relation-line"><i>植被</i><b></b><i>建筑</i><b></b><i>步道</i><b></b><i>水体</i></div></div>
         </div>
       </section>
-      <a class="quick-down" href="#judgement">下滑查看判断 ↓</a>
+      <a class="quick-down" href="#judgement">QUICK FILE ↓</a>
     </header>
 
     <section id="judgement" class="judgement-wrap">
-      <header><span>QUICK VERDICT</span><h2>快速判断</h2><p>先看结论与取舍，再决定是否进入完整档案。</p></header>
+      <header><span>QUICK VERDICT</span><h2>快速判断</h2><p>价格、环境指标与取舍摘要</p></header>
       <article class="judgement-card">
         <div class="judgement-lead"><span>一句话结论</span><p>${s.oneLine}</p></div>
         <div class="judgement-reason"><h3>推荐理由</h3><p>${s.reason}</p></div>
@@ -294,9 +298,13 @@ function quick(id,push=true){
         <button id="openDeep">进入深度档案 <span>→</span></button>
         <a href="${s.ctrip}" target="_blank">携程预订 / 查价 <span>↗</span></a>
       </aside>
+      <section class="attribute-board">
+        <header><span>ATTRIBUTE BOARD</span><h3>特征总览</h3></header>
+        <div>${s.tags.map((t,i)=>`<article><b>${String(i+1).padStart(2,"0")}</b><span>${t}</span><i>${i<2?"核心特征":i<4?"空间特征":"补充标签"}</i></article>`).join("")}</div>
+      </section>
     </section>
     <section class="quick-preview">
-      <div><span>DEEP FILE PREVIEW</span><h2>还想继续看什么？</h2><p>完整档案包含空间拆解、实景图片、交通、资料来源与核验记录。</p></div>
+      <div><span>DEEP FILE PREVIEW</span><h2>深度档案</h2><p>空间拆解、实景图片、交通、资料来源与核验记录</p></div>
       <div class="preview-images">${s.gallery.slice(0,3).map((url,i)=>`<figure><img src="${url}" alt="${s.name}资料预览${i+1}" loading="lazy"></figure>`).join("")}</div>
       <button id="openDeepBottom">打开完整档案</button>
     </section>
@@ -350,7 +358,7 @@ function detail(id, push=true){
       </div>
     </section>
 
-    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>03 · VERIFIED IMAGES</span><h2>用图片判断，不只看宣传词</h2></div>
+    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>03 · VERIFIED IMAGES</span><h2>环境与公共空间实景</h2></div>
       <div class="gallery-grid">${s.gallery.map((url,i)=>`<figure><img src="${url}" alt="${s.name}实景${i+1}" loading="${i?"lazy":"eager"}"><figcaption>${["整体环境","水体与路径","公共空间","建筑与植物"][i]||"实景资料"}</figcaption></figure>`).join("")}</div></section>
 
     <section id="facts" class="detail-section facts">
