@@ -1,0 +1,8 @@
+{
+  "name": "wild-stay-atlas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-hotels.mjs"
+  }
+}
