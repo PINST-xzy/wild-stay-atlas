@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "koh-kood",
+  "status": "published",
+  "identity": {
+    "name": "阁骨岛",
+    "englishName": "Koh Kood",
+    "country": "泰国",
+    "region": "达叻府",
+    "type": "雨林白沙岛屿",
+    "placeLabel": "泰国 · 达叻府 · 阁骨岛"
+  },
+  "classification": {
+    "grade": "A",
+    "tags": ["白沙滩", "热带雨林", "天然瀑布", "红树林水道", "低密度岛屿"],
+    "waterTypes": ["白沙滩", "瀑布泉潭", "红树林水道", "海湾"],
+    "tradeoffs": ["渡船抵达", "岛内依赖摩托", "雨季波动"]
+  },
+  "pricing": {
+    "minimum": 320,
+    "maximum": 1800,
+    "display": "¥320–1,800",
+    "budgetBands": [
+      {"label": "简单旅馆 / 内陆民宿", "range": "¥320–600"},
+      {"label": "海滩小型度假村", "range": "¥600–1,100"},
+      {"label": "环境较完整的精品住宿", "range": "¥1,100–1,800"}
+    ],
+    "note": "两位成人一间房的常见区间；圣诞、新年及周末船期附近价格可能明显上浮。",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 92,
+    "water": 95,
+    "greenery": 91,
+    "exploration": 88,
+    "publicness": 91,
+    "affordability": 86,
+    "accessEase": 55
+  },
+  "editorial": {
+    "oneLine": "岛上的白沙海湾、瀑布泉潭、红树林水道与村落道路彼此相连，不入住高价酒店也能接近主要自然空间。",
+    "reason": "阁骨岛的价值不集中在单一度假村。西岸白沙海湾、内陆瀑布、红树林河道、渔村和穿过林地的道路共同构成可居住的岛屿环境。普通旅馆住客也可以骑车或乘船抵达水体，环境公共性明显高于被一家酒店圈定的私人景观。",
+    "advantages": [
+      "白沙滩、热带树林、瀑布泉潭和红树林水道同时存在",
+      "从基础旅馆到精品住宿价位跨度大，低预算仍能获得岛屿环境",
+      "低层建筑和小型聚落为主，整体没有大型海滨综合体的压迫感"
+    ],
+    "disadvantages": [
+      {"level": "明显取舍", "text": "岛内公共交通有限，住在偏远海湾时通常需要摩托或包车。"},
+      {"level": "明显取舍", "text": "不同海滩的沙质、潮位和海况并不一致，需要按具体海湾筛选。"},
+      {"level": "轻微提醒", "text": "雨季部分船班、海上活动和瀑布水量会随天气变化。"}
+    ]
+  },
+  "profile": {
+    "spatialLogic": "西岸海湾承担住宿与沙滩体验，岛内溪流和瀑布形成第二套水系，红树林河口与渔村补充水上移动。自然体验分布在整个岛上，而不是只存在于酒店围墙内。",
+    "baseAreas": [
+      {"name": "Klong Chao", "fit": "海滩、河道与瀑布之间最平衡，住宿和餐饮较集中。"},
+      {"name": "Bang Bao", "fit": "海湾较安静，沙滩住宿选择较多，适合把海滩作为主线。"},
+      {"name": "Ao Phrao", "fit": "更偏远、更松散，适合接受交通成本换取低密度环境。"},
+      {"name": "Ao Yai / Ao Salad", "fit": "渔村与水上聚落观察更突出，但不是最佳白沙滩落脚点。"}
+    ],
+    "waterAccess": "Klong Chao 等瀑布可由道路与短程林间步道抵达；西岸多个海湾可以直接下水；部分红树林河道可划艇或乘小船进入。",
+    "access": "通常先抵达达叻府或 Laem Sok 码头，再乘渡船上岛；岛内以摩托车、双条车和酒店接送为主。",
+    "season": "通常11月至次年4月海况较稳定；雨季植被和瀑布更充沛，但渡船、海况和道路体验的不确定性增加。",
+    "stayStrategy": "优先住在 Klong Chao 或 Bang Bao 的非大型海滩住宿；想降低价格可选择距离沙滩稍远、但步行或骑车可达水体的民宿。"
+  },
+  "media": {
+    "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20coastline%20by%20the%20ocean%20%28Unsplash%29.jpg?width=1800",
+    "gallery": [
+      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Bang%20Bao%20Beach.jpg?width=1600", "caption": "Bang Bao 海湾与沙滩"},
+      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Klong%20Chao%20Waterfall%20-%20panoramio%20%281%29.jpg?width=1400", "caption": "Klong Chao 瀑布泉潭"},
+      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Jungle-Bridge%20-%20panoramio.jpg?width=1200", "caption": "岛内林间桥道"},
+      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ao-Yai-Fishing-village-Koh-kood.jpg?width=1400", "caption": "Ao Yai 水上渔村"}
+    ]
+  },
+  "links": {
+    "primary": "https://www.scmp.com/lifestyle/travel-leisure/article/3230199/thailand-it-was-mass-tourism-koh-kood-and-koh-phayam-get-close-nature-and-have-white-sand-beaches",
+    "map": "https://www.google.com/maps/search/?api=1&query=Koh+Kood+Thailand",
+    "ctrip": "https://www.ctrip.com/hotels/list?city=36080"
+  },
+  "verification": {"status": "verified", "updatedAt": "2026-07-24", "summary": "已核对岛屿环境、白沙海湾、瀑布、渔村与主要落脚区域；具体住宿价格仍需按日期复核。"}
+}
