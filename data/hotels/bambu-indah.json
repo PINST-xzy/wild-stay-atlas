@@ -14,9 +14,22 @@
   "classification": {
     "grade": "A",
     "gradeLabel": "核心匹配",
-    "tags": ["天然泉池", "阿勇河", "竹木建筑", "低密度", "审美标杆"],
-    "waterTypes": ["天然泉池", "河流", "瀑布"],
-    "tradeoffs": ["价格偏高", "坡地台阶"]
+    "tags": [
+      "天然泉池",
+      "阿勇河",
+      "竹木建筑",
+      "低密度",
+      "审美标杆"
+    ],
+    "waterTypes": [
+      "天然泉池",
+      "河流",
+      "瀑布"
+    ],
+    "tradeoffs": [
+      "价格偏高",
+      "坡地台阶"
+    ]
   },
   "pricing": {
     "currency": "CNY",
@@ -43,9 +56,18 @@
       "林下路径、台阶和桥梁带来很强的探索感"
     ],
     "disadvantages": [
-      {"level": "可能淘汰", "text": "常见房价明显超过实住预算"},
-      {"level": "明显取舍", "text": "河谷高差大，部分区域台阶很多"},
-      {"level": "轻微提醒", "text": "热门房型和旺季价格波动明显"}
+      {
+        "level": "可能淘汰",
+        "text": "常见房价明显超过实住预算"
+      },
+      {
+        "level": "明显取舍",
+        "text": "河谷高差大，部分区域台阶很多"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "热门房型和旺季价格波动明显"
+      }
     ],
     "fit": "愿意为完整空间体验提高预算，并且不介意坡地步行。",
     "notFit": "更在意交通便利、无障碍动线或稳定低价。"
@@ -53,10 +75,22 @@
   "profile": {
     "surroundingsSummary": "阿勇河谷、Bongkasa 稻田与热带林地",
     "sections": [
-      {"title": "地理位置与周边", "text": "酒店位于巴厘岛乌布外围的阿勇河谷一侧，场地上缘邻近稻田和村落，下缘抵达阿勇河岸。周边不是连续商业街区，主要景观由河谷、Bongkasa 稻田、热带树冠和乡村道路组成；前往乌布中心通常依赖车辆。"},
-      {"title": "场地布局", "text": "酒店并非一栋集中式建筑，而是从山脊到河岸逐层展开的聚落。接待、餐饮、客房、泉池和河畔休息空间位于不同高程，石砌小径、竹桥、隧道、台阶与竹制升降设施将它们串联。河畔房型与上部公共区域之间存在明显高差。"},
-      {"title": "建筑、水体与植物", "text": "场地内有十五处以上天然泉水池，泉池与阿勇河共同构成下部公共空间。竹构新建筑、回收柚木老屋、石材平台和开放式亭子分散在成熟植被中，部分建筑从树冠和坡地之间露出；水体、道路与住宿空间并非彼此独立。"},
-      {"title": "抵达与实际条件", "text": "不同房型的地形条件差异很大。靠近上部村落的客房移动相对平缓，部分河畔房距接待区域需要数百级台阶；官网个别房型标注约五百五十至六百四十级。坡地、开放式空间、昆虫和潮湿环境均属于实际住宿条件。"}
+      {
+        "title": "地理位置与周边",
+        "text": "酒店位于巴厘岛乌布外围的阿勇河谷一侧，场地上缘邻近稻田和村落，下缘抵达阿勇河岸。周边不是连续商业街区，主要景观由河谷、Bongkasa 稻田、热带树冠和乡村道路组成；前往乌布中心通常依赖车辆。"
+      },
+      {
+        "title": "场地布局",
+        "text": "酒店并非一栋集中式建筑，而是从山脊到河岸逐层展开的聚落。接待、餐饮、客房、泉池和河畔休息空间位于不同高程，石砌小径、竹桥、隧道、台阶与竹制升降设施将它们串联。河畔房型与上部公共区域之间存在明显高差。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "场地内有十五处以上天然泉水池，泉池与阿勇河共同构成下部公共空间。竹构新建筑、回收柚木老屋、石材平台和开放式亭子分散在成熟植被中，部分建筑从树冠和坡地之间露出；水体、道路与住宿空间并非彼此独立。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "不同房型的地形条件差异很大。靠近上部村落的客房移动相对平缓，部分河畔房距接待区域需要数百级台阶；官网个别房型标注约五百五十至六百四十级。坡地、开放式空间、昆虫和潮湿环境均属于实际住宿条件。"
+      }
     ],
     "spatialRelationship": "石阶、竹桥和林下路径一路下探河谷，泉池与阿勇河贯穿主要公共体验。",
     "access": "位于乌布外缘河谷；部分河畔房距离接待区域较远，坡地移动量较大。"
@@ -64,10 +98,96 @@
   "media": {
     "cover": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a50c8274a5585679da1_bamboo_indah_explore2.avif",
     "gallery": [
-      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a50c8274a5585679da1_bamboo_indah_explore2.avif", "type": "整体环境", "source": "酒店官网", "verified": true},
-      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a4645b17081ef73a824_bamboo_indah_explore1.avif", "type": "道路与建筑", "source": "酒店官网", "verified": true},
-      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67585166d3efeeedb45bed57_bamboo_indah_explore_pools2.avif", "type": "天然泉池", "source": "酒店官网", "verified": true},
-      {"url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584b0008bb0a232a4605f0_bamboo_indah_explore_pools3.avif", "type": "公共水域", "source": "酒店官网", "verified": true}
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a50c8274a5585679da1_bamboo_indah_explore2.avif",
+        "type": "整体环境",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a4645b17081ef73a824_bamboo_indah_explore1.avif",
+        "type": "道路与建筑",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67585166d3efeeedb45bed57_bamboo_indah_explore_pools2.avif",
+        "type": "天然泉池",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584b0008bb0a232a4605f0_bamboo_indah_explore_pools3.avif",
+        "type": "公共水域",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584a5754a268df6f3e92e7_bamboo_indah_explore3.avif",
+        "type": "建筑与植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/6758080ad3bbcf24cad42b93_explore-gif-1.avif",
+        "type": "场地移动",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/6758080a643589870e3c847d_explore-gif-3.avif",
+        "type": "林下空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/6763e271eefe8ef89b36a984_riverside-warung-hero.avif",
+        "type": "河畔公共空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/6758080922839a57f999c286_explore-gif-4.avif",
+        "type": "水边活动",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67586ebd86997d85e3db8572_bambu_indah_navigation_explore.avif",
+        "type": "场地整体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/673e14f4050252442ce8a2b7_Nature-walk-3.avif",
+        "type": "周边自然步道",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67584f71d93374017c8551a1_bamboo_indah_explore_rice.avif",
+        "type": "周边稻田",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/673e155241c1f56b7aa0024d_rice-harvest-3.avif",
+        "type": "周边农业景观",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/6758675254835b868a6beddc_bamboo_indah_explore_bamboo_tour2.avif",
+        "type": "竹林与建造",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/670679253a76d7a19e5969ee/67585085f9312e6bd8fdc7cd_bamboo_indah_explore_best_of_bali5.avif",
+        "type": "周边自然环境",
+        "source": "酒店官网",
+        "verified": true
+      }
     ]
   },
   "links": {
@@ -78,6 +198,9 @@
     "status": "verified",
     "summary": "官方图库与场地资料已核验；价格需按日期复核",
     "updatedAt": "2026-07-23",
-    "sources": ["酒店官网", "携程酒店详情页"]
+    "sources": [
+      "酒店官网",
+      "携程酒店详情页"
+    ]
   }
 }
