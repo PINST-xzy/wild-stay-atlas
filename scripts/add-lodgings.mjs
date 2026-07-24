@@ -6,12 +6,12 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 const today = "2026-07-24";
 const commons = {
   khao: [
-    ["https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20-%20Thailand.jpg?width=1600", "周边国家公园雨林"],
-    ["https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%2C%20Thailand.jpg?width=1600", "周边石灰岩与雨林"],
+    ["https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600", "周边国家公园湖泊"],
+    ["https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20primary%20tropical%20rainforest%2C%20southern%20Thailand.jpg?width=1600", "周边原生雨林"],
     ["https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20Surat%20Thani%20Thailand.jpg?width=1600", "周边森林道路"],
     ["https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20river.jpg?width=1600", "周边 Sok 河"],
-    ["https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600", "周边雨林地貌"],
-    ["https://commons.wikimedia.org/wiki/Special:FilePath/Cheow%20Lan%20Lake%2C%20Khao%20Sok%20National%20Park%2C%20Thailand.jpg?width=1600", "周边 Cheow Lan 湖"]
+    ["https://commons.wikimedia.org/wiki/Special:FilePath/Footbridge%20in%20Khao%20Sok%20National%20Park.jpg?width=1600", "周边雨林步桥"],
+    ["https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo%20forest%20in%20Khao%20Sok%20National%20Park.jpg?width=1600", "周边竹林步道"]
   ],
   bukit: [
     ["https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%2C%20Langkat%20Regency%2C%20North%20Sumatra%2C%20Indonesia.jpg?width=1600", "周边河岸村落"],
@@ -92,14 +92,14 @@ const lodgings = [
     ],
     spatialRelationship:"河流、树屋、稻田、农场与开放式公共空间彼此穿插，建筑服从既有自然与农业地形。",
     access:"从素叻他尼约两小时车程；也可由普吉、甲米或苏梅方向组合车船抵达。",
-    cover:"https://www.khaosokecoresort.com/wp-content/uploads/2025/01/our-jungle-camp-khao-sok.jpg",
+    cover:"https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-3.jpg",
     gallery:[
-      image("https://www.khaosokecoresort.com/wp-content/uploads/2025/01/our-jungle-camp-khao-sok.jpg","营地整体","酒店官网"),
-      image("https://www.khaosokecoresort.com/wp-content/uploads/2025/01/treehouse-khao-sok.jpg","林间树屋","酒店官网"),
-      image("https://www.khaosokecoresort.com/wp-content/uploads/2025/01/khao-sok-bungalow.jpg","河岸平房","酒店官网"),
-      image("https://www.khaosokecoresort.com/wp-content/uploads/2025/01/treehouse-loft-khao-sok.jpg","树屋与石灰岩","酒店官网"),
-      image("https://www.khaosokecoresort.com/wp-content/uploads/2025/01/our-jungle-resort.jpg","公共自然环境","酒店官网"),
-      image("https://www.khaosokecoresort.com/wp-content/uploads/2025/01/khao-sok-river.jpg","场地河流","酒店官网"),
+      image("https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-3.jpg","营地整体","Roadtrip to Happiness 实住资料"),
+      image("https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-8.jpg","林间树屋","Roadtrip to Happiness 实住资料"),
+      image("https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort.jpg","河岸平房","Roadtrip to Happiness 实住资料"),
+      image("https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-6.jpg","树屋与植被","Roadtrip to Happiness 实住资料"),
+      image("https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-4.jpg","公共自然环境","Roadtrip to Happiness 实住资料"),
+      image("https://chimptrips.com/wp-content/uploads/2023/08/Treehouse-at-Our-Jungle-Cam.jpg","树屋与河岸","Chimptrips 实住资料"),
       ...surrounding(commons.khao,"Wikimedia Commons")
     ], ctrip:khaoCtrip, official:"https://www.khaosokecoresort.com/", sources:["酒店官网","官网房型页","考索公开实景"]
   }),
@@ -173,7 +173,7 @@ for (const lodging of lodgings) {
   const path = `hotels/${lodging.id}.json`;
   if (!index.hotels.includes(path)) index.hotels.push(path);
 }
-index.contentVersion = "2026.07.24.6";
+index.contentVersion = "2026.07.24.7";
 index.updatedAt = today;
 await writeFile(indexPath, `${JSON.stringify(index, null, 2)}\n`);
 
