@@ -34,6 +34,8 @@ function validDate(value) {
 function canonicalImageUrl(value) {
   try {
     const url = new URL(value);
+    const optimizedSource = url.pathname.includes("/_next/image") ? url.searchParams.get("url") : "";
+    if (optimizedSource) return `${url.origin}${decodeURIComponent(optimizedSource)}`.toLowerCase();
     url.search = "";
     return decodeURIComponent(url.href).toLowerCase();
   } catch {
