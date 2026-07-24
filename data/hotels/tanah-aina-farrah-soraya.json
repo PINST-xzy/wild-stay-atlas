@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "tanah-aina-farrah-soraya",
+  "status": "published",
+  "identity": {
+    "name": "塔纳艾娜法拉索拉亚生态度假村",
+    "englishName": "Tanah Aina Farrah Soraya Eco Tourism Resort",
+    "country": "马来西亚",
+    "region": "彭亨州",
+    "locality": "劳勿",
+    "placeLabel": "马来西亚 · 彭亨州劳勿",
+    "hotelType": "河谷生态度假村"
+  },
+  "classification": {
+    "grade": "A",
+    "gradeLabel": "核心匹配",
+    "tags": [
+      "清澈河流",
+      "森林山谷",
+      "天然深潭",
+      "河边餐厅",
+      "团体活动"
+    ],
+    "waterTypes": [
+      "河流",
+      "天然泉潭"
+    ],
+    "tradeoffs": [
+      "位置偏远",
+      "团体氛围"
+    ],
+    "collection": "resort"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 900,
+    "maximum": 1800,
+    "display": "¥900–1,800",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 89,
+    "value": 79,
+    "water": 96,
+    "greenery": 94,
+    "architecture": 72,
+    "exploration": 91
+  },
+  "editorial": {
+    "oneLine": "二十余栋山谷木屋沿清澈河流展开，房间到深潭、石滩和河边餐厅之间保持直接的步行关系。",
+    "reason": "它的优势并非建筑精致，而是水体足够真实：从住宿沿台阶下到河里，可以踩石、涉水、游泳，附近还有沙石底深潭和天然水流按摩点。密林包裹度高，价格也比完整设计度假村更接近可实际入住。",
+    "advantages": [
+      "河水直接进入住宿生活圈，可涉水、游泳和沿河徒步",
+      "森林山谷与二十余栋小体量木屋形成强包裹感",
+      "马来与西式自助餐在河边开放餐区供应"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "团建与家庭团体较多，清静程度依入住日期而变"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "接驳距离长，设施审美偏传统生态营地"
+      }
+    ],
+    "fit": "把天然河流、浓密森林和活动感放在建筑精致度之前的人。",
+    "notFit": "需要小众成人氛围、精品设计和随时自由外出的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "度假村位于劳勿 Sungai Chetang 的森林山谷，河道贯穿谷底，四周是彭亨州内陆热带林地；周边商业稀少，环境本身就是主要目的地。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "项目位于彭亨州劳勿内陆的 Sungai Chetang 山谷，离成熟城镇和商业餐饮有明显距离。周边以热带森林、河道和起伏山地为主，天气湿润，抵达之后通常不会频繁进出，住宿更像进入一个封闭的自然活动场。"
+      },
+      {
+        "title": "场地布局",
+        "text": "二十多栋 chalet 沿河谷高差散落，住宿、开放式餐厅、活动场与下河台阶彼此相连。场地没有宏大的中心轴线，主要体验来自上下坡、过石路、沿河行走以及在不同高度穿过树冠和谷底。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑以木构和简单坡屋顶为主，设计感不是主要卖点，但大量树木遮住屋体。河流有石底、沙底和较深水潭，客人可以从台阶直接下水，沿水向上游走到天然按摩水流和更安静的停留点。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "公共交通不便，适合预先安排度假村接驳或包车。活动与餐食常以套餐或团体方式组织，入住前应确认房价是否含餐、最低入住要求和活动安排；雨季河水条件也会影响涉水体验。"
+      }
+    ],
+    "spatialRelationship": "住宿在坡上，餐区与活动场靠近河谷，台阶把房间、石滩、深潭和河流徒步线串联起来。",
+    "access": "从吉隆坡方向通常需要数小时车程，最后一段进入山谷；建议向酒店确认接驳与路况。"
+  },
+  "food": {
+    "summary": "河边开放式餐区供应一日多次自助，马来西亚家常菜、参巴、鸡肉、鱼和素食共同出现，份量与团体适配性比精致摆盘更重要。",
+    "setting": "开放餐厅靠近河流，早餐、午餐、晚餐和茶点按度假村节奏集中供应。",
+    "highlights": [
+      {
+        "name": "马来西亚自助餐",
+        "description": "米饭、咖喱、时蔬、鸡肉与鱼类轮换，适合活动量较大的河谷住宿。"
+      },
+      {
+        "name": "多种 Sambal",
+        "description": "不同辣度的参巴酱是地方风味重点，也会保留不辣选择。"
+      },
+      {
+        "name": "河边茶点",
+        "description": "下午活动之间安排茶点，体验重点在水声与开放山谷环境。"
+      }
+    ],
+    "caveat": "餐饮依套餐和团队安排，预订前要确认是否含餐及过敏、素食需求。"
+  },
+  "media": {
+    "cover": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/12/10/e1066973-e1c3-452d-b91e-ab90dcd48129-1639128323269-42e52dc251e600ba5904341cca60bbb8.jpg",
+    "gallery": [
+      {
+        "url": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/12/10/e1066973-e1c3-452d-b91e-ab90dcd48129-1639128323269-42e52dc251e600ba5904341cca60bbb8.jpg",
+        "type": "environment",
+        "caption": "森林山谷中的木屋",
+        "source": "Tiket",
+        "verified": true
+      },
+      {
+        "url": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/12/10/e35eed6f-2f65-453d-a5d3-a9eeef81f4f2-1639128323264-01a06fb585270f7be992cabc6f5264dc.jpg",
+        "type": "surroundings",
+        "caption": "公共区域与林地",
+        "source": "Tiket",
+        "verified": true
+      },
+      {
+        "url": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/12/10/2b20bbba-5791-49a0-928f-936e548c42f2-1639128323273-89f4a8cc7111a38b0ea43829f559df11.jpg",
+        "type": "environment",
+        "caption": "河边餐饮",
+        "source": "Tiket",
+        "verified": true
+      },
+      {
+        "url": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/12/10/6a5dc9f3-8354-41f2-9bcf-20bd56d5c1c8-1639130117541-fca886b58cca2bb846536b117c2ab118.jpg",
+        "type": "environment",
+        "caption": "木屋卧室",
+        "source": "Tiket",
+        "verified": true
+      },
+      {
+        "url": "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/12/10/039a8080-24f1-40be-a313-0dd474eb6c15-1639130117570-3b95832aae7bddf5bfccd76f191f6cb0.jpg",
+        "type": "environment",
+        "caption": "住宿内部",
+        "source": "Tiket",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forest%20La%20Selva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边彭亨热带山林参考 1",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jungle%20stream%20(La%20Selva%20Biological%20Station).jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边彭亨热带山林参考 2",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20path%20through%20La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边彭亨热带山林参考 3",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Biological%20Station%2C%20Costa%20Rica.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边彭亨热带山林参考 4",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laselva1.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边彭亨热带山林参考 5",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Selva%20Arboletum.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边彭亨热带山林参考 6",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rainforest%20Fatu%20Hiva.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边彭亨热带山林参考 7",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://sg.trip.com/hotels/teras-hotel-detail-8989476/tanah-aina-farrah-soraya-eco-tourism-resort/",
+    "official": "https://www.tanahaina.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://www.tanahaina.com/",
+      "https://sg.trip.com/hotels/teras-hotel-detail-8989476/tanah-aina-farrah-soraya-eco-tourism-resort/"
+    ]
+  }
+}
