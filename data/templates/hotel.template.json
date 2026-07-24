@@ -47,6 +47,15 @@
     "spatialRelationship": "场地空间关系摘要",
     "access": "抵达方式摘要"
   },
+  "food": {
+    "summary": "可选字段。至少三十个字，说明餐饮为什么与场地或目的地有关；没有特色时可整段删除。",
+    "setting": "至少十五个字，写餐厅、河边、庭院、农园或周边街巷等实际用餐场景。",
+    "highlights": [
+      {"name": "代表菜或风味一", "description": "至少十二个字，说明食材、做法或地方关联。"},
+      {"name": "代表菜或风味二", "description": "至少十二个字，说明为什么值得记录。"}
+    ],
+    "caveat": "写明套餐、季节供应、是否为周边餐饮或其他需要复核的限制。"
+  },
   "media": {
     "cover": "https://example.com/cover.jpg",
     "gallery": [
