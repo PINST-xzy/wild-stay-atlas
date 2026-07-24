@@ -14,6 +14,7 @@
   "classification": {
     "grade": "C",
     "gradeLabel": "取舍候选",
+    "collection": "lodging",
     "tags": ["标签一", "标签二", "标签三"],
     "waterTypes": ["水体类型"],
     "tradeoffs": ["主要取舍"]
