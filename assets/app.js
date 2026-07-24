@@ -12,6 +12,7 @@ function normalizeHotel(raw){
     place:raw.identity.placeLabel,
     region:raw.identity.region,
     grade:raw.classification.grade,
+    collection:raw.classification.collection||"resort",
     kind:raw.identity.hotelType,
     priceMin:raw.pricing.minimum,
     priceMax:raw.pricing.maximum,
@@ -74,6 +75,7 @@ async function loadHotelData(){
 const app = document.querySelector("#app");
 const gradeName = {A:"核心匹配", B:"白沙滩特例", C:"取舍候选"};
 const state = {price:"all", grade:"all", water:"all", compromise:"all", sort:"editor", query:""};
+let activeCollection="resort";
 let favorites = new Set(JSON.parse(localStorage.getItem("wild-stay-favorites") || "[]"));
 
 const icon = {
@@ -146,7 +148,7 @@ function visibleStays(){
       (state.price==="1000" && s.priceMin<=1000) ||
       (state.price==="2000" && s.priceMin<=2000) ||
       (state.price==="over" && s.priceMin>2000);
-    return priceOK &&
+    return s.collection===activeCollection && priceOK &&
       (state.grade==="all" || s.grade===state.grade) &&
       (state.water==="all" || s.waterTypes.includes(state.water)) &&
       (state.compromise==="all" || s.tradeoffs.includes(state.compromise)) &&
@@ -187,25 +189,29 @@ function card(s){
   </article>`;
 }
 
-function home(push=true){
-  if(push) history.pushState(null,"",location.pathname);
+function home(push=true,collection=activeCollection){
+  activeCollection=collection;
+  if(push) history.pushState({view:collection},"",`${location.pathname}?view=${collection==="lodging"?"lodgings":"resorts"}`);
   const rows = visibleStays();
+  const isLodging=activeCollection==="lodging";
+  const pageTitle=isLodging?"民宿与自然旅居":"度假酒店与度假村";
+  const pageCount=stays.filter(s=>s.collection===activeCollection).length;
   app.innerHTML = `
     <nav class="topbar"><a class="brand" href="#"><span>野</span><b>野栖度假收藏馆</b></a>
-      <div><button id="openDestinations">度假地 ${destinations.length}</button><button id="showFav">收藏 ${favorites.size}</button><a href="#finder">筛选酒店</a></div></nav>
+      <div><button id="openResorts" class="${!isLodging?"nav-current":""}">度假酒店 ${stays.filter(s=>s.collection==="resort").length}</button><button id="openLodgings" class="${isLodging?"nav-current":""}">民宿旅居 ${stays.filter(s=>s.collection==="lodging").length}</button><button id="openDestinations">度假地 ${destinations.length}</button><button id="showFav">收藏 ${favorites.size}</button></div></nav>
     <header class="home-hero"><div class="hero-shade"></div><div class="hero-copy">
-      <span class="overline">WILD STAY ATLAS · VERIFIED RESORT FILES</span>
+      <span class="overline">WILD STAY ATLAS · ${isLodging?"LODGE & HOMESTAY FILES":"VERIFIED RESORT FILES"}</span>
       <h1>水流心不竞，<br><i>云在意俱迟。</i></h1>
       <cite>杜甫《江亭》</cite>
-      <p>酒店馆藏与可以低预算进入的自然度假地档案。</p>
-      <div class="hero-actions"><a href="#finder">酒店目录 <span>↓</span></a><button id="heroDestinations">度假地档案 <span>→</span></button></div>
+      <p>${isLodging?"树屋、河岸木屋、生态旅馆、温泉宿与家庭民宿。":"具有完整场地体验的度假酒店与大型度假村档案。"}</p>
+      <div class="hero-actions"><a href="#finder">${pageTitle} <span>↓</span></a><button id="switchCollection">${isLodging?"查看度假酒店":"查看民宿旅居"} <span>→</span></button><button id="heroDestinations">度假地档案 <span>→</span></button></div>
     </div>
     <div class="hero-board">
-      <div><b>${stays.length}</b><span>已建档</span></div><div><b>${stays.filter(s=>s.priceMin<=2000).length}</b><span>预算内</span></div>
-      <div><b>${stays.filter(s=>s.grade==="A").length}</b><span>核心匹配</span></div><div><b>${favorites.size}</b><span>已收藏</span></div>
+      <div><b>${pageCount}</b><span>本页建档</span></div><div><b>${stays.filter(s=>s.collection===activeCollection&&s.priceMin<=2000).length}</b><span>预算内</span></div>
+      <div><b>${stays.filter(s=>s.collection===activeCollection&&s.value>=90).length}</b><span>高性价比</span></div><div><b>${favorites.size}</b><span>已收藏</span></div>
     </div></header>
     <main id="finder" class="finder">
-      <section class="finder-head"><div><span class="overline dark">HOTEL FINDER</span><h2>酒店筛选</h2></div>
+      <section class="finder-head"><div><span class="overline dark">${isLodging?"LODGE FINDER":"RESORT FINDER"}</span><h2>${pageTitle}</h2></div>
         <p>所有价格均为两位成人入住一间基础房的常见参考价。</p></section>
       <section class="filter-panel">
         ${filterGroup("每晚预算","price",[["all","不限"],["600","¥600以内"],["1000","¥1,000以内"],["2000","¥2,000以内"],["over","超预算收藏"]])}
@@ -221,7 +227,7 @@ function home(push=true){
       </section>
       ${dataNotice?`<div class="data-notice">${dataNotice}</div>`:""}
       <section class="results-head"><div><b>${rows.length}</b> 家符合当前条件</div><span>资料更新至 ${contentUpdatedAt||"—"}</span></section>
-      <section class="hotel-grid">${rows.length ? rows.map(card).join("") : `<div class="empty"><b>没有符合当前组合的酒店</b><span>当前结果为 0</span></div>`}</section>
+      <section class="hotel-grid">${rows.length ? rows.map(card).join("") : `<div class="empty"><b>没有符合当前组合的住宿</b><span>当前结果为 0</span></div>`}</section>
     </main>
     <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><p>私人使用的全球度假酒店筛选与核验档案。</p></footer>`;
 
@@ -250,6 +256,9 @@ function home(push=true){
     document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(btn.dataset.fav));
   };
   document.querySelector("#openDestinations").onclick=()=>destinationHome();
+  document.querySelector("#openResorts").onclick=()=>home(true,"resort");
+  document.querySelector("#openLodgings").onclick=()=>home(true,"lodging");
+  document.querySelector("#switchCollection").onclick=()=>home(true,isLodging?"resort":"lodging");
   document.querySelector("#heroDestinations").onclick=()=>destinationHome();
 }
 
@@ -295,7 +304,7 @@ function destinationHome(push=true){
   scrollTo(0,0);
   const rows=destinationRows();
   app.innerHTML=`<main class="destination-index">
-    <nav class="topbar"><a class="brand" href="#"><span>野</span><b>野栖度假收藏馆</b></a><div><button id="backHotels">酒店馆藏 ${stays.length}</button><span class="nav-current">度假地档案</span></div></nav>
+    <nav class="topbar"><a class="brand" href="#"><span>野</span><b>野栖度假收藏馆</b></a><div><button id="backResorts">度假酒店</button><button id="backLodgings">民宿旅居</button><span class="nav-current">度假地档案</span></div></nav>
     <header class="destination-hero" style="background-image:url('${destinations[0]?.media.cover||""}')"><div></div><section>
       <span>DESTINATION ARCHIVES · ${String(destinations.length).padStart(2,"0")} FILES</span>
       <h1>度假地档案</h1>
@@ -315,7 +324,8 @@ function destinationHome(push=true){
     </section>
     <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><p>度假地档案 · 更新至 ${contentUpdatedAt}</p></footer>
   </main>`;
-  document.querySelector("#backHotels").onclick=()=>home();
+  document.querySelector("#backResorts").onclick=()=>home(true,"resort");
+  document.querySelector("#backLodgings").onclick=()=>home(true,"lodging");
   document.querySelectorAll("[data-destination]").forEach(el=>el.onclick=()=>destinationDetail(el.dataset.destination));
   document.querySelectorAll("[data-dtype]").forEach(btn=>btn.onclick=()=>{destinationState.type=btn.dataset.dtype;destinationHome(false)});
   document.querySelectorAll("[data-dprice]").forEach(btn=>btn.onclick=()=>{destinationState.price=btn.dataset.dprice;destinationHome(false)});
@@ -362,6 +372,7 @@ function destinationDetail(id,push=true){
 
 function quick(id,push=true){
   const s=stays.find(x=>x.id===id)||stays[0];
+  activeCollection=s.collection;
   if(push) history.pushState({quick:id},"",`?quick=${s.id}`);
   scrollTo(0,0);
   const records=s.disadvantageRecords||s.cons.map((text,i)=>({level:i===2?"轻微提醒":"明显取舍",text}));
@@ -447,7 +458,7 @@ function quick(id,push=true){
     <div class="quick-mobile-bar"><button data-fav="${s.id}">${icon.heart(s.id)} 收藏</button><button id="mobileDeep">深度档案</button><a href="${s.ctrip}" target="_blank">${s.price}<small>携程查价</small></a></div>
     <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><p>快速判断 · ${s.name}</p></footer>
   </main>`;
-  document.querySelector("#quickBack").onclick=()=>home();
+  document.querySelector("#quickBack").onclick=()=>home(true,s.collection);
   document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(s.id));
   ["openDeep","openDeepBottom","mobileDeep"].forEach(key=>document.querySelector(`#${key}`).onclick=()=>detail(s.id));
   document.querySelector("#quickShare").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#quickShare").textContent="链接已复制"}catch{}};
@@ -455,6 +466,7 @@ function quick(id,push=true){
 
 function detail(id, push=true){
   const s=stays.find(x=>x.id===id) || stays[0];
+  activeCollection=s.collection;
   const hotelImages=uniqueImages(s.image,s.galleryRecords);
   if(push) history.pushState({id},"",`?stay=${s.id}`);
   scrollTo(0,0);
@@ -515,10 +527,10 @@ function detail(id, push=true){
         <a href="${s.official}" target="_blank">酒店官网 / 官方图库 <span>↗</span></a><p>价格随旅行日期、税费、早餐与取消政策变化。</p></div>
     </section>
     <div class="mobile-action"><button data-fav="${s.id}">${icon.heart(s.id)} 收藏</button><a href="${s.ctrip}" target="_blank"><span>${s.price}</span>携程查价</a></div>
-    <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><button id="backBottom">返回全部酒店 ↑</button></footer>
+    <footer><div class="brand"><span>野</span><b>野栖度假收藏馆</b></div><button id="backBottom">返回${s.collection==="lodging"?"民宿与自然旅居":"度假酒店与度假村"} ↑</button></footer>
   </main>`;
-  document.querySelector("#back").onclick=()=>home();
-  document.querySelector("#backBottom").onclick=()=>home();
+  document.querySelector("#back").onclick=()=>home(true,s.collection);
+  document.querySelector("#backBottom").onclick=()=>home(true,s.collection);
   document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(s.id));
   document.querySelector("#share").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#share").textContent="链接已复制"}catch{location.hash=""}};
   bindPhotoViewer("#gallery",hotelImages);
@@ -527,7 +539,7 @@ function detail(id, push=true){
 
 window.onpopstate=()=>{
   const params=new URLSearchParams(location.search),deep=params.get("stay"),fast=params.get("quick"),destination=params.get("destination"),view=params.get("view");
-  destination?destinationDetail(destination,false):view==="destinations"?destinationHome(false):deep ? detail(deep,false) : fast ? quick(fast,false) : home(false);
+  destination?destinationDetail(destination,false):view==="destinations"?destinationHome(false):deep ? detail(deep,false) : fast ? quick(fast,false) : home(false,view==="lodgings"?"lodging":"resort");
 };
 
 async function init(){
@@ -547,6 +559,6 @@ async function init(){
     }
   }
   const params=new URLSearchParams(location.search),initial=params.get("stay"),initialQuick=params.get("quick"),initialDestination=params.get("destination"),view=params.get("view");
-  initialDestination?destinationDetail(initialDestination,false):view==="destinations"?destinationHome(false):initial ? detail(initial,false) : initialQuick ? quick(initialQuick,false) : home(false);
+  initialDestination?destinationDetail(initialDestination,false):view==="destinations"?destinationHome(false):initial ? detail(initial,false) : initialQuick ? quick(initialQuick,false) : home(false,view==="lodgings"?"lodging":"resort");
 }
 init();
