@@ -181,11 +181,69 @@
   }
 
   .card-foot {
-    gap: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    align-items: stretch;
+  }
+
+  .card-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
   }
 
   .card-links {
-    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .card-foot .card-links button {
+    display: grid;
+    min-width: 0;
+    min-height: 62px;
+    padding: 10px 12px;
+    border: 1px solid #b7c0b9;
+    border-radius: 2px;
+    text-align: left;
+  }
+
+  .card-foot .card-links button b {
+    font-size: 15px;
+    line-height: 1.25;
+  }
+
+  .card-foot .card-links button small {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+    font-size: 10px;
+    line-height: 1.35;
+  }
+
+  .card-foot .card-links .entry-quick {
+    background: #f1f3ef;
+    color: var(--forest);
+  }
+
+  .card-foot .card-links .entry-quick small {
+    color: #6f7c73;
+  }
+
+  .card-foot .card-links .entry-deep {
+    border-color: var(--forest);
+    background: var(--forest);
+    color: #fff;
+  }
+
+  .card-foot .card-links .entry-deep small,
+  .card-foot .card-links .entry-deep span {
+    color: #d7e2da;
   }
 
   /* Quick judgement page */
@@ -586,7 +644,7 @@
   }
 
   .card-foot {
-    align-items: end;
+    align-items: stretch;
   }
 
   .card-foot strong {
