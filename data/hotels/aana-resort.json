@@ -14,9 +14,23 @@
   "classification": {
     "grade": "A",
     "gradeLabel": "核心匹配",
-    "tags": ["天然河道", "红树林", "皮划艇", "低价", "乘船到海滩"],
-    "waterTypes": ["天然河流", "红树林", "海湾"],
-    "tradeoffs": ["设施简单", "泳池略规则", "交通不便"]
+    "tags": [
+      "天然河道",
+      "红树林",
+      "皮划艇",
+      "低价",
+      "乘船到海滩"
+    ],
+    "waterTypes": [
+      "天然河流",
+      "红树林",
+      "海湾"
+    ],
+    "tradeoffs": [
+      "设施简单",
+      "泳池略规则",
+      "交通不便"
+    ]
   },
   "pricing": {
     "currency": "CNY",
@@ -43,9 +57,18 @@
       "从码头到海滩的水上移动过程有辨识度"
     ],
     "disadvantages": [
-      {"level": "明显取舍", "text": "客房和公共设施比较普通，部分区域显旧"},
-      {"level": "明显取舍", "text": "泳池形态较规则，建筑设计感不强"},
-      {"level": "轻微提醒", "text": "抵达象岛需要渡轮，交通时间较长"}
+      {
+        "level": "明显取舍",
+        "text": "客房和公共设施比较普通，部分区域显旧"
+      },
+      {
+        "level": "明显取舍",
+        "text": "泳池形态较规则，建筑设计感不强"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "抵达象岛需要渡轮，交通时间较长"
+      }
     ],
     "fit": "把价格和水边体验放在前面，能接受设施普通与交通折腾。",
     "notFit": "追求精致竹构、全新硬件或完整雨林包裹感。"
@@ -53,10 +76,22 @@
   "profile": {
     "surroundingsSummary": "Klong Prao 河口、象岛西岸与 Klong Prao Beach",
     "sections": [
-      {"title": "地理位置与周边", "text": "酒店位于泰国达叻府象岛西岸，处在 Klong Prao 河道尽端并接近 Klong Prao Beach。周边同时具有河口、海湾、红树林式水岸和岛屿山地背景，不是单纯面对海滩的一线排布。象岛西岸分布有餐馆和度假设施，但密度与城市海滨区不同。"},
-      {"title": "场地布局", "text": "低层客房、别墅和公共设施沿河岸与内部绿地布置，码头是场地中很明确的节点。河道把酒店与海滩连接起来，住客可在水边停留，也可通过皮划艇或接驳船移动；这种水路关系比建筑本身更有辨识度。"},
-      {"title": "建筑、水体与植物", "text": "建筑风格和客房硬件较为常规，优势不在精细设计，而在天然河道进入酒店内部。成熟热带植物靠近水岸、道路和低层建筑，公共泳池仍然较规则；自然水域与人工泳池在场地中同时存在。"},
-      {"title": "抵达与实际条件", "text": "从曼谷前往通常先抵达达叻府码头，再乘渡轮进入象岛，之后沿岛上道路到达酒店。交通耗时受航班、陆路和渡轮班次影响。酒店价格较低，但设施维护、客房新旧和偏远交通需要与具体房型及近期评价一并核对。"}
+      {
+        "title": "地理位置与周边",
+        "text": "酒店位于泰国达叻府象岛西岸，处在 Klong Prao 河道尽端并接近 Klong Prao Beach。周边同时具有河口、海湾、红树林式水岸和岛屿山地背景，不是单纯面对海滩的一线排布。象岛西岸分布有餐馆和度假设施，但密度与城市海滨区不同。"
+      },
+      {
+        "title": "场地布局",
+        "text": "低层客房、别墅和公共设施沿河岸与内部绿地布置，码头是场地中很明确的节点。河道把酒店与海滩连接起来，住客可在水边停留，也可通过皮划艇或接驳船移动；这种水路关系比建筑本身更有辨识度。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑风格和客房硬件较为常规，优势不在精细设计，而在天然河道进入酒店内部。成熟热带植物靠近水岸、道路和低层建筑，公共泳池仍然较规则；自然水域与人工泳池在场地中同时存在。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从曼谷前往通常先抵达达叻府码头，再乘渡轮进入象岛，之后沿岛上道路到达酒店。交通耗时受航班、陆路和渡轮班次影响。酒店价格较低，但设施维护、客房新旧和偏远交通需要与具体房型及近期评价一并核对。"
+      }
     ],
     "spatialRelationship": "河道、码头、皮划艇和接驳船构成主要空间线索，植被密度高于普通海滨度假村。",
     "access": "先抵达达叻府并乘渡轮上岛；酒店位于 Klong Prao 河道末端。"
@@ -64,10 +99,96 @@
   "media": {
     "cover": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-90.jpg",
     "gallery": [
-      {"url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-90.jpg", "type": "整体环境", "source": "Chillpainai 实景资料", "verified": true},
-      {"url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-15.jpg", "type": "河道", "source": "Chillpainai 实景资料", "verified": true},
-      {"url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-16.jpg", "type": "公共空间", "source": "Chillpainai 实景资料", "verified": true},
-      {"url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-55.jpg", "type": "建筑与植被", "source": "Chillpainai 实景资料", "verified": true}
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-90.jpg",
+        "type": "整体环境",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-15.jpg",
+        "type": "河道",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-16.jpg",
+        "type": "公共空间",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-55.jpg",
+        "type": "建筑与植被",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-23.jpg",
+        "type": "河岸建筑",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-14.jpg",
+        "type": "园林道路",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-67.jpg",
+        "type": "公共水域",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-95.jpg",
+        "type": "植被与休息区",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-9.jpg",
+        "type": "林下建筑",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-99.jpg",
+        "type": "河道与平台",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-79.jpg",
+        "type": "园林公共空间",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-100.jpg",
+        "type": "建筑与水岸",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-60.jpg",
+        "type": "植被包裹",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-56.jpg",
+        "type": "休息平台",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      },
+      {
+        "url": "https://chillpainai.com/storage/scoop/16809/aana-villas-koh-chang-104.jpg",
+        "type": "周边水岸",
+        "source": "Chillpainai 实景资料",
+        "verified": true
+      }
     ]
   },
   "links": {
@@ -78,6 +199,10 @@
     "status": "verified",
     "summary": "场地水路与酒店位置已核验；房态和含税价待日期复核",
     "updatedAt": "2026-07-23",
-    "sources": ["酒店官网", "实景资料", "携程酒店详情页"]
+    "sources": [
+      "酒店官网",
+      "实景资料",
+      "携程酒店详情页"
+    ]
   }
 }
