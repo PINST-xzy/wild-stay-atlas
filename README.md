@@ -28,6 +28,7 @@
 - `data/hotels/`：每家酒店的独立资料。
 - `schema/hotel.schema.json`：数据结构规范。
 - `scripts/validate-hotels.mjs`：发布前校验。
-- `app-20260724-data.js`：稳定的页面渲染程序。
+- `assets/app.js`：稳定的页面渲染程序。
+- `assets/base.css`、`assets/quick.css`：稳定的页面样式。
 
 管理后台与私有写入接口不包含在本公开仓库中。
