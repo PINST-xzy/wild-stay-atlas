@@ -2,24 +2,72 @@
   "schemaVersion": 1,
   "id": "ulaman",
   "status": "published",
-  "identity": {"name": "乌拉曼生态奢华度假村", "englishName": "Ulaman Eco Luxury Resort", "country": "印度尼西亚", "region": "东南亚", "locality": "巴厘岛塔巴南", "placeLabel": "印度尼西亚 · 巴厘岛塔巴南", "hotelType": "竹构生态度假村"},
+  "identity": {
+    "name": "乌拉曼生态奢华度假村",
+    "englishName": "Ulaman Eco Luxury Resort",
+    "country": "印度尼西亚",
+    "region": "东南亚",
+    "locality": "巴厘岛塔巴南",
+    "placeLabel": "印度尼西亚 · 巴厘岛塔巴南",
+    "hotelType": "竹构生态度假村"
+  },
   "classification": {
     "grade": "A",
     "gradeLabel": "核心匹配",
-    "tags": ["曲线竹构", "夯土", "绿屋顶", "生态湖", "设计完成度高"],
-    "waterTypes": ["河流", "瀑布", "生态湖"],
-    "tradeoffs": ["价格偏高", "私人泳池依赖"]
+    "tags": [
+      "曲线竹构",
+      "夯土",
+      "绿屋顶",
+      "生态湖",
+      "设计完成度高"
+    ],
+    "waterTypes": [
+      "河流",
+      "瀑布",
+      "生态湖"
+    ],
+    "tradeoffs": [
+      "价格偏高",
+      "私人泳池依赖"
+    ]
   },
-  "pricing": {"currency": "CNY", "minimum": 2900, "maximum": 4600, "display": "¥2,900–4,600", "basis": "两位成人入住一间基础房，每晚参考", "verifiedAt": "2026-07-23"},
-  "scores": {"aesthetic": 91, "value": 38, "water": 88, "greenery": 88, "architecture": 99, "exploration": 83},
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 2900,
+    "maximum": 4600,
+    "display": "¥2,900–4,600",
+    "basis": "两位成人入住一间基础房，每晚参考",
+    "verifiedAt": "2026-07-23"
+  },
+  "scores": {
+    "aesthetic": 91,
+    "value": 38,
+    "water": 88,
+    "greenery": 88,
+    "architecture": 99,
+    "exploration": 83
+  },
   "editorial": {
     "oneLine": "建筑与人工水面高度融合，完成度很高，但价格和私人泳池依赖都明显。",
     "reason": "曲线竹构、夯土、绿屋顶与人工水面交叠，公共空间跨在水与林地之上，视觉和结构都很有辨识度。",
-    "advantages": ["竹构、夯土和曲线屋顶的设计完成度极高", "公共空间跨水展开，水景与建筑关系紧密", "外围稻田、椰林和河流补足自然环境"],
+    "advantages": [
+      "竹构、夯土和曲线屋顶的设计完成度极高",
+      "公共空间跨水展开，水景与建筑关系紧密",
+      "外围稻田、椰林和河流补足自然环境"
+    ],
     "disadvantages": [
-      {"level": "可能淘汰", "text": "价格远高于预算，实际入住性价比低"},
-      {"level": "明显取舍", "text": "部分宣传重点仍落在私人泳池房型"},
-      {"level": "轻微提醒", "text": "自然河谷的野生感不如 Bambu Indah"}
+      {
+        "level": "可能淘汰",
+        "text": "价格远高于预算，实际入住性价比低"
+      },
+      {
+        "level": "明显取舍",
+        "text": "部分宣传重点仍落在私人泳池房型"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "自然河谷的野生感不如 Bambu Indah"
+      }
     ],
     "fit": "把建筑设计放在首位，预算较宽松。",
     "notFit": "更看重天然水域、低价或不希望依赖私人泳池。"
@@ -27,10 +75,22 @@
   "profile": {
     "surroundingsSummary": "塔巴南稻田、椰林、河流与乡村道路",
     "sections": [
-      {"title": "地理位置与周边", "text": "Ulaman 位于巴厘岛塔巴南县的稻田和椰林之间，官方资料标注距仓古约二十分钟车程。酒店外围以农田、乡村道路和低密度聚落为主，不处在步行商业区；仓古与巴厘岛南部交通拥堵会使实际车程产生较大变化。"},
-      {"title": "场地布局", "text": "度假村由多组曲线建筑、客房、庭院水面、河畔水疗空间和林间道路组成。公共建筑围绕水面展开，桥、平台和弧形边界强化了连续性。整体规划比自然形成的河谷聚落更精密，建筑本身在视野中占据较强位置。"},
-      {"title": "建筑、水体与植物", "text": "竹构、夯土、再生材料和绿屋顶构成主要建筑语言。人工水面、生物过滤湖、河流与瀑布共同出现，但不同水体的自然程度并不相同。椰林、稻田和河岸植物提供外围环境，部分客房仍以私人泳池作为重要配置。"},
-      {"title": "抵达与实际条件", "text": "酒店位于乡野腹地，日常外出主要依赖包车或网约车。周边餐饮和购物不如仓古集中，适合停留在度假村内部活动。房价通常明显超过两千元预算，房型、私人泳池配置和新旧区域会影响实际体验。"}
+      {
+        "title": "地理位置与周边",
+        "text": "Ulaman 位于巴厘岛塔巴南县的稻田和椰林之间，官方资料标注距仓古约二十分钟车程。酒店外围以农田、乡村道路和低密度聚落为主，不处在步行商业区；仓古与巴厘岛南部交通拥堵会使实际车程产生较大变化。"
+      },
+      {
+        "title": "场地布局",
+        "text": "度假村由多组曲线建筑、客房、庭院水面、河畔水疗空间和林间道路组成。公共建筑围绕水面展开，桥、平台和弧形边界强化了连续性。整体规划比自然形成的河谷聚落更精密，建筑本身在视野中占据较强位置。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "竹构、夯土、再生材料和绿屋顶构成主要建筑语言。人工水面、生物过滤湖、河流与瀑布共同出现，但不同水体的自然程度并不相同。椰林、稻田和河岸植物提供外围环境，部分客房仍以私人泳池作为重要配置。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "酒店位于乡野腹地，日常外出主要依赖包车或网约车。周边餐饮和购物不如仓古集中，适合停留在度假村内部活动。房价通常明显超过两千元预算，房型、私人泳池配置和新旧区域会影响实际体验。"
+      }
     ],
     "spatialRelationship": "竹构与水面形成强烈建筑场景，稻田、椰林和河流提供外围自然背景。",
     "access": "位于塔巴南稻田与椰林之间，实际车程受巴厘岛交通影响。"
@@ -38,12 +98,109 @@
   "media": {
     "cover": "https://images.prismic.io/ulaman/ag1WEqYofJOwHaJg_eco-luxury-resort-bali.jpg?auto=format%2Ccompress",
     "gallery": [
-      {"url": "https://images.prismic.io/ulaman/ag1WEqYofJOwHaJg_eco-luxury-resort-bali.jpg?auto=format%2Ccompress", "type": "整体环境", "source": "酒店官网", "verified": true},
-      {"url": "https://images.prismic.io/ulaman/ag1WW6YofJOwHaJj_ulamanbali.jpg?auto=format%2Ccompress", "type": "建筑与水体", "source": "酒店官网", "verified": true},
-      {"url": "https://images.prismic.io/ulaman/ZjNFm0MTzAJOCfDW_best-spa-bali.jpg?auto=format%2Ccompress", "type": "河畔水疗", "source": "酒店官网", "verified": true},
-      {"url": "https://images.prismic.io/ulaman/agwj-6YofJOwHWxU_5--Poolside-Villa-.jpg?auto=format%2Ccompress", "type": "客房区域", "source": "酒店官网", "verified": true}
+      {
+        "url": "https://images.prismic.io/ulaman/ag1WEqYofJOwHaJg_eco-luxury-resort-bali.jpg?auto=format%2Ccompress",
+        "type": "整体环境",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ag1WW6YofJOwHaJj_ulamanbali.jpg?auto=format%2Ccompress",
+        "type": "建筑与水体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ZjNFm0MTzAJOCfDW_best-spa-bali.jpg?auto=format%2Ccompress",
+        "type": "河畔水疗",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/agwj-6YofJOwHWxU_5--Poolside-Villa-.jpg?auto=format%2Ccompress",
+        "type": "客房区域",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ZjejUEMTzAJOCioP_eco-retreat-bali-ubud.jpg?auto=format%2Ccompress",
+        "type": "园林与建筑",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ag1bHaYofJOwHaLh_ulaman-bali.jpg?auto=format%2Ccompress",
+        "type": "公共空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/aaE5ecFoBIGEg50x_romantic-waterfall-dining-bali.jpg?auto=format%2Ccompress",
+        "type": "瀑布与平台",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/agwg66YofJOwHWvP_lake-villa-bali.jpg?auto=format%2Ccompress",
+        "type": "生态水面与建筑",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/Zo56FB5LeNNTw_Xp_ulaman-.jpg?auto=format%2Ccompress",
+        "type": "周边稻田与度假村全景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ZotMNx5LeNNTw4r1_ulaman.jpg?auto=format%2Ccompress",
+        "type": "建筑群与植被",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/agwb7KYofJOwHWq5_eco-luxury-villa-bali.jpg?auto=format%2Ccompress",
+        "type": "竹构住宿",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ZjemEkMTzAJOCioq_ulaman.jpg?auto=format%2Ccompress",
+        "type": "林下公共空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/agwg7KYofJOwHWvQ_eco-resort-bali.jpg?auto=format%2Ccompress",
+        "type": "建筑与水面",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ZoogWx5LeNNTw3oY_lakevilla.jpg?auto=format%2Ccompress",
+        "type": "生态湖住宿",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://images.prismic.io/ulaman/ag1MraYofJOwHaFe_cocoon-bamboo-villa-bali-outside-view.jpg?auto=format%2Ccompress",
+        "type": "竹屋外部",
+        "source": "酒店官网",
+        "verified": true
+      }
     ]
   },
-  "links": {"ctrip": "https://www.trip.com/hotels/bali-hotel-detail-69355833/ulaman-eco-luxury-resort/", "official": "https://ulamanbali.com/"},
-  "verification": {"status": "verified", "summary": "官网环境、建筑与水体图片已核验；价格待日期复核", "updatedAt": "2026-07-23", "sources": ["酒店官网", "携程酒店详情页"]}
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/bali-hotel-detail-69355833/ulaman-eco-luxury-resort/",
+    "official": "https://ulamanbali.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "官网环境、建筑与水体图片已核验；价格待日期复核",
+    "updatedAt": "2026-07-23",
+    "sources": [
+      "酒店官网",
+      "携程酒店详情页"
+    ]
+  }
 }
