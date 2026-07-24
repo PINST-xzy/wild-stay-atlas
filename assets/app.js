@@ -108,6 +108,18 @@ function uniqueImages(cover,records=[]){
   const rows=[{url:cover,caption:"整体环境"},...records.map((item,i)=>typeof item==="string"?{url:item,caption:`实景 ${i+1}`}:{url:item.url,caption:item.caption||item.type||`实景 ${i+1}`})];
   return rows.filter((item,i)=>item.url&&rows.findIndex(other=>other.url===item.url)===i);
 }
+function imageScope(image){
+  return /周边|村落|街|河谷|海湾|岛屿|稻田|农业|步道|抵达|东岸|夜景|渔船/.test(image.caption||"")?"surroundings":"core";
+}
+function galleryFilters(){
+  return `<div class="gallery-filters"><button class="active" data-gallery-filter="all">全部影像</button><button data-gallery-filter="core">核心空间</button><button data-gallery-filter="surroundings">周边环境</button></div>`;
+}
+function bindGalleryFilters(scope){
+  document.querySelectorAll(`${scope} [data-gallery-filter]`).forEach(button=>button.onclick=()=>{
+    document.querySelectorAll(`${scope} [data-gallery-filter]`).forEach(item=>item.classList.toggle("active",item===button));
+    document.querySelectorAll(`${scope} figure[data-scope]`).forEach(figure=>figure.hidden=button.dataset.galleryFilter!=="all"&&figure.dataset.scope!==button.dataset.galleryFilter);
+  });
+}
 function photoMosaic(images,label){
   const rows=images.slice(0,3);
   return `<div class="photo-mosaic ${rows.length<3?"photo-mosaic-short":""}">
@@ -333,7 +345,7 @@ function destinationDetail(id,push=true){
       <div>${d.profile.baseAreas.map((area,i)=>`<article><b>${String(i+1).padStart(2,"0")}</b><h3>${area.name}</h3><p>${area.fit}</p></article>`).join("")}</div></section>
     <section id="destinationBudget" class="destination-section destination-budget"><header><span>03 · STAY STRATEGY</span><h2>住宿预算</h2><p>${d.profile.stayStrategy}</p></header>
       <div>${d.pricing.budgetBands.map(band=>`<article><span>${band.label}</span><b>${band.range}</b></article>`).join("")}<p>${d.pricing.note}</p></div></section>
-    <section id="destinationGallery" class="destination-gallery"><header><span>04 · PLACE IMAGES</span><h2>地区影像档案</h2><p>${destinationImages.length} 张 · 点击查看完整画面</p></header><div>${destinationImages.map((image,i)=>`<figure data-photo-index="${i}"><img src="${image.url}" alt="${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b>${image.caption}</figcaption></figure>`).join("")}</div></section>
+    <section id="destinationGallery" class="destination-gallery"><header><span>04 · PLACE IMAGES</span><h2>地区影像档案</h2><p>${destinationImages.length} 张 · 点击查看完整画面</p>${galleryFilters()}</header><div>${destinationImages.map((image,i)=>`<figure data-photo-index="${i}" data-scope="${imageScope(image)}"><img src="${image.url}" alt="${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b><i>${imageScope(image)==="core"?"核心空间":"周边环境"}</i>${image.caption}</figcaption></figure>`).join("")}</div></section>
     <section id="destinationFacts" class="destination-section destination-facts"><header><span>05 · PRACTICAL FILE</span><h2>实际条件</h2></header><div>
       <article><span>如何接近水</span><p>${d.profile.waterAccess}</p></article><article><span>抵达方式</span><p>${d.profile.access}</p></article>
       <article><span>季节变化</span><p>${d.profile.season}</p></article><article><span>资料状态</span><p>${d.verification.summary}</p></article>
@@ -345,6 +357,7 @@ function destinationDetail(id,push=true){
   document.querySelector("#backDestinationsBottom").onclick=()=>destinationHome();
   document.querySelector("#shareDestination").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#shareDestination").textContent="链接已复制"}catch{}};
   bindPhotoViewer("#destinationGallery",destinationImages);
+  bindGalleryFilters("#destinationGallery");
 }
 
 function quick(id,push=true){
@@ -483,8 +496,8 @@ function detail(id, push=true){
       </div>
     </section>
 
-    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>03 · VERIFIED IMAGES</span><h2>环境与公共空间影像</h2><p>${hotelImages.length} 张 · 点击查看完整画面</p></div>
-      <div class="gallery-grid">${hotelImages.map((image,i)=>`<figure data-photo-index="${i}"><img src="${image.url}" alt="${s.name} · ${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b>${image.caption}</figcaption></figure>`).join("")}</div></section>
+    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>03 · VERIFIED IMAGES</span><h2>环境与公共空间影像</h2><p>${hotelImages.length} 张 · 点击查看完整画面</p>${galleryFilters()}</div>
+      <div class="gallery-grid">${hotelImages.map((image,i)=>`<figure data-photo-index="${i}" data-scope="${imageScope(image)}"><img src="${image.url}" alt="${s.name} · ${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b><i>${imageScope(image)==="core"?"核心空间":"周边环境"}</i>${image.caption}</figcaption></figure>`).join("")}</div></section>
 
     <section id="facts" class="detail-section facts">
       <div class="section-label"><span>04</span><p>FILE CARD</p><h2>档案信息</h2></div>
@@ -509,6 +522,7 @@ function detail(id, push=true){
   document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(s.id));
   document.querySelector("#share").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#share").textContent="链接已复制"}catch{location.hash=""}};
   bindPhotoViewer("#gallery",hotelImages);
+  bindGalleryFilters("#gallery");
 }
 
 window.onpopstate=()=>{
