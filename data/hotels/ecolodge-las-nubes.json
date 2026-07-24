@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "ecolodge-las-nubes",
+  "status": "published",
+  "identity": {
+    "name": "云瀑生态小屋",
+    "englishName": "Ecolodge Las Nubes Chiapas",
+    "country": "墨西哥",
+    "region": "恰帕斯州",
+    "locality": "Maravilla Tenejapa",
+    "placeLabel": "墨西哥 · 恰帕斯州",
+    "hotelType": "瀑布河谷社区木屋"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "目的地带动型低价木屋",
+    "collection": "lodging",
+    "tags": [
+      "Santo Domingo河",
+      "瀑布",
+      "碧蓝水体",
+      "社区木屋",
+      "森林栈道",
+      "极偏远"
+    ],
+    "waterTypes": [
+      "Santo Domingo河",
+      "大型瀑布",
+      "河谷水潭"
+    ],
+    "tradeoffs": [
+      "客房非常朴素",
+      "部分急流不可游泳",
+      "交通困难"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 450,
+    "maximum": 850,
+    "display": "¥450–850",
+    "basis": "两位成人入住一间基础房，每晚参考；税费、套餐与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 88,
+    "value": 97,
+    "water": 99,
+    "greenery": 96,
+    "architecture": 66,
+    "exploration": 98
+  },
+  "editorial": {
+    "oneLine": "木屋本身普通，门外却是Santo Domingo河、巨大瀑布、碧蓝急流、森林栈道和社区保护地。",
+    "reason": "这是一处典型的目的地带动型住宿。客房不值得单独吹捧，但水体规模远超多数酒店：河流在石灰岩与森林之间形成白色急流和蓝绿色深潭，步道、吊桥与观景点沿水展开。低价格让建筑与服务的妥协变得合理。",
+    "advantages": [
+      "天然河流和瀑布极其强烈，水体不是装饰",
+      "森林栈道、吊桥与观景路线具有高探索性",
+      "价格很低，适合把预算留给交通和停留时间",
+      "社区运营和偏远位置减少商业度假村感"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "木屋室内、餐饮和服务都很基础，不能按精品酒店期待。"
+      },
+      {
+        "level": "可能淘汰",
+        "text": "主瀑布与急流部分区域不适合下水，必须遵守现场安全范围。"
+      }
+    ],
+    "fit": "愿意用住宿舒适度换取壮观河流、瀑布和低预算的人。",
+    "notFit": "需要方便交通、精致客房或全天候丰富服务的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于恰帕斯州极偏远的Santo Domingo河谷和社区保护地，最近的大型城镇也需要长距离陆路。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "Las Nubes位于墨西哥恰帕斯州东部偏远河谷，Santo Domingo河从热带森林和石灰岩地形中穿过。周边以社区保护地、小型聚落和林地为主，离Comitán等城市路程很长；这种偏远性带来交通成本，也保留了强烈的河谷尺度。"
+      },
+      {
+        "title": "场地布局",
+        "text": "住宿由朴素木屋、餐厅、社区公共区和通往河流的步道组成，房间不是空间中心。真正的场地从木屋外开始：栈道、吊桥、岩石路径和观景点沿急流与瀑布铺开，人在行走中不断接近水、跨越支流并进入高湿度森林。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑主要解决基本住宿，设计感有限。Santo Domingo河则呈现蓝绿色深潭、白色急流和大体量瀑布，植被紧贴岩岸与步道；部分水面看似适合游泳，实际流速和水位可能危险，应把亲水与可游泳区域严格区分。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从Comitán驾车约需数小时，最后路段偏远，建议白天抵达并提前确认燃油、餐食与通信。旱季道路较稳定且水色清晰，雨季水量壮观却可能影响通行和安全；住宿价格低，但车辆和路线组织会成为总成本的重要部分。"
+      }
+    ],
+    "spatialRelationship": "基础木屋作为河谷入口，栈道、吊桥和森林步道沿Santo Domingo河与瀑布展开，目的地远强于住宿本体。",
+    "access": "从Comitán约需4小时上下，建议包车或自驾并提前联系社区。"
+  },
+  "media": {
+    "cover": "https://lasnubeschiapas.com/wp-content/uploads/2025/04/cascada-las-nubes-chiapas.png",
+    "gallery": [
+      {
+        "url": "https://lasnubeschiapas.com/wp-content/uploads/2025/04/cascada-las-nubes-chiapas.png",
+        "type": "场地整体",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://lasnubeschiapas.com/wp-content/uploads/2025/04/cabanas-las-nubes-madera.jpeg",
+        "type": "建筑外景",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://lasnubeschiapas.com/wp-content/uploads/2025/04/00003restaurante-las-nubes-chiapas.png",
+        "type": "客房内景",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Causas_Verdes_las_Nubes.JPG",
+        "type": "公共空间",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Causas_Verdes.JPG",
+        "type": "水体与植物",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Entrando_a_Las_Nubes_-_panoramio.jpg",
+        "type": "林间道路",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sendero_en_Las_Nubes_-_panoramio.jpg",
+        "type": "餐饮空间",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Las_Nubes_Chiapas_-_panoramio.jpg",
+        "type": "周边周边环境",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Las_Nubes_Chiapas_-_panoramio_%281%29.jpg",
+        "type": "周边建筑细节",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/El_Tunel%2C_Las_Nubes_Chiapas_-_panoramio.jpg",
+        "type": "周边亲水区域",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Las_Nubes_Chiapas_-_panoramio_%282%29.jpg",
+        "type": "周边场地整体",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Las_Nubes_Chiapas%2C_vista_desde_el_mirador_-_panoramio.jpg",
+        "type": "周边建筑外景",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Andador_en_Las_Nubes_Chiapas_-_panoramio.jpg",
+        "type": "周边客房内景",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Las_Nubes_Chiapas%2C_Caba%C3%B1as_y_andador_-_panoramio.jpg",
+        "type": "周边公共空间",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Las_Nubes_Chiapas%2C_Caba%C3%B1as_-_panoramio.jpg",
+        "type": "周边水体与植物",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=36441",
+    "official": "https://lasnubeschiapas.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网营业、木屋、餐厅、河流瀑布与旅游局资料；图库含明确标注Las Nubes地点的Wikimedia实景。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官网、恰帕斯旅游局与Wikimedia实景",
+      "酒店官网或官方旅游资料",
+      "公开预订信息"
+    ]
+  }
+}
