@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "casitas-del-rio",
+  "status": "published",
+  "identity": {
+    "name": "河畔小屋自然旅馆",
+    "englishName": "Casitas del Rio Riverfront Nature Lodge",
+    "country": "哥斯达黎加",
+    "region": "蓬塔雷纳斯",
+    "locality": "乌维塔",
+    "placeLabel": "哥斯达黎加 · 蓬塔雷纳斯",
+    "hotelType": "河畔热带花园民宿"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "阳光花园性价比",
+    "collection": "lodging",
+    "tags": [
+      "五栋小屋",
+      "Morete河",
+      "成熟花园",
+      "明亮热带",
+      "近瀑布",
+      "近海岸"
+    ],
+    "waterTypes": [
+      "Morete河",
+      "花园泳池",
+      "部分房型泡池"
+    ],
+    "tradeoffs": [
+      "花园整理感较强",
+      "泳池普通",
+      "建筑设计感一般"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 900,
+    "maximum": 1800,
+    "display": "¥900–1,800",
+    "basis": "两位成人入住一间基础房，每晚参考；税费、套餐与日期需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 88,
+    "value": 88,
+    "water": 84,
+    "greenery": 96,
+    "architecture": 76,
+    "exploration": 86
+  },
+  "editorial": {
+    "oneLine": "五栋小屋夹在Morete河与保护绿地之间，成熟花园、鲜亮花木和河声构成轻松而不昂贵的热带停留。",
+    "reason": "它不是野生建筑实验，而是舒适、明亮和植物繁盛的实用选择。小径穿过花园连接独立小屋、河岸和泳池，房间配置完整；附近又有多处瀑布和海岸，可以用相对可控的价格换取长时间热带生活。",
+    "advantages": [
+      "仅五栋独立小屋，花园成熟且植物种类丰富",
+      "Morete河直接位于场地边缘",
+      "客房舒适度高于基础生态营地",
+      "乌维塔周边瀑布、国家公园和海岸选择丰富"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "泳池和部分泡池人工感明显，不是天然水域的一部分。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "园林较为精心整理，野生感弱于Rambala等雨林小屋。"
+      }
+    ],
+    "fit": "喜欢阳光、花园、河声和舒适小屋，希望控制预算的人。",
+    "notFit": "要求酒店内部拥有多处天然泳潭和强烈建筑实验性的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于乌维塔Morete河畔，距离Marino Ballena国家公园海岸、Uvita瀑布和Nauyaca瀑布路线不远。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "旅馆位于哥斯达黎加南太平洋岸乌维塔，处在Morete河与保护绿地之间，距海岸约两公里。周边不是孤立雨林，而是热带小镇、十一处海滩、多条瀑布路线和国家公园共同构成的度假网络，生活补给也比偏远营地方便。"
+      },
+      {
+        "title": "场地布局",
+        "text": "五栋独立小屋分布在成熟花园里，以弯曲小径、花丛、休息亭和泳池连接。场地尺度适中，不需要大型交通工具；房间露台、花园座椅与河岸形成多个停留点，植物经常遮挡相邻建筑，私密感来自绿化而非高墙。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑本身属于舒适型热带住宅，部分房型拥有整面玻璃、厨房或小型泡池。真正出色的是棕榈、香蕉、开花灌木和巨大叶片形成的花园层次；Morete河提供真实声音和湿度，普通泳池则承担日常游泳，属于可以接受的人工水体取舍。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从圣何塞驾车通常需要数小时，也可使用国内机场再转车。十二月至四月通常更容易获得晴朗光线，雨季植物和瀑布更丰盛但道路与河况变化明显；旅馆主要面向成人，预订时还应确认最低入住年龄与具体房型政策。"
+      }
+    ],
+    "spatialRelationship": "五栋小屋散布在成熟花园中，Morete河贴着边界流过，内部以花园路线和普通泳池补足停留空间。",
+    "access": "从圣何塞陆路约3.5–4小时；也可经Palmar Sur等区域转运。"
+  },
+  "media": {
+    "cover": "https://images.entercostarica.com/uploads/items/15501/item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+    "gallery": [
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "场地整体",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w320_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "建筑外景",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w480_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "客房内景",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w640_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "公共空间",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w768_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "水体与植物",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w1280_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "林间道路",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w1536_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "餐饮空间",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w1920_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "周边周边环境",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w2048_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "周边建筑细节",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w2560_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "周边亲水区域",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w2880_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "type": "周边场地整体",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/item_15501_1_casitas_del_rio_ecolodge_2_7618c28429.webp",
+        "type": "周边建筑外景",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w320_item_15501_1_casitas_del_rio_ecolodge_2_7618c28429.webp",
+        "type": "周边客房内景",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w480_item_15501_1_casitas_del_rio_ecolodge_2_7618c28429.webp",
+        "type": "周边公共空间",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      },
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w640_item_15501_1_casitas_del_rio_ecolodge_2_7618c28429.webp",
+        "type": "周边水体与植物",
+        "source": "Enter Costa Rica实景图库",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=60614",
+    "official": "https://junglebeachvacation.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网现行营业、五栋小屋、Morete河位置、周边瀑布海岸与实景图库。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "Enter Costa Rica实景图库",
+      "酒店官网或官方旅游资料",
+      "公开预订信息"
+    ]
+  }
+}
