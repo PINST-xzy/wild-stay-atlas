@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "macaw-bank-jungle-lodge",
+  "status": "published",
+  "identity": {
+    "name": "金刚鹦鹉岸丛林旅馆",
+    "englishName": "Macaw Bank Jungle Lodge",
+    "country": "伯利兹",
+    "region": "卡约区",
+    "locality": "圣伊格纳西奥",
+    "placeLabel": "伯利兹 · 卡约区",
+    "hotelType": "河岸丛林旅馆"
+  },
+  "classification": {
+    "grade": "A",
+    "gradeLabel": "核心匹配",
+    "tags": [
+      "Macal 河",
+      "沙质河岸",
+      "五十英亩保护地",
+      "六栋小屋",
+      "农园餐桌"
+    ],
+    "waterTypes": [
+      "河流",
+      "天然泳水"
+    ],
+    "tradeoffs": [
+      "设施简单",
+      "位置偏远"
+    ],
+    "collection": "lodging"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 720,
+    "maximum": 1150,
+    "display": "¥720–1,150",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 85,
+    "value": 92,
+    "water": 91,
+    "greenery": 96,
+    "architecture": 67,
+    "exploration": 94
+  },
+  "editorial": {
+    "oneLine": "只有六栋朴素木屋，却把 Macal 河沙岸、五十英亩保护地和五英里林径完整留在住宿门外。",
+    "reason": "它不是设计酒店，建筑甚至相当简单，但河流的近距离参与和丛林密度都很强。客人可从旅馆走到沙质河岸、下水漂流，再回到农园和开放餐厅；以千元左右价格获得这种完整自然场地，取舍是成立的。",
+    "advantages": [
+      "Macal 河就在场地边缘，可游泳、漂流和沿岸停留",
+      "仅六栋 cabana，密度低且被成熟丛林包围",
+      "房价与自然体验的比例突出"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "房间硬件和服务明显偏生态旅馆而非度假酒店"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "偏远且夜间环境原始，昆虫和动物声无法避免"
+      }
+    ],
+    "fit": "预算敏感、重视真实河岸和丛林步道、能接受朴素住宿的人。",
+    "notFit": "期待空调精品房、SPA、泳池和全天候服务的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "旅馆位于伯利兹卡约区 Macal 河沿岸，约五十英亩私人保护地中分布农园、河岸和五英里自然小径，周边是低密度热带林与洞穴、玛雅遗址活动区。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "旅馆位于圣伊格纳西奥以南的 Macal 河乡野地带，周围没有连续城镇界面，而是河谷、农地和热带森林。这里可作为探索卡约区洞穴、瀑布与玛雅遗址的落脚点，但最直接的周边仍是旅馆自己的河岸与保护地。"
+      },
+      {
+        "title": "场地布局",
+        "text": "场地规模约五十英亩，却只设置六栋独立 cabana。住宿、蝴蝶园、菜园、餐厅和河岸之间由林下小径连接，空间松散，没有大型泳池或集中式客房楼；客人需要靠步行认识整个场地。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "小屋使用木材和高脚结构，建筑表达朴素，优势来自树冠和河流。Macal 河边有便于接近的沙质岸线，可下水、漂流或在岸边停留；园地与次生林一直延伸到建筑周围。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从圣伊格纳西奥前往需要车辆并提前确认路线，现场以太阳能等低影响设施为主。餐食多按固定菜单和时间供应，房间数量少，旺季需要提前订；追求酒店式硬件的人会明显感到简单。"
+      }
+    ],
+    "spatialRelationship": "小屋散落在林中，步道经过花园与餐厅后下降到 Macal 河沙岸，河流是场地边界也是活动中心。",
+    "access": "从圣伊格纳西奥包车或自驾进入乡间道路；不建议依赖临时叫车。"
+  },
+  "food": {
+    "summary": "六间小屋共享的餐桌走家庭式路线，以农园和当地有机食材为基础，一日三餐按固定菜单准备，胜在新鲜、有人情味和场地关联。",
+    "setting": "开放餐厅面向花园与丛林，住客在相近时间共同用餐。",
+    "highlights": [
+      {
+        "name": "伯利兹家常晚餐",
+        "description": "米饭、豆类、鸡肉或鱼与当季蔬菜组合，味道直接而不繁复。"
+      },
+      {
+        "name": "农园蔬菜",
+        "description": "旅馆菜园供应部分香草和蔬菜，菜单随收成调整。"
+      },
+      {
+        "name": "饮食适配",
+        "description": "可提前沟通素食等需求，小规模厨房更偏预约式准备。"
+      }
+    ],
+    "caveat": "不是可随时点单的度假村餐厅，固定菜单和用餐时间需要提前确认。"
+  },
+  "media": {
+    "cover": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Macaw_Bank_Lodge_Cabin.jpg",
+    "gallery": [
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Macaw_Bank_Lodge_Cabin.jpg",
+        "type": "environment",
+        "caption": "丛林客舱",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Cabin-4.jpg",
+        "type": "environment",
+        "caption": "林中木屋",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Cabin-3.jpg",
+        "type": "environment",
+        "caption": "客舱与植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Lodge-2.jpg",
+        "type": "environment",
+        "caption": "旅馆公共空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Lodge-1.jpg",
+        "type": "environment",
+        "caption": "开放式旅馆建筑",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Butterfly-Building.jpg",
+        "type": "environment",
+        "caption": "蝴蝶园建筑",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Garden2.jpg",
+        "type": "environment",
+        "caption": "热带花园",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Trail-in-the-garden.jpg",
+        "type": "surroundings",
+        "caption": "周边花园步道",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Garden.jpg",
+        "type": "environment",
+        "caption": "农园植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Garden3.jpg",
+        "type": "environment",
+        "caption": "保护地花园",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Restaurant3.jpg",
+        "type": "environment",
+        "caption": "开放餐厅",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Food1.jpg",
+        "type": "environment",
+        "caption": "家庭式餐食",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Macal-tubing.jpg",
+        "type": "surroundings",
+        "caption": "周边 Macal 河漂流",
+        "source": "酒店官网",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/list?searchWord=Macaw%20Bank%20Jungle%20Lodge",
+    "official": "https://www.macawbankjunglelodge.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://www.macawbankjunglelodge.com/",
+      "https://www.trip.com/hotels/list?searchWord=Macaw%20Bank%20Jungle%20Lodge"
+    ]
+  }
+}
