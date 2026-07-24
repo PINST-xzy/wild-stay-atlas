@@ -31,7 +31,8 @@
       "房内无网络",
       "多虫潮湿",
       "设施朴素"
-    ]
+    ],
+    "collection": "lodging"
   },
   "pricing": {
     "currency": "CNY",
