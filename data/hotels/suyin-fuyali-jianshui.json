@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "suyin-fuyali-jianshui",
+  "status": "published",
+  "identity": {
+    "name": "溯隐府衙里酒店",
+    "englishName": "Suyin Fuyali Hotel",
+    "country": "中国",
+    "region": "云南省",
+    "locality": "建水县",
+    "placeLabel": "中国 · 云南建水古城",
+    "hotelType": "古城庭院设计酒店"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "取舍候选",
+    "tags": [
+      "建水古城",
+      "中式庭院",
+      "临安府署",
+      "地方美食",
+      "步行探索"
+    ],
+    "waterTypes": [
+      "庭院水景"
+    ],
+    "tradeoffs": [
+      "天然水体少",
+      "植物偏园林化"
+    ],
+    "collection": "lodging"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 650,
+    "maximum": 1200,
+    "display": "¥650–1,200",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 86,
+    "value": 89,
+    "water": 48,
+    "greenery": 72,
+    "architecture": 91,
+    "exploration": 90
+  },
+  "editorial": {
+    "oneLine": "它不靠天然水域取胜，而是把建水古城、庭院、连廊与汽锅鸡、烧豆腐等地方风味一起纳入可步行的住宿体验。",
+    "reason": "这家不是核心自然型，但朋友推荐的视角很有价值：酒店就在古城重要街区旁，院落与公共空间有细节，出门即进入临安府署、朱家花园和建水饮食。它扩展了网站的判断范围——沉浸感也可以来自完整的地方生活，而不只来自雨林。",
+    "advantages": [
+      "2024 年开业，院落、连廊和客房硬件较新",
+      "步行可达临安府署、文庙和古城街巷",
+      "建水汽锅鸡、草芽、烧豆腐等饮食辨识度极高"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "没有天然河流、温泉或浓密野生植被，不属于核心自然型"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "旅游高峰期古城街区人流与噪声可能增加"
+      }
+    ],
+    "fit": "喜欢庭院、古城步行、地方菜与历史街区，希望住宿本身也有设计细节的人。",
+    "notFit": "此行只想要雨林、天然泳水或远离人群的野生环境的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于建水古城核心区，距建水古城、临安府署和文庙都很近，朱家花园、朝阳楼、紫陶店和烧豆腐摊可通过街巷步行串联。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "酒店位于云南红河州建水古城核心区域，周边不是自然保护区，而是完整的历史街区。临安府署、文庙、朱家花园、朝阳楼以及大量紫陶和地方小吃店分布在步行范围，住宿的周边魅力来自街巷密度和生活连续性。"
+      },
+      {
+        "title": "场地布局",
+        "text": "酒店内部以多进庭院、连廊、灰瓦屋面和局部水景组织空间，客房围绕院落展开。它没有大型公共泳池或广阔园林，而是通过门洞、檐下、转折和尺度较小的庭院形成层层进入的过程。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑语言偏当代中式，以木、石、瓦和暖色灯光营造安静氛围；植物经过精心布置，更接近漂亮园林而非半野生热带植被。水以庭院镜面或小型景观形式出现，不具备游泳和天然接触价值。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从建水站打车进入古城较方便，车辆在古城核心区的通行与停车需提前确认。酒店适合把重心放在步行、餐饮和历史建筑；节假日客流、房价和街道噪声会明显上升，建议避开最拥挤时段。"
+      }
+    ],
+    "spatialRelationship": "从酒店庭院穿过门洞和连廊，再步入古城街巷；沉浸感由室内院落向临安府署、朱家花园和地方餐桌连续扩展。",
+    "access": "建水站打车前往古城，最后一段按酒店指引落客；古城内部最适合步行。"
+  },
+  "food": {
+    "summary": "这家的真正亮点是把住宿放进建水味觉地图：汽锅鸡、草芽、烧豆腐、米线和紫陶汽锅都具有明确地域性，美食足以与庭院并列成为主线。",
+    "setting": "酒店中式早餐与餐厅可作为起点，更多代表味道分布在步行可达的建水古城街巷。",
+    "highlights": [
+      {
+        "name": "建水汽锅鸡",
+        "description": "以紫陶汽锅蒸汽凝结成汤，鸡汤清鲜，是建水最具标识度的菜。"
+      },
+      {
+        "name": "建水烧豆腐",
+        "description": "街头炭火慢烤的小块豆腐，蘸干料或蘸水，适合边走边吃。"
+      },
+      {
+        "name": "草芽入馔",
+        "description": "建水特有水生蔬菜，可入汤、炒食或配米线，口感清甜脆嫩。"
+      },
+      {
+        "name": "古城早点",
+        "description": "米线、卷粉与本地酱料组成很有地方感的早晨，比标准酒店早餐更值得探索。"
+      }
+    ],
+    "caveat": "哪些代表菜由酒店餐厅供应需按当天菜单确认；本页同时记录步行范围内的目的地饮食。"
+  },
+  "media": {
+    "cover": "https://ak-d.tripcdn.com/images/1mc0512000t444iru2E7C_R_960_660_R5_D.jpg",
+    "gallery": [
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc0512000t444iru2E7C_R_960_660_R5_D.jpg",
+        "type": "surroundings",
+        "caption": "古城庭院建筑",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc4312000f0zhewjF16A_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "院落夜景",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc5g12000suynthj4CBA_R_339_206_R5_D.png",
+        "type": "environment",
+        "caption": "酒店公共空间",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc3412000fdf0mp2AB3A_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "庭院连廊",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc1c12000f0zf72g1F5D_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "客房室内",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc4m12000fdf2di357AD_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "客房细节",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc6s12000f0zezu0F5BC_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "公共休息区",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jianshui%20Chaoyang%20Gate.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边建水古城朝阳楼",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jianshui%20Confucian%20Temple.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边建水文庙",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhu%20Family%20Garden%20Jianshui.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边朱家花园",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jianshui%20old%20town%20street.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边建水古城街巷",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jianshui%20pottery.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边建水紫陶",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://hk.trip.com/hotels/jianshui-hotel-detail-122379789/su-yin-fu-ya-li-jiu-dian/",
+    "official": "https://hk.trip.com/hotels/jianshui-hotel-detail-122379789/su-yin-fu-ya-li-jiu-dian/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://hk.trip.com/hotels/jianshui-hotel-detail-122379789/su-yin-fu-ya-li-jiu-dian/",
+      "https://hk.trip.com/hotels/jianshui-hotel-detail-122379789/su-yin-fu-ya-li-jiu-dian/"
+    ]
+  }
+}
