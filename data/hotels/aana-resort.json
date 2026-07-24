@@ -30,7 +30,8 @@
       "设施简单",
       "泳池略规则",
       "交通不便"
-    ]
+    ],
+    "collection": "resort"
   },
   "pricing": {
     "currency": "CNY",
