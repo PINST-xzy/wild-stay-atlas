@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "our-jungle-house",
+  "status": "published",
+  "identity": {
+    "name": "我们的丛林之家",
+    "englishName": "Our Jungle House",
+    "country": "泰国",
+    "region": "泰国南部",
+    "locality": "考索国家公园",
+    "placeLabel": "泰国 · 考索国家公园",
+    "hotelType": "河岸树屋与雨林旅馆"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "性价比取舍",
+    "tags": [
+      "树屋",
+      "河岸",
+      "私人雨林",
+      "林间小径",
+      "无空调"
+    ],
+    "waterTypes": [
+      "Sok 河",
+      "河滩",
+      "雨林溪流"
+    ],
+    "tradeoffs": [
+      "无空调",
+      "房内无网络",
+      "多虫潮湿",
+      "设施朴素"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 480,
+    "maximum": 1150,
+    "display": "¥480–1150",
+    "basis": "两位成人入住一间基础房，每晚参考；日期与税费需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 91,
+    "value": 91,
+    "water": 86,
+    "greenery": 97,
+    "architecture": 80,
+    "exploration": 93
+  },
+  "editorial": {
+    "oneLine": "树屋和平房分散在河岸私人雨林中，房门外就是林间小径、河声和石灰岩山体。",
+    "reason": "这里的优势不是房间豪华，而是住宿真正进入雨林内部。树屋和平房在约十二英亩林地中拉开距离，公共餐厅、河滩、按摩亭和短途步道沿河组织，住客可以直接下到水边或从住宿区步行进入林下空间。",
+    "advantages": [
+      "树屋、河岸、林间道路和树冠处于同一连续空间",
+      "场地内有可接近的河滩和三条短途雨林步道",
+      "基础房价明显低于多数设计型雨林度假村"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "房间无空调、电视和房内网络，主要依靠遮阴与自然通风。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "开放式环境意味着昆虫、野生动物声音和潮湿感都更明显。"
+      }
+    ],
+    "fit": "愿意牺牲标准化设施，换取真正河岸雨林包裹感的人。",
+    "notFit": "需要空调、安静隔音、无虫环境或完整城市服务的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "位于 Khlong Sok 河岸，住宿区外仍是考索村落、国家公园雨林、石灰岩山体与通往 Cheow Lan 湖的活动网络。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "住宿位于素叻他尼府考索国家公园入口附近的 Khlong Sok 河岸。周围不是独立景观围墙，而是雨林、河流、石灰岩山体和小型旅游村落连续出现；餐饮与基础商店可在村内解决，Cheow Lan 湖需要另外乘车进入。"
+      },
+      {
+        "title": "场地布局",
+        "text": "树屋与地面平房分散在约十二英亩私人雨林中，彼此保持距离。餐厅和酒吧面向河流，河滩、按摩亭与三条短步道嵌入林下；从房间到公共区域需要沿着树木、坡地和河岸小径移动。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑以木材、竹材、茅草感屋面和开放式阳台为主，树屋抬离地面但并非高处观景台。Sok 河紧邻住宿区，部分房型能听见或看见河流；成熟热带树木、藤蔓和林下植物比建筑更占据视野。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "通常从素叻他尼、普吉或甲米乘车抵达考索，再由道路进入住宿。房间没有空调和房内网络，夜间会有虫鸣与动物活动；雨季河况、道路湿滑和活动取消风险需要提前考虑。"
+      }
+    ],
+    "spatialRelationship": "树屋与平房散置在河岸雨林，餐厅、河滩、按摩亭和步道由林下道路串联，水体属于日常活动空间而非远景。",
+    "access": "从素叻他尼约两小时车程；普吉或甲米通常约三至四小时，具体接送按官网确认。"
+  },
+  "media": {
+    "cover": "https://www.khaosokaccommodation.com/_next/image?q=75&url=%2Fimages%2Fpages%2Fhome%2Fhero.jpg&w=3840",
+    "gallery": [
+      {
+        "url": "https://www.khaosokaccommodation.com/_next/image?q=75&url=%2Fimages%2Fpages%2Fhome%2Fhero.jpg&w=3840",
+        "type": "树屋与雨林",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.khaosokaccommodation.com/_next/image?q=75&url=%2Fimages%2Fpages%2Frooms%2Froom-video-poster.jpg&w=3840",
+        "type": "住宿整体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.khaosokaccommodation.com/_next/image?q=75&url=%2Fimages%2Fpages%2Four-resort%2Frestaurant.jpg&w=3840",
+        "type": "河岸餐厅",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.khaosokaccommodation.com/_next/image?q=75&url=%2Fimages%2Fpages%2Four-resort%2Fbeach.jpg&w=3840",
+        "type": "场地内河滩",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.khaosokaccommodation.com/_next/image?q=75&url=%2Fimages%2Fpages%2Four-resort%2Ftrails.jpg&w=3840",
+        "type": "林间步道",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.khaosokaccommodation.com/_next/image?q=75&url=%2Fimages%2Fpages%2Four-resort%2Fresort.jpg&w=3840",
+        "type": "周边农场与雨林",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20-%20Thailand.jpg?width=1600",
+        "type": "周边国家公园雨林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%2C%20Thailand.jpg?width=1600",
+        "type": "周边石灰岩与雨林",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20Surat%20Thani%20Thailand.jpg?width=1600",
+        "type": "周边森林道路",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20river.jpg?width=1600",
+        "type": "周边 Sok 河",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600",
+        "type": "周边雨林地貌",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheow%20Lan%20Lake%2C%20Khao%20Sok%20National%20Park%2C%20Thailand.jpg?width=1600",
+        "type": "周边 Cheow Lan 湖",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=60220",
+    "official": "https://www.khaosokaccommodation.com/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网位置、房型、场地环境、主要水体与抵达条件；价格按官网公开起价或当地常见区间换算，预订前需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官网",
+      "考索国家公园公开实景",
+      "近期住宿资料"
+    ]
+  }
+}
