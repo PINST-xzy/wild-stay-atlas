@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "hotel-slug",
+  "status": "draft",
+  "identity": {
+    "name": "酒店中文名",
+    "englishName": "Official English Name",
+    "country": "国家",
+    "region": "大区",
+    "locality": "城市或地区",
+    "placeLabel": "国家 · 地区",
+    "hotelType": "酒店类型"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "取舍候选",
+    "tags": ["标签一", "标签二", "标签三"],
+    "waterTypes": ["水体类型"],
+    "tradeoffs": ["主要取舍"]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 0,
+    "maximum": 0,
+    "display": "¥0–0",
+    "basis": "两位成人入住一间基础房，每晚参考",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {"aesthetic": 0, "value": 0, "water": 0, "greenery": 0, "architecture": 0, "exploration": 0},
+  "editorial": {
+    "oneLine": "一句话结论，至少十五个字。",
+    "reason": "具体收录理由，至少三十个字。",
+    "advantages": ["主要优点一", "主要优点二"],
+    "disadvantages": [{"level": "明显取舍", "text": "具体缺点"}],
+    "fit": "匹配人群",
+    "notFit": "可能不匹配的人群"
+  },
+  "profile": {
+    "surroundingsSummary": "周边环境摘要",
+    "sections": [
+      {"title": "地理位置与周边", "text": "至少六十个字，写所在地、邻近城市或景区、周边商业与自然环境。"},
+      {"title": "场地布局", "text": "至少六十个字，写建筑、公共空间、道路、水体和不同区域的空间关系。"},
+      {"title": "建筑、水体与植物", "text": "至少六十个字，写材料、水体属性、植被层次及人工与自然的关系。"},
+      {"title": "抵达与实际条件", "text": "至少六十个字，写机场、车辆、船只、步行条件、外出便利度和实际限制。"}
+    ],
+    "spatialRelationship": "场地空间关系摘要",
+    "access": "抵达方式摘要"
+  },
+  "media": {
+    "cover": "https://example.com/cover.jpg",
+    "gallery": [
+      {"url": "https://example.com/image-1.jpg", "type": "整体环境", "source": "来源", "verified": false},
+      {"url": "https://example.com/image-2.jpg", "type": "水体与公共空间", "source": "来源", "verified": false}
+    ]
+  },
+  "links": {"ctrip": "https://www.trip.com/", "official": "https://example.com/"},
+  "verification": {
+    "status": "unverified",
+    "summary": "资料尚未完成核验",
+    "updatedAt": "2026-07-24",
+    "sources": ["待补充"]
+  }
+}
