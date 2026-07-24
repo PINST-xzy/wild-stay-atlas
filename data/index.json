@@ -1,13 +1,17 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.07.24.5",
+  "contentVersion": "2026.07.24.6",
   "updatedAt": "2026-07-24",
   "hotels": [
     "hotels/bambu-indah.json",
     "hotels/aana-resort.json",
     "hotels/ulaman.json",
     "hotels/rayavadee.json",
-    "hotels/naman-retreat.json"
+    "hotels/naman-retreat.json",
+    "hotels/our-jungle-house.json",
+    "hotels/our-jungle-camp.json",
+    "hotels/ecotravel-cottages.json",
+    "hotels/sumatra-orangutan-explore-guesthouse.json"
   ],
   "destinations": [
     "destinations/koh-kood.json",
