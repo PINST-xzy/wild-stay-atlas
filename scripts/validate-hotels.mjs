@@ -1,0 +1,99 @@
+import { readFile, readdir } from "node:fs/promises";
+import { basename, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = fileURLToPath(new URL("..", import.meta.url));
+const hotelDir = join(root, "data", "hotels");
+const index = JSON.parse(await readFile(join(root, "data", "index.json"), "utf8"));
+const files = (await readdir(hotelDir)).filter(file => file.endsWith(".json")).sort();
+const indexed = [...index.hotels].map(path => basename(path)).sort();
+const errors = [];
+const warnings = [];
+const ids = new Set();
+const requiredProfileTitles = ["地理位置与周边", "场地布局", "建筑、水体与植物", "抵达与实际条件"];
+
+function check(condition, file, message) {
+  if (!condition) errors.push(`${file}: ${message}`);
+}
+function warn(condition, file, message) {
+  if (!condition) warnings.push(`${file}: ${message}`);
+}
+function validUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" || url.protocol === "http:";
+  } catch {
+    return false;
+  }
+}
+function validDate(value) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(`${value}T00:00:00Z`));
+}
+
+check(JSON.stringify(files) === JSON.stringify(indexed), "data/index.json", "索引与 data/hotels 目录不一致");
+
+for (const file of files) {
+  const hotel = JSON.parse(await readFile(join(hotelDir, file), "utf8"));
+  const label = `data/hotels/${file}`;
+  check(hotel.schemaVersion === 1, label, "schemaVersion 必须为 1");
+  check(/^[a-z0-9-]+$/.test(hotel.id || ""), label, "id 只能使用小写字母、数字和连字符");
+  check(!ids.has(hotel.id), label, `id 重复：${hotel.id}`);
+  ids.add(hotel.id);
+  check(["draft", "published", "archived", "excluded"].includes(hotel.status), label, "status 无效");
+
+  for (const key of ["name", "englishName", "country", "region", "locality", "placeLabel", "hotelType"]) {
+    check(Boolean(hotel.identity?.[key]), label, `identity.${key} 缺失`);
+  }
+  check(["A", "B", "C"].includes(hotel.classification?.grade), label, "classification.grade 无效");
+  check(hotel.classification?.tags?.length >= 3, label, "至少需要 3 个标签");
+  check(hotel.classification?.waterTypes?.length >= 1, label, "至少需要 1 种水体");
+  check(hotel.classification?.tradeoffs?.length >= 1, label, "至少需要 1 项取舍");
+
+  check(Number.isFinite(hotel.pricing?.minimum), label, "pricing.minimum 必须是数字");
+  check(Number.isFinite(hotel.pricing?.maximum), label, "pricing.maximum 必须是数字");
+  check(hotel.pricing?.minimum <= hotel.pricing?.maximum, label, "最低价不能高于最高价");
+  check(validDate(hotel.pricing?.verifiedAt || ""), label, "pricing.verifiedAt 日期无效");
+
+  for (const key of ["aesthetic", "value", "water", "greenery", "architecture", "exploration"]) {
+    const value = hotel.scores?.[key];
+    check(Number.isInteger(value) && value >= 0 && value <= 100, label, `scores.${key} 必须是 0–100 的整数`);
+  }
+
+  check((hotel.editorial?.oneLine || "").length >= 15, label, "一句话结论少于 15 个字");
+  check((hotel.editorial?.reason || "").length >= 30, label, "收录理由少于 30 个字");
+  check(hotel.editorial?.advantages?.length >= 2, label, "至少需要 2 项优点");
+  check(hotel.editorial?.disadvantages?.length >= 1, label, "至少需要 1 项缺点");
+  for (const item of hotel.editorial?.disadvantages || []) {
+    check(["可能淘汰", "明显取舍", "轻微提醒"].includes(item.level), label, `缺点级别无效：${item.level}`);
+    check((item.text || "").length >= 5, label, "缺点描述过短");
+  }
+
+  check(hotel.profile?.sections?.length === 4, label, "基本介绍必须包含 4 个章节");
+  hotel.profile?.sections?.forEach((section, i) => {
+    check(section.title === requiredProfileTitles[i], label, `第 ${i + 1} 个介绍标题应为“${requiredProfileTitles[i]}”`);
+    check((section.text || "").length >= 60, label, `“${section.title}”少于 60 个字`);
+  });
+
+  check(validUrl(hotel.media?.cover || ""), label, "封面 URL 无效");
+  check(hotel.media?.gallery?.length >= 2, label, "至少需要 2 张图库图片");
+  warn(hotel.media?.gallery?.length >= 3, label, "图库少于 3 张，建议继续补充");
+  for (const image of hotel.media?.gallery || []) {
+    check(validUrl(image.url || ""), label, "图库 URL 无效");
+    check(Boolean(image.type && image.source), label, "图库图片必须填写 type 和 source");
+  }
+  check(validUrl(hotel.links?.ctrip || ""), label, "携程链接无效");
+  check(validUrl(hotel.links?.official || ""), label, "官网链接无效");
+  check(validDate(hotel.verification?.updatedAt || ""), label, "verification.updatedAt 日期无效");
+  warn(hotel.verification?.status === "verified", label, "资料尚未标记为 verified");
+
+  const ageDays = (Date.now() - Date.parse(`${hotel.pricing.verifiedAt}T00:00:00Z`)) / 86400000;
+  warn(ageDays <= 180, label, `价格已超过 ${Math.floor(ageDays)} 天未复核`);
+}
+
+for (const message of warnings) console.warn(`WARN  ${message}`);
+if (errors.length) {
+  for (const message of errors) console.error(`ERROR ${message}`);
+  console.error(`\n${errors.length} 个错误，${warnings.length} 个提醒`);
+  process.exit(1);
+}
+console.log(`Validated ${files.length} hotels: 0 errors, ${warnings.length} warnings`);
