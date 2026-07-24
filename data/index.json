@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.07.24.10",
+  "contentVersion": "2026.07.24.11",
   "updatedAt": "2026-07-24",
   "hotels": [
     "hotels/bambu-indah.json",
@@ -23,7 +23,17 @@
     "hotels/rambala-jungle-lodge.json",
     "hotels/casitas-del-rio.json",
     "hotels/ecolodge-las-nubes.json",
-    "hotels/royal-waterlily-hotel.json"
+    "hotels/royal-waterlily-hotel.json",
+    "hotels/bali-eco-stay.json",
+    "hotels/tanah-aina-farrah-soraya.json",
+    "hotels/macaw-bank-jungle-lodge.json",
+    "hotels/black-rock-lodge.json",
+    "hotels/permai-rainforest-resort.json",
+    "hotels/tirimbina-rainforest-lodge.json",
+    "hotels/cardamom-tented-camp.json",
+    "hotels/tanah-larwina-retreat.json",
+    "hotels/mile-taiping-lake-forest-chalet.json",
+    "hotels/suyin-fuyali-jianshui.json"
   ],
   "destinations": [
     "destinations/koh-kood.json",
