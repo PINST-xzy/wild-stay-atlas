@@ -104,6 +104,28 @@ function scoreStars(value){
   return `<span class="star-scale" aria-label="${value}分">${[1,2,3,4,5].map(i=>`<i class="${i<=filled?"on":""}">◆</i>`).join("")}</span>`;
 }
 function scoreWord(value){return value>=95?"极高":value>=85?"很高":value>=75?"较高":value>=60?"中等":"较低"}
+function uniqueImages(cover,records=[]){
+  const rows=[{url:cover,caption:"整体环境"},...records.map((item,i)=>typeof item==="string"?{url:item,caption:`实景 ${i+1}`}:{url:item.url,caption:item.caption||item.type||`实景 ${i+1}`})];
+  return rows.filter((item,i)=>item.url&&rows.findIndex(other=>other.url===item.url)===i);
+}
+function photoMosaic(images,label){
+  const rows=images.slice(0,3);
+  return `<div class="photo-mosaic ${rows.length<3?"photo-mosaic-short":""}">
+    ${rows.map((image,i)=>`<figure class="${i===0?"photo-main":""}"><img src="${image.url}" alt="${label} · ${image.caption}" loading="${i?"lazy":"eager"}"></figure>`).join("")}
+    <span class="photo-count">${images.length} 张实景</span>
+  </div>`;
+}
+function openLightbox(images,index=0){
+  let current=index;
+  const layer=document.createElement("div");
+  layer.className="photo-lightbox";
+  const draw=()=>{const image=images[current];layer.innerHTML=`<button class="lightbox-close">×</button><button class="lightbox-prev">←</button><figure><img src="${image.url}" alt="${image.caption}"><figcaption><b>${String(current+1).padStart(2,"0")} / ${String(images.length).padStart(2,"0")}</b>${image.caption}</figcaption></figure><button class="lightbox-next">→</button>`;layer.querySelector(".lightbox-close").onclick=()=>layer.remove();layer.querySelector(".lightbox-prev").onclick=()=>{current=(current-1+images.length)%images.length;draw()};layer.querySelector(".lightbox-next").onclick=()=>{current=(current+1)%images.length;draw()};};
+  layer.onclick=e=>{if(e.target===layer)layer.remove()};
+  draw();document.body.appendChild(layer);
+}
+function bindPhotoViewer(scope,images){
+  document.querySelectorAll(`${scope} [data-photo-index]`).forEach(el=>el.onclick=e=>{e.stopPropagation();openLightbox(images,Number(el.dataset.photoIndex)||0)});
+}
 function visibleStays(){
   let rows = stays.filter(s => {
     const text = `${s.name}${s.en}${s.place}${s.kind}${s.tags.join("")}`.toLowerCase();
@@ -130,9 +152,11 @@ function filterGroup(title, key, options){
     `<button class="${state[key]===value?"active":""}" data-filter="${key}" data-value="${value}">${label}</button>`).join("")}</div></div>`;
 }
 function card(s){
+  const images=uniqueImages(s.image,s.galleryRecords);
   return `<article class="lab-card" data-quick="${s.id}" tabindex="0">
     <button class="fav-card" data-fav="${s.id}" aria-label="收藏">${icon.heart(s.id)}</button>
-    <div class="card-photo" style="background-image:url('${s.image}')">
+    <div class="card-photo">
+      ${photoMosaic(images,s.name)}
       <span class="grade grade-${s.grade}">${s.grade} · ${gradeName[s.grade]}</span>
       <span class="price-state">${priceLabel(s)}</span>
     </div>
@@ -234,8 +258,10 @@ function destinationRows(){
 }
 
 function destinationCard(d){
+  const images=uniqueImages(d.media.cover,d.media.gallery);
   return `<article class="destination-card" data-destination="${d.id}">
-    <div class="destination-image" style="background-image:url('${d.media.cover}')">
+    <div class="destination-image">
+      ${photoMosaic(images,d.identity.name)}
       <span>地区档案</span>
       <b>${d.identity.type}</b>
     </div>
@@ -287,6 +313,7 @@ function destinationHome(push=true){
 
 function destinationDetail(id,push=true){
   const d=destinations.find(item=>item.id===id)||destinations[0];
+  const destinationImages=uniqueImages(d.media.cover,d.media.gallery);
   if(push) history.pushState({destination:id},"",`${location.pathname}?destination=${d.id}`);
   scrollTo(0,0);
   app.innerHTML=`<main class="destination-detail">
@@ -306,7 +333,7 @@ function destinationDetail(id,push=true){
       <div>${d.profile.baseAreas.map((area,i)=>`<article><b>${String(i+1).padStart(2,"0")}</b><h3>${area.name}</h3><p>${area.fit}</p></article>`).join("")}</div></section>
     <section id="destinationBudget" class="destination-section destination-budget"><header><span>03 · STAY STRATEGY</span><h2>住宿预算</h2><p>${d.profile.stayStrategy}</p></header>
       <div>${d.pricing.budgetBands.map(band=>`<article><span>${band.label}</span><b>${band.range}</b></article>`).join("")}<p>${d.pricing.note}</p></div></section>
-    <section id="destinationGallery" class="destination-gallery"><header><span>04 · PLACE IMAGES</span><h2>地区实景</h2></header><div>${d.media.gallery.map(image=>`<figure><img src="${image.url}" alt="${image.caption}" loading="lazy"><figcaption>${image.caption}</figcaption></figure>`).join("")}</div></section>
+    <section id="destinationGallery" class="destination-gallery"><header><span>04 · PLACE IMAGES</span><h2>地区影像档案</h2><p>${destinationImages.length} 张 · 点击查看完整画面</p></header><div>${destinationImages.map((image,i)=>`<figure data-photo-index="${i}"><img src="${image.url}" alt="${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b>${image.caption}</figcaption></figure>`).join("")}</div></section>
     <section id="destinationFacts" class="destination-section destination-facts"><header><span>05 · PRACTICAL FILE</span><h2>实际条件</h2></header><div>
       <article><span>如何接近水</span><p>${d.profile.waterAccess}</p></article><article><span>抵达方式</span><p>${d.profile.access}</p></article>
       <article><span>季节变化</span><p>${d.profile.season}</p></article><article><span>资料状态</span><p>${d.verification.summary}</p></article>
@@ -317,6 +344,7 @@ function destinationDetail(id,push=true){
   document.querySelector("#backDestinations").onclick=()=>destinationHome();
   document.querySelector("#backDestinationsBottom").onclick=()=>destinationHome();
   document.querySelector("#shareDestination").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#shareDestination").textContent="链接已复制"}catch{}};
+  bindPhotoViewer("#destinationGallery",destinationImages);
 }
 
 function quick(id,push=true){
@@ -414,6 +442,7 @@ function quick(id,push=true){
 
 function detail(id, push=true){
   const s=stays.find(x=>x.id===id) || stays[0];
+  const hotelImages=uniqueImages(s.image,s.galleryRecords);
   if(push) history.pushState({id},"",`?stay=${s.id}`);
   scrollTo(0,0);
   app.innerHTML=`<main class="detail">
@@ -454,8 +483,8 @@ function detail(id, push=true){
       </div>
     </section>
 
-    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>03 · VERIFIED IMAGES</span><h2>环境与公共空间实景</h2></div>
-      <div class="gallery-grid">${s.gallery.map((url,i)=>`<figure><img src="${url}" alt="${s.name}实景${i+1}" loading="${i?"lazy":"eager"}"><figcaption>${["整体环境","水体与路径","公共空间","建筑与植物"][i]||"实景资料"}</figcaption></figure>`).join("")}</div></section>
+    <section id="gallery" class="gallery-new"><div class="gallery-head"><span>03 · VERIFIED IMAGES</span><h2>环境与公共空间影像</h2><p>${hotelImages.length} 张 · 点击查看完整画面</p></div>
+      <div class="gallery-grid">${hotelImages.map((image,i)=>`<figure data-photo-index="${i}"><img src="${image.url}" alt="${s.name} · ${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b>${image.caption}</figcaption></figure>`).join("")}</div></section>
 
     <section id="facts" class="detail-section facts">
       <div class="section-label"><span>04</span><p>FILE CARD</p><h2>档案信息</h2></div>
@@ -479,6 +508,7 @@ function detail(id, push=true){
   document.querySelector("#backBottom").onclick=()=>home();
   document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(s.id));
   document.querySelector("#share").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#share").textContent="链接已复制"}catch{location.hash=""}};
+  bindPhotoViewer("#gallery",hotelImages);
 }
 
 window.onpopstate=()=>{
