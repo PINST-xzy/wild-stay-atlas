@@ -109,6 +109,14 @@ for (const file of files) {
   }
   check(validUrl(hotel.links?.ctrip || ""), label, "携程链接无效");
   check(validUrl(hotel.links?.official || ""), label, "官网链接无效");
+  if (hotel.food) {
+    check((hotel.food.summary || "").length >= 30, label, "美食概述少于 30 个字");
+    check((hotel.food.setting || "").length >= 15, label, "用餐场景少于 15 个字");
+    check(hotel.food.highlights?.length >= 2, label, "美食模块至少需要 2 项代表风味");
+    for (const item of hotel.food.highlights || []) {
+      check(Boolean(item.name) && (item.description || "").length >= 12, label, "代表风味名称或说明不完整");
+    }
+  }
   check(validDate(hotel.verification?.updatedAt || ""), label, "verification.updatedAt 日期无效");
   warn(hotel.verification?.status === "verified", label, "资料尚未标记为 verified");
 
