@@ -2,24 +2,72 @@
   "schemaVersion": 1,
   "id": "rayavadee",
   "status": "published",
-  "identity": {"name": "瑞亚维德酒店", "englishName": "Rayavadee", "country": "泰国", "region": "东南亚", "locality": "甲米莱利", "placeLabel": "泰国 · 甲米莱利", "hotelType": "石灰岩海湾度假村"},
+  "identity": {
+    "name": "瑞亚维德酒店",
+    "englishName": "Rayavadee",
+    "country": "泰国",
+    "region": "东南亚",
+    "locality": "甲米莱利",
+    "placeLabel": "泰国 · 甲米莱利",
+    "hotelType": "石灰岩海湾度假村"
+  },
   "classification": {
     "grade": "B",
     "gradeLabel": "白沙滩特例",
-    "tags": ["三面海滩", "石灰岩", "成熟椰林", "独立亭屋", "白沙滩特例"],
-    "waterTypes": ["白沙滩", "海湾"],
-    "tradeoffs": ["价格偏高", "泳池略规则", "内部水景少"]
+    "tags": [
+      "三面海滩",
+      "石灰岩",
+      "成熟椰林",
+      "独立亭屋",
+      "白沙滩特例"
+    ],
+    "waterTypes": [
+      "白沙滩",
+      "海湾"
+    ],
+    "tradeoffs": [
+      "价格偏高",
+      "泳池略规则",
+      "内部水景少"
+    ]
   },
-  "pricing": {"currency": "CNY", "minimum": 3500, "maximum": 7000, "display": "¥3,500–7,000", "basis": "两位成人入住一间基础房，每晚参考", "verifiedAt": "2026-07-23"},
-  "scores": {"aesthetic": 86, "value": 30, "water": 82, "greenery": 90, "architecture": 82, "exploration": 88},
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 3500,
+    "maximum": 7000,
+    "display": "¥3,500–7,000",
+    "basis": "两位成人入住一间基础房，每晚参考",
+    "verifiedAt": "2026-07-23"
+  },
+  "scores": {
+    "aesthetic": 86,
+    "value": 30,
+    "water": 82,
+    "greenery": 90,
+    "architecture": 82,
+    "exploration": 88
+  },
   "editorial": {
     "oneLine": "林下路径和石灰岩环境极好，但它是白沙滩特例，不是内部水系型酒店。",
     "reason": "独立亭屋散布在成熟椰林和巨大石灰岩之间，林下路径连接三处真实海滩，环境比建筑更有存在感。",
-    "advantages": ["成熟植被、石灰岩和三面海滩形成连续空间", "低层亭屋藏在林下，建筑体量克制", "从林间步行抵达海滩的过程完整"],
+    "advantages": [
+      "成熟植被、石灰岩和三面海滩形成连续空间",
+      "低层亭屋藏在林下，建筑体量克制",
+      "从林间步行抵达海滩的过程完整"
+    ],
     "disadvantages": [
-      {"level": "可能淘汰", "text": "酒店内部天然水系较少"},
-      {"level": "明显取舍", "text": "主泳池较规则，不属于核心偏好"},
-      {"level": "轻微提醒", "text": "旺季房价极高，更多适合收藏"}
+      {
+        "level": "可能淘汰",
+        "text": "酒店内部天然水系较少"
+      },
+      {
+        "level": "明显取舍",
+        "text": "主泳池较规则，不属于核心偏好"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "旺季房价极高，更多适合收藏"
+      }
     ],
     "fit": "白沙滩质量和林下空间优先，预算较宽松。",
     "notFit": "一定需要泉池、河流或可探索公共水域。"
@@ -27,10 +75,22 @@
   "profile": {
     "surroundingsSummary": "帕南半岛、三面海滩、石灰岩壁与国家公园",
     "sections": [
-      {"title": "地理位置与周边", "text": "Rayavadee 位于泰国甲米府帕南半岛，处在甲米海洋国家公园边缘。石灰岩峭壁、椰林、安达曼海和三面海滩构成周边环境；Railay 与 Phranang 海滩均可从酒店步行抵达，邻近区域同时是公共海滩和攀岩目的地。"},
-      {"title": "场地布局", "text": "九十四座双层亭屋和七座别墅分散在热带花园与椰林中，林下道路连接住宿、餐厅、泳池和不同海滩。建筑没有沿一条海岸线集中排开，而是嵌在半岛内部；从客房到海滩通常经历一段被植被和岩壁包围的步行路径。"},
-      {"title": "建筑、水体与植物", "text": "低层亭屋的尺度较克制，成熟乔木和石灰岩地貌比建筑更醒目。酒店核心水体验来自真实海滩与海湾，而不是内部河流或泉池；公共泳池形态较规则，因此它属于白沙滩特例，而非天然内水体型酒店。"},
-      {"title": "抵达与实际条件", "text": "帕南半岛没有与甲米市区直接相连的普通道路，酒店住客通常从酒店码头乘船抵达，公共访客也依赖长尾船。海况和天气可能影响船程。三处海滩并非完全私有，旺季和白天会有外来游客，安静程度随位置与时段变化。"}
+      {
+        "title": "地理位置与周边",
+        "text": "Rayavadee 位于泰国甲米府帕南半岛，处在甲米海洋国家公园边缘。石灰岩峭壁、椰林、安达曼海和三面海滩构成周边环境；Railay 与 Phranang 海滩均可从酒店步行抵达，邻近区域同时是公共海滩和攀岩目的地。"
+      },
+      {
+        "title": "场地布局",
+        "text": "九十四座双层亭屋和七座别墅分散在热带花园与椰林中，林下道路连接住宿、餐厅、泳池和不同海滩。建筑没有沿一条海岸线集中排开，而是嵌在半岛内部；从客房到海滩通常经历一段被植被和岩壁包围的步行路径。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "低层亭屋的尺度较克制，成熟乔木和石灰岩地貌比建筑更醒目。酒店核心水体验来自真实海滩与海湾，而不是内部河流或泉池；公共泳池形态较规则，因此它属于白沙滩特例，而非天然内水体型酒店。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "帕南半岛没有与甲米市区直接相连的普通道路，酒店住客通常从酒店码头乘船抵达，公共访客也依赖长尾船。海况和天气可能影响船程。三处海滩并非完全私有，旺季和白天会有外来游客，安静程度随位置与时段变化。"
+      }
     ],
     "spatialRelationship": "成熟植被、石灰岩与海滩构成连续林下路径，海滩属于国家公园公共海岸。",
     "access": "通常经甲米的酒店码头乘船进入帕南半岛。"
@@ -38,10 +98,109 @@
   "media": {
     "cover": "https://www.rayavadee.com/en/images/flora-nature.jpg",
     "gallery": [
-      {"url": "https://www.rayavadee.com/en/images/flora-nature.jpg", "type": "整体环境", "source": "酒店官网", "verified": true},
-      {"url": "https://www.rayavadee.com/en/images/idx-raya-activities.jpg", "type": "海滩与活动", "source": "酒店官网", "verified": true}
+      {
+        "url": "https://www.rayavadee.com/en/images/flora-nature.jpg",
+        "type": "整体环境",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/images/idx-raya-activities.jpg",
+        "type": "海滩与活动",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/destination/pic1.jpg",
+        "type": "周边半岛与海湾",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/destination/pic2.jpg",
+        "type": "石灰岩与植被",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/destination/pic3.jpg",
+        "type": "白沙滩实景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/destination/pic4.jpg",
+        "type": "海滩与林缘",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/destination/pic5.jpg",
+        "type": "公共自然环境",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/images/home-facilities.jpg",
+        "type": "园林公共设施",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/accom-banner8.jpg",
+        "type": "园林住宿区",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/accom-banner1.jpg",
+        "type": "热带建筑",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/accom-banner4.jpg",
+        "type": "建筑与林缘",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/accom-banner5.jpg",
+        "type": "公共园林",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/banners/accom-banner6.jpg",
+        "type": "住宿与植被",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/images/home-accom.jpg",
+        "type": "住宿区整体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.rayavadee.com/en/images/tgt3.jpg",
+        "type": "洞穴餐厅与海滩",
+        "source": "酒店官网",
+        "verified": true
+      }
     ]
   },
-  "links": {"ctrip": "https://www.trip.com/hotels/krabi-hotel-detail-998426/rayavadee/", "official": "https://www.rayavadee.com/en/destination.php"},
-  "verification": {"status": "verified", "summary": "海滩可达性、林下环境与位置关系已核验", "updatedAt": "2026-07-23", "sources": ["酒店官网", "携程酒店详情页"]}
+  "links": {
+    "ctrip": "https://www.trip.com/hotels/krabi-hotel-detail-998426/rayavadee/",
+    "official": "https://www.rayavadee.com/en/destination.php"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "海滩可达性、林下环境与位置关系已核验",
+    "updatedAt": "2026-07-23",
+    "sources": [
+      "酒店官网",
+      "携程酒店详情页"
+    ]
+  }
 }
