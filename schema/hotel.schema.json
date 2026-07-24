@@ -111,6 +111,29 @@
         "access": {"type": "string", "minLength": 10}
       }
     },
+    "food": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "setting", "highlights"],
+      "properties": {
+        "summary": {"type": "string", "minLength": 30},
+        "setting": {"type": "string", "minLength": 15},
+        "highlights": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "description"],
+            "properties": {
+              "name": {"type": "string", "minLength": 1},
+              "description": {"type": "string", "minLength": 12}
+            }
+          }
+        },
+        "caveat": {"type": "string"}
+      }
+    },
     "media": {
       "type": "object",
       "additionalProperties": false,
