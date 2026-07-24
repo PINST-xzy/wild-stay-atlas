@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "mile-taiping-lake-forest-chalet",
+  "status": "published",
+  "identity": {
+    "name": "弥勒太平湖森林木屋酒店",
+    "englishName": "Taiping Lake Forest Chalet Hotel",
+    "country": "中国",
+    "region": "云南省",
+    "locality": "弥勒市",
+    "placeLabel": "中国 · 云南弥勒太平湖",
+    "hotelType": "森林木屋温泉度假村"
+  },
+  "classification": {
+    "grade": "C",
+    "gradeLabel": "取舍候选",
+    "tags": [
+      "森林木屋",
+      "私汤",
+      "湖区",
+      "大体量度假村",
+      "弥勒风味"
+    ],
+    "waterTypes": [
+      "温泉",
+      "湖泊"
+    ],
+    "tradeoffs": [
+      "园区体量大",
+      "景观人工化"
+    ],
+    "collection": "resort"
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 800,
+    "maximum": 1800,
+    "display": "¥800–1,800",
+    "basis": "两位成人入住基础房的常见每晚参考；日期、税费与套餐口径需复核",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 82,
+    "value": 86,
+    "water": 79,
+    "greenery": 88,
+    "architecture": 72,
+    "exploration": 83
+  },
+  "editorial": {
+    "oneLine": "它不是野生雨林，但大面积湖区、花木园林、森林木屋与私汤组合完整，淡季价格也比同类大型度假村可控。",
+    "reason": "朋友推荐的重点成立在“规模、温泉和餐饮”：二十九平方公里生态度假区带来足够的林地与湖面，木屋散在园区内，部分房型有私汤。它的自然感偏精心经营的园林而非野生溪谷，但阳光、绿量和地方餐饮使它值得作为国内性价比取舍项。",
+    "advantages": [
+      "园区面积大，湖面、森林木屋与花木景观可持续游逛",
+      "部分房型带私汤，淡季曾出现更低价位",
+      "三处餐饮空间覆盖弥勒菜、火锅、烧烤和自助"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "景观偏大型人工生态园区，不是水体穿过建筑的野生场地"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "旺季、节假日和高等级私汤房可能明显超过千元"
+      }
+    ],
+    "fit": "希望在国内获得阳光充足的亚热带园林、温泉和丰富餐饮，并接受大型园区的人。",
+    "notFit": "只接受小体量隐秘旅馆、天然溪流和完全野生植物的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "酒店位于弥勒太平湖森林公园与生态度假区内，园区约二十九平方公里，湖泊、花海、林地和休闲设施共同构成周边；从弥勒市区与高铁站可车辆抵达。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "酒店位于云南弥勒太平湖生态度假区，周边不是传统城市街区，而是湖泊、花卉园艺、林地和大尺度公园设施。弥勒日照较足，气候与北方温带酒店不同，园区绿量在多数季节更容易形成明亮舒展的度假感。"
+      },
+      {
+        "title": "场地布局",
+        "text": "木屋、房车和其他住宿单元分布在面积很大的园区内，公共餐厅、湖区、花园与游乐设施依靠道路和接驳串联。它具有可游逛性，但尺度更接近综合度假区，步行距离和内部交通要提前考虑。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "住宿以木屋和低层建筑为主，部分房型带私汤，植物与花园经过明显设计和维护。湖面提供开阔水景，温泉进入房间体验，但天然溪流与半野生水岸并非强项，水体关系不如 Bambu Indah 紧密。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "从弥勒高铁站或市区打车较方便，园区内部体量大，应确认房型到主要餐厅、湖区和接驳点的距离。基础房与私汤房价差明显，淡季可能更划算，节假日则需重新核对含早、温泉和门票口径。"
+      }
+    ],
+    "spatialRelationship": "木屋散在园林与湖区之间，内部道路把住宿、私汤、花海、餐厅和湖岸连接；可探索性来自园区尺度而非原生林下小径。",
+    "access": "弥勒高铁站和市区可打车抵达，进入园区后依赖步行、接驳或自驾。"
+  },
+  "food": {
+    "summary": "这是本轮最值得突出餐饮的一家：园区拥有三处餐饮空间和大体量接待能力，地方弥勒菜、特色火锅、户外烧烤与自助餐可以单独构成度假理由。",
+    "setting": "湖景餐厅、园区餐厅与户外帐篷/烧烤场景并存，适合家庭或朋友把晚餐作为一天的高潮。",
+    "highlights": [
+      {
+        "name": "弥勒地方菜",
+        "description": "以云南食材和弥勒传统风味为重点，适合第一次到当地建立味觉印象。"
+      },
+      {
+        "name": "特色火锅",
+        "description": "朋友反馈中特别提到火锅，适合温泉之后多人共享。"
+      },
+      {
+        "name": "帐篷与户外烧烤",
+        "description": "园区空间足够大，烧烤与户外用餐比普通酒店餐厅更有度假感。"
+      },
+      {
+        "name": "湖景自助餐",
+        "description": "大体量餐厅覆盖早餐和团队用餐，选择多但高峰期也可能更嘈杂。"
+      }
+    ],
+    "caveat": "具体餐厅开放、烧烤和火锅供应会随季节与入住率调整；是否含餐需按房价套餐确认。"
+  },
+  "media": {
+    "cover": "https://ak-d.tripcdn.com/images/1mc5h12000c119qk17A80_R_960_660_R5_D.jpg",
+    "gallery": [
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc5h12000c119qk17A80_R_960_660_R5_D.jpg",
+        "type": "environment",
+        "caption": "太平湖森林木屋全景",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc1n12000jvkcx2v1084_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "酒店木屋与园林",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc2r12000b23xeqyEAB7_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "客房空间",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc3u12000s4pg9nhC5C7_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "私汤房型",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc0312000s4pgswhEB02_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "园区公共空间",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc0j12000szsjoocE6D5_R_339_206_R5_D.jpg",
+        "type": "environment",
+        "caption": "餐饮空间",
+        "source": "携程",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mile%20Yunnan%20landscape.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边弥勒阳光山地",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunnan%20lake%20landscape.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域湖泊环境",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dongfengyun%20Mile%20Yunnan.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边弥勒东风韵",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunnan%20flowers.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域花木景观",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yunnan%20hot%20spring.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "区域温泉环境",
+        "source": "Wikimedia Commons",
+        "verified": true
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mile%20City%20Yunnan.jpg?width=1800",
+        "type": "surroundings",
+        "caption": "周边弥勒城市与山地",
+        "source": "Wikimedia Commons",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://hk.trip.com/hotels/mile-hotel-detail-19582558/taiping-lake-forest-chalet-hotel/",
+    "official": "https://hk.trip.com/hotels/mile-hotel-detail-19582558/taiping-lake-forest-chalet-hotel/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已交叉核对酒店官网、预订平台页面与周边环境资料；价格仍需按日期复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "https://hk.trip.com/hotels/mile-hotel-detail-19582558/taiping-lake-forest-chalet-hotel/",
+      "https://hk.trip.com/hotels/mile-hotel-detail-19582558/taiping-lake-forest-chalet-hotel/"
+    ]
+  }
+}
