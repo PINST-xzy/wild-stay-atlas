@@ -1,17 +1,170 @@
 {
-  "schemaVersion":1,"id":"bukit-lawang","status":"published",
-  "identity":{"name":"武吉拉旺","englishName":"Bukit Lawang","country":"印度尼西亚","region":"北苏门答腊 · 兰卡县","type":"雨林河谷村落","placeLabel":"印度尼西亚 · 北苏门答腊 · 武吉拉旺"},
-  "classification":{"tags":["热带雨林","河岸村落","步行小径","吊桥","平价木屋"],"waterTypes":["Bahorok 河","支流","雨林溪流"],"tradeoffs":["设施简单","道路不便","湿热多虫","旅游活动集中"]},
-  "pricing":{"minimum":160,"maximum":900,"display":"¥160–900","budgetBands":[{"label":"基础河岸客房","range":"¥160–300"},{"label":"花园木屋 / 小型旅馆","range":"¥300–550"},{"label":"条件较完整的生态住宿","range":"¥550–900"}],"note":"多数住宿价格较低；雨林徒步、向导、接送和餐食另计。","verifiedAt":"2026-07-24"},
-  "scores":{"aesthetic":93,"water":92,"greenery":98,"exploration":92,"publicness":94,"affordability":97,"accessEase":49},
-  "editorial":{"oneLine":"住宿沿 Bahorok 河和仅供步行的小径展开，吊桥、木屋、河滩与国家公园边缘的雨林处在同一条生活动线上。",
-    "reason":"这里不是住在远处观看森林。多数住宿直接分布在河岸，部分地段只有步行小径，行李也需要步行、摩托或过桥运送。河流承担游泳、漂流和村落活动，建筑被树冠与坡地遮挡，普通低价客房已经位于环境内部。",
-    "advantages":["河流、步道、吊桥、木屋和浓密树冠在同一空间连续出现","大量住宿位于河岸或国家公园边缘，低预算也能获得包裹感","河滩游泳、漂流与步行进入雨林都不依赖高端酒店"],
-    "disadvantages":[{"level":"明显取舍","text":"住宿普遍简单，隔音、热水、空调和防虫条件差异很大。"},{"level":"明显取舍","text":"从棉兰抵达耗时，河岸末端住宿常需要步行搬运行李。"},{"level":"轻微提醒","text":"热门徒步和红毛猩猩活动使部分入口区域在白天较热闹。"}]},
-  "profile":{"spatialLogic":"村落沿 Bahorok 河狭长展开，一侧是道路与居民区，另一侧逐渐进入勒塞尔山国家公园；吊桥、河岸小径和临水木屋组成连续移动网络。",
-    "baseAreas":[{"name":"国家公园入口上游","fit":"树冠最密、步行感最强，住宿更贴近雨林，但搬运行李较麻烦。"},{"name":"Bahorok 河中段","fit":"河岸客房、餐饮和过桥动线平衡，适合第一次入住。"},{"name":"村口与下游","fit":"车辆抵达方便、价格低，雨林包裹感相对弱一些。"}],
-    "waterAccess":"村内多处可接近河滩，常见游泳、轮胎漂流与跨河吊桥；进入雨林后还有支流和营地水边活动。","access":"通常从棉兰机场或市区乘车约4至5小时；抵达村口后，部分住宿只能沿河岸小径步行进入。","season":"全年湿热，降雨会影响河水流速和徒步路况；相对干燥月份更适合初次前往。","stayStrategy":"优先选择河岸中上游、实景照片能看见树冠与步道关系的基础木屋，不必为豪华设施提高预算。"},
-  "media":{"cover":"https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%2C%20Langkat%20Regency%2C%20North%20Sumatra%2C%20Indonesia.jpg?width=1800","gallery":[{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%2C%20Langkat%20Regency%2C%20North%20Sumatra%2C%20Indonesia.jpg?width=1600","caption":"河岸村落与雨林背景"},{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Reka%20Bahorok%2C%20Bukit%20Lawang%2C%20Sumatra%2C%20Indonezija.JPG?width=1600","caption":"Bahorok 河穿过村落"},{"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Sungai%20Bahorok%203.jpg?width=1400","caption":"河流与近岸植被"}]},
-  "links":{"primary":"https://www.discover-sumatra.com/the-ultimate-guide-for-bukit-lawang/","map":"https://www.google.com/maps/search/?api=1&query=Bukit+Lawang","ctrip":"https://www.ctrip.com/hotels/list?city=60221"},
-  "verification":{"status":"verified","updatedAt":"2026-07-24","summary":"已核对住宿沿河分布、步行小径、河流活动和常见价位；具体房间设施与雨季河况需逐家复核。"}
+  "schemaVersion": 1,
+  "id": "bukit-lawang",
+  "status": "published",
+  "identity": {
+    "name": "武吉拉旺",
+    "englishName": "Bukit Lawang",
+    "country": "印度尼西亚",
+    "region": "北苏门答腊 · 兰卡县",
+    "type": "雨林河谷村落",
+    "placeLabel": "印度尼西亚 · 北苏门答腊 · 武吉拉旺"
+  },
+  "classification": {
+    "tags": [
+      "热带雨林",
+      "河岸村落",
+      "步行小径",
+      "吊桥",
+      "平价木屋"
+    ],
+    "waterTypes": [
+      "Bahorok 河",
+      "支流",
+      "雨林溪流"
+    ],
+    "tradeoffs": [
+      "设施简单",
+      "道路不便",
+      "湿热多虫",
+      "旅游活动集中"
+    ]
+  },
+  "pricing": {
+    "minimum": 160,
+    "maximum": 900,
+    "display": "¥160–900",
+    "budgetBands": [
+      {
+        "label": "基础河岸客房",
+        "range": "¥160–300"
+      },
+      {
+        "label": "花园木屋 / 小型旅馆",
+        "range": "¥300–550"
+      },
+      {
+        "label": "条件较完整的生态住宿",
+        "range": "¥550–900"
+      }
+    ],
+    "note": "多数住宿价格较低；雨林徒步、向导、接送和餐食另计。",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 93,
+    "water": 92,
+    "greenery": 98,
+    "exploration": 92,
+    "publicness": 94,
+    "affordability": 97,
+    "accessEase": 49
+  },
+  "editorial": {
+    "oneLine": "住宿沿 Bahorok 河和仅供步行的小径展开，吊桥、木屋、河滩与国家公园边缘的雨林处在同一条生活动线上。",
+    "reason": "这里不是住在远处观看森林。多数住宿直接分布在河岸，部分地段只有步行小径，行李也需要步行、摩托或过桥运送。河流承担游泳、漂流和村落活动，建筑被树冠与坡地遮挡，普通低价客房已经位于环境内部。",
+    "advantages": [
+      "河流、步道、吊桥、木屋和浓密树冠在同一空间连续出现",
+      "大量住宿位于河岸或国家公园边缘，低预算也能获得包裹感",
+      "河滩游泳、漂流与步行进入雨林都不依赖高端酒店"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "住宿普遍简单，隔音、热水、空调和防虫条件差异很大。"
+      },
+      {
+        "level": "明显取舍",
+        "text": "从棉兰抵达耗时，河岸末端住宿常需要步行搬运行李。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "热门徒步和红毛猩猩活动使部分入口区域在白天较热闹。"
+      }
+    ]
+  },
+  "profile": {
+    "spatialLogic": "村落沿 Bahorok 河狭长展开，一侧是道路与居民区，另一侧逐渐进入勒塞尔山国家公园；吊桥、河岸小径和临水木屋组成连续移动网络。",
+    "baseAreas": [
+      {
+        "name": "国家公园入口上游",
+        "fit": "树冠最密、步行感最强，住宿更贴近雨林，但搬运行李较麻烦。"
+      },
+      {
+        "name": "Bahorok 河中段",
+        "fit": "河岸客房、餐饮和过桥动线平衡，适合第一次入住。"
+      },
+      {
+        "name": "村口与下游",
+        "fit": "车辆抵达方便、价格低，雨林包裹感相对弱一些。"
+      }
+    ],
+    "waterAccess": "村内多处可接近河滩，常见游泳、轮胎漂流与跨河吊桥；进入雨林后还有支流和营地水边活动。",
+    "access": "通常从棉兰机场或市区乘车约4至5小时；抵达村口后，部分住宿只能沿河岸小径步行进入。",
+    "season": "全年湿热，降雨会影响河水流速和徒步路况；相对干燥月份更适合初次前往。",
+    "stayStrategy": "优先选择河岸中上游、实景照片能看见树冠与步道关系的基础木屋，不必为豪华设施提高预算。"
+  },
+  "media": {
+    "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%2C%20Langkat%20Regency%2C%20North%20Sumatra%2C%20Indonesia.jpg?width=1800",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%2C%20Langkat%20Regency%2C%20North%20Sumatra%2C%20Indonesia.jpg?width=1600",
+        "caption": "河岸村落与雨林背景"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reka%20Bahorok%2C%20Bukit%20Lawang%2C%20Sumatra%2C%20Indonezija.JPG?width=1600",
+        "caption": "Bahorok 河穿过村落"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sungai%20Bahorok%203.jpg?width=1400",
+        "caption": "河流与近岸植被"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wisata%20Air%20Bukit%20Lawang.jpg?width=1500",
+        "caption": "村内亲水活动"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BukitLawang.jpg?width=1500",
+        "caption": "河谷聚落与基础住宿"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20Lawang%20bridge%20over%20Bohorok.jpg?width=1600",
+        "caption": "跨越 Bohorok 河的吊桥"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukit%20lawang.jpg?width=1600",
+        "caption": "河岸村落"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BukitLawang%201600.JPG?width=1600",
+        "caption": "村落与国家公园边缘"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/EcoLodgeBukitLawang.JPG?width=1600",
+        "caption": "周边生态住宿"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kawasan%20Hutan%20Bukit%20Lawang.jpg?width=1600",
+        "caption": "勒塞尔山雨林与河流"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sungai%20Bahorok%204.jpg?width=1600",
+        "caption": "Bahorok 河水体"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sungai%20Bahorok%205.jpg?width=1600",
+        "caption": "河岸植被与活动"
+      }
+    ]
+  },
+  "links": {
+    "primary": "https://www.discover-sumatra.com/the-ultimate-guide-for-bukit-lawang/",
+    "map": "https://www.google.com/maps/search/?api=1&query=Bukit+Lawang",
+    "ctrip": "https://www.ctrip.com/hotels/list?city=60221"
+  },
+  "verification": {
+    "status": "verified",
+    "updatedAt": "2026-07-24",
+    "summary": "已核对住宿沿河分布、步行小径、河流活动和常见价位；具体房间设施与雨季河况需逐家复核。"
+  }
 }
