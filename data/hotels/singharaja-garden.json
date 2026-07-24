@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "id": "singharaja-garden",
+  "identity": {
+    "name": "辛哈拉贾花园生态小屋",
+    "englishName": "Singharaja Garden Agro & Eco Lodge",
+    "country": "斯里兰卡",
+    "region": "西部省",
+    "locality": "佩拉瓦塔",
+    "placeLabel": "斯里兰卡 · 佩拉瓦塔",
+    "hotelType": "农业生态小屋"
+  },
+  "classification": {
+    "grade": "B",
+    "gradeLabel": "小尺度核心候选",
+    "collection": "lodging",
+    "tags": [
+      "三公顷山坡",
+      "仅三栋小屋",
+      "天然瀑布池",
+      "稻田水系",
+      "有机农园",
+      "热带阳光"
+    ],
+    "waterTypes": [
+      "天然瀑布池",
+      "淡水泳池",
+      "稻田灌溉水系"
+    ],
+    "tradeoffs": [
+      "交通偏远",
+      "服务规模很小",
+      "部分空间朴素"
+    ]
+  },
+  "pricing": {
+    "currency": "CNY",
+    "minimum": 500,
+    "maximum": 1100,
+    "display": "¥500–1,100",
+    "basis": "两位成人入住基础房或小屋，每晚参考；套餐、餐食与接送另行核对",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 91,
+    "value": 94,
+    "water": 87,
+    "greenery": 96,
+    "architecture": 84,
+    "exploration": 91
+  },
+  "editorial": {
+    "oneLine": "三公顷梯田山坡只放下三栋小屋，天然瀑布池、茶园与稻作水系把住宿藏进真正的农业地景。",
+    "reason": "它的巧妙之处在于稀疏：建筑数量极少，大片空间仍留给茶、稻田、椰树、果园和未整理的热带坡地。不同小屋面对不同植物与水体，Tea Garden 靠近天然瀑布池，Paddy Field 面向梯田和类似灌溉渠的淡水池。这里没有大型度假村的完成感，却更接近一座能居住的植物园与农场。",
+    "advantages": [
+      "约三公顷场地仅有三栋主题小屋、主屋和瑜伽空间，密度非常低",
+      "天然瀑布池与农业水系让水有来源和方向，不只是装饰",
+      "茶园、稻田、椰树与野生坡地形成丰富而明亮的热带层次",
+      "价格通常处于可实践区间，适合把预算留给较长停留"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "住宿偏远且规模很小，不能期待大型酒店式餐饮与全天服务。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "部分建筑和室内更偏朴素生态旅馆，设计精致度不均匀。"
+      }
+    ],
+    "fit": "喜欢植物、农业、水系和少量建筑共同组成场地，并接受朴素服务的人。",
+    "notFit": "更在意豪华客房、丰富夜间活动或标准五星设施的人。"
+  },
+  "profile": {
+    "surroundingsSummary": "三公顷梯田山坡位于斯里兰卡西南湿润地带，周边有橡胶、茶与稻作农业、村落道路和通往热带森林的乡间景观。",
+    "sections": [
+      {
+        "title": "地理位置与周边",
+        "text": "小屋位于斯里兰卡西南部湿润地区的乡村山坡，并非海滨度假带。周围的橡胶、茶、稻田和村落构成连续农业景观，气候足以支撑浓密常绿植物；若安排车辆，可把住宿与西南部雨林、乡镇市场和种植园路线组合，但这里本身更适合慢下来观察场地。"
+      },
+      {
+        "title": "场地布局",
+        "text": "约三公顷的梯田坡地只建设三栋独立主题小屋、主屋和带公寓的瑜伽厅，建筑之间保留很长的植物和步行间隔。茶园小屋、稻田小屋与其他房间各自面对不同景观，小径沿坡地穿过农园、水池与林荫，视线经常被椰树和灌木切断。"
+      },
+      {
+        "title": "建筑、水体与植物",
+        "text": "建筑大量使用黏土、天然石材、砖和木材，色彩接近土壤。天然瀑布池隐藏在茶园与椰树之间，另一处淡水池借用了稻田灌溉水渠的形态；水体没有夺目的蓝色硬边，而是与坡地农业一起出现。强烈日照落在稻叶和棕榈上，使浓绿环境仍保持通透。"
+      },
+      {
+        "title": "抵达与实际条件",
+        "text": "这里不在常规城市酒店交通线上，最好预先与住宿确认接送、餐食和活动安排。西南季风会显著改变雨量、道路和水体状态，晴季更容易看到照片中的明亮层次，雨季则瀑布和植物最丰盛。生态型住宿意味着昆虫、蛙鸣和泥土气味都是体验的一部分。"
+      }
+    ],
+    "spatialRelationship": "极少量的土木建筑沿梯田坡地拉开距离，茶园、稻田、椰林与水池占据主体，人在小径中不断切换农业与林下空间。",
+    "access": "建议从科伦坡或南部线路预约车辆前往，并提前确认最后一段乡村道路。"
+  },
+  "media": {
+    "cover": "https://www.singharaja-garden.com/cms/bilder/1187.jpg",
+    "gallery": [
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1187.jpg",
+        "type": "山坡场地整体",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1188.jpg",
+        "type": "小屋与热带植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1189.jpg",
+        "type": "梯田小径",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1190.jpg",
+        "type": "天然瀑布池",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1191.jpg",
+        "type": "水体与林下植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1192.jpg",
+        "type": "亲水区域",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1216.jpg",
+        "type": "茶园小屋外景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1223.jpg",
+        "type": "客房内景",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1224.jpg",
+        "type": "木构与露台",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1297.jpg",
+        "type": "稻田小屋",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1304.jpg",
+        "type": "淡水池与植物",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1306.jpg",
+        "type": "公共空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1323.jpg",
+        "type": "周边农业景观",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1324.jpg",
+        "type": "周边村落绿地",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1325.jpg",
+        "type": "周边热带坡地",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/909.jpg",
+        "type": "餐饮与休息空间",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/903.jpg",
+        "type": "花园细节",
+        "source": "酒店官网",
+        "verified": true
+      },
+      {
+        "url": "https://www.singharaja-garden.com/cms/bilder/1274.jpg",
+        "type": "小屋室内",
+        "source": "酒店官网",
+        "verified": true
+      }
+    ]
+  },
+  "links": {
+    "ctrip": "https://www.ctrip.com/hotels/list?city=6047",
+    "official": "https://www.singharaja-garden.com/cms/en-the-lodge/"
+  },
+  "verification": {
+    "status": "verified",
+    "summary": "已核对官网的三公顷场地、建筑数量、天然瀑布池、茶园与稻田小屋说明；图片来自酒店官网。价格为参考区间，需直接询价复核。",
+    "updatedAt": "2026-07-24",
+    "sources": [
+      "酒店官网",
+      "官方图库",
+      "场地与房型介绍"
+    ]
+  }
+}
