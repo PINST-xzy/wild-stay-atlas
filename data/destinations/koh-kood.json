@@ -12,18 +12,42 @@
   },
   "classification": {
     "grade": "A",
-    "tags": ["白沙滩", "热带雨林", "天然瀑布", "红树林水道", "低密度岛屿"],
-    "waterTypes": ["白沙滩", "瀑布泉潭", "红树林水道", "海湾"],
-    "tradeoffs": ["渡船抵达", "岛内依赖摩托", "雨季波动"]
+    "tags": [
+      "白沙滩",
+      "热带雨林",
+      "天然瀑布",
+      "红树林水道",
+      "低密度岛屿"
+    ],
+    "waterTypes": [
+      "白沙滩",
+      "瀑布泉潭",
+      "红树林水道",
+      "海湾"
+    ],
+    "tradeoffs": [
+      "渡船抵达",
+      "岛内依赖摩托",
+      "雨季波动"
+    ]
   },
   "pricing": {
     "minimum": 320,
     "maximum": 1800,
     "display": "¥320–1,800",
     "budgetBands": [
-      {"label": "简单旅馆 / 内陆民宿", "range": "¥320–600"},
-      {"label": "海滩小型度假村", "range": "¥600–1,100"},
-      {"label": "环境较完整的精品住宿", "range": "¥1,100–1,800"}
+      {
+        "label": "简单旅馆 / 内陆民宿",
+        "range": "¥320–600"
+      },
+      {
+        "label": "海滩小型度假村",
+        "range": "¥600–1,100"
+      },
+      {
+        "label": "环境较完整的精品住宿",
+        "range": "¥1,100–1,800"
+      }
     ],
     "note": "两位成人一间房的常见区间；圣诞、新年及周末船期附近价格可能明显上浮。",
     "verifiedAt": "2026-07-24"
@@ -46,18 +70,39 @@
       "低层建筑和小型聚落为主，整体没有大型海滨综合体的压迫感"
     ],
     "disadvantages": [
-      {"level": "明显取舍", "text": "岛内公共交通有限，住在偏远海湾时通常需要摩托或包车。"},
-      {"level": "明显取舍", "text": "不同海滩的沙质、潮位和海况并不一致，需要按具体海湾筛选。"},
-      {"level": "轻微提醒", "text": "雨季部分船班、海上活动和瀑布水量会随天气变化。"}
+      {
+        "level": "明显取舍",
+        "text": "岛内公共交通有限，住在偏远海湾时通常需要摩托或包车。"
+      },
+      {
+        "level": "明显取舍",
+        "text": "不同海滩的沙质、潮位和海况并不一致，需要按具体海湾筛选。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "雨季部分船班、海上活动和瀑布水量会随天气变化。"
+      }
     ]
   },
   "profile": {
     "spatialLogic": "西岸海湾承担住宿与沙滩体验，岛内溪流和瀑布形成第二套水系，红树林河口与渔村补充水上移动。自然体验分布在整个岛上，而不是只存在于酒店围墙内。",
     "baseAreas": [
-      {"name": "Klong Chao", "fit": "海滩、河道与瀑布之间最平衡，住宿和餐饮较集中。"},
-      {"name": "Bang Bao", "fit": "海湾较安静，沙滩住宿选择较多，适合把海滩作为主线。"},
-      {"name": "Ao Phrao", "fit": "更偏远、更松散，适合接受交通成本换取低密度环境。"},
-      {"name": "Ao Yai / Ao Salad", "fit": "渔村与水上聚落观察更突出，但不是最佳白沙滩落脚点。"}
+      {
+        "name": "Klong Chao",
+        "fit": "海滩、河道与瀑布之间最平衡，住宿和餐饮较集中。"
+      },
+      {
+        "name": "Bang Bao",
+        "fit": "海湾较安静，沙滩住宿选择较多，适合把海滩作为主线。"
+      },
+      {
+        "name": "Ao Phrao",
+        "fit": "更偏远、更松散，适合接受交通成本换取低密度环境。"
+      },
+      {
+        "name": "Ao Yai / Ao Salad",
+        "fit": "渔村与水上聚落观察更突出，但不是最佳白沙滩落脚点。"
+      }
     ],
     "waterAccess": "Klong Chao 等瀑布可由道路与短程林间步道抵达；西岸多个海湾可以直接下水；部分红树林河道可划艇或乘小船进入。",
     "access": "通常先抵达达叻府或 Laem Sok 码头，再乘渡船上岛；岛内以摩托车、双条车和酒店接送为主。",
@@ -67,10 +112,66 @@
   "media": {
     "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20coastline%20by%20the%20ocean%20%28Unsplash%29.jpg?width=1800",
     "gallery": [
-      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Bang%20Bao%20Beach.jpg?width=1600", "caption": "Bang Bao 海湾与沙滩"},
-      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Klong%20Chao%20Waterfall%20-%20panoramio%20%281%29.jpg?width=1400", "caption": "Klong Chao 瀑布泉潭"},
-      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Jungle-Bridge%20-%20panoramio.jpg?width=1200", "caption": "岛内林间桥道"},
-      {"url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ao-Yai-Fishing-village-Koh-kood.jpg?width=1400", "caption": "Ao Yai 水上渔村"}
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Bang%20Bao%20Beach.jpg?width=1600",
+        "caption": "Bang Bao 海湾与沙滩"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Klong%20Chao%20Waterfall%20-%20panoramio%20%281%29.jpg?width=1400",
+        "caption": "Klong Chao 瀑布泉潭"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Jungle-Bridge%20-%20panoramio.jpg?width=1200",
+        "caption": "岛内林间桥道"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ao-Yai-Fishing-village-Koh-kood.jpg?width=1400",
+        "caption": "Ao Yai 水上渔村"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterfall%20in%20Koh%20Kut.jpg?width=1400",
+        "caption": "林下瀑布与天然水潭"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Bang%20Bao%20Pier.jpg?width=1500",
+        "caption": "Bang Bao 海湾栈桥"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Klong%20Chao%20-%20panoramio.jpg?width=1500",
+        "caption": "Klong Chao 水岸环境"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Klong%20Chao%20Waterfall%20-%20panoramio.jpg?width=1600",
+        "caption": "Klong Chao 瀑布与林下水潭"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Thailand%2C%20Fishing%20Boat%20-%20panoramio.jpg?width=1600",
+        "caption": "海湾渔船与岛屿生活"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Bang%20Bao%20Bay%20at%20sunset.jpg?width=1600",
+        "caption": "Bang Bao 海湾环境"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Bang%20Bao%2C%20Twilight.jpg?width=1600",
+        "caption": "海湾聚落黄昏"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Eastern%20Bay%2C%20Fishing%20boat.jpg?width=1600",
+        "caption": "东岸海湾与渔船"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Eastern%20Bay.jpg?width=1600",
+        "caption": "东岸树林与水面"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koh%20Kut%2C%20Thailand%2C%20Island%20waterfall%20and%20lake.jpg?width=1600",
+        "caption": "岛内瀑布与水池"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%20Kut%2C%20Soneva%20Kiri%2C%20Jetty%20-%20panoramio.jpg?width=1600",
+        "caption": "岛屿栈桥与水路"
+      }
     ]
   },
   "links": {
@@ -78,5 +179,9 @@
     "map": "https://www.google.com/maps/search/?api=1&query=Koh+Kood+Thailand",
     "ctrip": "https://www.ctrip.com/hotels/list?city=36080"
   },
-  "verification": {"status": "verified", "updatedAt": "2026-07-24", "summary": "已核对岛屿环境、白沙海湾、瀑布、渔村与主要落脚区域；具体住宿价格仍需按日期复核。"}
+  "verification": {
+    "status": "verified",
+    "updatedAt": "2026-07-24",
+    "summary": "已核对岛屿环境、白沙海湾、瀑布、渔村与主要落脚区域；具体住宿价格仍需按日期复核。"
+  }
 }
