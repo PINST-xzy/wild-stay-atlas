@@ -30,7 +30,8 @@
       "无空调",
       "现金结算",
       "设施简单"
-    ]
+    ],
+    "collection": "lodging"
   },
   "pricing": {
     "currency": "CNY",
