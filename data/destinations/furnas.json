@@ -2,36 +2,178 @@
   "schemaVersion": 1,
   "id": "furnas",
   "status": "published",
-  "identity": {"name":"富尔纳斯山谷","englishName":"Furnas Valley","country":"葡萄牙","region":"亚速尔群岛 · 圣米格尔岛","type":"火山温泉聚落","placeLabel":"葡萄牙 · 亚速尔群岛 · Furnas"},
-  "classification": {"grade":"A","tags":["火山温泉","植物园","火山湖","湿润山谷","步行小镇"],"waterTypes":["公共温泉池","地热泉眼","火山湖","溪流"],"tradeoffs":["欧洲价格","园林感较强","需租车或巴士"]},
-  "pricing": {
-    "minimum": 520, "maximum": 1800, "display":"¥520–1,800",
-    "budgetBands":[{"label":"小镇客房 / 青旅","range":"¥520–850"},{"label":"公寓与家庭旅馆","range":"¥850–1,250"},{"label":"温泉或花园酒店","range":"¥1,250–1,800"}],
-    "note":"夏季与欧洲假期价格上浮明显；公共温泉门票通常另计。","verifiedAt":"2026-07-24"
+  "identity": {
+    "name": "富尔纳斯山谷",
+    "englishName": "Furnas Valley",
+    "country": "葡萄牙",
+    "region": "亚速尔群岛 · 圣米格尔岛",
+    "type": "火山温泉聚落",
+    "placeLabel": "葡萄牙 · 亚速尔群岛 · Furnas"
   },
-  "scores": {"aesthetic":86,"water":91,"greenery":89,"exploration":82,"publicness":94,"affordability":70,"accessEase":70},
-  "editorial": {
-    "oneLine":"温泉、蒸汽泉眼、火山湖、植物园和小镇道路分布在同一山谷，普通民宿住客同样可以使用主要自然资源。",
-    "reason":"Furnas 的温泉体验并不依附某一家酒店。地热泉眼、公共温泉、植物园、火山湖和村庄街道共同构成山谷生活，住在普通客房也能步行或短途乘车接近水与植物。它缺少热带雨林的野生密度，却提供了更完整的温泉聚落结构。",
-    "advantages":["公共温泉和地热景观分布广，环境公共性很高","成熟乔木、蕨类与湿润气候形成明显包裹感","小镇、湖泊、花园和温泉可组合成多日慢行路线"],
-    "disadvantages":[{"level":"明显取舍","text":"植被更接近经过长期经营的植物园和湿润温带山谷，不是热带丛林。"},{"level":"明显取舍","text":"旺季住宿价格可能逼近预算上沿，租车成本也需要计入。"},{"level":"轻微提醒","text":"部分温泉水呈铁锈色并带明显硫磺气味，与清澈泉池的视觉不同。"}]
-  },
-  "profile": {
-    "spatialLogic":"村庄位于火山口山谷内部，温泉设施、泉眼、植物园和湖泊分散在道路两侧；水体既有可泡浴的公共池，也有不可进入的地热泉眼与湖泊。",
-    "baseAreas":[{"name":"Furnas 镇中心","fit":"步行接近餐饮、公共温泉和植物园，最适合不住高端酒店。"},{"name":"Lagoa das Furnas 周边","fit":"湖泊与地热景观更突出，但住宿和晚间活动较少。"},{"name":"Povoação / 东部村镇","fit":"可能降低住宿价格，但每天需要驾车进入山谷。"}],
-    "waterAccess":"Poça da Dona Beija 等温泉设施可购票泡浴；Terra Nostra 的大型铁质温泉池位于植物园中；湖泊与泉眼以步行观察为主。",
-    "access":"从蓬塔德尔加达驾车约一小时；巴士可达但班次限制较多，若要串联湖泊和东部海岸，租车更方便。",
-    "season":"全年湿润，春夏植物状态更丰富；冬季人少但阴雨概率较高，温泉体验仍然成立。",
-    "stayStrategy":"住镇中心普通民宿，把预算留给公共温泉、植物园和租车；无需为了使用主要地热资源入住花园酒店。"
-  },
-  "media": {
-    "cover":"https://commons.wikimedia.org/wiki/Special:FilePath/Terra%20Nostra-Furnas.jpg?width=1800",
-    "gallery":[
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/Terra%20Nostra-Furnas.jpg?width=1600","caption":"Terra Nostra 植物园温泉池"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/2012-10-16%2017-41-40%20Portugal%20Azores%20Furnas%206v.JPG?width=1600","caption":"山谷温泉与植物景观"},
-      {"url":"https://commons.wikimedia.org/wiki/Special:FilePath/20220519.Parque%20Terra%20Nostra.-011.1.jpg?width=1500","caption":"植物园内部水体"}
+  "classification": {
+    "grade": "A",
+    "tags": [
+      "火山温泉",
+      "植物园",
+      "火山湖",
+      "湿润山谷",
+      "步行小镇"
+    ],
+    "waterTypes": [
+      "公共温泉池",
+      "地热泉眼",
+      "火山湖",
+      "溪流"
+    ],
+    "tradeoffs": [
+      "欧洲价格",
+      "园林感较强",
+      "需租车或巴士"
     ]
   },
-  "links":{"primary":"https://www.visitazores.com/en/explore/furnas-valley","map":"https://www.google.com/maps/search/?api=1&query=Furnas+Azores","ctrip":"https://www.ctrip.com/hotels/list?city=3737"},
-  "verification":{"status":"verified","updatedAt":"2026-07-24","summary":"已核对温泉、火山湖、植物园、小镇位置关系及公共温泉可达性；住宿价格需按航班与季节复核。"}
+  "pricing": {
+    "minimum": 520,
+    "maximum": 1800,
+    "display": "¥520–1,800",
+    "budgetBands": [
+      {
+        "label": "小镇客房 / 青旅",
+        "range": "¥520–850"
+      },
+      {
+        "label": "公寓与家庭旅馆",
+        "range": "¥850–1,250"
+      },
+      {
+        "label": "温泉或花园酒店",
+        "range": "¥1,250–1,800"
+      }
+    ],
+    "note": "夏季与欧洲假期价格上浮明显；公共温泉门票通常另计。",
+    "verifiedAt": "2026-07-24"
+  },
+  "scores": {
+    "aesthetic": 86,
+    "water": 91,
+    "greenery": 89,
+    "exploration": 82,
+    "publicness": 94,
+    "affordability": 70,
+    "accessEase": 70
+  },
+  "editorial": {
+    "oneLine": "温泉、蒸汽泉眼、火山湖、植物园和小镇道路分布在同一山谷，普通民宿住客同样可以使用主要自然资源。",
+    "reason": "Furnas 的温泉体验并不依附某一家酒店。地热泉眼、公共温泉、植物园、火山湖和村庄街道共同构成山谷生活，住在普通客房也能步行或短途乘车接近水与植物。它缺少热带雨林的野生密度，却提供了更完整的温泉聚落结构。",
+    "advantages": [
+      "公共温泉和地热景观分布广，环境公共性很高",
+      "成熟乔木、蕨类与湿润气候形成明显包裹感",
+      "小镇、湖泊、花园和温泉可组合成多日慢行路线"
+    ],
+    "disadvantages": [
+      {
+        "level": "明显取舍",
+        "text": "植被更接近经过长期经营的植物园和湿润温带山谷，不是热带丛林。"
+      },
+      {
+        "level": "明显取舍",
+        "text": "旺季住宿价格可能逼近预算上沿，租车成本也需要计入。"
+      },
+      {
+        "level": "轻微提醒",
+        "text": "部分温泉水呈铁锈色并带明显硫磺气味，与清澈泉池的视觉不同。"
+      }
+    ]
+  },
+  "profile": {
+    "spatialLogic": "村庄位于火山口山谷内部，温泉设施、泉眼、植物园和湖泊分散在道路两侧；水体既有可泡浴的公共池，也有不可进入的地热泉眼与湖泊。",
+    "baseAreas": [
+      {
+        "name": "Furnas 镇中心",
+        "fit": "步行接近餐饮、公共温泉和植物园，最适合不住高端酒店。"
+      },
+      {
+        "name": "Lagoa das Furnas 周边",
+        "fit": "湖泊与地热景观更突出，但住宿和晚间活动较少。"
+      },
+      {
+        "name": "Povoação / 东部村镇",
+        "fit": "可能降低住宿价格，但每天需要驾车进入山谷。"
+      }
+    ],
+    "waterAccess": "Poça da Dona Beija 等温泉设施可购票泡浴；Terra Nostra 的大型铁质温泉池位于植物园中；湖泊与泉眼以步行观察为主。",
+    "access": "从蓬塔德尔加达驾车约一小时；巴士可达但班次限制较多，若要串联湖泊和东部海岸，租车更方便。",
+    "season": "全年湿润，春夏植物状态更丰富；冬季人少但阴雨概率较高，温泉体验仍然成立。",
+    "stayStrategy": "住镇中心普通民宿，把预算留给公共温泉、植物园和租车；无需为了使用主要地热资源入住花园酒店。"
+  },
+  "media": {
+    "cover": "https://commons.wikimedia.org/wiki/Special:FilePath/Terra%20Nostra-Furnas.jpg?width=1800",
+    "gallery": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Terra%20Nostra-Furnas.jpg?width=1600",
+        "caption": "Terra Nostra 植物园温泉池"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2012-10-16%2017-41-40%20Portugal%20Azores%20Furnas%206v.JPG?width=1600",
+        "caption": "山谷温泉与植物景观"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20220519.Parque%20Terra%20Nostra.-011.1.jpg?width=1500",
+        "caption": "植物园内部水体"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20170915%20acores%200139%20%2848715952987%29.jpg?width=1500",
+        "caption": "温泉池周边成熟植被"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20220519.Parque%20Terra%20Nostra.-011.2.jpg?width=1500",
+        "caption": "园林水岸与林下空间"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20220519.Parque%20Terra%20Nostra.-011.3.jpg?width=1500",
+        "caption": "温泉园林路径"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20220519.Parque%20Terra%20Nostra.-011.4.jpg?width=1600",
+        "caption": "植物园林下水岸"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20220519.Parque%20Terra%20Nostra.-011.5.jpg?width=1600",
+        "caption": "温泉园林细部"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furnas%20-%20Parco%20terra%20Nostra%2002.JPG?width=1600",
+        "caption": "Terra Nostra 园林空间"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Furnas%20Geothermal%20Pool%20(14715917249).jpg?width=1600",
+        "caption": "Furnas 地热水池"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot%20bath%20at%20Furnas%20(526369835).jpg?width=1600",
+        "caption": "山谷温泉浴池"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morning%20steam.%20-%20panoramio.jpg?width=1600",
+        "caption": "清晨地热蒸汽"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque%20Terra%20Nostra%20(14875972936).jpg?width=1600",
+        "caption": "成熟植物与园路"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque%20Terra%20Nostra%20hot%20spring%20(51841119360).jpg?width=1600",
+        "caption": "公共温泉与周边植物"
+      }
+    ]
+  },
+  "links": {
+    "primary": "https://www.visitazores.com/en/explore/furnas-valley",
+    "map": "https://www.google.com/maps/search/?api=1&query=Furnas+Azores",
+    "ctrip": "https://www.ctrip.com/hotels/list?city=3737"
+  },
+  "verification": {
+    "status": "verified",
+    "updatedAt": "2026-07-24",
+    "summary": "已核对温泉、火山湖、植物园、小镇位置关系及公共温泉可达性；住宿价格需按航班与季节复核。"
+  }
 }
