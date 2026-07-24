@@ -93,53 +93,53 @@
     "access": "从素叻他尼约两小时车程；也可由普吉、甲米或苏梅方向组合车船抵达。"
   },
   "media": {
-    "cover": "https://www.khaosokecoresort.com/wp-content/uploads/2025/01/our-jungle-camp-khao-sok.jpg",
+    "cover": "https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-3.jpg",
     "gallery": [
       {
-        "url": "https://www.khaosokecoresort.com/wp-content/uploads/2025/01/our-jungle-camp-khao-sok.jpg",
+        "url": "https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-3.jpg",
         "type": "营地整体",
-        "source": "酒店官网",
+        "source": "Roadtrip to Happiness 实住资料",
         "verified": true
       },
       {
-        "url": "https://www.khaosokecoresort.com/wp-content/uploads/2025/01/treehouse-khao-sok.jpg",
+        "url": "https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-8.jpg",
         "type": "林间树屋",
-        "source": "酒店官网",
+        "source": "Roadtrip to Happiness 实住资料",
         "verified": true
       },
       {
-        "url": "https://www.khaosokecoresort.com/wp-content/uploads/2025/01/khao-sok-bungalow.jpg",
+        "url": "https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort.jpg",
         "type": "河岸平房",
-        "source": "酒店官网",
+        "source": "Roadtrip to Happiness 实住资料",
         "verified": true
       },
       {
-        "url": "https://www.khaosokecoresort.com/wp-content/uploads/2025/01/treehouse-loft-khao-sok.jpg",
-        "type": "树屋与石灰岩",
-        "source": "酒店官网",
+        "url": "https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-6.jpg",
+        "type": "树屋与植被",
+        "source": "Roadtrip to Happiness 实住资料",
         "verified": true
       },
       {
-        "url": "https://www.khaosokecoresort.com/wp-content/uploads/2025/01/our-jungle-resort.jpg",
+        "url": "https://roadtriptohappiness.nl/wp-content/uploads/2022/03/Our-Jungle-Camp-Eco-Resort-4.jpg",
         "type": "公共自然环境",
-        "source": "酒店官网",
+        "source": "Roadtrip to Happiness 实住资料",
         "verified": true
       },
       {
-        "url": "https://www.khaosokecoresort.com/wp-content/uploads/2025/01/khao-sok-river.jpg",
-        "type": "场地河流",
-        "source": "酒店官网",
+        "url": "https://chimptrips.com/wp-content/uploads/2023/08/Treehouse-at-Our-Jungle-Cam.jpg",
+        "type": "树屋与河岸",
+        "source": "Chimptrips 实住资料",
         "verified": true
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%20-%20Thailand.jpg?width=1600",
-        "type": "周边国家公园雨林",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%2C%20Cheow%20Lan%20Lake%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600",
+        "type": "周边国家公园湖泊",
         "source": "Wikimedia Commons",
         "verified": true
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%2C%20Thailand.jpg?width=1600",
-        "type": "周边石灰岩与雨林",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20primary%20tropical%20rainforest%2C%20southern%20Thailand.jpg?width=1600",
+        "type": "周边原生雨林",
         "source": "Wikimedia Commons",
         "verified": true
       },
@@ -156,14 +156,14 @@
         "verified": true
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Khao%20Sok%20National%20Park%2C%20Surat%20Thani%2C%20Thailand.jpg?width=1600",
-        "type": "周边雨林地貌",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Footbridge%20in%20Khao%20Sok%20National%20Park.jpg?width=1600",
+        "type": "周边雨林步桥",
         "source": "Wikimedia Commons",
         "verified": true
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cheow%20Lan%20Lake%2C%20Khao%20Sok%20National%20Park%2C%20Thailand.jpg?width=1600",
-        "type": "周边 Cheow Lan 湖",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo%20forest%20in%20Khao%20Sok%20National%20Park.jpg?width=1600",
+        "type": "周边竹林步道",
         "source": "Wikimedia Commons",
         "verified": true
       }
