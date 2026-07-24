@@ -29,7 +29,8 @@
       "价格偏高",
       "泳池略规则",
       "内部水景少"
-    ]
+    ],
+    "collection": "resort"
   },
   "pricing": {
     "currency": "CNY",
