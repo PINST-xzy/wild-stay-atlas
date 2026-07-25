@@ -766,4 +766,9 @@
   .food-images{display:flex;overflow-x:auto;gap:8px;margin-bottom:28px;scroll-snap-type:x mandatory}
   .food-images figure{min-width:84vw;height:360px;scroll-snap-align:center}
   .destination-food{display:block}
+  .quick-food-preview{display:block;padding:58px 20px}
+  .quick-food-preview header h2{font-size:34px}.quick-food-preview header p{font-size:15px}
+  .quick-food-preview>figure{height:380px;margin:28px 0 10px}
+  .quick-food-preview>div{display:block;border:1px solid rgba(79,54,36,.18);margin:26px 0}
+  .quick-food-preview article{padding:22px}
 }
