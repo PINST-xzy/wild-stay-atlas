@@ -203,5 +203,35 @@
       "酒店官网或官方旅游资料",
       "公开预订信息"
     ]
+  },
+  "food": {
+    "summary": "河畔小屋自然旅馆所在地区的传统饮食有清晰的地方性。哥斯达黎加乡村餐桌强调新鲜、朴素和饱足：米饭、黑豆、鸡蛋、肉类、车前蕉与热带水果是基础。雨林与太平洋沿岸地区还会加入鲜鱼、青柑和农园可可。",
+    "setting": "热带花园民宿的餐饮空间偏早餐与简餐，传统菜可在周边小镇补充。",
+    "highlights": [
+      {
+        "name": "Gallo Pinto",
+        "description": "米饭与黑豆、香草和甜椒炒制，搭配鸡蛋、奶酪或车前蕉，是经典早餐。"
+      },
+      {
+        "name": "Casado",
+        "description": "米饭、黑豆、沙拉、熟车前蕉与肉或鱼组成的日常定食，均衡且实在。"
+      },
+      {
+        "name": "Ceviche",
+        "description": "沿海鲜鱼以青柑汁、洋葱和香菜腌制，酸香清爽，适合炎热气候。"
+      },
+      {
+        "name": "可可与热带水果",
+        "description": "萨拉皮基等雨林地区盛产可可、菠萝、木瓜和香蕉，常进入饮料与甜点。"
+      }
+    ],
+    "caveat": "民宿本身未必供应完整晚餐，当地传统菜主要依靠周边餐馆。",
+    "images": [
+      {
+        "url": "https://images.entercostarica.com/uploads/items/15501/w1536_item_15501_casitas_del_rio_ecolodge_1_2328e0fda9.webp",
+        "caption": "餐饮空间",
+        "source": "Enter Costa Rica实景图库"
+      }
+    ]
   }
 }
