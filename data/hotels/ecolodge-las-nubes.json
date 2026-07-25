@@ -203,5 +203,35 @@
       "酒店官网或官方旅游资料",
       "公开预订信息"
     ]
+  },
+  "food": {
+    "summary": "云瀑生态小屋所在地区的传统饮食有清晰的地方性。恰帕斯饮食由玉米、豆类、辣椒、可可和本地香草构成，玛雅传统与高地、雨林物产彼此叠加。味道不只辛辣，更重视烘烤玉米、酸味与烟熏香。",
+    "setting": "社区木屋餐厅以当地食材和实用家常菜为主，恰帕斯玉米、可可与咖啡是重点。",
+    "highlights": [
+      {
+        "name": "Chiapas Tamal",
+        "description": "玉米面团包入肉、蔬菜或香料，以香蕉叶蒸熟，质地湿润且带叶香。"
+      },
+      {
+        "name": "Pozol",
+        "description": "玉米面与可可调成的传统饮品，清凉、有谷物感，适合湿热雨林。"
+      },
+      {
+        "name": "Mole Chiapaneco",
+        "description": "辣椒、香料、坚果或可可构成层次复杂的酱汁，常配鸡肉。"
+      },
+      {
+        "name": "高地咖啡与可可",
+        "description": "恰帕斯是重要咖啡和可可产区，小庄园风味比标准酒店咖啡更值得尝试。"
+      }
+    ],
+    "caveat": "社区餐饮朴素且供应受交通影响，咖啡、可可与复杂菜品不一定每天齐全。",
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sendero_en_Las_Nubes_-_panoramio.jpg",
+        "caption": "餐饮空间",
+        "source": "酒店官网、恰帕斯旅游局与Wikimedia实景"
+      }
+    ]
   }
 }
