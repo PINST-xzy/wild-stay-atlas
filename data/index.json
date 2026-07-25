@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.07.24.11",
-  "updatedAt": "2026-07-24",
+  "contentVersion": "2026.07.25.1",
+  "updatedAt": "2026-07-25",
   "hotels": [
     "hotels/bambu-indah.json",
     "hotels/aana-resort.json",
