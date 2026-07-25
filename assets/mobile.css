@@ -763,4 +763,7 @@
   .food-grid{display:block}
   .food-grid article{min-height:0;border-bottom:1px solid rgba(79,54,36,.14);padding:25px 22px}
   .food-grid h3{margin:18px 0 9px;font-size:22px}
+  .food-images{display:flex;overflow-x:auto;gap:8px;margin-bottom:28px;scroll-snap-type:x mandatory}
+  .food-images figure{min-width:84vw;height:360px;scroll-snap-align:center}
+  .destination-food{display:block}
 }
