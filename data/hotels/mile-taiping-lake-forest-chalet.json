@@ -112,7 +112,14 @@
         "description": "大体量餐厅覆盖早餐和团队用餐，选择多但高峰期也可能更嘈杂。"
       }
     ],
-    "caveat": "具体餐厅开放、烧烤和火锅供应会随季节与入住率调整；是否含餐需按房价套餐确认。"
+    "caveat": "具体餐厅开放、烧烤和火锅供应会随季节与入住率调整；是否含餐需按房价套餐确认。",
+    "images": [
+      {
+        "url": "https://ak-d.tripcdn.com/images/1mc0j12000szsjoocE6D5_R_339_206_R5_D.jpg",
+        "caption": "餐饮空间",
+        "source": "携程"
+      }
+    ]
   },
   "media": {
     "cover": "https://ak-d.tripcdn.com/images/1mc5h12000c119qk17A80_R_960_660_R5_D.jpg",
