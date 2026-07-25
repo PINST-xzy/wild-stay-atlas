@@ -461,6 +461,12 @@ function quick(id,push=true){
     <section class="immersion-strip" style="background-image:url('${s.gallery[1]||s.image}')">
       <div></div><article><span>LOCATION & SURROUNDINGS</span><h2>${s.place}</h2><p>${s.surroundings}</p></article>
     </section>
+    ${s.food?`<section class="quick-food-preview">
+      <header><span>TABLE & PLACE</span><h2>美食与地方风味</h2><p>${s.food.summary}</p></header>
+      ${s.food.images?.[0]?`<figure><img src="${s.food.images[0].url}" alt="${s.name} · ${s.food.images[0].caption}" loading="lazy"><figcaption>${s.food.images[0].caption}</figcaption></figure>`:""}
+      <div>${s.food.highlights.slice(0,4).map((item,i)=>`<article><b>${String(i+1).padStart(2,"0")}</b><h3>${item.name}</h3><p>${item.description}</p></article>`).join("")}</div>
+      <button id="openFoodDeep">进入详情页查看完整饮食档案</button>
+    </section>`:""}
     <section class="quick-preview">
       <div><span>DEEP FILE PREVIEW</span><h2>深度档案</h2><p>空间拆解、实景图片、交通、资料来源与核验记录</p></div>
       <div class="preview-images">${s.gallery.slice(0,3).map((url,i)=>`<figure><img src="${url}" alt="${s.name}资料预览${i+1}" loading="lazy"></figure>`).join("")}</div>
@@ -471,7 +477,7 @@ function quick(id,push=true){
   </main>`;
   document.querySelector("#quickBack").onclick=()=>home(true,s.collection);
   document.querySelectorAll("[data-fav]").forEach(btn=>btn.onclick=()=>toggleFavorite(s.id));
-  ["openDeep","openDeepBottom","mobileDeep"].forEach(key=>document.querySelector(`#${key}`).onclick=()=>detail(s.id));
+  ["openDeep","openDeepBottom","mobileDeep",...(s.food?["openFoodDeep"]:[])].forEach(key=>document.querySelector(`#${key}`).onclick=()=>detail(s.id));
   document.querySelector("#quickShare").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);document.querySelector("#quickShare").textContent="链接已复制"}catch{}};
 }
 
