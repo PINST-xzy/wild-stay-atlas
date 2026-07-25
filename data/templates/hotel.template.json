@@ -54,7 +54,10 @@
       {"name": "代表菜或风味一", "description": "至少十二个字，说明食材、做法或地方关联。"},
       {"name": "代表菜或风味二", "description": "至少十二个字，说明为什么值得记录。"}
     ],
-    "caveat": "写明套餐、季节供应、是否为周边餐饮或其他需要复核的限制。"
+    "caveat": "写明套餐、季节供应、是否为周边餐饮或其他需要复核的限制。",
+    "images": [
+      {"url": "https://example.com/food.jpg", "caption": "酒店餐厅或菜品实拍", "source": "酒店官网"}
+    ]
   },
   "media": {
     "cover": "https://example.com/cover.jpg",
