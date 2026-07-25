@@ -227,5 +227,40 @@
       "酒店官网或官方旅游资料",
       "公开预订信息"
     ]
+  },
+  "food": {
+    "summary": "兰巴拉雨林小屋所在地区的传统饮食有清晰的地方性。博卡斯德尔托罗的加勒比饮食把椰奶、海鱼、根茎、车前蕉和岛屿香料放在一起，黑人加勒比与原住民传统都能在汤锅、米饭和炭烤中被尝到。",
+    "setting": "雨林小屋餐桌强调偏远环境中的当日食材；加勒比椰香和海产可在区域餐饮中补足。",
+    "highlights": [
+      {
+        "name": "Rondón",
+        "description": "鱼、海鲜、椰奶、木薯、芋头和车前蕉慢炖成浓汤，是加勒比海岸代表菜。"
+      },
+      {
+        "name": "椰香米饭",
+        "description": "米饭以椰奶烹煮，常搭配炖豆、鱼或鸡，香气温和浓郁。"
+      },
+      {
+        "name": "Patacones",
+        "description": "青车前蕉压扁油炸，外脆内软，是海鲜和炖菜常见配菜。"
+      },
+      {
+        "name": "当日海鱼",
+        "description": "红鲷、龙虾和其他渔获随季节供应，清烤或椰汁炖煮最能表现海岛风味。"
+      }
+    ],
+    "caveat": "区域传统菜与酒店实际供应不能等同，偏远住宿通常需要预约餐食。",
+    "images": [
+      {
+        "url": "https://www.rambalajunglelodge.com/images/rambala/01home/accueil-section-nos-activites-panama-ecotourisme-hotelcoresponsable-bocasdeltoro-adventure-forest-nature-jungle-lodge-ecolodge-wildlife-selvalodge.jpg",
+        "caption": "餐饮空间",
+        "source": "酒店官方图库"
+      },
+      {
+        "url": "https://www.rambalajunglelodge.com/templates/yootheme/cache/bb/accueil-carousel-10-rambala-jungle-lodge-ecotourisme-hotelcoresponsable-adventure-nature-ecolodge-wildlife-bocasdeltoro-panama-bbedb7dd.jpeg",
+        "caption": "周边餐饮空间",
+        "source": "酒店官方图库"
+      }
+    ]
   }
 }
