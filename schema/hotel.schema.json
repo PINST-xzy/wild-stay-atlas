@@ -131,7 +131,20 @@
             }
           }
         },
-        "caveat": {"type": "string"}
+        "caveat": {"type": "string"},
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["url", "caption", "source"],
+            "properties": {
+              "url": {"type": "string", "format": "uri"},
+              "caption": {"type": "string"},
+              "source": {"type": "string"}
+            }
+          }
+        }
       }
     },
     "media": {
