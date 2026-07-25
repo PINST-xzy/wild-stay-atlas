@@ -232,5 +232,40 @@
       "酒店官网或官方旅游资料",
       "公开预订信息"
     ]
+  },
+  "food": {
+    "summary": "昆布克河生态小屋所在地区的传统饮食有清晰的地方性。斯里兰卡饮食以米饭和多碟咖喱为基本结构，椰奶、椰丝、咖喱叶、肉桂、辣椒和酸味共同出现。南部与山地小旅馆的魅力，往往在每天不同的蔬菜咖喱和家庭配方。",
+    "setting": "河岸生态小屋的开放餐桌，以多碟咖喱和家庭式共享餐最符合环境。",
+    "highlights": [
+      {
+        "name": "Rice & Curry",
+        "description": "米饭搭配数种蔬菜咖喱、扁豆、鱼或鸡和酸辣配菜，是最完整的斯里兰卡日常餐。"
+      },
+      {
+        "name": "Hoppers",
+        "description": "发酵米浆与椰奶烙成碗形薄饼，可加入鸡蛋，常作为早餐或晚间小食。"
+      },
+      {
+        "name": "Pol Sambol",
+        "description": "新鲜椰丝、辣椒、青柠和洋葱拌成的鲜辣配菜，几乎能唤醒所有主食。"
+      },
+      {
+        "name": "Kithul Treacle",
+        "description": "孔雀椰树花蜜熬成糖浆，常配水牛凝乳，是山地和乡村常见甜味。"
+      }
+    ],
+    "caveat": "偏远小屋通常使用固定菜单，素食和过敏需求要提前说明。",
+    "images": [
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/TLMob.png",
+        "caption": "餐饮空间",
+        "source": "酒店官方图库"
+      },
+      {
+        "url": "https://www.kumbukriver.com/assets/layout/images/l4.png",
+        "caption": "周边餐饮空间",
+        "source": "酒店官方图库"
+      }
+    ]
   }
 }
