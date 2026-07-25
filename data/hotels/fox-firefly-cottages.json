@@ -231,5 +231,40 @@
       "酒店官网或官方旅游资料",
       "公开预订信息"
     ]
+  },
+  "food": {
+    "summary": "狐狸与萤火虫小屋所在地区的传统饮食有清晰的地方性。薄荷岛和菲律宾中部的传统味道以醋、青柑、椰子、海鱼和炭火为主，酸味负责提鲜而不是厚重调味。家常餐桌常把海鲜、米饭、汤菜和腌渍物一起分享。",
+    "setting": "河岸竹木公共区与周边薄荷岛小餐馆共同构成用餐选择。",
+    "highlights": [
+      {
+        "name": "Kinilaw",
+        "description": "鲜鱼用醋或青柑汁、姜、洋葱和辣椒腌拌，是海岛最直接的鲜味表达。"
+      },
+      {
+        "name": "Inihaw",
+        "description": "鱼、鱿鱼、鸡肉或猪肉用炭火烤制，搭配酱油、醋和青柑蘸汁。"
+      },
+      {
+        "name": "Utan Bisaya",
+        "description": "以南瓜、秋葵、茄子和叶菜煮成的维萨亚家常蔬菜汤，清淡而有季节感。"
+      },
+      {
+        "name": "Bohol Calamay",
+        "description": "糯米粉、椰奶和糖慢熬成黏软甜点，是薄荷岛传统伴手味道。"
+      }
+    ],
+    "caveat": "酒店内餐食与周边地方餐馆需区分，营业时间可能较早结束。",
+    "images": [
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/1646587403487-AI1C2HM6U72F033X0K4R/Pic-1.jpg",
+        "caption": "餐饮空间",
+        "source": "酒店官方图库"
+      },
+      {
+        "url": "https://images.squarespace-cdn.com/content/v1/6220395bfd03970c5c338904/6e4f67cb-6efc-4206-b004-03b34233e29a/3F4A0922.jpg",
+        "caption": "周边餐饮空间",
+        "source": "酒店官方图库"
+      }
+    ]
   }
 }
