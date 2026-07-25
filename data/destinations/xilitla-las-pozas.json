@@ -174,5 +174,28 @@
     "status": "verified",
     "updatedAt": "2026-07-24",
     "summary": "已核对园林、瀑布、路径和建筑关系；开放方式、导览与下水规则需在出行日期前复核。"
+  },
+  "food": {
+    "summary": "墨西哥 Huasteca 的传统饮食围绕玉米、香蕉叶、干辣椒、猪肉、豆类和本地咖啡展开。许多菜具有节庆与集体分享属性，份量大、香气厚，和湿润山地环境形成强烈反差。",
+    "setting": "Xilitla 镇中心市场、小餐馆与咖啡店可形成完整的 Huasteca 饮食路线。",
+    "highlights": [
+      {
+        "name": "Zacahuil",
+        "description": "巨型玉米粽以粗磨玉米面、辣椒和猪肉填制，包香蕉叶长时间烘烤，是 Huasteca 标志性节庆食物。"
+      },
+      {
+        "name": "Enchiladas Huastecas",
+        "description": "玉米饼蘸辣椒酱，配奶酪、洋葱和肉类，味道直接而有烟熏感。"
+      },
+      {
+        "name": "Cecina",
+        "description": "薄切腌牛肉煎烤后配豆泥、玉米饼与莎莎，是当地扎实的日常餐。"
+      },
+      {
+        "name": "山地咖啡",
+        "description": "Xilitla 周边湿润高地适合咖啡种植，小型烘焙与甜面包构成当地早餐。"
+      }
+    ],
+    "caveat": "Zacahuil 体量很大且常在特定日期制作，并非每家餐馆每天供应。"
   }
 }
