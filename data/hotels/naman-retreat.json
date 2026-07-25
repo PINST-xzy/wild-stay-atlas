@@ -203,5 +203,40 @@
       "酒店官网",
       "携程酒店详情页"
     ]
+  },
+  "food": {
+    "summary": "纳曼度假村所在地区的传统饮食有清晰的地方性。岘港与广南饮食讲究香草、米制品、花生和鱼露之间的平衡，既有海港海鲜，也有非常具体的街头面食。整体比厚重宴席更轻快、明亮。",
+    "setting": "竹构餐厅、海滨用餐和岘港市区小吃可以形成从度假村到地方街食的两层体验。",
+    "highlights": [
+      {
+        "name": "Mì Quảng",
+        "description": "少量浓汤拌宽米面、香草、花生、米饼和虾肉，是广南—岘港最有辨识度的面。"
+      },
+      {
+        "name": "Bánh Xèo",
+        "description": "姜黄米浆煎成薄脆饼，包虾肉、豆芽与香草，再蘸鱼露。"
+      },
+      {
+        "name": "Bún Chả Cá",
+        "description": "鱼饼米粉汤清鲜带甜，配番茄、南瓜或卷心菜，是当地日常早餐。"
+      },
+      {
+        "name": "岘港海鲜",
+        "description": "贝类、虾、鱿鱼和鱼以清蒸、炭烤或酸辣做法呈现，重点是当日鲜度。"
+      }
+    ],
+    "caveat": "酒店餐厅定价高于岘港街头小店；传统面食建议同时在市区品尝。",
+    "images": [
+      {
+        "url": "https://namanbackend.mpoint.vn/uploads/images/dining/Cococita-interior.jpg",
+        "caption": "公共餐饮空间",
+        "source": "酒店官网"
+      },
+      {
+        "url": "https://namanbackend.mpoint.vn/uploads/images/Hayhay-Restaurant.jpg",
+        "caption": "竹构餐厅",
+        "source": "酒店官网"
+      }
+    ]
   }
 }
