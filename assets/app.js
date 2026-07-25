@@ -349,7 +349,7 @@ function destinationDetail(id,push=true){
       <section><span>${d.identity.placeLabel} · ${d.identity.type}</span><h1>${d.identity.name}</h1><em>${d.identity.englishName}</em><p>${d.editorial.oneLine}</p></section>
       <aside><div><b>${d.scores.publicness}</b><span>环境公共性</span></div><div><b>${d.scores.affordability}</b><span>平价可得</span></div><div><b>${d.pricing.display}</b><span>每晚参考</span></div></aside>
     </header>
-    <nav class="section-nav"><a href="#destinationVerdict">地区判断</a><a href="#destinationMap">落脚区域</a><a href="#destinationBudget">住宿预算</a><a href="#destinationGallery">实景</a><a href="#destinationFacts">实际条件</a></nav>
+    <nav class="section-nav"><a href="#destinationVerdict">地区判断</a><a href="#destinationMap">落脚区域</a><a href="#destinationBudget">住宿预算</a>${d.food?'<a href="#destinationFood">地方饮食</a>':""}<a href="#destinationGallery">实景</a><a href="#destinationFacts">实际条件</a></nav>
     <section id="destinationVerdict" class="destination-section destination-verdict">
       <header><span>01 · DESTINATION VERDICT</span><h2>为什么值得单独建档</h2></header>
       <article><p class="destination-reason">${d.editorial.reason}</p><div class="pro-con"><div><h3>成立之处</h3>${d.editorial.advantages.map(x=>`<p>${icon.check}${x}</p>`).join("")}</div>
@@ -360,8 +360,14 @@ function destinationDetail(id,push=true){
       <div>${d.profile.baseAreas.map((area,i)=>`<article><b>${String(i+1).padStart(2,"0")}</b><h3>${area.name}</h3><p>${area.fit}</p></article>`).join("")}</div></section>
     <section id="destinationBudget" class="destination-section destination-budget"><header><span>03 · STAY STRATEGY</span><h2>住宿预算</h2><p>${d.profile.stayStrategy}</p></header>
       <div>${d.pricing.budgetBands.map(band=>`<article><span>${band.label}</span><b>${band.range}</b></article>`).join("")}<p>${d.pricing.note}</p></div></section>
-    <section id="destinationGallery" class="destination-gallery"><header><span>04 · PLACE IMAGES</span><h2>地区影像档案</h2><p>${destinationImages.length} 张 · 点击查看完整画面</p>${galleryFilters()}</header><div>${destinationImages.map((image,i)=>`<figure data-photo-index="${i}" data-scope="${imageScope(image)}"><img src="${image.url}" alt="${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b><i>${imageScope(image)==="core"?"核心空间":"周边环境"}</i>${image.caption}</figcaption></figure>`).join("")}</div></section>
-    <section id="destinationFacts" class="destination-section destination-facts"><header><span>05 · PRACTICAL FILE</span><h2>实际条件</h2></header><div>
+    ${d.food?`<section id="destinationFood" class="destination-section destination-food food-file">
+      <header><span>04 · TABLE & PLACE</span><h2>当地传统饮食</h2></header>
+      <div class="food-lead"><p>${d.food.summary}</p><dl><div><dt>去哪里吃</dt><dd>${d.food.setting}</dd></div>${d.food.caveat?`<div><dt>需要留意</dt><dd>${d.food.caveat}</dd></div>`:""}</dl></div>
+      ${d.food.images?.length?`<div class="food-images">${d.food.images.map((item,i)=>`<figure><img src="${item.url}" alt="${d.identity.name} · ${item.caption}" loading="lazy"><figcaption><b>${String(i+1).padStart(2,"0")}</b>${item.caption}</figcaption></figure>`).join("")}</div>`:""}
+      <div class="food-grid">${d.food.highlights.map((item,i)=>`<article><span>${String(i+1).padStart(2,"0")}</span><h3>${item.name}</h3><p>${item.description}</p></article>`).join("")}</div>
+    </section>`:""}
+    <section id="destinationGallery" class="destination-gallery"><header><span>${d.food?"05":"04"} · PLACE IMAGES</span><h2>地区影像档案</h2><p>${destinationImages.length} 张 · 点击查看完整画面</p>${galleryFilters()}</header><div>${destinationImages.map((image,i)=>`<figure data-photo-index="${i}" data-scope="${imageScope(image)}"><img src="${image.url}" alt="${image.caption}" loading="${i?"lazy":"eager"}"><figcaption><b>${String(i+1).padStart(2,"0")}</b><i>${imageScope(image)==="core"?"核心空间":"周边环境"}</i>${image.caption}</figcaption></figure>`).join("")}</div></section>
+    <section id="destinationFacts" class="destination-section destination-facts"><header><span>${d.food?"06":"05"} · PRACTICAL FILE</span><h2>实际条件</h2></header><div>
       <article><span>如何接近水</span><p>${d.profile.waterAccess}</p></article><article><span>抵达方式</span><p>${d.profile.access}</p></article>
       <article><span>季节变化</span><p>${d.profile.season}</p></article><article><span>资料状态</span><p>${d.verification.summary}</p></article>
       <nav><a class="primary" href="${d.links.ctrip}" target="_blank">携程住宿查价 ↗</a><a href="${d.links.map}" target="_blank">地图查看 ↗</a><a href="${d.links.primary}" target="_blank">主要核验资料 ↗</a></nav>
@@ -516,6 +522,7 @@ function detail(id, push=true){
     ${s.food?`<section id="food" class="detail-section food-file">
       <div class="section-label"><span>03</span><p>TABLE & PLACE</p><h2>美食与地方风味</h2></div>
       <div class="food-lead"><p>${s.food.summary}</p><dl><div><dt>用餐场景</dt><dd>${s.food.setting}</dd></div>${s.food.caveat?`<div><dt>需要留意</dt><dd>${s.food.caveat}</dd></div>`:""}</dl></div>
+      ${s.food.images?.length?`<div class="food-images">${s.food.images.map((item,i)=>`<figure><img src="${item.url}" alt="${s.name} · ${item.caption}" loading="lazy"><figcaption><b>${String(i+1).padStart(2,"0")}</b>${item.caption}</figcaption></figure>`).join("")}</div>`:""}
       <div class="food-grid">${(s.food.highlights||[]).map((item,i)=>`<article><span>${String(i+1).padStart(2,"0")}</span><h3>${item.name}</h3><p>${item.description}</p></article>`).join("")}</div>
     </section>`:""}
 
