@@ -38,3 +38,10 @@
 .food-grid{grid-column:2/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:rgba(79,54,36,.15);border:1px solid rgba(79,54,36,.15)}
 .food-grid article{background:#fbf8f2;padding:30px;min-height:210px}.food-grid span{font-size:9px;letter-spacing:.18em;color:#b06a48}
 .food-grid h3{font:24px Georgia,"Songti SC",serif;margin:30px 0 12px;color:#3e3026}.food-grid p{margin:0;font-size:11px;line-height:1.78;color:#6b5c51}
+.food-images{grid-column:2/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 34px}
+.food-images figure{margin:0;position:relative;height:320px;overflow:hidden;background:#d8cfc2}
+.food-images img{width:100%;height:100%;object-fit:cover;display:block}
+.food-images figcaption{position:absolute;left:0;right:0;bottom:0;padding:30px 16px 14px;background:linear-gradient(transparent,rgba(41,26,18,.78));color:#fff;font-size:10px}
+.food-images figcaption b{font:16px Georgia,serif;color:#efb07d;margin-right:10px}
+.destination-food{display:grid;grid-template-columns:220px 1fr;gap:6vw}
+.destination-food>header{margin:0}.destination-food>header>span{color:#a64d2b}.destination-food>header h2{font:400 40px Georgia,"Songti SC",serif;margin:10px 0}
