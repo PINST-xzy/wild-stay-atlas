@@ -108,7 +108,19 @@
         "description": "可提前沟通素食等需求，小规模厨房更偏预约式准备。"
       }
     ],
-    "caveat": "不是可随时点单的度假村餐厅，固定菜单和用餐时间需要提前确认。"
+    "caveat": "不是可随时点单的度假村餐厅，固定菜单和用餐时间需要提前确认。",
+    "images": [
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Restaurant3.jpg",
+        "caption": "开放餐厅",
+        "source": "酒店官网"
+      },
+      {
+        "url": "https://www.macawbankjunglelodge.com/wp-content/uploads/2018/03/Food1.jpg",
+        "caption": "家庭式餐食",
+        "source": "酒店官网"
+      }
+    ]
   },
   "media": {
     "cover": "https://www.macawbankjunglelodge.com/wp-content/uploads/2014/12/Macaw_Bank_Lodge_Cabin.jpg",
