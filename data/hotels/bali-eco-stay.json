@@ -109,7 +109,14 @@
         "description": "官网强调本地淡水鱼和散养鸡，烹调走朴素的巴厘家庭风味。"
       }
     ],
-    "caveat": "菜单选择不如城市餐厅宽，偏远位置也意味着临时外出换餐不方便。"
+    "caveat": "菜单选择不如城市餐厅宽，偏远位置也意味着临时外出换餐不方便。",
+    "images": [
+      {
+        "url": "https://www.baliecostay.com/wp-content/uploads/2017/04/Restaurant-Nasi-Campur-Bali-Eco-Stay.jpg",
+        "caption": "农园食材与巴厘餐桌",
+        "source": "酒店官网"
+      }
+    ]
   },
   "media": {
     "cover": "https://www.baliecostay.com/wp-content/uploads/2017/06/waterfall-bungalow-mountain-accommodation-seating-area-bali-eco-stay-1024x681.jpg",
