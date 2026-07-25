@@ -109,6 +109,7 @@ for (const file of files) {
   }
   check(validUrl(hotel.links?.ctrip || ""), label, "携程链接无效");
   check(validUrl(hotel.links?.official || ""), label, "官网链接无效");
+  check(Boolean(hotel.food), label, "所有住宿档案必须填写美食与地方风味");
   if (hotel.food) {
     check((hotel.food.summary || "").length >= 30, label, "美食概述少于 30 个字");
     check((hotel.food.setting || "").length >= 15, label, "用餐场景少于 15 个字");
@@ -155,6 +156,12 @@ for (const file of destinationFiles) {
   }
   check(validUrl(destination.links?.ctrip || ""), label, "携程链接无效");
   check(validUrl(destination.links?.primary || ""), label, "主要核验链接无效");
+  check(Boolean(destination.food), label, "所有度假地档案必须填写当地传统饮食");
+  if (destination.food) {
+    check((destination.food.summary || "").length >= 30, label, "度假地美食概述少于 30 个字");
+    check((destination.food.setting || "").length >= 15, label, "度假地用餐场景少于 15 个字");
+    check(destination.food.highlights?.length >= 2, label, "度假地美食模块至少需要 2 项代表风味");
+  }
   check(validDate(destination.verification?.updatedAt || ""), label, "verification.updatedAt 日期无效");
 }
 
